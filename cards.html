@@ -8907,20 +8907,30 @@ function showHoedokLink(c){
 // ─── 객관식(MCQ) 인터랙션 헬퍼 ───
 let userSelectedChoice = null;
 
+try {
+  for (let i = sessionStorage.length - 1; i >= 0; i--) {
+    const k = sessionStorage.key(i);
+    if (k && (k.startsWith('jh-order-') || k.startsWith('jh-selected-'))) {
+      sessionStorage.removeItem(k);
+    }
+  }
+} catch (_) {}
+
 function runCardScripts(container) {
   if (!container) return;
-  const scripts = container.querySelectorAll('script');
-  scripts.forEach(s => {
-    try {
-      const code = s.textContent;
-      if (code) {
-        const fn = new Function(code);
-        fn();
-      }
-    } catch(err) {
-      console.warn('[MCQ Script Error]', err);
-    }
+  // 보기 버튼 클릭 시 선택 기록 및 시각적 선택 표시
+  const btns = container.querySelectorAll('.mcq-option');
+  btns.forEach(btn => {
+    btn.onclick = (e) => {
+      e.stopPropagation();
+      if (revealed) return; // 이미 답이 공개된 상태에서는 선택 변경 불가
+      btns.forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      const orig = btn.dataset.original;
+      if (orig) userSelectedChoice = Number(orig);
+    };
   });
+
   // 이미지 클릭 시 라이트박스 확대 연결
   container.querySelectorAll('.image-frame img, img').forEach(img => {
     img.addEventListener('click', (e) => {
@@ -8933,13 +8943,6 @@ function runCardScripts(container) {
       }
     });
   });
-  // 보기 버튼 클릭 시 선택 기록
-  container.querySelectorAll('.mcq-option').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const orig = btn.dataset.original;
-      if (orig) userSelectedChoice = Number(orig);
-    });
-  });
 }
 
 function checkMcqAnswerAndHighlight(c) {
@@ -8947,10 +8950,33 @@ function checkMcqAnswerAndHighlight(c) {
   const correct = c.correct || Number(document.querySelector('.mcq-result')?.dataset?.correct);
   if (!correct) return;
 
+  const symMap = { 1: '①', 2: '②', 3: '③', 4: '④', 5: '⑤' };
+  const ansSymbol = symMap[correct] || String(correct);
+
+  // 1. 정답 뱃지 텍스트 갱신
+  document.querySelectorAll('.mcq-current-answer').forEach(el => {
+    el.textContent = ansSymbol;
+  });
+
+  // 2. 앞면 선지 버튼 색상 하이라이트 (정답=초록, 오답선택=빨강)
+  const frontEl = $('cFront');
+  if (frontEl) {
+    const btns = frontEl.querySelectorAll('.mcq-option');
+    btns.forEach(btn => {
+      const orig = Number(btn.dataset.original);
+      if (orig === correct) {
+        btn.classList.add('correct');
+      } else if (userSelectedChoice !== null && orig === userSelectedChoice) {
+        btn.classList.add('incorrect');
+      }
+    });
+  }
+
+  // 3. Anki 채점 버튼 시각적 가이드 (맞춤: Good 초록 링, 틀림: Again 빨강 링)
+  const goodBtn = $('gGood');
+  const againBtn = $('gAgain');
   if (userSelectedChoice !== null) {
     const isCorrect = (userSelectedChoice === correct);
-    const goodBtn = $('gGood');
-    const againBtn = $('gAgain');
     if (isCorrect) {
       if (goodBtn) goodBtn.style.boxShadow = '0 0 0 3px #22c55e';
       if (againBtn) againBtn.style.boxShadow = '';
