@@ -2262,23 +2262,30 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .mcq-option.number-option { display: block; text-align: center; padding: 14px; font-weight: 700; font-size: 18px; }
 .mcq-option:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
 .mcq-option.selected { border-color: #2563eb !important; background: #eff6ff !important; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
-.mcq-option.correct { border-color: #16a34a !important; background: #f0fdf4 !important; color: #15803d !important; font-weight: 700; }
-.mcq-option.incorrect { border-color: #dc2626 !important; background: #fef2f2 !important; color: #b91c1c !important; }
+.mcq-option.correct { border-color: #16a34a !important; background: #dcfce7 !important; color: #15803d !important; font-weight: 700; box-shadow: 0 0 0 2px #22c55e !important; }
+.mcq-option.incorrect { border-color: #dc2626 !important; background: #fee2e2 !important; color: #b91c1c !important; font-weight: 700; box-shadow: 0 0 0 2px #ef4444 !important; }
+.mcq-option.correct .mcq-label { color: #15803d !important; }
+.mcq-option.incorrect .mcq-label { color: #b91c1c !important; }
 .mcq-label { font-size: 20px; font-weight: 800; text-align: center; color: var(--c-label, #4b5563); }
 .mcq-choice-text { font-size: 16px; line-height: 1.55; }
 .mcq-help { margin-top: 14px; color: #6b7280; font-size: 13px; text-align: center; line-height: 1.5; }
 .mcq-result { margin-top: 16px; }
-.mcq-answer-badge { display: inline-block; margin: 4px 0 16px; padding: 8px 16px; border-radius: 999px; background: #22c55e; color: #fff; font-weight: 800; font-size: 17px; }
-.mcq-result section { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--c-border, #e5e7eb); }
-.mcq-result h3 { margin: 0 0 10px; font-size: 16px; font-weight: 700; color: var(--c-label, #374151); }
+.mcq-answer-badge { display: inline-block; margin: 4px 0 14px; padding: 8px 18px; border-radius: 999px; background: #22c55e; color: #fff; font-weight: 800; font-size: 17px; }
+.mcq-explanation { margin-top: 10px; padding: 16px 18px; background: var(--c-fill, #f8fafc); border: 1.5px solid #cbd5e1; border-radius: 12px; line-height: 1.75; font-size: 15.5px; color: var(--c-text, #1e293b); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.mcq-exp-title { font-weight: 800; font-size: 15px; color: #2563eb; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
+.mcq-exp-text { white-space: pre-line; word-break: keep-all; font-size: 15.5px; line-height: 1.75; }
 
 /* 다크모드 대응 */
 [data-theme="dark"] .question-number { background: #1e293b; color: #93c5fd; }
 [data-theme="dark"] .mcq-option { background: #1f2937; border-color: #374151; color: #f3f4f6; }
 [data-theme="dark"] .mcq-option:hover { background: #374151; border-color: #60a5fa; }
 [data-theme="dark"] .mcq-option.selected { background: #1e3a8a !important; border-color: #60a5fa !important; }
-[data-theme="dark"] .mcq-option.correct { background: #064e3b !important; border-color: #34d399 !important; color: #a7f3d0 !important; }
-[data-theme="dark"] .mcq-option.incorrect { background: #7f1d1d !important; border-color: #f87171 !important; color: #fecaca !important; }
+[data-theme="dark"] .mcq-option.correct { background: #064e3b !important; border-color: #34d399 !important; color: #a7f3d0 !important; box-shadow: 0 0 0 2px #34d399 !important; }
+[data-theme="dark"] .mcq-option.incorrect { background: #7f1d1d !important; border-color: #f87171 !important; color: #fecaca !important; box-shadow: 0 0 0 2px #f87171 !important; }
+[data-theme="dark"] .mcq-option.correct .mcq-label { color: #a7f3d0 !important; }
+[data-theme="dark"] .mcq-option.incorrect .mcq-label { color: #fecaca !important; }
+[data-theme="dark"] .mcq-explanation { background: #1e293b; border-color: #334155; color: #f1f5f9; }
+[data-theme="dark"] .mcq-exp-title { color: #60a5fa; border-color: #334155; }
 
 /* 이미지 확대 라이트박스 */
 #mgmtLightbox { display: none; position: fixed; inset: 0; z-index: 999999; background: rgba(0,0,0,0.85); backdrop-filter: blur(4px); align-items: center; justify-content: center; cursor: zoom-out; }
@@ -8963,6 +8970,7 @@ function checkMcqAnswerAndHighlight(c) {
   if (frontEl) {
     const btns = frontEl.querySelectorAll('.mcq-option');
     btns.forEach(btn => {
+      btn.classList.remove('selected');
       const orig = Number(btn.dataset.original);
       if (orig === correct) {
         btn.classList.add('correct');
@@ -9182,13 +9190,12 @@ function reveal(){
     runCardScripts($('cBack'));
     checkMcqAnswerAndHighlight(c);
   }
-  // 긴 앞면이면 방금 펼친 답면이 화면 밖이라 공개된 줄도 모른다 — 뷰포트 아래쪽(80% 밑)에
-  // 있을 때만 살짝 끌어올린다. 짧은 카드는 nearest라 아무 일도 없다 (감사 U4). 스크롤 컨테이너=#cardScroll.
-  const bw=$('cBackWrap'), scr=$('cardScroll').getBoundingClientRect();
-  /* 🔴 표 카드는 끌어올리지 않는다 — 답이 표 자체(renderTable(c,true))인데 그 아래 회독본 줄로 스크롤하면
-     표 머리글(조음 위치·입술·잇몸)이 잘린 채 시작한다(09-05 헤드리스 캡처로 확인). */
-  if($('cTable').childElementCount===0 && bw.getBoundingClientRect().top > scr.top + scr.height*0.8)
-    bw.scrollIntoView({behavior:'smooth', block:'nearest'});
+  const isMcq = c.typ === '객관식' || (c.front && c.front.includes('mcq-card')) || (c.back && c.back.includes('mcq-result'));
+  if (!isMcq) {
+    const bw=$('cBackWrap'), scr=$('cardScroll').getBoundingClientRect();
+    if($('cTable').childElementCount===0 && bw.getBoundingClientRect().top > scr.top + scr.height*0.8)
+      bw.scrollIntoView({behavior:'smooth', block:'nearest'});
+  }
 }
 function unreveal(){   // 뒷면 → 앞면. 항목 체크(itemMarks)와 응답 시간(shownAt)은 건드리지 않는다 —
   const c=cur(); if(!c||!revealed)return;   // 답을 봤다는 사실은 그대로 남아야 한다
