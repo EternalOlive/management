@@ -2287,10 +2287,18 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 [data-theme="dark"] .mcq-explanation { background: #1e293b; border-color: #334155; color: #f1f5f9; }
 [data-theme="dark"] .mcq-exp-title { color: #60a5fa; border-color: #334155; }
 
-/* 이미지 확대 라이트박스 */
-#mgmtLightbox { display: none; position: fixed; inset: 0; z-index: 999999; background: rgba(0,0,0,0.85); backdrop-filter: blur(4px); align-items: center; justify-content: center; cursor: zoom-out; }
-#mgmtLightbox.show { display: flex; }
-#mgmtLightbox img { max-width: 95vw; max-height: 95vh; object-fit: contain; border-radius: 6px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+/* PDF 이동 버튼 스타일 */
+.pdf-btn-group { display: inline-flex; gap: 6px; align-items: center; margin-left: 10px; vertical-align: middle; }
+.pdf-jump-btn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; font-size: 13.5px; font-weight: 700; border: 1.5px solid #d1d5db; background: var(--c-fill, #f3f4f6); color: var(--c-label, #1f2937); cursor: pointer; text-decoration: none; transition: all 0.15s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+.pdf-jump-btn:hover { transform: translateY(-1px); box-shadow: 0 3px 6px rgba(0,0,0,0.1); }
+.pdf-jump-btn.prob-btn { background: #eff6ff; color: #1d4ed8; border-color: #93c5fd; }
+.pdf-jump-btn.prob-btn:hover { background: #dbeafe; border-color: #3b82f6; }
+.pdf-jump-btn.ans-btn { background: #f0fdf4; color: #15803d; border-color: #86efac; }
+.pdf-jump-btn.ans-btn:hover { background: #dcfce7; border-color: #22c55e; }
+[data-theme="dark"] .pdf-jump-btn.prob-btn { background: #1e3a8a; color: #bfdbfe; border-color: #3b82f6; }
+[data-theme="dark"] .pdf-jump-btn.prob-btn:hover { background: #1d4ed8; }
+[data-theme="dark"] .pdf-jump-btn.ans-btn { background: #064e3b; color: #bbf7d0; border-color: #10b981; }
+[data-theme="dark"] .pdf-jump-btn.ans-btn:hover { background: #047857; }
 
 </style>
 </head>
@@ -8911,8 +8919,38 @@ function showHoedokLink(c){
   const a=el.querySelector('a'); if(a)a.onclick=(e)=>e.stopPropagation();   // 탭이 카드 되접기로 먹지 않게
 }
 
-// ─── 객관식(MCQ) 인터랙션 헬퍼 ───
+// ─── 객관식(MCQ) 인터랙션 및 PDF 이동 헬퍼 ───
 let userSelectedChoice = null;
+let PDF_PAGE_MAP = {};
+try {
+  fetch('pdf-page-map.json').then(r => r.json()).then(d => { PDF_PAGE_MAP = d; }).catch(() => {});
+} catch (_) {}
+
+function getCardPdfPages(c) {
+  if (!c) return { probPage: null, ansPage: null };
+  let probPage = c.probPage;
+  let ansPage = c.ansPage;
+  const qid = c.qid || (c.id && c.id.replace('mgmt_', ''));
+  if ((!probPage || !ansPage) && qid && PDF_PAGE_MAP[qid]) {
+    probPage = probPage || PDF_PAGE_MAP[qid].prob_page;
+    ansPage = ansPage || PDF_PAGE_MAP[qid].ans_page;
+  }
+  return { probPage, ansPage };
+}
+
+function openPdf(kind, page, ev) {
+  if (ev) {
+    ev.stopPropagation();
+    ev.preventDefault();
+  }
+  if (!page) {
+    alert('해당 문제의 PDF 페이지 정보를 찾을 수 없습니다.');
+    return;
+  }
+  const file = kind === 'prob' ? '전수환_경영학_문제.pdf' : '전수환_경영학_답지.pdf';
+  const url = `${file}#page=${page}`;
+  window.open(url, '_blank');
+}
 
 try {
   for (let i = sessionStorage.length - 1; i >= 0; i--) {
@@ -8925,6 +8963,49 @@ try {
 
 function runCardScripts(container) {
   if (!container) return;
+  const c = cur();
+  const pages = getCardPdfPages(c);
+
+  // 1. 앞면 문제 번호 옆 문제 PDF 이동 버튼 주입
+  const qNumEl = container.querySelector('.question-number');
+  if (qNumEl && !container.querySelector('.pdf-jump-btn.prob-btn') && pages.probPage) {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'pdf-jump-btn prob-btn';
+    btn.innerHTML = `📄 문제 PDF (p.${pages.probPage})`;
+    btn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
+    btn.onclick = (e) => openPdf('prob', pages.probPage, e);
+    qNumEl.parentNode.insertBefore(btn, qNumEl.nextSibling);
+  }
+
+  // 2. 뒷면 정답 배지 옆 문제/답지 PDF 이동 버튼 주입
+  const ansBadge = container.querySelector('.mcq-answer-badge');
+  if (ansBadge && !container.querySelector('.pdf-btn-group')) {
+    const grp = document.createElement('span');
+    grp.className = 'pdf-btn-group';
+    if (pages.probPage) {
+      const pBtn = document.createElement('button');
+      pBtn.type = 'button';
+      pBtn.className = 'pdf-jump-btn prob-btn';
+      pBtn.innerHTML = `📄 문제 PDF (p.${pages.probPage})`;
+      pBtn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
+      pBtn.onclick = (e) => openPdf('prob', pages.probPage, e);
+      grp.appendChild(pBtn);
+    }
+    if (pages.ansPage) {
+      const aBtn = document.createElement('button');
+      aBtn.type = 'button';
+      aBtn.className = 'pdf-jump-btn ans-btn';
+      aBtn.innerHTML = `📝 답지 PDF (p.${pages.ansPage})`;
+      aBtn.title = `답지 PDF ${pages.ansPage}페이지로 이동`;
+      aBtn.onclick = (e) => openPdf('ans', pages.ansPage, e);
+      grp.appendChild(aBtn);
+    }
+    if (grp.children.length > 0) {
+      ansBadge.parentNode.insertBefore(grp, ansBadge.nextSibling);
+    }
+  }
+
   // 보기 버튼 클릭 시 선택 기록 및 시각적 선택 표시
   const btns = container.querySelectorAll('.mcq-option');
   btns.forEach(btn => {
