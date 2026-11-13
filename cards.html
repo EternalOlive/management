@@ -2420,13 +2420,14 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   background: rgba(255, 59, 48, 0.1);
 }
 
-/* OX 보조 저장 버튼 */
+/* OX 보조 저장 버튼 - 앞면(문제 풀이 중)에는 숨김 */
 .mcq-ox-btn {
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
   height: 26px;
   padding: 0 10px;
+  margin-left: 8px;
   border-radius: var(--r-pill, 999px);
   font-size: 12px;
   font-weight: 600;
@@ -2438,6 +2439,15 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   white-space: nowrap;
   flex-shrink: 0;
   user-select: none;
+}
+/* 정답 확인(뒷면/해설, #card.rev)일 때만 우측에 노출 */
+#card.rev .mcq-ox-btn {
+  display: inline-flex;
+  animation: fadeInOx 0.15s ease;
+}
+@keyframes fadeInOx {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
 }
 .mcq-ox-btn:hover, .mcq-ox-btn.saved {
   background: var(--c-acc-tint);
@@ -9485,11 +9495,11 @@ function showHoedokLink(c){
     el.innerHTML = '';
     return;
   }
-  const probHref = getPdfUrl('prob', pages.probPage);
-  let html = `<a href="${probHref}" target="_blank" class="prob-pdf-link" onclick="openPdf('prob', ${pages.probPage}, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
+  const probHref = getPdfUrl('prob', pages);
+  let html = `<a href="${probHref}" target="_blank" class="prob-pdf-link" onclick="openPdf('prob', pages, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
   if(revealed && pages.ansPage){
-    const ansHref = getPdfUrl('ans', pages.ansPage);
-    html += `<a href="${ansHref}" target="_blank" class="ans-pdf-link" onclick="openPdf('ans', ${pages.ansPage}, event)">답지 PDF (p.${pages.ansPage}) ↗</a>`;
+    const ansHref = getPdfUrl('ans', pages);
+    html += `<a href="${ansHref}" target="_blank" class="ans-pdf-link" onclick="openPdf('ans', pages, event)">답지 PDF (p.${pages.ansPage}) ↗</a>`;
   }
   el.innerHTML = html;
   el.classList.add('on');
@@ -9647,33 +9657,90 @@ function toggleEliminateOption(cardId, origNum, btn) {
 }
 
 function getCardPdfPages(c) {
-  if (!c) return { probPage: null, ansPage: null };
+  if (!c) return { probPage: null, ansPage: null, probPdf: null, probPdfPage: null, ansPdf: null, ansPdfPage: null };
   let probPage = c.probPage;
   let ansPage = c.ansPage;
+  let probPdf = c.probPdf;
+  let probPdfPage = c.probPdfPage;
+  let ansPdf = c.ansPdf;
+  let ansPdfPage = c.ansPdfPage;
+
   const qid = c.qid || (c.id && c.id.replace('mgmt_', ''));
-  if ((!probPage || !ansPage) && qid && PDF_PAGE_MAP[qid]) {
-    probPage = probPage || PDF_PAGE_MAP[qid].prob_page;
-    ansPage = ansPage || PDF_PAGE_MAP[qid].ans_page;
+  if (qid && PDF_PAGE_MAP[qid]) {
+    const info = PDF_PAGE_MAP[qid];
+    probPage = probPage || info.prob_page;
+    ansPage = ansPage || info.ans_page;
+    probPdf = probPdf || info.prob_pdf;
+    probPdfPage = probPdfPage || info.prob_pdf_page;
+    ansPdf = ansPdf || info.ans_pdf;
+    ansPdfPage = ansPdfPage || info.ans_pdf_page;
   }
-  return { probPage, ansPage };
+  return { probPage, ansPage, probPdf, probPdfPage, ansPdf, ansPdfPage };
 }
 
-function getPdfUrl(kind, page) {
-  const p = page || 1;
-  const f = kind === 'prob' ? 'prob' : 'ans';
-  return `pdf-viewer.html?file=${f}&page=${p}`;
+function getPdfUrl(kind, target, fallbackPage) {
+  let file = null;
+  let page = null;
+
+  // 1. target이 객체인 경우 (카드 객체이거나 getCardPdfPages 결과)
+  if (target && typeof target === 'object') {
+    let pInfo = target;
+    if (!pInfo.probPdf && !pInfo.probPdfPage && (target.qid || target.id || target.subj)) {
+      pInfo = getCardPdfPages(target);
+    }
+    if (kind === 'ans') {
+      file = pInfo.ansPdf;
+      page = pInfo.ansPdfPage;
+    } else {
+      file = pInfo.probPdf;
+      page = pInfo.probPdfPage;
+    }
+  }
+
+  // 2. target이 숫자인 경우 (원본 페이지 번호)
+  if (!file && typeof target === 'number') {
+    const curCard = (typeof cur === 'function') ? cur() : null;
+    if (curCard) {
+      const curInfo = getCardPdfPages(curCard);
+      if (kind === 'ans' && curInfo.ansPage === target && curInfo.ansPdf) {
+        file = curInfo.ansPdf;
+        page = curInfo.ansPdfPage;
+      } else if (kind === 'prob' && curInfo.probPage === target && curInfo.probPdf) {
+        file = curInfo.probPdf;
+        page = curInfo.probPdfPage;
+      }
+    }
+    if (!file && typeof PDF_PAGE_MAP === 'object') {
+      for (const k in PDF_PAGE_MAP) {
+        const item = PDF_PAGE_MAP[k];
+        if (kind === 'ans' && item.ans_page === target && item.ans_pdf) {
+          file = item.ans_pdf;
+          page = item.ans_pdf_page;
+          break;
+        } else if (kind === 'prob' && item.prob_page === target && item.prob_pdf) {
+          file = item.prob_pdf;
+          page = item.prob_pdf_page;
+          break;
+        }
+      }
+    }
+  }
+
+  // 3. 기본값 폴백
+  if (!file) {
+    file = kind === 'ans' ? 'ans_01.pdf' : 'prob_01.pdf';
+    page = fallbackPage || (typeof target === 'number' ? target : 1);
+  }
+  if (!page) page = 1;
+
+  return `pdf/${file}#page=${page}`;
 }
 
-function openPdf(kind, page, ev) {
+function openPdf(kind, target, ev) {
   if (ev) {
     ev.stopPropagation();
   }
-  if (!page) {
-    alert('해당 문제의 PDF 페이지 정보를 찾을 수 없습니다.');
-    if (ev) ev.preventDefault();
-    return;
-  }
-  const url = getPdfUrl(kind, page);
+  const url = getPdfUrl(kind, target);
   console.log('[openPdf] Target URL:', url);
 
   const targetEl = ev ? (ev.currentTarget || ev.target) : null;

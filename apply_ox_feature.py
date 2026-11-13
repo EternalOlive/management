@@ -45,13 +45,15 @@ NEW_MCQ_OPT_CSS = """.mcq-option {
   gap: 8px;
 }
 
-/* OX 카드 저장 버튼 (디자인 시스템 보조 캡슐 규격) */
+/* OX 보조 저장 버튼 - 앞면(문제 풀이 중)에는 숨김 */
 .mcq-ox-btn {
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
-  padding: 4px 10px;
-  border-radius: 999px;
+  height: 26px;
+  padding: 0 10px;
+  margin-left: 8px;
+  border-radius: var(--r-pill, 999px);
   font-size: 12px;
   font-weight: 600;
   color: var(--c-sec);
@@ -63,16 +65,19 @@ NEW_MCQ_OPT_CSS = """.mcq-option {
   flex-shrink: 0;
   user-select: none;
 }
-.mcq-ox-btn:hover {
-  background: var(--c-acc-tint);
-  color: var(--c-acc);
-  border-color: var(--c-acc);
+/* 정답 확인(뒷면/해설, #card.rev)일 때만 우측에 노출 */
+#card.rev .mcq-ox-btn {
+  display: inline-flex;
+  animation: fadeInOx 0.15s ease;
 }
-.mcq-ox-btn.saved {
+@keyframes fadeInOx {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+.mcq-ox-btn:hover, .mcq-ox-btn.saved {
   background: var(--c-acc-tint);
   color: var(--c-acc);
   border-color: var(--c-acc);
-  font-weight: 700;
 }"""
 
 if OLD_MCQ_OPT_CSS in text:
@@ -86,13 +91,15 @@ else:
         text
     )
     if '.mcq-ox-btn' not in text:
-        text = text.replace('.mcq-option:hover {', """/* OX 카드 저장 버튼 (디자인 시스템 보조 캡슐 규격) */
+        text = text.replace('.mcq-option:hover {', """/* OX 보조 저장 버튼 - 앞면(문제 풀이 중)에는 숨김 */
 .mcq-ox-btn {
-  display: inline-flex;
+  display: none;
   align-items: center;
   justify-content: center;
-  padding: 4px 10px;
-  border-radius: 999px;
+  height: 26px;
+  padding: 0 10px;
+  margin-left: 8px;
+  border-radius: var(--r-pill, 999px);
   font-size: 12px;
   font-weight: 600;
   color: var(--c-sec);
@@ -104,16 +111,19 @@ else:
   flex-shrink: 0;
   user-select: none;
 }
-.mcq-ox-btn:hover {
-  background: var(--c-acc-tint);
-  color: var(--c-acc);
-  border-color: var(--c-acc);
+/* 정답 확인(뒷면/해설, #card.rev)일 때만 우측에 노출 */
+#card.rev .mcq-ox-btn {
+  display: inline-flex;
+  animation: fadeInOx 0.15s ease;
 }
-.mcq-ox-btn.saved {
+@keyframes fadeInOx {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+.mcq-ox-btn:hover, .mcq-ox-btn.saved {
   background: var(--c-acc-tint);
   color: var(--c-acc);
   border-color: var(--c-acc);
-  font-weight: 700;
 }
 
 .mcq-option:hover {""", 1)
