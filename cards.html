@@ -9659,12 +9659,9 @@ function getCardPdfPages(c) {
 }
 
 function getPdfUrl(kind, page) {
-  const isWeb = location.hostname && (location.hostname.includes('github.io') || location.hostname.includes('github.com'));
-  const base = isWeb
-    ? 'https://github.com/EternalOlive/management/releases/download/v1.0.0-pdf/'
-    : '';
-  const file = kind === 'prob' ? 'management_problems_compressed.pdf' : 'management_answers_compressed.pdf';
-  return `${base}${file}#page=${page || 1}`;
+  const p = page || 1;
+  const f = kind === 'prob' ? 'prob' : 'ans';
+  return `pdf-viewer.html?file=${f}&page=${p}`;
 }
 
 function openPdf(kind, page, ev) {
