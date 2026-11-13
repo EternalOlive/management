@@ -2260,6 +2260,36 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .mcq-options { display: grid; gap: 10px; margin-top: 16px; }
 .mcq-option { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; width: 100%; padding: 12px 14px; border: 1.5px solid var(--c-border, #d1d5db); border-radius: 10px; background: var(--c-card-bg, #fff); color: var(--c-text, #111); cursor: pointer; text-align: left; font-size: 16px; transition: all 0.15s ease; box-sizing: border-box; user-select: none; position: relative; }
 .mcq-option.number-option { display: block; text-align: center; padding: 14px; font-weight: 700; font-size: 18px; }
+/* OX 카드 저장 버튼 (디자인 시스템 보조 캡슐 규격) */
+.mcq-ox-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--c-sec);
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+  user-select: none;
+}
+.mcq-ox-btn:hover {
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  border-color: var(--c-acc);
+}
+.mcq-ox-btn.saved {
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  border-color: var(--c-acc);
+  font-weight: 700;
+}
+
 .mcq-option:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
 .mcq-option.selected { border-color: #2563eb !important; background: #eff6ff !important; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
 .mcq-option.correct { border-color: #16a34a !important; background: #dcfce7 !important; color: #15803d !important; font-weight: 700; box-shadow: 0 0 0 2px #22c55e !important; }
@@ -9333,6 +9363,103 @@ try {
   fetch('pdf-page-map.json').then(r => r.json()).then(d => { PDF_PAGE_MAP = d; }).catch(() => {});
 } catch (_) {}
 
+
+// ─── OX 카드 저장 및 관리 ───
+const MCQ_OX_KEY = 'mgmt_ox_cards_v1';
+
+function getOxCardsMap() {
+  try {
+    return JSON.parse(localStorage.getItem(MCQ_OX_KEY) || '{}');
+  } catch (_) {
+    return {};
+  }
+}
+
+function isOxSaved(qid, origNum) {
+  const map = getOxCardsMap();
+  const oxId = 'mgmt_ox_' + qid + '_' + origNum;
+  return !!map[oxId];
+}
+
+function toggleSaveOxCard(c, origNum, choiceText, btn) {
+  if (!c || !origNum) return;
+  const qid = c.qid || (c.id && c.id.replace('mgmt_', '')) || '0000';
+  const oxId = 'mgmt_ox_' + qid + '_' + origNum;
+  const map = getOxCardsMap();
+
+  if (map[oxId]) {
+    delete map[oxId];
+    try { localStorage.setItem(MCQ_OX_KEY, JSON.stringify(map)); } catch (_) {}
+    if (typeof DATA !== 'undefined' && Array.isArray(DATA)) {
+      const idx = DATA.findIndex(x => x.id === oxId);
+      if (idx !== -1) DATA.splice(idx, 1);
+    }
+    if (btn) {
+      btn.classList.remove('saved');
+      btn.textContent = 'OX 저장';
+    }
+    toast('OX 저장을 해제했어요');
+  } else {
+    const correct = c.correct || Number(document.querySelector('.mcq-result')?.dataset?.correct);
+    const stem = (c.stemText || c.front || '');
+    const isNegative = /(옳지\s*않|틀린|틀리게|아닌|적절하지\s*않|부적절|거리.*먼|잘못)/.test(stem);
+
+    let isO = true;
+    if (correct) {
+      if (isNegative) {
+        isO = (Number(origNum) !== Number(correct));
+      } else {
+        isO = (Number(origNum) === Number(correct));
+      }
+    }
+    const oxAnswer = isO ? 'O' : 'X';
+    let exp = c.explanationText || '';
+    if (!exp && c.note) exp = c.note;
+
+    const oxCard = {
+      id: oxId,
+      qid: qid + '_' + origNum,
+      subj: (c.subj || '경영학') + ' [OX]',
+      typ: 'OX',
+      front: '〔문 ' + qid + ' · 보기 ' + origNum + '〕\n' + choiceText,
+      back: '정답: ' + oxAnswer + (exp ? '\n\n해설: ' + exp : ''),
+      note: exp,
+      tags: [(c.subj || '경영학') + ' [OX]', 'OX선지', '문 ' + qid],
+      probPage: c.probPage,
+      ansPage: c.ansPage,
+      sourceTag: c.sourceTag || ''
+    };
+
+    map[oxId] = oxCard;
+    try { localStorage.setItem(MCQ_OX_KEY, JSON.stringify(map)); } catch (_) {}
+
+    if (typeof DATA !== 'undefined' && Array.isArray(DATA)) {
+      if (!DATA.some(x => x.id === oxId)) {
+        DATA.push(oxCard);
+      }
+    }
+
+    if (btn) {
+      btn.classList.add('saved');
+      btn.textContent = '저장됨';
+    }
+    toast('OX 카드로 저장했어요 (' + oxAnswer + ')');
+  }
+}
+
+function restoreSavedOxCards() {
+  try {
+    const map = getOxCardsMap();
+    if (typeof DATA !== 'undefined' && Array.isArray(DATA)) {
+      for (const id in map) {
+        if (!DATA.some(x => x.id === id)) {
+          DATA.push(map[id]);
+        }
+      }
+    }
+  } catch (_) {}
+}
+
 const MCQ_ELIM_KEY = 'mgmt_eliminated_v1';
 
 function getEliminatedMap() {
@@ -9428,7 +9555,7 @@ function runCardScripts(container) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'pdf-jump-btn prob-btn';
-    btn.innerHTML = `📄 문제 PDF (p.${pages.probPage})`;
+    btn.innerHTML = `문제 PDF (p.${pages.probPage})`;
     btn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
     btn.onclick = (e) => openPdf('prob', pages.probPage, e);
     qNumEl.parentNode.insertBefore(btn, qNumEl.nextSibling);
@@ -9443,7 +9570,7 @@ function runCardScripts(container) {
       const pBtn = document.createElement('button');
       pBtn.type = 'button';
       pBtn.className = 'pdf-jump-btn prob-btn';
-      pBtn.innerHTML = `📄 문제 PDF (p.${pages.probPage})`;
+      pBtn.innerHTML = `문제 PDF (p.${pages.probPage})`;
       pBtn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
       pBtn.onclick = (e) => openPdf('prob', pages.probPage, e);
       grp.appendChild(pBtn);
@@ -9452,7 +9579,7 @@ function runCardScripts(container) {
       const aBtn = document.createElement('button');
       aBtn.type = 'button';
       aBtn.className = 'pdf-jump-btn ans-btn';
-      aBtn.innerHTML = `📝 답지 PDF (p.${pages.ansPage})`;
+      aBtn.innerHTML = `답지 PDF (p.${pages.ansPage})`;
       aBtn.title = `답지 PDF ${pages.ansPage}페이지로 이동`;
       aBtn.onclick = (e) => openPdf('ans', pages.ansPage, e);
       grp.appendChild(aBtn);
@@ -9513,6 +9640,26 @@ function runCardScripts(container) {
     btn.ontouchend = () => { if (touchTimer) clearTimeout(touchTimer); };
     btn.ontouchmove = () => { if (touchTimer) clearTimeout(touchTimer); };
     btn.ontouchcancel = () => { if (touchTimer) clearTimeout(touchTimer); };
+
+    // 4. OX 저장 캡슐 버튼
+    const qid = c.qid || (c.id && c.id.replace('mgmt_', '')) || '0000';
+    let oxBtn = btn.querySelector('.mcq-ox-btn');
+    if (!oxBtn) {
+      oxBtn = document.createElement('span');
+      oxBtn.className = 'mcq-ox-btn';
+      btn.appendChild(oxBtn);
+    }
+    const alreadySaved = isOxSaved(qid, orig);
+    oxBtn.className = 'mcq-ox-btn' + (alreadySaved ? ' saved' : '');
+    oxBtn.textContent = alreadySaved ? '저장됨' : 'OX 저장';
+    oxBtn.title = '이 선지를 OX 카드로 저장';
+    oxBtn.onclick = (e) => {
+      e.stopPropagation();
+      e.preventDefault();
+      const choiceTextEl = btn.querySelector('.mcq-choice-text');
+      const choiceText = choiceTextEl ? choiceTextEl.textContent.trim() : '';
+      toggleSaveOxCard(c, orig, choiceText, oxBtn);
+    };
 
     // 좌클릭 -> 정답 선택 (소거되어 있었으면 소거 해제 + 선택)
     btn.onclick = (e) => {
