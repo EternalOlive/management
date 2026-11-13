@@ -2258,7 +2258,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .image-frame img { display: block; max-width: 100%; height: auto; margin: 8px auto; border-radius: 8px; cursor: zoom-in; transition: transform 0.15s ease; }
 .image-frame img:active { transform: scale(0.98); }
 .mcq-options { display: grid; gap: 10px; margin-top: 16px; }
-.mcq-option { display: grid; grid-template-columns: 44px minmax(0, 1fr); align-items: center; width: 100%; padding: 12px 14px; border: 1.5px solid var(--c-border, #d1d5db); border-radius: 10px; background: var(--c-card-bg, #fff); color: var(--c-text, #111); cursor: pointer; text-align: left; font-size: 16px; transition: all 0.15s ease; box-sizing: border-box; }
+.mcq-option { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; width: 100%; padding: 12px 14px; border: 1.5px solid var(--c-border, #d1d5db); border-radius: 10px; background: var(--c-card-bg, #fff); color: var(--c-text, #111); cursor: pointer; text-align: left; font-size: 16px; transition: all 0.15s ease; box-sizing: border-box; user-select: none; position: relative; }
 .mcq-option.number-option { display: block; text-align: center; padding: 14px; font-weight: 700; font-size: 18px; }
 .mcq-option:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
 .mcq-option.selected { border-color: #2563eb !important; background: #eff6ff !important; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
@@ -2267,13 +2267,25 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .mcq-option.correct .mcq-label { color: #15803d !important; }
 .mcq-option.incorrect .mcq-label { color: #b91c1c !important; }
 .mcq-label { font-size: 20px; font-weight: 800; text-align: center; color: var(--c-label, #4b5563); }
-.mcq-choice-text { font-size: 16px; line-height: 1.55; }
+.mcq-choice-text { font-size: 16px; line-height: 1.55; word-break: keep-all; }
+
+/* 소거(제외) 스타일 */
+.mcq-option.eliminated { opacity: 0.38 !important; filter: grayscale(70%); background: var(--c-fill, #f8fafc) !important; border-color: #e2e8f0 !important; }
+.mcq-option.eliminated .mcq-choice-text,
+.mcq-option.eliminated .mcq-label { text-decoration: line-through; text-decoration-color: #94a3b8; text-decoration-thickness: 2px; color: #94a3b8 !important; }
+.mcq-option.eliminated:hover { opacity: 0.65 !important; border-color: #cbd5e1 !important; }
+
+/* 모바일/마우스 겸용 소거(X) 버튼 */
+.mcq-elim-btn { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; margin-left: 8px; border-radius: 6px; font-size: 15px; font-weight: 800; color: #94a3b8; cursor: pointer; transition: all 0.15s ease; flex-shrink: 0; }
+.mcq-elim-btn:hover { background: rgba(239, 68, 68, 0.12); color: #ef4444; }
+.mcq-option.eliminated .mcq-elim-btn { color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+
 .mcq-help { margin-top: 14px; color: #6b7280; font-size: 13px; text-align: center; line-height: 1.5; }
 .mcq-result { margin-top: 16px; }
 .mcq-answer-badge { display: inline-block; margin: 4px 0 14px; padding: 8px 18px; border-radius: 999px; background: #22c55e; color: #fff; font-weight: 800; font-size: 17px; }
 .mcq-explanation { margin-top: 10px; padding: 16px 18px; background: var(--c-fill, #f8fafc); border: 1.5px solid #cbd5e1; border-radius: 12px; line-height: 1.75; font-size: 15.5px; color: var(--c-text, #1e293b); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 .mcq-exp-title { font-weight: 800; font-size: 15px; color: #2563eb; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
-.mcq-exp-text { white-space: pre-line; word-break: keep-all; font-size: 15.5px; line-height: 1.75; }
+.mcq-exp-text { white-space: normal; word-break: keep-all; overflow-wrap: break-word; font-size: 15.5px; line-height: 1.75; }
 
 /* 다크모드 대응 */
 [data-theme="dark"] .question-number { background: #1e293b; color: #93c5fd; }
@@ -2284,6 +2296,12 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 [data-theme="dark"] .mcq-option.incorrect { background: #7f1d1d !important; border-color: #f87171 !important; color: #fecaca !important; box-shadow: 0 0 0 2px #f87171 !important; }
 [data-theme="dark"] .mcq-option.correct .mcq-label { color: #a7f3d0 !important; }
 [data-theme="dark"] .mcq-option.incorrect .mcq-label { color: #fecaca !important; }
+[data-theme="dark"] .mcq-option.eliminated { opacity: 0.35 !important; background: #18202c !important; border-color: #334155 !important; }
+[data-theme="dark"] .mcq-option.eliminated .mcq-choice-text,
+[data-theme="dark"] .mcq-option.eliminated .mcq-label { color: #64748b !important; text-decoration-color: #64748b; }
+[data-theme="dark"] .mcq-elim-btn { color: #64748b; }
+[data-theme="dark"] .mcq-elim-btn:hover { background: rgba(248, 113, 113, 0.2); color: #f87171; }
+[data-theme="dark"] .mcq-option.eliminated .mcq-elim-btn { color: #f87171; background: rgba(248, 113, 113, 0.15); }
 [data-theme="dark"] .mcq-explanation { background: #1e293b; border-color: #334155; color: #f1f5f9; }
 [data-theme="dark"] .mcq-exp-title { color: #60a5fa; border-color: #334155; }
 
@@ -8919,12 +8937,59 @@ function showHoedokLink(c){
   const a=el.querySelector('a'); if(a)a.onclick=(e)=>e.stopPropagation();   // 탭이 카드 되접기로 먹지 않게
 }
 
-// ─── 객관식(MCQ) 인터랙션 및 PDF 이동 헬퍼 ───
+// ─── 객관식(MCQ) 인터랙션, 소거(Elimination) 및 PDF 이동 헬퍼 ───
 let userSelectedChoice = null;
 let PDF_PAGE_MAP = {};
 try {
   fetch('pdf-page-map.json').then(r => r.json()).then(d => { PDF_PAGE_MAP = d; }).catch(() => {});
 } catch (_) {}
+
+const MCQ_ELIM_KEY = 'mgmt_eliminated_v1';
+
+function getEliminatedMap() {
+  try {
+    return JSON.parse(localStorage.getItem(MCQ_ELIM_KEY) || '{}');
+  } catch (_) {
+    return {};
+  }
+}
+
+function getCardEliminated(cardId) {
+  if (!cardId) return [];
+  const map = getEliminatedMap();
+  return map[cardId] || [];
+}
+
+function setCardEliminated(cardId, list) {
+  if (!cardId) return;
+  try {
+    const map = getEliminatedMap();
+    if (!list || list.length === 0) {
+      delete map[cardId];
+    } else {
+      map[cardId] = Array.from(new Set(list));
+    }
+    localStorage.setItem(MCQ_ELIM_KEY, JSON.stringify(map));
+  } catch (_) {}
+}
+
+function toggleEliminateOption(cardId, origNum, btn) {
+  if (!cardId || !origNum) return;
+  origNum = Number(origNum);
+  let list = getCardEliminated(cardId);
+  const isElim = list.includes(origNum);
+  if (isElim) {
+    list = list.filter(n => n !== origNum);
+    if (btn) btn.classList.remove('eliminated');
+  } else {
+    list.push(origNum);
+    if (btn) {
+      btn.classList.remove('selected');
+      btn.classList.add('eliminated');
+    }
+  }
+  setCardEliminated(cardId, list);
+}
 
 function getCardPdfPages(c) {
   if (!c) return { probPage: null, ansPage: null };
@@ -8965,6 +9030,8 @@ function runCardScripts(container) {
   if (!container) return;
   const c = cur();
   const pages = getCardPdfPages(c);
+  const cardId = c ? (c.id || ('mgmt_' + (c.qid || ''))) : null;
+  const elimList = cardId ? getCardEliminated(cardId) : [];
 
   // 1. 앞면 문제 번호 옆 문제 PDF 이동 버튼 주입
   const qNumEl = container.querySelector('.question-number');
@@ -9006,18 +9073,79 @@ function runCardScripts(container) {
     }
   }
 
-  // 보기 버튼 클릭 시 선택 기록 및 시각적 선택 표시
+  // 3. 보기 버튼: 선택 및 오답 소거(우클릭/롱프레스/X버튼)
   const btns = container.querySelectorAll('.mcq-option');
   btns.forEach(btn => {
+    const orig = Number(btn.dataset.original);
+
+    // 저장된 소거 상태 복원
+    if (elimList.includes(orig)) {
+      btn.classList.add('eliminated');
+    } else {
+      btn.classList.remove('eliminated');
+    }
+
+    // 모바일/터치용 소거 버튼 주입
+    if (!btn.querySelector('.mcq-elim-btn')) {
+      const elimBtn = document.createElement('span');
+      elimBtn.className = 'mcq-elim-btn';
+      elimBtn.innerHTML = '✕';
+      elimBtn.title = '이 보기 소거/취소선 (우클릭 또는 탭)';
+      elimBtn.onclick = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        if (revealed) return;
+        toggleEliminateOption(cardId, orig, btn);
+      };
+      btn.appendChild(elimBtn);
+    }
+
+    // 마우스 우클릭 -> 소거 토글
+    btn.oncontextmenu = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (revealed) return;
+      toggleEliminateOption(cardId, orig, btn);
+    };
+
+    // 모바일 롱프레스 (길게 누르기) 지원
+    let touchTimer = null;
+    let didLongPress = false;
+    btn.ontouchstart = (e) => {
+      didLongPress = false;
+      touchTimer = setTimeout(() => {
+        didLongPress = true;
+        if (!revealed) {
+          try { if (navigator.vibrate) navigator.vibrate(40); } catch (_) {}
+          toggleEliminateOption(cardId, orig, btn);
+        }
+      }, 450);
+    };
+    btn.ontouchend = () => { if (touchTimer) clearTimeout(touchTimer); };
+    btn.ontouchmove = () => { if (touchTimer) clearTimeout(touchTimer); };
+    btn.ontouchcancel = () => { if (touchTimer) clearTimeout(touchTimer); };
+
+    // 좌클릭 -> 정답 선택 (소거되어 있었으면 소거 해제 + 선택)
     btn.onclick = (e) => {
       e.stopPropagation();
+      if (didLongPress) { didLongPress = false; return; }
       if (revealed) return; // 이미 답이 공개된 상태에서는 선택 변경 불가
+
+      if (btn.classList.contains('eliminated')) {
+        toggleEliminateOption(cardId, orig, btn);
+      }
       btns.forEach(b => b.classList.remove('selected'));
       btn.classList.add('selected');
-      const orig = btn.dataset.original;
       if (orig) userSelectedChoice = Number(orig);
     };
   });
+
+  // 안내 문구 업그레이드
+  const helpEl = container.querySelector('.mcq-help');
+  if (helpEl && !helpEl.dataset.elimPatched) {
+    helpEl.dataset.elimPatched = '1';
+    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
+  }
 
   // 이미지 클릭 시 라이트박스 확대 연결
   container.querySelectorAll('.image-frame img, img').forEach(img => {
@@ -9046,7 +9174,15 @@ function checkMcqAnswerAndHighlight(c) {
     el.textContent = ansSymbol;
   });
 
-  // 2. 앞면 선지 버튼 색상 하이라이트 (정답=초록, 오답선택=빨강)
+  // 2. 만약 소거했던 보기가 정답인 경우: 저장소에서 정답 번호 영구 삭제(소거 취소)
+  const cardId = c.id || ('mgmt_' + (c.qid || ''));
+  let elimList = getCardEliminated(cardId);
+  if (elimList.includes(correct)) {
+    elimList = elimList.filter(n => n !== correct);
+    setCardEliminated(cardId, elimList);
+  }
+
+  // 3. 앞면 선지 버튼 색상 하이라이트 (정답=초록 + 소거 자동 해제, 오답선택=빨강)
   const frontEl = $('cFront');
   if (frontEl) {
     const btns = frontEl.querySelectorAll('.mcq-option');
@@ -9054,6 +9190,8 @@ function checkMcqAnswerAndHighlight(c) {
       btn.classList.remove('selected');
       const orig = Number(btn.dataset.original);
       if (orig === correct) {
+        // 정답 보기는 취소선 및 소거 흐림을 즉시 취소하고 정답 강조
+        btn.classList.remove('eliminated');
         btn.classList.add('correct');
       } else if (userSelectedChoice !== null && orig === userSelectedChoice) {
         btn.classList.add('incorrect');
@@ -9061,7 +9199,7 @@ function checkMcqAnswerAndHighlight(c) {
     });
   }
 
-  // 3. Anki 채점 버튼 시각적 가이드 (맞춤: Good 초록 링, 틀림: Again 빨강 링)
+  // 4. Anki 채점 버튼 시각적 가이드 (맞춤: Good 초록 링, 틀림: Again 빨강 링)
   const goodBtn = $('gGood');
   const againBtn = $('gAgain');
   if (userSelectedChoice !== null) {
