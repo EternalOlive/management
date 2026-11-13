@@ -1,0 +1,8 @@
+# Large scanned PDF files
+*.pdf
+
+# Backups & temp files
+*.bak
+*.bak*
+*.pre_editor_bak
+card_14_raw.json

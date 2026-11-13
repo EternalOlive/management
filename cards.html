@@ -2247,77 +2247,529 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .fw-btns{display:flex;gap:8px;flex-wrap:wrap;}
 
 /* ══════════ 전수환 경영학 MCQ 객관식 스타일 ══════════ */
-.source-badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 13px; font-weight: 700; background: #e0e7ff; color: #3730a3; margin-bottom: 10px; }
-.stem-ocr-text { font-size: 19px; font-weight: 600; line-height: 1.6; color: var(--c-text, #111); margin-bottom: 10px; word-break: keep-all; }
-[data-theme="dark"] .source-badge { background: #312e81; color: #c7d2fe; }
-[data-theme="dark"] .stem-ocr-text { color: #f3f4f6; }
+/* ══════════════════════════════════════════════════════════════
+   전수환 경영학 디자인 시스템 (스피킹 매트릭스 / DESIGN.md 100% 준수)
+   - Apple HIG / 3개 테마(화이트·페이퍼·다크) 완벽 대응
+   - 토큰(--c-*, --t-*, --r-*, --sp-*) 기반 일원화
+   ══════════════════════════════════════════════════════════════ */
 
-.mcq-card, .mcq-result { max-width: 900px; margin: 0 auto; text-align: left; }
-.question-number { display: inline-block; margin-bottom: 12px; padding: 6px 14px; border-radius: 999px; background: #eef2f8; color: #2c497f; font-weight: 700; font-size: 15px; }
-.mcq-stem { padding: 4px 0 16px; border-bottom: 1px solid var(--c-border, #e5e7eb); font-size: 18px; line-height: 1.6; color: var(--c-text, #111); }
-.image-frame img { display: block; max-width: 100%; height: auto; margin: 8px auto; border-radius: 8px; cursor: zoom-in; transition: transform 0.15s ease; }
-.image-frame img:active { transform: scale(0.98); }
-.mcq-options { display: grid; gap: 10px; margin-top: 16px; }
-.mcq-option { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; width: 100%; padding: 12px 14px; border: 1.5px solid var(--c-border, #d1d5db); border-radius: 10px; background: var(--c-card-bg, #fff); color: var(--c-text, #111); cursor: pointer; text-align: left; font-size: 16px; transition: all 0.15s ease; box-sizing: border-box; user-select: none; position: relative; }
-.mcq-option.number-option { display: block; text-align: center; padding: 14px; font-weight: 700; font-size: 18px; }
-.mcq-option:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
-.mcq-option.selected { border-color: #2563eb !important; background: #eff6ff !important; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
-.mcq-option.correct { border-color: #16a34a !important; background: #dcfce7 !important; color: #15803d !important; font-weight: 700; box-shadow: 0 0 0 2px #22c55e !important; }
-.mcq-option.incorrect { border-color: #dc2626 !important; background: #fee2e2 !important; color: #b91c1c !important; font-weight: 700; box-shadow: 0 0 0 2px #ef4444 !important; }
-.mcq-option.correct .mcq-label { color: #15803d !important; }
-.mcq-option.incorrect .mcq-label { color: #b91c1c !important; }
-.mcq-label { font-size: 20px; font-weight: 800; text-align: center; color: var(--c-label, #4b5563); }
-.mcq-choice-text { font-size: 16px; line-height: 1.55; word-break: keep-all; }
+/* ── 1. 문제 풀이 (MCQ 카드 & 선지 & 지문) ── */
+.mcq-card, .mcq-result {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
 
-/* 소거(제외) 스타일 */
-.mcq-option.eliminated { opacity: 0.38 !important; filter: grayscale(70%); background: var(--c-fill, #f8fafc) !important; border-color: #e2e8f0 !important; }
-.mcq-option.eliminated .mcq-choice-text,
-.mcq-option.eliminated .mcq-label { text-decoration: line-through; text-decoration-color: #94a3b8; text-decoration-thickness: 2px; color: #94a3b8 !important; }
-.mcq-option.eliminated:hover { opacity: 0.65 !important; border-color: #cbd5e1 !important; }
+.source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: var(--r-pill, 999px);
+  font-size: var(--t-foot, 13px);
+  font-weight: 600;
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  margin-bottom: 12px;
+}
 
-/* 모바일/마우스 겸용 소거(X) 버튼 */
-.mcq-elim-btn { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; margin-left: 8px; border-radius: 6px; font-size: 15px; font-weight: 800; color: #94a3b8; cursor: pointer; transition: all 0.15s ease; flex-shrink: 0; }
-.mcq-elim-btn:hover { background: rgba(239, 68, 68, 0.12); color: #ef4444; }
-.mcq-option.eliminated .mcq-elim-btn { color: #ef4444; background: rgba(239, 68, 68, 0.08); }
+.question-number {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-fill);
+  color: var(--c-sec);
+  font-weight: 700;
+  font-size: var(--t-sub, 14px);
+}
 
-.mcq-help { margin-top: 14px; color: #6b7280; font-size: 13px; text-align: center; line-height: 1.5; }
-.mcq-result { margin-top: 16px; }
-.mcq-answer-badge { display: inline-block; margin: 4px 0 14px; padding: 8px 18px; border-radius: 999px; background: #22c55e; color: #fff; font-weight: 800; font-size: 17px; }
-.mcq-explanation { margin-top: 10px; padding: 16px 18px; background: var(--c-fill, #f8fafc); border: 1.5px solid #cbd5e1; border-radius: 12px; line-height: 1.75; font-size: 15.5px; color: var(--c-text, #1e293b); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-.mcq-exp-title { font-weight: 800; font-size: 15px; color: #2563eb; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
-.mcq-exp-text { white-space: normal; word-break: keep-all; overflow-wrap: break-word; font-size: 15.5px; line-height: 1.75; }
+.stem-ocr-text {
+  font-size: var(--t-ans-body, 19px);
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--c-label);
+  margin-bottom: 12px;
+  word-break: keep-all;
+}
 
-/* 다크모드 대응 */
-[data-theme="dark"] .question-number { background: #1e293b; color: #93c5fd; }
-[data-theme="dark"] .mcq-option { background: #1f2937; border-color: #374151; color: #f3f4f6; }
-[data-theme="dark"] .mcq-option:hover { background: #374151; border-color: #60a5fa; }
-[data-theme="dark"] .mcq-option.selected { background: #1e3a8a !important; border-color: #60a5fa !important; }
-[data-theme="dark"] .mcq-option.correct { background: #064e3b !important; border-color: #34d399 !important; color: #a7f3d0 !important; box-shadow: 0 0 0 2px #34d399 !important; }
-[data-theme="dark"] .mcq-option.incorrect { background: #7f1d1d !important; border-color: #f87171 !important; color: #fecaca !important; box-shadow: 0 0 0 2px #f87171 !important; }
-[data-theme="dark"] .mcq-option.correct .mcq-label { color: #a7f3d0 !important; }
-[data-theme="dark"] .mcq-option.incorrect .mcq-label { color: #fecaca !important; }
-[data-theme="dark"] .mcq-option.eliminated { opacity: 0.35 !important; background: #18202c !important; border-color: #334155 !important; }
-[data-theme="dark"] .mcq-option.eliminated .mcq-choice-text,
-[data-theme="dark"] .mcq-option.eliminated .mcq-label { color: #64748b !important; text-decoration-color: #64748b; }
-[data-theme="dark"] .mcq-elim-btn { color: #64748b; }
-[data-theme="dark"] .mcq-elim-btn:hover { background: rgba(248, 113, 113, 0.2); color: #f87171; }
-[data-theme="dark"] .mcq-option.eliminated .mcq-elim-btn { color: #f87171; background: rgba(248, 113, 113, 0.15); }
-[data-theme="dark"] .mcq-explanation { background: #1e293b; border-color: #334155; color: #f1f5f9; }
-[data-theme="dark"] .mcq-exp-title { color: #60a5fa; border-color: #334155; }
+.mcq-stem {
+  padding: 4px 0 16px;
+  border-bottom: 0.5px solid var(--c-sep);
+  font-size: var(--t-q-long, 18px);
+  line-height: 1.6;
+  color: var(--c-label);
+}
 
-/* PDF 이동 버튼 스타일 */
-.pdf-btn-group { display: inline-flex; gap: 6px; align-items: center; margin-left: 10px; vertical-align: middle; }
-.pdf-jump-btn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; font-size: 13.5px; font-weight: 700; border: 1.5px solid #d1d5db; background: var(--c-fill, #f3f4f6); color: var(--c-label, #1f2937); cursor: pointer; text-decoration: none; transition: all 0.15s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-.pdf-jump-btn:hover { transform: translateY(-1px); box-shadow: 0 3px 6px rgba(0,0,0,0.1); }
-.pdf-jump-btn.prob-btn { background: #eff6ff; color: #1d4ed8; border-color: #93c5fd; }
-.pdf-jump-btn.prob-btn:hover { background: #dbeafe; border-color: #3b82f6; }
-.pdf-jump-btn.ans-btn { background: #f0fdf4; color: #15803d; border-color: #86efac; }
-.pdf-jump-btn.ans-btn:hover { background: #dcfce7; border-color: #22c55e; }
-[data-theme="dark"] .pdf-jump-btn.prob-btn { background: #1e3a8a; color: #bfdbfe; border-color: #3b82f6; }
-[data-theme="dark"] .pdf-jump-btn.prob-btn:hover { background: #1d4ed8; }
-[data-theme="dark"] .pdf-jump-btn.ans-btn { background: #064e3b; color: #bbf7d0; border-color: #10b981; }
-[data-theme="dark"] .pdf-jump-btn.ans-btn:hover { background: #047857; }
+.image-frame img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px auto;
+  border-radius: var(--r-cell, 12px);
+  cursor: zoom-in;
+  transition: transform 0.15s ease;
+}
+.image-frame img:active {
+  transform: scale(0.99);
+}
 
+.mcq-options {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.mcq-option {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  align-items: center;
+  width: 100%;
+  padding: 12px 16px;
+  border: 0.5px solid var(--c-sep);
+  border-radius: var(--r-cell, 12px);
+  background: var(--c-card);
+  color: var(--c-label);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--t-body, 16px);
+  box-shadow: var(--sh-card);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+  box-sizing: border-box;
+  user-select: none;
+}
+.mcq-option:hover {
+  background: var(--c-fill);
+}
+.mcq-option:active {
+  transform: scale(0.995);
+}
+
+.mcq-option.number-option {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* 선택(Selected): 시스템 단일 강조색 */
+.mcq-option.selected {
+  border-color: var(--c-acc) !important;
+  background: var(--c-acc-tint) !important;
+  color: var(--c-acc) !important;
+  box-shadow: 0 0 0 1px var(--c-acc);
+}
+.mcq-option.selected .mcq-label {
+  color: var(--c-acc) !important;
+}
+
+/* 정답/오답: 시스템 피드백 색상 */
+.mcq-option.correct {
+  border-color: var(--c-good) !important;
+  background: var(--c-good-bg) !important;
+  color: var(--c-good) !important;
+  font-weight: 700;
+}
+.mcq-option.correct .mcq-label {
+  color: var(--c-good) !important;
+}
+
+.mcq-option.incorrect {
+  border-color: var(--c-again) !important;
+  background: var(--c-again-bg) !important;
+  color: var(--c-again) !important;
+}
+.mcq-option.incorrect .mcq-label {
+  color: var(--c-again) !important;
+}
+
+.mcq-label {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--c-sec);
+}
+.mcq-choice-text {
+  font-size: var(--t-body, 16px);
+  line-height: 1.55;
+  word-break: keep-all;
+}
+
+/* 소거 (DESIGN.md 원칙 4: 조용하게 dim 처리) */
+.mcq-option.eliminated {
+  opacity: 0.32 !important;
+  background: var(--c-fill) !important;
+  border-color: var(--c-sep) !important;
+}
+.mcq-option.eliminated .mcq-choice-text {
+  text-decoration: line-through;
+  color: var(--c-sec) !important;
+}
+.mcq-option.eliminated:hover {
+  opacity: 0.6 !important;
+}
+
+.mcq-help {
+  margin-top: 14px;
+  color: var(--c-sec);
+  font-size: var(--t-foot, 13px);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.mcq-result {
+  margin-top: 18px;
+}
+.mcq-answer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 4px 0 14px;
+  padding: 6px 16px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-good);
+  color: #fff;
+  font-weight: 700;
+  font-size: var(--t-body, 16px);
+}
+.mcq-explanation {
+  margin-top: 12px;
+  padding: 16px 20px;
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
+  border-radius: var(--r-panel, 26px);
+  line-height: 1.75;
+  font-size: var(--t-sub, 15px);
+  color: var(--c-label);
+}
+.mcq-exp-title {
+  font-weight: 700;
+  font-size: var(--t-sub, 14px);
+  color: var(--c-acc);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid var(--c-sep);
+}
+.mcq-exp-text {
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  font-size: var(--t-sub, 15px);
+  line-height: 1.75;
+}
+
+/* ── 2. PDF 바로가기 버튼 (시스템 캡슐 칩) ── */
+.c-pdf-btn, .pdf-jump-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  font-size: var(--t-foot, 13px);
+  font-weight: 600;
+  color: var(--c-sec);
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
+  border-radius: var(--r-pill, 999px);
+  text-decoration: none;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.c-pdf-btn:hover, .pdf-jump-btn:hover {
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  border-color: var(--c-acc);
+}
+
+.pdf-btn-group {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.pdf-jump-btn.prob-btn {
+  color: var(--c-acc);
+  background: var(--c-acc-tint);
+  border-color: transparent;
+}
+.pdf-jump-btn.prob-btn:hover {
+  background: var(--c-acc);
+  color: #fff;
+}
+.pdf-jump-btn.ans-btn {
+  color: var(--c-good);
+  background: var(--c-good-bg);
+  border-color: transparent;
+}
+.pdf-jump-btn.ans-btn:hover {
+  background: var(--c-good);
+  color: #fff;
+}
+
+#cHoedok {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+#cHoedok.on {
+  display: flex !important;
+}
+#cHoedok a {
+  font-size: var(--t-foot, 13px);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-fill);
+  color: var(--c-sec);
+  border: 0.5px solid var(--c-sep);
+  transition: all 0.15s ease;
+}
+#cHoedok a:hover {
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+}
+#cHoedok a.prob-pdf-link {
+  color: var(--c-acc);
+  background: var(--c-acc-tint);
+  border-color: transparent;
+}
+#cHoedok a.ans-pdf-link {
+  color: var(--c-good);
+  background: var(--c-good-bg);
+  border-color: transparent;
+}
+
+/* ── 3. 카드 내용 수정 모달 (Apple Floating Sheet) ── */
+.card-edit-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-m, 20px);
+  box-sizing: border-box;
+  animation: ovlFade .18s ease-out;
+}
+@keyframes ovlFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.card-edit-dialog {
+  background: var(--c-bg);
+  color: var(--c-label);
+  border-radius: var(--r-panel, 26px);
+  max-width: 680px;
+  width: 100%;
+  max-height: 86vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--sh-big);
+  border: 0.5px solid var(--c-glass-ring);
+  overflow: hidden;
+  animation: editModalPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes editModalPop {
+  from { opacity: 0; transform: scale(0.97) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.card-edit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 22px;
+  border-bottom: 0.5px solid var(--c-sep);
+  background: var(--c-card);
+}
+.card-edit-title {
+  font-weight: 700;
+  font-size: var(--t-body, 17px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--c-label);
+}
+.card-edit-close {
+  background: var(--c-fill);
+  border: none;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--r-pill, 999px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--c-sec);
+  transition: all 0.15s ease;
+}
+.card-edit-close:hover {
+  background: var(--c-sep);
+  color: var(--c-label);
+}
+
+.card-edit-body {
+  padding: 20px 22px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  -webkit-overflow-scrolling: touch;
+}
+.edit-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.edit-field label {
+  font-size: var(--t-foot, 13px);
+  font-weight: 700;
+  color: var(--c-label);
+}
+.edit-tip {
+  font-size: var(--t-cap, 12px);
+  font-weight: normal;
+  color: var(--c-sec);
+}
+.edit-input, .edit-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border-radius: var(--r-cell, 12px);
+  border: 0.5px solid var(--c-sep);
+  background: var(--c-card);
+  color: var(--c-label);
+  font-family: var(--font);
+  font-size: var(--t-sub, 15px);
+  line-height: 1.5;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.edit-input:focus, .edit-textarea:focus {
+  border-color: var(--c-acc);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--c-acc-tint);
+}
+
+.edit-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.choice-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.choice-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding-top: 8px;
+  user-select: none;
+}
+.choice-badge {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--c-sec);
+  width: 24px;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+.choice-radio-label input[type="radio"]:checked + .choice-badge {
+  color: var(--c-acc);
+  transform: scale(1.15);
+  font-weight: 900;
+}
+.choice-input {
+  flex: 1;
+  resize: vertical;
+}
+
+.edit-sync-row {
+  padding: 10px 14px;
+  border-radius: var(--r-cell, 12px);
+  background: var(--c-fill);
+  border: 0.5px dashed var(--c-sep);
+}
+.sync-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--t-foot, 13px);
+  font-weight: 600;
+  color: var(--c-acc);
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-edit-footer {
+  padding: 14px 22px;
+  border-top: 0.5px solid var(--c-sep);
+  background: var(--c-card);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit-footer-right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary {
+  background: var(--c-acc-fill);
+  color: #fff;
+  border: none;
+  padding: 9px 20px;
+  border-radius: var(--r-pill, 999px);
+  font-weight: 600;
+  font-size: var(--t-sub, 15px);
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  background: var(--c-fill);
+  color: var(--c-label);
+  border: none;
+  padding: 9px 18px;
+  border-radius: var(--r-pill, 999px);
+  font-weight: 500;
+  font-size: var(--t-sub, 15px);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.btn-secondary:hover {
+  background: var(--c-sep);
+}
+
+.btn-subtle {
+  background: transparent;
+  color: var(--c-danger, #FF3B30);
+  border: 0.5px solid var(--c-sep);
+  padding: 8px 14px;
+  border-radius: var(--r-pill, 999px);
+  font-size: var(--t-foot, 13px);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.btn-subtle:hover {
+  background: var(--c-fill);
+}
 </style>
 </head>
 <body>
@@ -2353,7 +2805,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
         <!-- 🔴 디자인 이식 09-24: 카드 = 위아래 반반. 답면 내용은 **앞면에서도 미리 채워 visibility:hidden**으로 깔고 가림 면으로 덮는다 →
              앞면↔답면에서 질문·선·버튼이 1px도 안 움직인다(디자인_언어 §1-1 · §7.1). 가림은 visibility라 글자가 선택·낭독되지 않는다. -->
         <div id="card">
-          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><div class="c-upper-act"><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button></div></div></div>
+          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><div class="c-upper-act"><a id="btnPdfFront" class="c-pdf-btn" href="#" target="_blank" title="문제 PDF 열기" style="display:none;">문제 PDF ↗</a><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="c-copy-btn" id="btnEditCard" title="카드 내용 수정 (e)" aria-label="카드 내용 수정" onclick="openCardEditor()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button></div></div></div>
           <div id="cardScroll"><div id="cSplit">
             <div id="cUpper">
               <div class="c-imgs front" id="cImgF"></div>
@@ -7133,6 +7585,7 @@ async function loadData(){
     const c=(await idbGet(K_DATA)) || lsGet(K_DATA);   // IDB 먼저 · 아직 안 옮긴 기기는 옛 사본
     if(c){ try{ DATA=(JSON.parse(c).cards)||[]; toast('오프라인 — 캐시 카드로 진행'); }catch(e2){} }
   }
+  applyCustomEditsToData();
   BYID={}; const tags=new Set(), typs=new Set(), subjs=new Set();
   DATA.forEach((c,i)=>{ c._i=i; BYID[c.id]=c; (c.tags||[]).forEach(t=>tags.add(t)); if(c.typ) typs.add(c.typ); if(c.subj) subjs.add(c.subj); });
   ALLTAGS=[...tags].sort(); ALLTYPS=[...typs].sort();
@@ -8931,10 +9384,19 @@ function renderLineDots(){
    도식 카드에서는 비워 둔다: #cDiag가 이미 안내 문구와 함께 같은 링크를 달고 있어 두 번 나온다. */
 function showHoedokLink(c){
   const el=$('cHoedok');
-  const uri = (c && c.typ!=='도식') ? cardHoedokURI(c) : null;   // null = 회독본이 없는 과목 (⚠ 13.총창은 09-02에 생겼다 — 지금은 283장 전부 링크)
-  el.classList.toggle('on', !!uri);
-  el.innerHTML = uri ? `<a href="${uri.replace(/&/g,'&amp;')}">회독본 ↗</a>` : '';
-  const a=el.querySelector('a'); if(a)a.onclick=(e)=>e.stopPropagation();   // 탭이 카드 되접기로 먹지 않게
+  if(!el) return;
+  const pages = getCardPdfPages(c);
+  if(!pages || !pages.probPage){
+    el.classList.remove('on');
+    el.innerHTML = '';
+    return;
+  }
+  let html = `<a href="전수환_경영학_문제.pdf#page=${pages.probPage}" target="_blank" class="prob-pdf-link" onclick="openPdf('prob', ${pages.probPage}, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
+  if(revealed && pages.ansPage){
+    html += `<a href="전수환_경영학_답지.pdf#page=${pages.ansPage}" target="_blank" class="ans-pdf-link" onclick="openPdf('ans', ${pages.ansPage}, event)">답지 PDF (p.${pages.ansPage}) ↗</a>`;
+  }
+  el.innerHTML = html;
+  el.classList.add('on');
 }
 
 // ─── 객관식(MCQ) 인터랙션, 소거(Elimination) 및 PDF 이동 헬퍼 ───
@@ -9073,7 +9535,7 @@ function runCardScripts(container) {
     }
   }
 
-  // 3. 보기 버튼: 선택 및 오답 소거(우클릭/롱프레스/X버튼)
+  // 3. 보기 버튼: 선택 및 오답 소거 (우클릭 / 롱프레스 / Shift+숫자)
   const btns = container.querySelectorAll('.mcq-option');
   btns.forEach(btn => {
     const orig = Number(btn.dataset.original);
@@ -9085,21 +9547,6 @@ function runCardScripts(container) {
       btn.classList.remove('eliminated');
     }
 
-    // 모바일/터치용 소거 버튼 주입
-    if (!btn.querySelector('.mcq-elim-btn')) {
-      const elimBtn = document.createElement('span');
-      elimBtn.className = 'mcq-elim-btn';
-      elimBtn.innerHTML = '✕';
-      elimBtn.title = '이 보기 소거/취소선 (우클릭 또는 탭)';
-      elimBtn.onclick = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        if (revealed) return;
-        toggleEliminateOption(cardId, orig, btn);
-      };
-      btn.appendChild(elimBtn);
-    }
-
     // 마우스 우클릭 -> 소거 토글
     btn.oncontextmenu = (e) => {
       e.preventDefault();
@@ -9108,7 +9555,7 @@ function runCardScripts(container) {
       toggleEliminateOption(cardId, orig, btn);
     };
 
-    // 모바일 롱프레스 (길게 누르기) 지원
+    // 모바일 롱프레스 (길게 누르기) 지원 — 400ms
     let touchTimer = null;
     let didLongPress = false;
     btn.ontouchstart = (e) => {
@@ -9116,10 +9563,10 @@ function runCardScripts(container) {
       touchTimer = setTimeout(() => {
         didLongPress = true;
         if (!revealed) {
-          try { if (navigator.vibrate) navigator.vibrate(40); } catch (_) {}
+          try { if (navigator.vibrate) navigator.vibrate(30); } catch (_) {}
           toggleEliminateOption(cardId, orig, btn);
         }
-      }, 450);
+      }, 400);
     };
     btn.ontouchend = () => { if (touchTimer) clearTimeout(touchTimer); };
     btn.ontouchmove = () => { if (touchTimer) clearTimeout(touchTimer); };
@@ -9140,11 +9587,11 @@ function runCardScripts(container) {
     };
   });
 
-  // 안내 문구 업그레이드
+  // 안내 문구 (디자인 원칙: 조용하고 간결하게)
   const helpEl = container.querySelector('.mcq-help');
   if (helpEl && !helpEl.dataset.elimPatched) {
     helpEl.dataset.elimPatched = '1';
-    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
+    helpEl.textContent = '1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거';
   }
 
   // 이미지 클릭 시 라이트박스 확대 연결
@@ -9214,6 +9661,279 @@ function checkMcqAnswerAndHighlight(c) {
   }
 }
 
+
+// ══════════ 경영학 카드 수정(에디터) 및 영속화 시스템 ══════════
+const K_CARD_EDITS = 'mgmt_card_edits_v1';
+let _currentEditingCard = null;
+
+function getCardEditsMap() {
+  try {
+    return JSON.parse(localStorage.getItem(K_CARD_EDITS)) || {};
+  } catch(e) {
+    return {};
+  }
+}
+
+function saveCardEditsMap(map) {
+  try {
+    localStorage.setItem(K_CARD_EDITS, JSON.stringify(map));
+  } catch(e) {
+    console.warn('[CardEdit] localStorage save error', e);
+  }
+}
+
+function applyCustomEditsToData() {
+  const edits = getCardEditsMap();
+  if (!DATA || !Array.isArray(DATA)) return;
+  let count = 0;
+  for (const c of DATA) {
+    if (c && c.id && edits[c.id]) {
+      const ed = edits[c.id];
+      if (ed.stemText !== undefined) c.stemText = ed.stemText;
+      if (ed.sourceTag !== undefined) c.sourceTag = ed.sourceTag;
+      if (ed.choices !== undefined) c.choices = ed.choices;
+      if (ed.correct !== undefined) c.correct = ed.correct;
+      if (ed.explanationText !== undefined) c.explanationText = ed.explanationText;
+      rebuildCardHtml(c);
+      count++;
+    }
+  }
+  if (count > 0) {
+    console.log(`[CardEdit] ${count}장의 사용자 수정 카드가 복원되었습니다.`);
+  }
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function rebuildCardHtml(c) {
+  const circles = ['①', '②', '③', '④', '⑤'];
+  
+  // 기존 front에서 image-frame이 있으면 추출 보존
+  let imgHtml = '';
+  if (c.front) {
+    const m = c.front.match(/<div class="image-frame"[\s\S]*?<\/div>/);
+    if (m) imgHtml = '\n    ' + m[0];
+  }
+
+  const qNum = c.qid || (c.id ? c.id.replace('mgmt_', '') : '');
+  const sourceBadge = c.sourceTag ? `<span class="source-badge">${escapeHtml(c.sourceTag)}</span>\n    ` : '';
+  
+  const choicesHtml = (c.choices || []).map((ch, idx) => {
+    const num = idx + 1;
+    const label = circles[idx] || (num + '.');
+    let text = ch.replace(/^[1-5]번:\s*/, '');
+    return `<button type="button" class="mcq-option text-option" data-original="${num}"><span class="mcq-label">${label}</span><span class="mcq-choice-text">${escapeHtml(text)}</span></button>`;
+  }).join('');
+
+  c.front = `<div class="mcq-card" data-qid="${qNum}" data-shuffle="false">
+  <div class="question-number">문제 ${qNum}</div>
+  <div class="mcq-stem">
+    ${sourceBadge}<div class="stem-ocr-text">${escapeHtml(c.stemText || '')}</div>${imgHtml}
+  </div>
+  <div class="mcq-options ">${choicesHtml}</div>
+  <div class="mcq-help">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>
+</div>`;
+
+  const corrIdx = (Number(c.correct) || 1) - 1;
+  const corrLabel = circles[corrIdx] || c.correct;
+  
+  // 해설에서 줄바꿈은 <br> 태그로 변환
+  const expHtml = escapeHtml(c.explanationText || '').replace(/\n/g, '<br>');
+  
+  c.back = `<div class="mcq-result" data-qid="${qNum}" data-correct="${c.correct}">
+  <div class="mcq-answer-badge">정답: <span class="mcq-current-answer">${corrLabel}</span></div>
+  <div class="mcq-explanation">
+    <div class="mcq-exp-title">해설</div>
+    <div class="mcq-exp-text">${expHtml}</div>
+  </div>
+</div>`;
+}
+
+function openCardEditor() {
+  const c = cur();
+  if (!c) {
+    toast('수정할 카드가 없습니다.');
+    return;
+  }
+  _currentEditingCard = c;
+
+  const qNum = c.qid || (c.id ? c.id.replace('mgmt_', '') : '');
+  const titleEl = document.getElementById('editModalTitle');
+  if (titleEl) titleEl.textContent = `문제 ${qNum} 내용 수정`;
+
+  const srcEl = document.getElementById('editSourceTag');
+  if (srcEl) srcEl.value = c.sourceTag || '';
+
+  const stemEl = document.getElementById('editStem');
+  if (stemEl) stemEl.value = c.stemText || '';
+
+  const choices = c.choices || [];
+  for (let i = 1; i <= 5; i++) {
+    const inputEl = document.getElementById(`editChoice${i}`);
+    if (inputEl) {
+      let rawText = choices[i - 1] || '';
+      inputEl.value = rawText.replace(/^[1-5]번:\s*/, '');
+    }
+  }
+
+  const corr = Number(c.correct) || 1;
+  const radio = document.getElementById(`radioChoice${corr}`);
+  if (radio) radio.checked = true;
+
+  const expEl = document.getElementById('editExplanation');
+  if (expEl) {
+    let exp = c.explanationText || '';
+    expEl.value = exp.replace(/<br\s*\/?>/gi, '\n');
+  }
+
+  // GitHub 토큰이 설정되어 있으면 동기화 옵션 표시
+  const syncRow = document.getElementById('editSyncRow');
+  const token = typeof ghToken === 'function' ? ghToken() : (lsGet('cfg_token') || '');
+  if (syncRow) {
+    syncRow.style.display = token ? 'block' : 'none';
+  }
+
+  // 원본 초기화 버튼 상태 (수정된 적이 있으면 빨간색 강조)
+  const edits = getCardEditsMap();
+  const resetBtn = document.getElementById('btnEditReset');
+  if (resetBtn) {
+    resetBtn.style.display = edits[c.id] ? 'inline-block' : 'none';
+  }
+
+  const ovl = document.getElementById('ovlCardEdit');
+  if (ovl) ovl.style.display = 'flex';
+  
+  if (stemEl) stemEl.focus();
+}
+
+function closeCardEditor() {
+  const ovl = document.getElementById('ovlCardEdit');
+  if (ovl) ovl.style.display = 'none';
+  _currentEditingCard = null;
+}
+
+async function saveCurrentCardEdit() {
+  const c = _currentEditingCard;
+  if (!c) return;
+
+  const srcEl = document.getElementById('editSourceTag');
+  const stemEl = document.getElementById('editStem');
+  const expEl = document.getElementById('editExplanation');
+
+  const newSourceTag = srcEl ? srcEl.value.trim() : '';
+  const newStem = stemEl ? stemEl.value.trim() : '';
+  const newExp = expEl ? expEl.value.trim() : '';
+
+  const newChoices = [];
+  for (let i = 1; i <= 5; i++) {
+    const el = document.getElementById(`editChoice${i}`);
+    const text = el ? el.value.trim() : '';
+    newChoices.push(`${i}번: ${text}`);
+  }
+
+  let selectedCorrect = 1;
+  const checkedRadio = document.querySelector('input[name="editCorrectChoice"]:checked');
+  if (checkedRadio) {
+    selectedCorrect = Number(checkedRadio.value);
+  }
+
+  // 카드 객체 업데이트
+  c.sourceTag = newSourceTag;
+  c.stemText = newStem;
+  c.choices = newChoices;
+  c.correct = selectedCorrect;
+  c.explanationText = newExp;
+
+  // HTML 템플릿 재빌드
+  rebuildCardHtml(c);
+
+  // 로컬 스토리지에 영속화
+  const edits = getCardEditsMap();
+  edits[c.id] = {
+    sourceTag: newSourceTag,
+    stemText: newStem,
+    choices: newChoices,
+    correct: selectedCorrect,
+    explanationText: newExp,
+    updatedAt: new Date().toISOString()
+  };
+  saveCardEditsMap(edits);
+
+  // 현재 화면 즉시 갱신
+  const cFront = document.getElementById('cFront');
+  const cBack = document.getElementById('cBack');
+  if (cFront) {
+    cFront.innerHTML = c.front;
+    if (typeof runCardScripts === 'function') runCardScripts(cFront);
+  }
+  if (cBack) {
+    cBack.innerHTML = c.back;
+    if (typeof runCardScripts === 'function') runCardScripts(cBack);
+  }
+  if (typeof checkMcqAnswerAndHighlight === 'function') {
+    checkMcqAnswerAndHighlight(c);
+  }
+
+  closeCardEditor();
+  toast('💾 카드 내용이 저장되었습니다.');
+
+  // GitHub 동기화 요청 여부 확인
+  const chkSync = document.getElementById('chkEditGhSync');
+  if (chkSync && chkSync.checked && typeof ghPut === 'function') {
+    const token = typeof ghToken === 'function' ? ghToken() : (lsGet('cfg_token') || '');
+    if (token) {
+      toast('☁️ GitHub에 동기화 중...');
+      try {
+        await ghPut(DATA_PATH, () => ({ v: 1, cards: DATA }));
+        toast('☁️ GitHub 저장소(cards-data.json)에 반영 완료!');
+      } catch(err) {
+        console.error('[GitHub Sync Error]', err);
+        toast('⚠️ GitHub 동기화 실패 (로컬 저장은 완료됨)');
+      }
+    }
+  }
+}
+
+function resetCurrentCardEdit() {
+  const c = _currentEditingCard;
+  if (!c) return;
+  if (!confirm('수정하기 전 원본 카드로 복원하시겠습니까?')) return;
+
+  const edits = getCardEditsMap();
+  delete edits[c.id];
+  saveCardEditsMap(edits);
+
+  closeCardEditor();
+  toast('🔄 원본 카드로 복원되었습니다. 화면을 새로고침합니다.');
+  setTimeout(() => location.reload(), 300);
+}
+
+// 수정된 전체 cards-data.json을 파일로 다운로드하는 유틸
+function exportEditedCardsDataJson() {
+  if (!DATA || !DATA.length) {
+    toast('내보낼 카드 데이터가 없습니다.');
+    return;
+  }
+  const blob = new Blob([JSON.stringify({ v: 1, cards: DATA }, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'cards-data.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  toast('📥 cards-data.json 다운로드 완료');
+}
+
 function showCard(){
   $('card').classList.remove('rev');
   /* 🔴 오늘 정리된 카드는 어떤 경로로 큐에 남아 있든 화면에 안 띄운다 — 규칙의 마지막 관문.
@@ -9258,7 +9978,19 @@ function showCard(){
   } else {
     $('cFront').textContent = m ? m[2] : c.front;
   }
-  $('cFront').classList.toggle('is-long', (m?m[2]:c.front).length>200);   // 긴 문면 = 질문 20(폰 16) · 디자인 §4
+  $('cFront').classList.toggle('is-long', (m?m[2]:c.front).length>200);
+  const pdfFront = $('btnPdfFront');
+  if(pdfFront){
+    const pPages = getCardPdfPages(c);
+    if(pPages && pPages.probPage){
+      pdfFront.style.display = 'inline-flex';
+      pdfFront.textContent = `문제 PDF (p.${pPages.probPage}) ↗`;
+      pdfFront.href = `전수환_경영학_문제.pdf#page=${pPages.probPage}`;
+      pdfFront.onclick = (e) => openPdf('prob', pPages.probPage, e);
+    } else {
+      pdfFront.style.display = 'none';
+    }
+  }   // 긴 문면 = 질문 20(폰 16) · 디자인 §4
   $('card').classList.toggle('tbl', !!c.table);                           // 표 카드는 표가 곧 답 칸 — 가림 면 없음
   $('cBackWrap').classList.remove('on');
   $('gradeBar').classList.remove('on');
@@ -12942,9 +13674,46 @@ function scrollBox(){
   return scr ? (scr.querySelector('.home-wrap, .sub-body') || scr) : null;
 }
 document.addEventListener('keydown',e=>{
+  // 'e' 또는 'E' 키: 현재 카드 수정 모달 열기
+  if((e.key==='e'||e.key==='E') && $('scrSolve').classList.contains('on') && !['INPUT','TEXTAREA'].includes(document.activeElement?.tagName)){
+    const ovl = $('ovlCardEdit');
+    if(!ovl || ovl.style.display==='none'){
+      openCardEditor();
+      e.preventDefault();
+      return;
+    }
+  }
+  // 에디터 모달 열려있을 때 단축키: Ctrl+Enter (저장), Esc (닫기)
+  const editOvl = $('ovlCardEdit');
+  if(editOvl && editOvl.style.display!=='none'){
+    if(e.key==='Escape'){
+      closeCardEditor();
+      e.preventDefault();
+      return;
+    }
+    if(e.key==='Enter' && (e.ctrlKey || e.metaKey)){
+      saveCurrentCardEdit();
+      e.preventDefault();
+      return;
+    }
+  }
+
+  // Shift + 1~5번 키: 객관식 보기 소거(제외) 토글 (물리 키 Digit1~5 지원)
+  const keyDig = (e.code && /^Digit[1-5]$/.test(e.code)) ? e.code.replace('Digit', '') : (['1','2','3','4','5'].includes(e.key) ? e.key : null);
+  if(e.shiftKey && keyDig && $('scrSolve').classList.contains('on') && !revealed){
+    const c = cur();
+    const cardId = c ? (c.id || ('mgmt_' + (c.qid || ''))) : null;
+    const btn = document.querySelector(`.mcq-option[data-original="${keyDig}"]`) || document.querySelectorAll('.mcq-option')[Number(keyDig)-1];
+    if(btn && cardId){
+      toggleEliminateOption(cardId, Number(keyDig), btn);
+      e.preventDefault();
+      return;
+    }
+  }
+
   // 1~5번 키: 객관식 보기 선택
-  if(['1','2','3','4','5'].includes(e.key) && $('scrSolve').classList.contains('on') && !revealed){
-    const btn = document.querySelector(`.mcq-option[data-original="${e.key}"]`) || document.querySelectorAll('.mcq-option')[Number(e.key)-1];
+  if(keyDig && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.metaKey && $('scrSolve').classList.contains('on') && !revealed){
+    const btn = document.querySelector(`.mcq-option[data-original="${keyDig}"]`) || document.querySelectorAll('.mcq-option')[Number(keyDig)-1];
     if(btn){
       btn.click();
       e.preventDefault();
@@ -13489,13 +14258,16 @@ function renderCardSheet(){
     ${(()=>{ /* 도식 카드는 답면이 「(도식 — 회독본 그림과 대조해…)」 한 줄뿐이라, 여기서도
                 회독본으로 갈 길이 있어야 한다. 풀이 화면 뒷면(showDiag)에는 이미 있었는데
                 상세 시트에는 없어서 카드 목록에서 열면 갈 데가 없었다 (동하 2026-08-23). */
-      const u=cardHoedokURI(c);      // null = 회독본이 없는 과목 — 그때는 링크를 안 만든다 (⚠ 13.총창은 이제 있다)
-      if(c.typ==='도식')
-        return `<div class="cs-diag"><b>스스로 채점</b>회독본 그림과 대조해 직접 매기세요.`
-          + (u?` <a href="${u.replace(/&/g,'&amp;')}" onclick="event.stopPropagation()">회독본 ↗</a>`:'') + `</div>`;
-      /* 도식이 아닌 카드도 회독본으로 갈 수 있어야 한다 (동하 2026-08-24). 안내 문구는 없다 —
-         답면이 멀쩡히 있으니 할 말이 없고, 링크 한 줄이면 된다. */
-      return u?`<div class="cs-hoedok"><a href="${u.replace(/&/g,'&amp;')}" onclick="event.stopPropagation()">회독본 ↗</a></div>`:'';
+      const pages = getCardPdfPages(c);
+      if (pages && pages.probPage) {
+        let h = `<div class="cs-hoedok"><a href="전수환_경영학_문제.pdf#page=${pages.probPage}" target="_blank" onclick="openPdf('prob', ${pages.probPage}, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
+        if (pages.ansPage) {
+          h += ` <a href="전수환_경영학_답지.pdf#page=${pages.ansPage}" target="_blank" onclick="openPdf('ans', ${pages.ansPage}, event)" class="ans-pdf-link" style="margin-left:8px; color:var(--c-good);">답지 PDF (p.${pages.ansPage}) ↗</a>`;
+        }
+        h += `</div>`;
+        return h;
+      }
+      return '';
     })()}
     ${c.note?`<div class="cs-note"><b>보충 </b>${noteHtml(c.note)}</div>`:''}
     ${forgetChart(c)}
@@ -14947,10 +15719,16 @@ function hdSaveSpot(){ if(!HD_BROWSE) return; try{ const w=$('hdFrame').contentW
   const v={p:p, y:Math.round(w.scrollY), at:Date.now()}; lsSet(K_HD_LAST, JSON.stringify(v));
   const f=hdFileOf(w.location.pathname); if(f && f!=='index.html'){ const m=hdSpots(); m[f]=v; lsSet(K_HD_SPOTS, JSON.stringify(m)); } }catch(e){} }   // 과목마다 따로(09-29 · 과목을 바꿔도 각자 보던 자리로)
 function hdLastSpot(){ try{ const j=JSON.parse(lsGet(K_HD_LAST)||'null'); return (j&&j.p&&/\/hoedok\//.test(j.p))?j:null; }catch(e){ return null; } }
-function hdBrowse(){                            // 홈 알약 — 마지막 자리가 있으면 거기로, 없으면 과목 목록
-  const last=hdLastSpot();
-  HD_RESUME = last ? {p:last.p, y:last.y||0} : null;
-  openHoedok(last ? last.p : PAN_DIR+'index.html', '회독본'); HD_BROWSE=true;
+function hdBrowse(){
+  let page = 1;
+  try {
+    const c = (typeof cur === 'function') ? cur() : null;
+    if (c) {
+      const p = getCardPdfPages(c);
+      if (p && p.probPage) page = p.probPage;
+    }
+  } catch(_) {}
+  openPdf('prob', page);
 }
 function openHoedok(uri, title, qs, readKey, readN, ans){
   HD_BROWSE=false;
@@ -16102,5 +16880,97 @@ $('ovlImg').onclick=closeImg;
 
 </script>
 <div id="mgmtLightbox" onclick="this.classList.remove('show')"><img id="mgmtLbImg" src="" alt="확대"></div>
+
+<!-- ══════════ 카드 내용 수정 모달 ══════════ -->
+<div id="ovlCardEdit" class="card-edit-overlay" style="display:none;" onclick="if(event.target===this)closeCardEditor();">
+  <div class="card-edit-dialog" onclick="event.stopPropagation();">
+    <div class="card-edit-header">
+      <div class="card-edit-title">
+        <span class="edit-icon">✏️</span>
+        <span id="editModalTitle">문제 내용 수정</span>
+      </div>
+      <button type="button" class="card-edit-close" id="btnEditClose" onclick="closeCardEditor()" title="닫기" aria-label="닫기"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 1l12 12M13 1L1 13"/></svg></button>
+    </div>
+    
+    <div class="card-edit-body">
+      <!-- 출처 태그 -->
+      <div class="edit-field">
+        <label for="editSourceTag">출처 구분</label>
+        <input type="text" id="editSourceTag" class="edit-input" placeholder="예: 경영지도사, 7급 서울시, 가맹거래사 등">
+      </div>
+
+      <!-- 문제 지문 -->
+      <div class="edit-field">
+        <label for="editStem">문제 지문 (Stem)</label>
+        <textarea id="editStem" class="edit-textarea" rows="4" placeholder="문제 지문을 입력하세요"></textarea>
+      </div>
+
+      <!-- 1~5번 보기 및 정답 라디오 -->
+      <div class="edit-field">
+        <label>보기 및 정답 선택 <span class="edit-tip">(원하는 번호 앞의 동그라미를 눌러 정답 지정)</span></label>
+        <div class="edit-choices">
+          <div class="choice-row">
+            <label class="choice-radio-label" title="1번을 정답으로 지정">
+              <input type="radio" name="editCorrectChoice" value="1" id="radioChoice1">
+              <span class="choice-badge">①</span>
+            </label>
+            <textarea id="editChoice1" class="edit-textarea choice-input" rows="2" placeholder="1번 보기 내용"></textarea>
+          </div>
+          <div class="choice-row">
+            <label class="choice-radio-label" title="2번을 정답으로 지정">
+              <input type="radio" name="editCorrectChoice" value="2" id="radioChoice2">
+              <span class="choice-badge">②</span>
+            </label>
+            <textarea id="editChoice2" class="edit-textarea choice-input" rows="2" placeholder="2번 보기 내용"></textarea>
+          </div>
+          <div class="choice-row">
+            <label class="choice-radio-label" title="3번을 정답으로 지정">
+              <input type="radio" name="editCorrectChoice" value="3" id="radioChoice3">
+              <span class="choice-badge">③</span>
+            </label>
+            <textarea id="editChoice3" class="edit-textarea choice-input" rows="2" placeholder="3번 보기 내용"></textarea>
+          </div>
+          <div class="choice-row">
+            <label class="choice-radio-label" title="4번을 정답으로 지정">
+              <input type="radio" name="editCorrectChoice" value="4" id="radioChoice4">
+              <span class="choice-badge">④</span>
+            </label>
+            <textarea id="editChoice4" class="edit-textarea choice-input" rows="2" placeholder="4번 보기 내용"></textarea>
+          </div>
+          <div class="choice-row">
+            <label class="choice-radio-label" title="5번을 정답으로 지정">
+              <input type="radio" name="editCorrectChoice" value="5" id="radioChoice5">
+              <span class="choice-badge">⑤</span>
+            </label>
+            <textarea id="editChoice5" class="edit-textarea choice-input" rows="2" placeholder="5번 보기 내용"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- 해설 텍스트 -->
+      <div class="edit-field">
+        <label for="editExplanation">해설 / 오답 정리</label>
+        <textarea id="editExplanation" class="edit-textarea" rows="4" placeholder="해설 내용을 입력하세요"></textarea>
+      </div>
+      
+      <!-- GitHub 동기화 옵션 -->
+      <div class="edit-sync-row" id="editSyncRow" style="display:none;">
+        <label class="sync-checkbox-label">
+          <input type="checkbox" id="chkEditGhSync" checked>
+          <span>☁️ GitHub 레포에 즉시 반영 (cards-data.json 커밋)</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="card-edit-footer">
+      <button type="button" class="btn-subtle" id="btnEditReset" onclick="resetCurrentCardEdit()" title="수정 전 원본 데이터로 복원합니다">원본 초기화</button>
+      <div class="edit-footer-right">
+        <button type="button" class="btn-secondary" id="btnEditCancel" onclick="closeCardEditor()">취소</button>
+        <button type="button" class="btn-primary" id="btnEditSave" onclick="saveCurrentCardEdit()">저장 (Ctrl+Enter)</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
