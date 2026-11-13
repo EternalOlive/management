@@ -2247,26 +2247,187 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .fw-btns{display:flex;gap:8px;flex-wrap:wrap;}
 
 /* ══════════ 전수환 경영학 MCQ 객관식 스타일 ══════════ */
-.source-badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 13px; font-weight: 700; background: #e0e7ff; color: #3730a3; margin-bottom: 10px; }
-.stem-ocr-text { font-size: 19px; font-weight: 600; line-height: 1.6; color: var(--c-text, #111); margin-bottom: 10px; word-break: keep-all; }
-[data-theme="dark"] .source-badge { background: #312e81; color: #c7d2fe; }
-[data-theme="dark"] .stem-ocr-text { color: #f3f4f6; }
+/* ══════════ 전수환 경영학 객관식 & 카드 에디터 (DESIGN.md 규격 100% 준수) ══════════ */
+.source-badge, .question-number {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 12px;
+  margin-bottom: 12px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-fill);
+  color: var(--c-sec);
+  font-size: 13px;
+  font-weight: 600;
+  border: 0.5px solid var(--c-sep);
+  user-select: none;
+}
+.stem-ocr-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--c-label);
+  margin-bottom: 12px;
+  word-break: keep-all;
+}
 
-.mcq-card, .mcq-result { max-width: 900px; margin: 0 auto; text-align: left; }
-.question-number { display: inline-block; margin-bottom: 12px; padding: 6px 14px; border-radius: 999px; background: #eef2f8; color: #2c497f; font-weight: 700; font-size: 15px; }
-.mcq-stem { padding: 4px 0 16px; border-bottom: 1px solid var(--c-border, #e5e7eb); font-size: 18px; line-height: 1.6; color: var(--c-text, #111); }
-.image-frame img { display: block; max-width: 100%; height: auto; margin: 8px auto; border-radius: 8px; cursor: zoom-in; transition: transform 0.15s ease; }
-.image-frame img:active { transform: scale(0.98); }
-.mcq-options { display: grid; gap: 10px; margin-top: 16px; }
-.mcq-option { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; width: 100%; padding: 12px 14px; border: 1.5px solid var(--c-border, #d1d5db); border-radius: 10px; background: var(--c-card-bg, #fff); color: var(--c-text, #111); cursor: pointer; text-align: left; font-size: 16px; transition: all 0.15s ease; box-sizing: border-box; user-select: none; position: relative; }
-.mcq-option.number-option { display: block; text-align: center; padding: 14px; font-weight: 700; font-size: 18px; }
-/* OX 카드 저장 버튼 (디자인 시스템 보조 캡슐 규격) */
+.mcq-card, .mcq-result {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+.mcq-stem {
+  padding: 4px 0 16px;
+  border-bottom: 0.5px solid var(--c-sep);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--c-label);
+}
+.image-frame img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: var(--r-cell, 12px);
+  border: 0.5px solid var(--c-sep);
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+.image-frame img:active {
+  opacity: 0.85;
+}
+
+/* 객관식 보기 (애플 inset cell 규격) */
+.mcq-options {
+  display: grid;
+  gap: 10px;
+  margin-top: 16px;
+}
+.mcq-option {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  align-items: center;
+  width: 100%;
+  padding: 12px 16px;
+  border: 0.5px solid var(--c-sep);
+  border-radius: var(--r-cell, 12px);
+  background: var(--c-card);
+  color: var(--c-label);
+  cursor: pointer;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: var(--sh-card);
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.08s ease;
+  box-sizing: border-box;
+  user-select: none;
+  position: relative;
+}
+.mcq-option.number-option {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.mcq-option:hover {
+  background: var(--c-fill);
+}
+.mcq-option:active {
+  transform: scale(0.992);
+}
+
+/* 선택 상태: 시스템 단일 강조색 (--c-acc, 눈부신 glow 배제) */
+.mcq-option.selected {
+  background: var(--c-acc-tint) !important;
+  border-color: var(--c-acc) !important;
+  color: var(--c-acc) !important;
+}
+.mcq-option.selected .mcq-label {
+  color: var(--c-acc) !important;
+}
+
+/* 정답 상태: 알맞음 토큰 (--c-green: #34C759 / 다크 #30D158) */
+.mcq-option.correct {
+  background: rgba(52, 199, 89, 0.12) !important;
+  border-color: var(--c-green, #34C759) !important;
+  color: var(--c-green, #34C759) !important;
+  font-weight: 700;
+}
+.mcq-option.correct .mcq-label {
+  color: var(--c-green, #34C759) !important;
+}
+
+/* 오답 상태: 다시 토큰 (--c-red: #FF3B30 / 다크 #FF453A) */
+.mcq-option.incorrect {
+  background: rgba(255, 59, 48, 0.12) !important;
+  border-color: var(--c-red, #FF3B30) !important;
+  color: var(--c-red, #FF3B30) !important;
+  font-weight: 700;
+}
+.mcq-option.incorrect .mcq-label {
+  color: var(--c-red, #FF3B30) !important;
+}
+
+.mcq-label {
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--c-sec);
+}
+.mcq-choice-text {
+  font-size: 16px;
+  line-height: 1.55;
+  word-break: keep-all;
+}
+
+/* 소거(제외) 상태: 은은한 딤 처리 */
+.mcq-option.eliminated {
+  opacity: 0.38 !important;
+  filter: grayscale(80%);
+  background: var(--c-fill) !important;
+  border-color: var(--c-sep) !important;
+}
+.mcq-option.eliminated .mcq-choice-text,
+.mcq-option.eliminated .mcq-label {
+  color: var(--c-sec) !important;
+}
+
+/* 소거 ✕ 버튼 */
+.mcq-elim-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  margin-left: 8px;
+  border-radius: var(--r-pill, 999px);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-ter);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+.mcq-elim-btn:hover {
+  background: rgba(255, 59, 48, 0.12);
+  color: var(--c-red, #FF3B30);
+}
+.mcq-option.eliminated .mcq-elim-btn {
+  color: var(--c-red, #FF3B30);
+  background: rgba(255, 59, 48, 0.1);
+}
+
+/* OX 보조 저장 버튼 */
 .mcq-ox-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 4px 10px;
-  border-radius: 999px;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: var(--r-pill, 999px);
   font-size: 12px;
   font-weight: 600;
   color: var(--c-sec);
@@ -2278,95 +2439,106 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   flex-shrink: 0;
   user-select: none;
 }
-.mcq-ox-btn:hover {
+.mcq-ox-btn:hover, .mcq-ox-btn.saved {
   background: var(--c-acc-tint);
   color: var(--c-acc);
   border-color: var(--c-acc);
 }
-.mcq-ox-btn.saved {
-  background: var(--c-acc-tint);
-  color: var(--c-acc);
-  border-color: var(--c-acc);
+
+.mcq-help {
+  margin-top: 14px;
+  color: var(--c-sec);
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* 결과 및 정답 뱃지 */
+.mcq-result {
+  margin-top: 16px;
+}
+.mcq-answer-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 14px;
+  margin: 4px 0 14px;
+  border-radius: var(--r-pill, 999px);
+  background: rgba(52, 199, 89, 0.14);
+  color: var(--c-green, #34C759);
   font-weight: 700;
+  font-size: 15px;
+  border: 0.5px solid rgba(52, 199, 89, 0.3);
 }
 
-.mcq-option:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
-.mcq-option.selected { border-color: #2563eb !important; background: #eff6ff !important; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25); }
-.mcq-option.correct { border-color: #16a34a !important; background: #dcfce7 !important; color: #15803d !important; font-weight: 700; box-shadow: 0 0 0 2px #22c55e !important; }
-.mcq-option.incorrect { border-color: #dc2626 !important; background: #fee2e2 !important; color: #b91c1c !important; font-weight: 700; box-shadow: 0 0 0 2px #ef4444 !important; }
-.mcq-option.correct .mcq-label { color: #15803d !important; }
-.mcq-option.incorrect .mcq-label { color: #b91c1c !important; }
-.mcq-label { font-size: 20px; font-weight: 800; text-align: center; color: var(--c-label, #4b5563); }
-.mcq-choice-text { font-size: 16px; line-height: 1.55; word-break: keep-all; }
+/* 해설 상자 */
+.mcq-explanation {
+  margin-top: 12px;
+  padding: 16px 18px;
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
+  border-radius: var(--r-cell, 12px);
+  line-height: 1.75;
+  font-size: 15.5px;
+  color: var(--c-label);
+}
+.mcq-exp-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--c-sec);
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid var(--c-sep);
+  letter-spacing: 0.5px;
+}
+.mcq-exp-text {
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.7;
+}
 
-/* 소거(제외) 스타일 - 취소선 없이 은은하게 흐림(dim) 처리 */
-.mcq-option.eliminated { opacity: 0.35 !important; filter: grayscale(70%); background: var(--c-fill, #f8fafc) !important; border-color: #e2e8f0 !important; }
-.mcq-option.eliminated .mcq-choice-text,
-.mcq-option.eliminated .mcq-label { color: #94a3b8 !important; }
-.mcq-option.eliminated:hover { opacity: 0.65 !important; border-color: #cbd5e1 !important; }
-
-/* 모바일/마우스 겸용 소거(X) 버튼 */
-.mcq-elim-btn { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; margin-left: 8px; border-radius: 6px; font-size: 15px; font-weight: 800; color: #94a3b8; cursor: pointer; transition: all 0.15s ease; flex-shrink: 0; }
-.mcq-elim-btn:hover { background: rgba(239, 68, 68, 0.12); color: #ef4444; }
-.mcq-option.eliminated .mcq-elim-btn { color: #ef4444; background: rgba(239, 68, 68, 0.08); }
-
-.mcq-help { margin-top: 14px; color: #6b7280; font-size: 13px; text-align: center; line-height: 1.5; }
-.mcq-result { margin-top: 16px; }
-.mcq-answer-badge { display: inline-block; margin: 4px 0 14px; padding: 8px 18px; border-radius: 999px; background: #22c55e; color: #fff; font-weight: 800; font-size: 17px; }
-.mcq-explanation { margin-top: 10px; padding: 16px 18px; background: var(--c-fill, #f8fafc); border: 1.5px solid #cbd5e1; border-radius: 12px; line-height: 1.75; font-size: 15.5px; color: var(--c-text, #1e293b); box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
-.mcq-exp-title { font-weight: 800; font-size: 15px; color: #2563eb; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 1px solid #e2e8f0; }
-.mcq-exp-text { white-space: normal; word-break: keep-all; overflow-wrap: break-word; font-size: 15.5px; line-height: 1.75; }
-
-/* 다크모드 대응 */
-[data-theme="dark"] .question-number { background: #1e293b; color: #93c5fd; }
-[data-theme="dark"] .mcq-option { background: #1f2937; border-color: #374151; color: #f3f4f6; }
-[data-theme="dark"] .mcq-option:hover { background: #374151; border-color: #60a5fa; }
-[data-theme="dark"] .mcq-option.selected { background: #1e3a8a !important; border-color: #60a5fa !important; }
-[data-theme="dark"] .mcq-option.correct { background: #064e3b !important; border-color: #34d399 !important; color: #a7f3d0 !important; box-shadow: 0 0 0 2px #34d399 !important; }
-[data-theme="dark"] .mcq-option.incorrect { background: #7f1d1d !important; border-color: #f87171 !important; color: #fecaca !important; box-shadow: 0 0 0 2px #f87171 !important; }
-[data-theme="dark"] .mcq-option.correct .mcq-label { color: #a7f3d0 !important; }
-[data-theme="dark"] .mcq-option.incorrect .mcq-label { color: #fecaca !important; }
-[data-theme="dark"] .mcq-option.eliminated { opacity: 0.32 !important; background: #18202c !important; border-color: #334155 !important; }
-[data-theme="dark"] .mcq-option.eliminated .mcq-choice-text,
-[data-theme="dark"] .mcq-option.eliminated .mcq-label { color: #64748b !important; }
-[data-theme="dark"] .mcq-elim-btn { color: #64748b; }
-[data-theme="dark"] .mcq-elim-btn:hover { background: rgba(248, 113, 113, 0.2); color: #f87171; }
-[data-theme="dark"] .mcq-option.eliminated .mcq-elim-btn { color: #f87171; background: rgba(248, 113, 113, 0.15); }
-[data-theme="dark"] .mcq-explanation { background: #1e293b; border-color: #334155; color: #f1f5f9; }
-[data-theme="dark"] .mcq-exp-title { color: #60a5fa; border-color: #334155; }
-
-/* PDF 이동 버튼 스타일 */
-.pdf-btn-group { display: inline-flex; gap: 6px; align-items: center; margin-left: 10px; vertical-align: middle; }
-.pdf-jump-btn { display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px; border-radius: 999px; font-size: 13.5px; font-weight: 700; border: 1.5px solid #d1d5db; background: var(--c-fill, #f3f4f6); color: var(--c-label, #1f2937); cursor: pointer; text-decoration: none; transition: all 0.15s ease; box-shadow: 0 1px 2px rgba(0,0,0,0.05); }
-.pdf-jump-btn:hover { transform: translateY(-1px); box-shadow: 0 3px 6px rgba(0,0,0,0.1); }
-.pdf-jump-btn.prob-btn { background: #eff6ff; color: #1d4ed8; border-color: #93c5fd; }
-.pdf-jump-btn.prob-btn:hover { background: #dbeafe; border-color: #3b82f6; }
-.pdf-jump-btn.ans-btn { background: #f0fdf4; color: #15803d; border-color: #86efac; }
-.pdf-jump-btn.ans-btn:hover { background: #dcfce7; border-color: #22c55e; }
-[data-theme="dark"] .pdf-jump-btn.prob-btn { background: #1e3a8a; color: #bfdbfe; border-color: #3b82f6; }
-[data-theme="dark"] .pdf-jump-btn.prob-btn:hover { background: #1d4ed8; }
-[data-theme="dark"] .pdf-jump-btn.ans-btn { background: #064e3b; color: #bbf7d0; border-color: #10b981; }
-[data-theme="dark"] .pdf-jump-btn.ans-btn:hover { background: #047857; }
-
-
-/* ─── 문제 / 답지 PDF 바로가기 버튼 스타일 ─── */
-.c-pdf-btn {
+/* ─── PDF 점프 및 회독본 캡슐 버튼 (DESIGN.md 보조 캡슐 표준 규격) ─── */
+.pdf-btn-group {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.c-pdf-btn, .pdf-jump-btn, #cHoedok a {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 4px 10px;
-  font-size: 13px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 12px;
+  border-radius: var(--r-pill, 999px);
+  font-size: 12px;
   font-weight: 600;
-  color: var(--c-sec, #2563eb);
-  background: var(--c-fill, rgba(59, 130, 246, 0.08));
-  border-radius: 999px;
+  color: var(--c-sec);
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
   text-decoration: none;
-  transition: all .15s ease;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   white-space: nowrap;
+  user-select: none;
+  box-sizing: border-box;
 }
-.c-pdf-btn:hover {
-  background: var(--c-fill-hi, rgba(59, 130, 246, 0.16));
-  color: var(--accent, #1d4ed8);
+.c-pdf-btn:hover, .pdf-jump-btn:hover, #cHoedok a:hover {
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  border-color: var(--c-acc);
+}
+.pdf-jump-btn.ans-btn, #cHoedok a.ans-pdf-link {
+  color: var(--c-green, #34C759);
+}
+.pdf-jump-btn.ans-btn:hover, #cHoedok a.ans-pdf-link:hover {
+  background: rgba(52, 199, 89, 0.12);
+  border-color: var(--c-green, #34C759);
 }
 #cHoedok {
   display: none;
@@ -2377,85 +2549,73 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 #cHoedok.on {
   display: flex !important;
 }
-#cHoedok a {
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: var(--c-fill, rgba(0,0,0,0.05));
-  transition: all .15s ease;
-}
-#cHoedok a:hover {
-  background: var(--c-fill-hi, rgba(0,0,0,0.1));
-}
-#cHoedok a.prob-pdf-link {
-  color: var(--c-sec, #2563eb);
-}
-#cHoedok a.ans-pdf-link {
-  color: #16a34a;
-}
 
-
-/* ══════════ 경영학 카드 수정 모달 스타일 (v2: 이미지 삭제 및 4지선다 지원) ══════════ */
+/* ══════════ 경영학 카드 수정 모달 (DESIGN.md 패널 및 시트 규격) ══════════ */
 .card-edit-overlay {
   position: fixed;
   inset: 0;
   z-index: 99999;
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(4px);
+  background: var(--c-glass-shadow, rgba(0, 0, 0, 0.5));
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 20px;
   box-sizing: border-box;
 }
 .card-edit-dialog {
-  background: var(--c-bg, #ffffff);
-  color: var(--c-text, #111827);
-  border-radius: 16px;
+  background: var(--c-card);
+  color: var(--c-label);
+  border-radius: var(--r-panel, 26px);
   max-width: 680px;
   width: 100%;
-  max-height: 90vh;
+  max-height: 88vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  border: 1px solid var(--c-border, #e5e7eb);
+  border: 0.5px solid var(--c-sep);
   animation: editModalPop 0.18s cubic-bezier(0.16, 1, 0.3, 1);
 }
 @keyframes editModalPop {
-  from { opacity: 0; transform: scale(0.96) translateY(8px); }
+  from { opacity: 0; transform: scale(0.97) translateY(8px); }
   to { opacity: 1; transform: scale(1) translateY(0); }
 }
 .card-edit-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 20px;
-  border-bottom: 1px solid var(--c-border, #e5e7eb);
-  background: var(--c-card-bg, #f9fafb);
+  padding: 16px 22px;
+  border-bottom: 0.5px solid var(--c-sep);
+  background: var(--c-card);
 }
 .card-edit-title {
   font-weight: 700;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  font-size: 17px;
+  color: var(--c-label);
 }
 .card-edit-close {
   background: transparent;
   border: none;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   cursor: pointer;
-  color: #6b7280;
-  padding: 4px 8px;
-  border-radius: 6px;
+  color: var(--c-sec);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-pill, 999px);
+  transition: background 0.15s ease;
 }
-.card-edit-close:hover { color: #111; background: rgba(0,0,0,0.06); }
+.card-edit-close:hover {
+  background: var(--c-fill);
+  color: var(--c-label);
+}
 .card-edit-body {
-  padding: 16px 20px;
+  padding: 18px 22px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -2474,39 +2634,39 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 }
 .edit-field label {
   font-size: 13px;
-  font-weight: 700;
-  color: var(--c-label, #374151);
+  font-weight: 600;
+  color: var(--c-sec);
 }
 .edit-tip {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: normal;
-  color: #6b7280;
+  color: var(--c-sec);
+  opacity: 0.8;
 }
 .edit-input, .edit-textarea {
   width: 100%;
   box-sizing: border-box;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1.5px solid var(--c-border, #d1d5db);
-  background: var(--c-card-bg, #fff);
-  color: var(--c-text, #111);
+  padding: 10px 14px;
+  border-radius: var(--r-cell, 12px);
+  border: 0.5px solid var(--c-sep);
+  background: var(--c-fill);
+  color: var(--c-label);
   font-family: inherit;
-  font-size: 14px;
+  font-size: 14.5px;
   line-height: 1.5;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 .edit-input:focus, .edit-textarea:focus {
-  border-color: #2563eb;
+  border-color: var(--c-acc);
   outline: none;
-  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
 }
 
 /* 이미지 관리 구역 */
 .edit-image-zone {
-  border: 1.5px dashed var(--c-border, #d1d5db);
-  border-radius: 10px;
+  border: 0.5px dashed var(--c-sep);
+  border-radius: var(--r-cell, 12px);
   padding: 12px 14px;
-  background: rgba(0,0,0,0.02);
+  background: var(--c-fill);
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -2518,18 +2678,18 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 }
 .edit-image-label {
   font-size: 13px;
-  font-weight: 700;
-  color: var(--c-label, #374151);
+  font-weight: 600;
+  color: var(--c-sec);
 }
 .edit-image-preview-wrapper {
   max-height: 180px;
   overflow: hidden;
-  border-radius: 6px;
-  background: #000;
+  border-radius: 8px;
+  background: var(--c-card);
+  border: 0.5px solid var(--c-sep);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.2s ease;
 }
 .edit-image-preview-wrapper img {
   max-width: 100%;
@@ -2537,24 +2697,25 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   object-fit: contain;
 }
 .edit-image-removed-notice {
-  background: #fef2f2;
-  border: 1px solid #fca5a5;
-  border-radius: 6px;
+  background: rgba(255, 59, 48, 0.1);
+  border: 0.5px solid var(--c-red, #FF3B30);
+  border-radius: 8px;
   padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;
-  color: #b91c1c;
+  color: var(--c-red, #FF3B30);
   font-weight: 600;
 }
 .btn-restore-img {
-  background: #dc2626;
+  background: var(--c-red, #FF3B30);
   color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 3px 8px;
+  border-radius: var(--r-pill, 999px);
+  padding: 4px 10px;
   font-size: 11px;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -2581,14 +2742,14 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .choice-badge {
   font-size: 18px;
   font-weight: 700;
-  color: #6b7280;
+  color: var(--c-sec);
   width: 24px;
   text-align: center;
   transition: all 0.15s ease;
 }
 .choice-radio-label input[type="radio"]:checked + .choice-badge {
-  color: #16a34a;
-  transform: scale(1.2);
+  color: var(--c-green, #34C759);
+  transform: scale(1.15);
   font-weight: 900;
 }
 .choice-input {
@@ -2597,41 +2758,43 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 }
 .btn-remove-choice {
   background: transparent;
-  border: 1px solid transparent;
-  color: #9ca3af;
+  border: none;
+  color: var(--c-sec);
   font-size: 18px;
   line-height: 1;
-  padding: 4px 6px;
-  border-radius: 6px;
+  padding: 4px 8px;
+  border-radius: var(--r-pill, 999px);
   cursor: pointer;
   margin-top: 6px;
+  transition: background 0.15s ease;
 }
 .btn-remove-choice:hover {
-  color: #ef4444;
-  background: #fee2e2;
+  color: var(--c-red, #FF3B30);
+  background: rgba(255, 59, 48, 0.12);
 }
 .btn-add-choice {
   width: 100%;
-  padding: 8px;
-  background: rgba(37, 99, 235, 0.06);
-  border: 1.5px dashed #93c5fd;
-  color: #2563eb;
-  border-radius: 8px;
+  height: 36px;
+  background: var(--c-fill);
+  border: 0.5px dashed var(--c-sep);
+  color: var(--c-sec);
+  border-radius: var(--r-pill, 999px);
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.15s ease;
 }
 .btn-add-choice:hover {
-  background: rgba(37, 99, 235, 0.12);
-  border-color: #2563eb;
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  border-color: var(--c-acc);
 }
 
 .edit-sync-row {
-  padding: 10px 12px;
-  border-radius: 8px;
-  background: rgba(37, 99, 235, 0.06);
-  border: 1px dashed rgba(37, 99, 235, 0.3);
+  padding: 10px 14px;
+  border-radius: var(--r-cell, 12px);
+  background: var(--c-fill);
+  border: 0.5px solid var(--c-sep);
 }
 .sync-checkbox-label {
   display: flex;
@@ -2639,14 +2802,15 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   gap: 8px;
   font-size: 13px;
   font-weight: 600;
-  color: #1d4ed8;
+  color: var(--c-sec);
   cursor: pointer;
   user-select: none;
 }
+
 .card-edit-footer {
-  padding: 12px 20px;
-  border-top: 1px solid var(--c-border, #e5e7eb);
-  background: var(--c-card-bg, #f9fafb);
+  padding: 14px 22px;
+  border-top: 0.5px solid var(--c-sep);
+  background: var(--c-card);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2656,77 +2820,50 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   gap: 10px;
 }
 .btn-primary {
-  background: #2563eb;
+  background: var(--c-acc-fill, #007AFF);
   color: #fff;
   border: none;
-  padding: 8px 18px;
-  border-radius: 8px;
+  padding: 0 18px;
+  height: 36px;
+  border-radius: var(--r-pill, 999px);
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  transition: background 0.15s;
+  transition: opacity 0.15s ease;
 }
-.btn-primary:hover { background: #1d4ed8; }
+.btn-primary:hover {
+  opacity: 0.9;
+}
 .btn-secondary {
-  background: var(--c-fill, #e5e7eb);
-  color: var(--c-text, #374151);
-  border: none;
-  padding: 8px 16px;
-  border-radius: 8px;
+  background: var(--c-fill);
+  color: var(--c-label);
+  border: 0.5px solid var(--c-sep);
+  padding: 0 16px;
+  height: 36px;
+  border-radius: var(--r-pill, 999px);
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
+  transition: background 0.15s ease;
+}
+.btn-secondary:hover {
+  background: var(--c-card);
 }
 .btn-subtle {
   background: transparent;
-  color: #ef4444;
-  border: 1px solid #fca5a5;
-  padding: 6px 12px;
-  border-radius: 6px;
+  color: var(--c-red, #FF3B30);
+  border: 0.5px solid var(--c-sep);
+  padding: 0 12px;
+  height: 32px;
+  border-radius: var(--r-pill, 999px);
   font-size: 12px;
+  font-weight: 600;
   cursor: pointer;
+  transition: background 0.15s ease;
 }
-.btn-subtle:hover { background: #fef2f2; }
-
-/* 다크모드 대응 */
-[data-theme="dark"] .card-edit-dialog {
-  background: #1e293b;
-  border-color: #334155;
-  color: #f1f5f9;
+.btn-subtle:hover {
+  background: rgba(255, 59, 48, 0.1);
 }
-[data-theme="dark"] .card-edit-header, [data-theme="dark"] .card-edit-footer {
-  background: #0f172a;
-  border-color: #334155;
-}
-[data-theme="dark"] .edit-input, [data-theme="dark"] .edit-textarea {
-  background: #0f172a;
-  border-color: #334155;
-  color: #f8fafc;
-}
-[data-theme="dark"] .edit-image-zone {
-  background: rgba(255,255,255,0.03);
-  border-color: #334155;
-}
-[data-theme="dark"] .btn-secondary {
-  background: #334155;
-  color: #e2e8f0;
-}
-[data-theme="dark"] .choice-badge {
-  color: #94a3b8;
-}
-[data-theme="dark"] .edit-sync-row {
-  background: rgba(30, 58, 138, 0.25);
-  border-color: #3b82f6;
-}
-[data-theme="dark"] .sync-checkbox-label {
-  color: #93c5fd;
-}
-[data-theme="dark"] .btn-add-choice {
-  background: rgba(30, 58, 138, 0.3);
-  border-color: #3b82f6;
-  color: #93c5fd;
-}
-
 </style>
 </head>
 <body>
@@ -10063,13 +10200,13 @@ async function saveCurrentCardEdit() {
   if (chkSync && chkSync.checked && typeof ghPut === 'function') {
     const token = typeof ghToken === 'function' ? ghToken() : (lsGet('cfg_token') || '');
     if (token) {
-      toast('☁️ GitHub에 동기화 중...');
+      toast('GitHub에 동기화 중...');
       try {
         await ghPut(DATA_PATH, () => ({ v: 1, cards: DATA }));
-        toast('☁️ GitHub 저장소(cards-data.json)에 반영 완료!');
+        toast('GitHub 저장소(cards-data.json)에 반영 완료!');
       } catch(err) {
         console.error('[GitHub Sync Error]', err);
-        toast('⚠️ GitHub 동기화 실패 (로컬 저장은 완료됨)');
+        toast('GitHub 동기화 실패 (로컬 저장은 완료됨)');
       }
     }
   }
@@ -17041,7 +17178,7 @@ $('ovlImg').onclick=closeImg;
   <div class="card-edit-dialog" onclick="event.stopPropagation();">
     <div class="card-edit-header">
       <div class="card-edit-title">
-        <span class="edit-icon">✏️</span>
+        
         <span id="editModalTitle">문제 내용 수정</span>
       </div>
       <button type="button" class="card-edit-close" id="btnEditClose" onclick="closeCardEditor()" title="닫기">&times;</button>
@@ -17063,14 +17200,14 @@ $('ovlImg').onclick=closeImg;
       <!-- [NEW] 이미지 미리보기 및 삭제 영역 -->
       <div id="editImageZone" class="edit-image-zone" style="display:none;">
         <div class="edit-image-header">
-          <span class="edit-image-label">🖼️ 문제 첨부 이미지</span>
-          <button type="button" class="btn-subtle" id="btnToggleRemoveImage" onclick="toggleRemoveImage()">🗑️ 이미지 삭제</button>
+          <span class="edit-image-label">문제 첨부 이미지</span>
+          <button type="button" class="btn-subtle" id="btnToggleRemoveImage" onclick="toggleRemoveImage()">이미지 삭제</button>
         </div>
         <div class="edit-image-preview-wrapper" id="editImagePreviewWrapper">
           <img id="editImagePreview" src="" alt="문제 이미지 미리보기">
         </div>
         <div id="editImageRemovedNotice" class="edit-image-removed-notice" style="display:none;">
-          <span>⚠️ 이미지가 삭제 예정입니다. (저장 시 완전히 제거됩니다)</span>
+          <span>이미지가 삭제 예정입니다 (저장 시 완전히 제거됩니다)</span>
           <button type="button" class="btn-restore-img" onclick="toggleRemoveImage()">되돌리기</button>
         </div>
       </div>
@@ -17119,7 +17256,7 @@ $('ovlImg').onclick=closeImg;
             <button type="button" class="btn-remove-choice" id="btnRemoveChoice5" onclick="setChoiceCount(4)" title="5번 보기 제거 (4지선다로 변경)">&times;</button>
           </div>
           <div id="addChoice5Zone" style="display:none;">
-            <button type="button" class="btn-add-choice" onclick="setChoiceCount(5)">➕ 5번 보기 추가 (5지선다로 변경)</button>
+            <button type="button" class="btn-add-choice" onclick="setChoiceCount(5)">＋ 5번 보기 추가 (5지선다로 변경)</button>
           </div>
         </div>
       </div>
@@ -17134,7 +17271,7 @@ $('ovlImg').onclick=closeImg;
       <div class="edit-sync-row" id="editSyncRow" style="display:none;">
         <label class="sync-checkbox-label">
           <input type="checkbox" id="chkEditGhSync" checked>
-          <span>☁️ GitHub 레포에 즉시 반영 (cards-data.json 커밋)</span>
+          <span>GitHub 레포에 즉시 반영 (cards-data.json 커밋)</span>
         </label>
       </div>
     </div>
