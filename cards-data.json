@@ -1,5 +1,5 @@
 {
-  "v": 2,
+  "v": 1,
   "cards": [
     {
       "id": "mgmt_0001",
@@ -238,22 +238,57 @@
       "id": "mgmt_0010",
       "qid": "0010",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0010\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0010</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">7급 서울시</span>\n    <div class=\"stem-ocr-text\">&lt;보기&gt;에서 전문경영자의 장점을 모두 고른 것은? &lt;보기&gt; 경영의 전문화, 합리화 드 환경변화에의 빠른 적응 근 회사의 안정적 성장 1 기 t:</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0010.webp\" alt=\"문제 0010 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0010\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0010</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2021 7급 서울시</span>\n    <div class=\"stem-ocr-text\"><보기>에서 전문경영자의 장점을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">과감한 경영혁신</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">경영의 전문화, 합리화</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">환경변화에의 빠른 적응</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">회사의 안정적 성장</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0010\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">-가 소유경영자의 장점 L- 전문경영자의 장점<br>③ 소유경영자의 장점 근 전문경영자의 장점</div>\n  </div>\n</div>",
-      "stemText": "<보기>에서 전문경영자의 장점을 모두 고른 것은? <보기> 경영의 전문화, 합리화 드 환경변화에의 빠른 적응 근 회사의 안정적 성장 1 기 t:",
-      "choices": [],
+      "stemText": "<보기>에서 전문경영자의 장점을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ, ㄷ",
+        "2번: ② ㄱ, ㄹ",
+        "3번: ③ ㄴ, ㄷ",
+        "4번: ④ ㄴ, ㄹ"
+      ],
       "note": "정답: 4번",
       "search": "문제 0010 | 1.01 경영학일반 | 7급 서울시 | <보기>에서 전문경영자의 장점을 모두 고른 것은? <보기> 경영의 전문화, 합리화 드 환경변화에의 빠른 적응 근 회사의 안정적 성장 1 기 t: | ",
       "tags": [
         "1.01 경영학일반",
         "문 0010"
       ],
-      "sourceTag": "7급 서울시",
+      "sourceTag": "2021 7급 서울시",
       "explanationText": "-가 소유경영자의 장점 L- 전문경영자의 장점\n③ 소유경영자의 장점 근 전문경영자의 장점",
       "probPage": 19,
-      "ansPage": 2
+      "ansPage": 2,
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "과감한 경영혁신",
+          "isCorrect": false,
+          "reason": "소유경영자의 특징 (과감한 혁신과 빠른 결단)"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "경영의 전문화, 합리화",
+          "isCorrect": true,
+          "desc": "전문경영자의 장점 (전문화 및 합리적 관리)"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "환경변화에의 빠른 적응",
+          "isCorrect": false,
+          "reason": "소유경영자의 특징 (환경변화에 신속 대응)"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "회사의 안정적 성장",
+          "isCorrect": true,
+          "desc": "전문경영자의 장점 (안정적·지속적 성장 도모)"
+        }
+      ]
     },
     {
       "id": "mgmt_0011",
@@ -336,7 +371,7 @@
       "subj": "1.01 경영학일반",
       "typ": "박스선택형",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0014\" data-shuffle=\"false\" data-mode=\"statement-multi\">\n  <div class=\"question-number\">문제 0014*** · RemNote 다중선택</div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">전문경영자에 대한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>진술문 보기 (탭하여 옳은 선지 중복 선택)</span>\n        <span class=\"mcq-stmt-hint\">단축키: ㄱ/ㄴ/ㄷ/ㄹ 또는 1~4</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 자율적 경영과 경영관리의 합리화를 추구하는 성향을 보인다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 외부 환경변화에 빠르게 대응할 수 있다는 장점이 있다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 소유경영자에 비해 상대적으로 강력한 리더십의 발휘가 가능하다는 장점이 있다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 단기적 기업 이익 및 성과에 집착하는 성향이 강하다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n    </div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0014.webp\" alt=\"문제 0014 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\">\n    <button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">① ㄱ, ㄴ</span></button>\n    <button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">② ㄱ, ㄹ</span></button>\n    <button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③ ㄴ, ㄷ</span></button>\n    <button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④ ㄴ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">각 진술문을 탭하여 중복 선택하세요 · Space: 정답 확인</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0014\" data-shuffle=\"false\" data-mode=\"statement-multi\">\n  <div class=\"question-number\">문제 0014</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">전문경영자에 대한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 자율적 경영과 경영관리의 합리화를 추구하는 성향을 보인다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 외부 환경변화에 빠르게 대응할 수 있다는 장점이 있다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 소유경영자에 비해 상대적으로 강력한 리더십의 발휘가 가능하다는 장점이 있다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영자는 단기적 기업 이익 및 성과에 집착하는 성향이 강하다.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄹ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0014\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">② ㄱ, ㄹ</span></div>\n  <div class=\"mcq-stmt-summary\" id=\"stmtSummary0014\"></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">상세 해설</div>\n    <div class=\"mcq-exp-text\">\n      • <b>ㄱ (O):</b> 전문경영자는 전문 지식을 바탕으로 자율적이고 합리적인 경영관리 방식을 추구합니다.<br>\n      • <b>ㄴ (X):</b> 외부 환경변화에 빠르게 대응할 수 있는 것은 소유경영자(단독 의사결정)의 장점입니다.<br>\n      • <b>ㄷ (X):</b> 강력한 리더십과 카리스마를 발휘하기 쉬운 것은 소유경영자의 특징입니다.<br>\n      • <b>ㄹ (O):</b> 전문경영자는 고용된 경영자이므로 자신의 재임 기간 내 단기적 실적과 이익에 집착하는 경향(단기주의)이 있습니다.\n    </div>\n  </div>\n</div>",
       "stemText": "001十 23 5 군무원 전문경영자에 대한 설명으로 옳은 것을 모두 고른 것은? 던문경영자는 자율적 경영과 경영관리의 합리회를 하는 성향을 보인다. X 전문경 영자는 외부 환경 빠르게 대응할 수 있다는 장점이 있다. 丞. 전문경영자는 소유경영자에 비해 상대적으로 강력한 리더십의 발휘가 가능하다는 장점이 있다. 전문경영자는 단기적 기업 이익 및 성과에 집착하는 향이 강하다.",
       "choices": [
@@ -444,12 +479,18 @@
       "id": "mgmt_0017",
       "qid": "0017",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0017\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0017***</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2024 공인노무사 카츠(R. L. Katz)가 제시한 경영자의 기술에 관한 설명으로 옳은 것을 모두 고른 것은?. 전문적 기술은 자신의 업무를 정확히 파악하고 능숙하게 처리하는 능력을 말한다. u- 인간적 기술은 다른 조직구성원과 원만한 인간관계를 유지하는 능력을 말한다. 다개님적 기술은 조직의 현황이나 현안을 파악하여 세부적으로 처 리하는 실무적 능력을 말한다. 가 -1 1-</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0017.webp\" alt=\"문제 0017 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0017\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0017</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2024 공인노무사</span>\n    <div class=\"stem-ocr-text\">카츠(R. L. Katz)가 제시한 경영자의 기술에 관한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문적 기술은 자신의 업무를 정확히 파악하고 능숙하게 처리하는 능력을 말한다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">인간적 기술은 다른 조직구성원과 원만한 인간관계를 유지하는 능력을 말한다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">개념적 기술은 조직의 현황이나 현안을 파악하여 세부적으로 처리하는 실무적 능력을 말한다.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0017\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">다 조직의 현황이나 현안을 파악하여 세부적으로 처리하는 실무적 능력은 전문적 기술에 해당하고, 개념화 능력 (concepwal skills = 개념적 기술)은 기업의 모든 이해 관계와 활동을 조정하고 통합할 수 있는 능력으로 이것은 기업을 전체적인 관점에서 바라볼 수 있고, 기업 내의 각 부분은 서로 어떤 연관성이 있으며, 한 부분에서의 변 화가 기업 전체에 어떤 영향을 미실 것인가를 예측할 수 있는 능력을 말한다</div>\n  </div>\n</div>",
-      "stemText": "2024 공인노무사 카츠(R. L. Katz)가 제시한 경영자의 기술에 관한 설명으로 옳은 것을 모두 고른 것은?. 전문적 기술은 자신의 업무를 정확히 파악하고 능숙하게 처리하는 능력을 말한다. u- 인간적 기술은 다른 조직구성원과 원만한 인간관계를 유지하는 능력을 말한다. 다개님적 기술은 조직의 현황이나 현안을 파악하여 세부적으로 처 리하는 실무적 능력을 말한다. 가 -1 1-",
-      "choices": [],
+      "stemText": "카츠(R. L. Katz)가 제시한 경영자의 기술에 관한 설명으로 옳은 것을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ",
+        "2번: ② ㄴ",
+        "3번: ③ ㄱ, ㄴ",
+        "4번: ④ ㄱ, ㄷ",
+        "5번: ⑤ ㄱ, ㄴ, ㄷ"
+      ],
       "note": "정답: 3번",
       "search": "문제 0017 | 1.01 경영학일반 |  | 2024 공인노무사 카츠(R. L. Katz)가 제시한 경영자의 기술에 관한 설명으로 옳은 것을 모두 고른 것은? . 전문적 기술은 자신의 업무를 정확히 파악하고 능숙하게 처리하는 능력을 말한다. u- 인간적 기술은 다른 조직구성원과 원만한 인간관계를 유지하는 능력을 말한다. 다개님적 기술은 조직의 현황이나 현안을 파악하여 세부적으로 처 리하는 실무적 능력을 말한다. 가 -1 1- | ",
       "tags": [
@@ -458,7 +499,31 @@
       ],
       "explanationText": "다 조직의 현황이나 현안을 파악하여 세부적으로 처리하는 실무적 능력은 전문적 기술에 해당하고, 개념화 능력 (concepwal skills = 개념적 기술)은 기업의 모든 이해 관계와 활동을 조정하고 통합할 수 있는 능력으로 이것은 기업을 전체적인 관점에서 바라볼 수 있고, 기업 내의 각 부분은 서로 어떤 연관성이 있으며, 한 부분에서의 변 화가 기업 전체에 어떤 영향을 미실 것인가를 예측할 수 있는 능력을 말한다",
       "probPage": 20,
-      "ansPage": 3
+      "ansPage": 3,
+      "sourceTag": "2024 공인노무사",
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "전문적 기술은 자신의 업무를 정확히 파악하고 능숙하게 처리하는 능력을 말한다.",
+          "isCorrect": true,
+          "desc": "전문적 기술(Technical skill): 일선경영층에 가장 필요"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "인간적 기술은 다른 조직구성원과 원만한 인간관계를 유지하는 능력을 말한다.",
+          "isCorrect": true,
+          "desc": "인간적 기술(Human skill): 모든 계층에 공통적으로 필요"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "개념적 기술은 조직의 현황이나 현안을 파악하여 세부적으로 처리하는 실무적 능력을 말한다.",
+          "isCorrect": false,
+          "reason": "개념적 기술(Conceptual skill)은 조직 전체를 거시적으로 조망하고 파악하는 최고경영층의 능력"
+        }
+      ]
     },
     {
       "id": "mgmt_0018",
@@ -543,17 +608,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0021\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0021</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">5급 군무원</span>\n    <div class=\"stem-ocr-text\">경영충의 기능은 수탁기능과 전반관리기능으로 구분된다 다음 중 전반관리기능에 대한 설명으로 가장 적절한 것은? ㉦ 주주의 이익을 대표하고 보호하는 기능이다 ㉣ 이 기능은 주로 이사회가 담당한다 ㉦ 기업 전체 경영을 위해 계획•조직 •통제하는 기능을 한 다 기업 자산을 관리하고 자산의 효과적인 활용을 도모한 다 기업가정신</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0021.webp\" alt=\"문제 0021 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0021\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0021</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2024 5급 군무원</span>\n    <div class=\"stem-ocr-text\">최고경영층의 기능은 수탁기능과 전반관리기능으로 구분된다. 다음 중 전반관리기능에 대한 설명으로 가장 적절한 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">주주의 이익을 대표하고 보호하는 기능이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">이 기능은 주로 이사회가 담당한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기업 전체 경영을 위해 계획·조직·통제하는 기능을 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업 자산을 관리하고 자산의 효과적인 활용을 도모한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0021\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">통상적으로 최고경영층(top management)은 수탁기능과 전반관리기능으로 구분되는데, 각각을 보면 다음과 같다. ㉠ 수탁관리기능(the trusteeship function). 주주의 이익을 대표, 보호, 측진하는 역할을 수행한다.<br>• 기업의 기본정책 및 일반적인 방향을 결정하며 전체적인 성과를 평가한다.<br>• 기업재산을 관리하며 동시에 보다 더 효과적인 활용을 도 모하는 기능을 수행한다. ㉡ 전반관리기능(the general management funcüon)<br>• 기업 전체에 관련되는 기능을 수행하지만 전반관리기능의 경우 이사회가 정한 기본정책의 범위 내에서 기업 전체를 적극적으로 계획, 조직, 통제하게 되는 기능을 말한다.</div>\n  </div>\n</div>",
-      "stemText": "경영충의 기능은 수탁기능과 전반관리기능으로 구분된다 다음 중 전반관리기능에 대한 설명으로 가장 적절한 것은? ㉦ 주주의 이익을 대표하고 보호하는 기능이다 ㉣ 이 기능은 주로 이사회가 담당한다 ㉦ 기업 전체 경영을 위해 계획•조직 •통제하는 기능을 한 다 기업 자산을 관리하고 자산의 효과적인 활용을 도모한 다 기업가정신",
-      "choices": [],
+      "stemText": "최고경영층의 기능은 수탁기능과 전반관리기능으로 구분된다. 다음 중 전반관리기능에 대한 설명으로 가장 적절한 것은?",
+      "choices": [
+        "1번: ① 주주의 이익을 대표하고 보호하는 기능이다.",
+        "2번: ② 이 기능은 주로 이사회가 담당한다.",
+        "3번: ③ 기업 전체 경영을 위해 계획·조직·통제하는 기능을 한다.",
+        "4번: ④ 기업 자산을 관리하고 자산의 효과적인 활용을 도모한다."
+      ],
       "note": "정답: 3번",
       "search": "문제 0021 | 1.01 경영학일반 | 5급 군무원 | 경영충의 기능은 수탁기능과 전반관리기능으로 구분된다 다음 중 전반관리기능에 대한 설명으로 가장 적절한 것은? ㉦ 주주의 이익을 대표하고 보호하는 기능이다 ㉣ 이 기능은 주로 이사회가 담당한다 ㉦ 기업 전체 경영을 위해 계획•조직 •통제하는 기능을 한 다 기업 자산을 관리하고 자산의 효과적인 활용을 도모한 다 기업가정신 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0021"
       ],
-      "sourceTag": "5급 군무원",
+      "sourceTag": "2024 5급 군무원",
       "explanationText": "통상적으로 최고경영층(top management)은 수탁기능과 전반관리기능으로 구분되는데, 각각을 보면 다음과 같다. ㉠ 수탁관리기능(the trusteeship function). 주주의 이익을 대표, 보호, 측진하는 역할을 수행한다.\n• 기업의 기본정책 및 일반적인 방향을 결정하며 전체적인 성과를 평가한다.\n• 기업재산을 관리하며 동시에 보다 더 효과적인 활용을 도 모하는 기능을 수행한다. ㉡ 전반관리기능(the general management funcüon)\n• 기업 전체에 관련되는 기능을 수행하지만 전반관리기능의 경우 이사회가 정한 기본정책의 범위 내에서 기업 전체를 적극적으로 계획, 조직, 통제하게 되는 기능을 말한다.",
       "probPage": 21,
       "ansPage": 3
@@ -590,10 +660,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0023\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0023</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2020 경영지도사 기업가 정신의 필요성에 직접적으로 해당하지 않는 것은? 0 기업 환경의 변화에 대한대응 Ⅴ학습곡선의 안정화 ㉦ 창조적 조직문화의 조성 @ 새로운 가치사슬의 탐색 ㉭ 혁신의 원동력</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0023.webp\" alt=\"문제 0023 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0023\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0023</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2021 경영지도사</span>\n    <div class=\"stem-ocr-text\">기업가 정신의 필요성에 직접적으로 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">기업 환경의 변화에 대한 대응</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">학습곡선의 안정화</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">창조적 조직문화의 조성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">새로운 가치사슬의 탐색</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">혁신의 원동력</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0023\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업가(entrepreneur)는 일정한 수익을 목적으로 열성적인 노력과 창의력을 발휘하여 새로운 제품이나 서비스를 제공하는 사람을 말한다. 기업가가 필요한 이유는 이들의 활동이 경제 활동에 활력을 불어넣고 경제발전의 밑거름이 되기 때문이다. 하지만 학습곡선을 안정화시기는 데에는 생산경험을 쌓는 것이 필요하기 때문에 기업가 정신이 직접적으로 필요하지는 않다.</div>\n  </div>\n</div>",
-      "stemText": "2020 경영지도사 기업가 정신의 필요성에 직접적으로 해당하지 않는 것은? 0 기업 환경의 변화에 대한대응 Ⅴ학습곡선의 안정화 ㉦ 창조적 조직문화의 조성 @ 새로운 가치사슬의 탐색 ㉭ 혁신의 원동력",
-      "choices": [],
+      "stemText": "기업가 정신의 필요성에 직접적으로 해당하지 않는 것은?",
+      "choices": [
+        "1번: ① 기업 환경의 변화에 대한 대응",
+        "2번: ② 학습곡선의 안정화",
+        "3번: ③ 창조적 조직문화의 조성",
+        "4번: ④ 새로운 가치사슬의 탐색",
+        "5번: ⑤ 혁신의 원동력"
+      ],
       "note": "정답: 2번",
       "search": "문제 0023 | 1.01 경영학일반 |  | 2020 경영지도사 기업가 정신의 필요성에 직접적으로 해당하지 않는 것은? 0 기업 환경의 변화에 대한대응 Ⅴ학습곡선의 안정화 ㉦ 창조적 조직문화의 조성 @ 새로운 가치사슬의 탐색 ㉭ 혁신의 원동력 | ",
       "tags": [
@@ -602,7 +678,8 @@
       ],
       "explanationText": "기업가(entrepreneur)는 일정한 수익을 목적으로 열성적인 노력과 창의력을 발휘하여 새로운 제품이나 서비스를 제공하는 사람을 말한다. 기업가가 필요한 이유는 이들의 활동이 경제 활동에 활력을 불어넣고 경제발전의 밑거름이 되기 때문이다. 하지만 학습곡선을 안정화시기는 데에는 생산경험을 쌓는 것이 필요하기 때문에 기업가 정신이 직접적으로 필요하지는 않다.",
       "probPage": 21,
-      "ansPage": 3
+      "ansPage": 3,
+      "sourceTag": "2021 경영지도사"
     },
     {
       "id": "mgmt_0024",
@@ -610,10 +687,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0024\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0024</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00 十 경영지도사 관리과정의 순서로 옳은 것은? (0 조직화- 통제 지휘 계획수립 넣계호! 수립 조직화 - 지휘 통제 ㉦ 조직화- 지휘 통제 계획수립 (0 계획수립 지휘 조직화- 통제 | ㉭ 지휘 통제 계획수립 조직화</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0024.webp\" alt=\"문제 0024 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0024\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0024</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2014 경영지도사</span>\n    <div class=\"stem-ocr-text\">관리과정의 순서로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">조직화 → 통제 → 지휘 → 계획수립</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">계획수립 → 조직화 → 지휘 → 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">조직화 → 지휘 → 통제 → 계획수립</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">계획수립 → 지휘 → 조직화 → 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">지휘 → 통제 → 계획수립 → 조직화</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0024\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">경영관리 과정은 planning “ organizing -수 leading -+<br>③ ontrolling의 순서이다.</div>\n  </div>\n</div>",
-      "stemText": "00 十 경영지도사 관리과정의 순서로 옳은 것은? (0 조직화- 통제 지휘 계획수립 넣계호! 수립 조직화 - 지휘 통제 ㉦ 조직화- 지휘 통제 계획수립 (0 계획수립 지휘 조직화- 통제 | ㉭ 지휘 통제 계획수립 조직화",
-      "choices": [],
+      "stemText": "관리과정의 순서로 옳은 것은?",
+      "choices": [
+        "1번: ① 조직화 → 통제 → 지휘 → 계획수립",
+        "2번: ② 계획수립 → 조직화 → 지휘 → 통제",
+        "3번: ③ 조직화 → 지휘 → 통제 → 계획수립",
+        "4번: ④ 계획수립 → 지휘 → 조직화 → 통제",
+        "5번: ⑤ 지휘 → 통제 → 계획수립 → 조직화"
+      ],
       "note": "정답: 2번",
       "search": "문제 0024 | 1.01 경영학일반 |  | 00 十 경영지도사 관리과정의 순서로 옮은 것은? (0 조직화- 통제 지휘 계획수립 넣계호!수립 조직화 - 지휘 통제 ㉦ 조직화- 지휘 통제 계획수립 (0 계획수립 지휘 조직화- 통제 | ㉭ 지휘 통제 계획수립 조직화 | ",
       "tags": [
@@ -622,7 +705,8 @@
       ],
       "explanationText": "경영관리 과정은 planning “ organizing -수 leading -+\n③ ontrolling의 순서이다.",
       "probPage": 22,
-      "ansPage": 3
+      "ansPage": 3,
+      "sourceTag": "2014 경영지도사"
     },
     {
       "id": "mgmt_0025",
@@ -630,10 +714,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0025\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0025***</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2014 경영지도사 경영통제에 관한 설명으로 옳지 않은 것은? 0 사전통제는 목표달성을 위하여 사전준비를 확인하는 가장 바람직한 통제이다 (기 진행통제는 업무가 수행되는 동안에 통제에 영향을 미 -는 것을 통제하는 방법이다. 사후통제는 업무가 종료된 후에 이루이지는 통제활동으 로 피드백을 통해 결과의 변경이 가능하다. 통제활동을 수행하기 위해서는 명확한 평가기준이 필요 하다 ㉭ 평가기준과 수행결과의 차이에 대한 원인이 밝혀지면 이에 대한 대응조치를 강구해아 한다.</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0025.webp\" alt=\"문제 0025 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0025\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0025</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2014 경영지도사</span>\n    <div class=\"stem-ocr-text\">경영통제에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사전통제는 목표달성을 위하여 사전준비를 확인하는 가장 바람직한 통제이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">진행통제는 업무가 수행되는 동안에 통제에 영향을 미치는 것을 통제하는 방법이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사후통제는 업무가 종료된 후에 이루어지는 통제활동으로 피드백을 통해 결과의 변경이 가능하다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">통제활동을 수행하기 위해서는 명확한 평가기준이 필요하다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">평가기준과 수행결과의 차이에 대한 원인이 밝혀지면 이에 대한 대응조치를 강구해야 한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0025\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">사후통제는 업무가 종료된 후에 이루어지는 통제활동으로 결과의 변경은 불가능하다.</div>\n  </div>\n</div>",
-      "stemText": "2014 경영지도사 경영통제에 관한 설명으로 옳지 않은 것은? 0 사전통제는 목표달성을 위하여 사전준비를 확인하는 가장 바람직한 통제이다 (기 진행통제는 업무가 수행되는 동안에 통제에 영향을 미 -는 것을 통제하는 방법이다. 사후통제는 업무가 종료된 후에 이루이지는 통제활동으 로 피드백을 통해 결과의 변경이 가능하다. 통제활동을 수행하기 위해서는 명확한 평가기준이 필요 하다 ㉭ 평가기준과 수행결과의 차이에 대한 원인이 밝혀지면 이에 대한 대응조치를 강구해아 한다.",
-      "choices": [],
+      "stemText": "경영통제에 관한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "1번: ① 사전통제는 목표달성을 위하여 사전준비를 확인하는 가장 바람직한 통제이다.",
+        "2번: ② 진행통제는 업무가 수행되는 동안에 통제에 영향을 미치는 것을 통제하는 방법이다.",
+        "3번: ③ 사후통제는 업무가 종료된 후에 이루어지는 통제활동으로 피드백을 통해 결과의 변경이 가능하다.",
+        "4번: ④ 통제활동을 수행하기 위해서는 명확한 평가기준이 필요하다.",
+        "5번: ⑤ 평가기준과 수행결과의 차이에 대한 원인이 밝혀지면 이에 대한 대응조치를 강구해야 한다."
+      ],
       "note": "정답: 3번",
       "search": "문제 0025 | 1.01 경영학일반 |  | 2014 경영지도사 경영통제에 관한 설명으로 옳지 않은 것은? 0 사전통제는 목표달성을 위하여 사전준비를 확인하는 가장 바람직한 통제이다 (기 진행통제는 업무가 수행되는 동안에 통제에 영향을 미 -는 것을 통제하는 방법이다. 사후통제는 업무가 종료된 후에 이루이지는 통제활동으 로 피드백을 통해 결과의 변경이 가능하다. 통제활동을 수행하기 위해서는 명확한 평가기준이 필요 하다 ㉭ 평가기준과 수행결과의 차이에 대한 원인이 밝혀지면 이에 대한 대응조치를 강구해아 한다. | ",
       "tags": [
@@ -642,18 +732,25 @@
       ],
       "explanationText": "사후통제는 업무가 종료된 후에 이루어지는 통제활동으로 결과의 변경은 불가능하다.",
       "probPage": 22,
-      "ansPage": 3
+      "ansPage": 3,
+      "sourceTag": "2014 경영지도사"
     },
     {
       "id": "mgmt_0026",
       "qid": "0026",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0026\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0026</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">조직화 과정의 올바른 순서는? 과업들을 유사한 것/기리 그를까 조식구조가 생성되면 개인과 부문의 직무를 조정 1:. 조직의 사명과목표률 설정 근. 직무를 개인에게 할당 (, 조직의 사명과 목표를 달성하기 위한 작업 활통들을 과업 들로 세분화 -1 L 기 1- 근 근</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0026.webp\" alt=\"문제 0026 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0026\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0026</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2019 경영지도사</span>\n    <div class=\"stem-ocr-text\">조직화 과정의 올바른 순서는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">과업들을 유사한 것끼리 그룹화</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직구조가 생성되면 개인과 부문의 직무를 조정</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직의 사명과 목표를 설정</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">직무를 개인에게 할당</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직의 사명과 목표를 달성하기 위한 작업 활동들을 과업들로 세분화</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ → ㄷ → ㅁ → ㄴ → ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄷ → ㅁ → ㄴ → ㄱ → ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ → ㅁ → ㄹ → ㄴ → ㄱ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㅁ → ㄷ → ㄱ → ㄹ → ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㅁ → ㄷ → ㄴ → ㄹ → ㄱ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0026\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">보통 조직화 단계는 다음과 같다.<br>1. 조직의 사명과 목표를 설정<br>2. 조직의 사명과 목표를 달성하기 위한 과업을 식별<br>3. 업무를 하위 활동집단들로 구분하여 그릅화 혹은 부문화 4 업무를 개인에게 할당<br>5. 개인과 부문의 업무를 조정 위의 단계에 따르면 그-근 -+ L이 되어야 하나, 발표된 정답은 2번으로 -, 근 이다. 다 a이 가장 먼저 와야하고, 가장 나중에 와야 하는 것은 조정(c)이므로 정답 오류이다.</div>\n  </div>\n</div>",
-      "stemText": "조직화 과정의 올바른 순서는? 과업들을 유사한 것/기리 그를까 조식구조가 생성되면 개인과 부문의 직무를 조정 1:. 조직의 사명과목표률 설정 근. 직무를 개인에게 할당 (, 조직의 사명과 목표를 달성하기 위한 작업 활통들을 과업 들로 세분화 -1 L 기 1- 근 근",
-      "choices": [],
+      "stemText": "조직화 과정의 올바른 순서는?",
+      "choices": [
+        "1번: ① ㄱ → ㄷ → ㅁ → ㄴ → ㄹ",
+        "2번: ② ㄷ → ㅁ → ㄴ → ㄱ → ㄹ",
+        "3번: ③ ㄷ → ㅁ → ㄹ → ㄴ → ㄱ",
+        "4번: ④ ㅁ → ㄷ → ㄱ → ㄹ → ㄴ",
+        "5번: ⑤ ㅁ → ㄷ → ㄴ → ㄹ → ㄱ"
+      ],
       "note": "정답: 2번",
       "search": "문제 0026 | 1.01 경영학일반 |  | 조직화 과정의 올바른 순서는? 과업들을 유사한 것/기리 그를까 조식구조가 생성되면 개인과 부문의 직무를 조정 1:. 조직의 사명과목표률 설정 근. 직무를 개인에게 할당 (, 조직의 사명과 목표를 달성하기 위한 작업 활통들을 과업 들로 세분화 -1 L 기 1- 근 근 | ",
       "tags": [
@@ -662,7 +759,35 @@
       ],
       "explanationText": "보통 조직화 단계는 다음과 같다.\n1. 조직의 사명과 목표를 설정\n2. 조직의 사명과 목표를 달성하기 위한 과업을 식별\n3. 업무를 하위 활동집단들로 구분하여 그릅화 혹은 부문화 4 업무를 개인에게 할당\n5. 개인과 부문의 업무를 조정 위의 단계에 따르면 그-근 -+ L이 되어야 하나, 발표된 정답은 2번으로 -, 근 이다. 다 a이 가장 먼저 와야하고, 가장 나중에 와야 하는 것은 조정(c)이므로 정답 오류이다.",
       "probPage": 22,
-      "ansPage": 4
+      "ansPage": 4,
+      "sourceTag": "2019 경영지도사",
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "과업들을 유사한 것끼리 그룹화"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "조직구조가 생성되면 개인과 부문의 직무를 조정"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "조직의 사명과 목표를 설정"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "직무를 개인에게 할당"
+        },
+        {
+          "id": "ㅁ",
+          "label": "ㅁ",
+          "text": "조직의 사명과 목표를 달성하기 위한 작업 활동들을 과업들로 세분화"
+        }
+      ]
     },
     {
       "id": "mgmt_0027",
@@ -670,10 +795,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0027\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0027</div><div class=\"question-number\"><img src=\"images/paste-7d7eae740ee61b581839de165b9ef5bd2df5a1ce.webp\"></div><div class=\"question-number\"></div>\n\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  \n</div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0027\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0027</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2020 경영지도사</span>\n    <div class=\"stem-ocr-text\">기업이 제품과 서비스를 생산하기 위하여 사용하는 구체적인 활동이나 방법을 규제하는 통제의 유형은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">운영적 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">전략적 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">전술적 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">관료적 통제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">시장 통제</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0027\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 운영적 통제는 기업이 제품 및 서비스 등을 생산하기 위 해 사용하는 활동 또는 방법 등을 규제하기 위한 통제를 의미한다. 전략적 통제는 조직의 목표달성에 있어 이에 알맞도록 기업의 조직구조, 기술, 리더십, 인적자원과 정보 및 통제적시스템을 갖추어야 함을 의미한다. 전술적 통제는 전략적 계획의 성공적 실행을 위해서 구체 화된 행동방침을 통제하는 것을 말한다.<br>② 관료적 통제는 조직권한에 다른 관리규칙, 규제, 절차, 정 책에 의지하는 통제방법을 말하며 구성원들이 적합한 행동을 통해 성과표준을 충족시킬 수 있도록 활동의 표준 화, 직무기술서 및 예산과 같은 기타 관리수단에 의존하는 통제방법이다.<br>⑤ 시장 통제는 관료적 통제의 대안으로 가격경쟁이나 상대 적 시장점유율과 같은 외부시장 메커니즘을 사용하는 통 제방법을 말하며, 제품 및 서비스가 명확하게 식별되는 조직과 상당한 시장경쟁이 존재하는 조직에 사용하며, 평가결과에 근거하여 자원배분, 전략적 변화, 기타 작업 활 동에 대한 의사결정을 한다.</div>\n  </div>\n</div>",
-      "stemText": "경영지도사 기업이 제품과 서비스를 생산하기 위하여 사용하는 구체적인 활 동이나 방법을 규제하는 통제의 유형은?",
-      "choices": [],
+      "stemText": "기업이 제품과 서비스를 생산하기 위하여 사용하는 구체적인 활동이나 방법을 규제하는 통제의 유형은?",
+      "choices": [
+        "1번: ① 운영적 통제",
+        "2번: ② 전략적 통제",
+        "3번: ③ 전술적 통제",
+        "4번: ④ 관료적 통제",
+        "5번: ⑤ 시장 통제"
+      ],
       "note": "정답: 1번",
       "search": "문제 0027 | 1.01 경영학일반 |  | 경영지도사 기업이 제품과 서비스를 생산하기 위하여 사용하는 구체적인 활 동이나 방법을 규제하는 통제의 유형은? | ",
       "tags": [
@@ -682,7 +813,8 @@
       ],
       "explanationText": "① 운영적 통제는 기업이 제품 및 서비스 등을 생산하기 위 해 사용하는 활동 또는 방법 등을 규제하기 위한 통제를 의미한다. 전략적 통제는 조직의 목표달성에 있어 이에 알맞도록 기업의 조직구조, 기술, 리더십, 인적자원과 정보 및 통제적시스템을 갖추어야 함을 의미한다. 전술적 통제는 전략적 계획의 성공적 실행을 위해서 구체 화된 행동방침을 통제하는 것을 말한다.\n② 관료적 통제는 조직권한에 다른 관리규칙, 규제, 절차, 정 책에 의지하는 통제방법을 말하며 구성원들이 적합한 행동을 통해 성과표준을 충족시킬 수 있도록 활동의 표준 화, 직무기술서 및 예산과 같은 기타 관리수단에 의존하는 통제방법이다.\n⑤ 시장 통제는 관료적 통제의 대안으로 가격경쟁이나 상대 적 시장점유율과 같은 외부시장 메커니즘을 사용하는 통 제방법을 말하며, 제품 및 서비스가 명확하게 식별되는 조직과 상당한 시장경쟁이 존재하는 조직에 사용하며, 평가결과에 근거하여 자원배분, 전략적 변화, 기타 작업 활 동에 대한 의사결정을 한다.",
       "probPage": 22,
-      "ansPage": 4
+      "ansPage": 4,
+      "sourceTag": "2020 경영지도사"
     },
     {
       "id": "mgmt_0028",
@@ -690,10 +822,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0028\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0028***</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2020 경영지도사 계획화(pplanning)의 단점이 아닌 것은? 0 시간과 비용의 수반 ㉣ 의사결정의 지연 미래 지향적 사고 경직성 유발 동태적 환경에서의 한계</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0028.webp\" alt=\"문제 0028 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0028\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0028</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2020 경영지도사</span>\n    <div class=\"stem-ocr-text\">계획화(planning)의 단점이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">시간과 비용의 수반</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">의사결정의 지연</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">미래 지향적 사고</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">경직성 유발</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">동태적 환경에서의 한계</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0028\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 계획화의 단점으로는 계획을 수립하는 데 있어 막대한 시 간 및 비용 등을 필요로 하며, 계획은 경영자들의 의사결정을 지연시길 수 있으며, 이러한 지연은 기업의 성공이 변화에 얼마나 빠르게 적응하는가에 달려 있는 경우에는 커다란 손실을 초래할 수 있다.</div>\n  </div>\n</div>",
-      "stemText": "2020 경영지도사 계획화(pplanning)의 단점이 아닌 것은? 0 시간과 비용의 수반 ㉣ 의사결정의 지연 미래 지향적 사고 경직성 유발 동태적 환경에서의 한계",
-      "choices": [],
+      "stemText": "계획화(planning)의 단점이 아닌 것은?",
+      "choices": [
+        "1번: ① 시간과 비용의 수반",
+        "2번: ② 의사결정의 지연",
+        "3번: ③ 미래 지향적 사고",
+        "4번: ④ 경직성 유발",
+        "5번: ⑤ 동태적 환경에서의 한계"
+      ],
       "note": "정답: 3번",
       "search": "문제 0028 | 1.01 경영학일반 |  | 2020 경영지도사 계획화(pplanning)의 단점이 아닌 것은? 0 시간과 비용의 수반 ㉣ 의사결정의 지연 미래 지향적 사고 경직성 유발 동태적 환경에서의 한계 | ",
       "tags": [
@@ -702,28 +840,61 @@
       ],
       "explanationText": "① 계획화의 단점으로는 계획을 수립하는 데 있어 막대한 시 간 및 비용 등을 필요로 하며, 계획은 경영자들의 의사결정을 지연시길 수 있으며, 이러한 지연은 기업의 성공이 변화에 얼마나 빠르게 적응하는가에 달려 있는 경우에는 커다란 손실을 초래할 수 있다.",
       "probPage": 22,
-      "ansPage": 4
+      "ansPage": 4,
+      "sourceTag": "2020 경영지도사"
     },
     {
       "id": "mgmt_0029",
       "qid": "0029",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0029\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0029</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">관리 과정상 통제(controlling)의 목적에 해당하는 것을 모두 고른 것은? 가. 기회의 발견 0 오류와 살수의 발견 다 비용감소와 생산성 향상 근. 한경의 변화와 불확실성에의 대처 1 가 ㉣딕근, 근</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0029.webp\" alt=\"문제 0029 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0029\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0029</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2020 경영지도사</span>\n    <div class=\"stem-ocr-text\">경영관리 과정상 통제(controlling)의 목적에 해당하는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">기회의 발견</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">오류와 실수의 발견</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">비용감소와 생산성 향상</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">환경의 변화와 불확실성에의 대처</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0029\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">통제활동이란 경영자가 계획된 여러 가지 활동들이 바람직 한 방향으로 진행되는지 또는 조직이 의도했던 결과를 달성 할 수 있는지를 확인하고 문제가 있을 때에는 수정조치를 취하여 미래의 계획에 반영시기는 과정을 말한다. 통제의 목적은 환경의 변화와 불확실성에의 대처, 오류와 실수의 발견, 비용감소와 생산성 향상, 기회의 발견 등이다.</div>\n  </div>\n</div>",
-      "stemText": "관리 과정상 통제(controlling)의 목적에 해당하는 것을 모두 고른 것은? 가. 기회의 발견 0 오류와 살수의 발견 다 비용감소와 생산성 향상 근. 한경의 변화와 불확실성에의 대처 1 가 ㉣딕근, 근",
-      "choices": [],
+      "stemText": "경영관리 과정상 통제(controlling)의 목적에 해당하는 것을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ, ㄴ, ㄷ",
+        "2번: ② ㄱ, ㄴ, ㄹ",
+        "3번: ③ ㄱ, ㄷ, ㄹ",
+        "4번: ④ ㄴ, ㄷ, ㄹ",
+        "5번: ⑤ ㄱ, ㄴ, ㄷ, ㄹ"
+      ],
       "note": "정답: 5번",
       "search": "문제 0029 | 1.01 경영학일반 | 경영지도사 | 관리 과정상 통제(controlling)의 목적에 해당하는 것을 모두 고른 것은? 가. 기회의 발견 0 오류와 살수의 발견 다 비용감소와 생산성 향상 근. 한경의 변화와 불확실성에의 대처 1 가 ㉣딕근 , 근 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0029"
       ],
-      "sourceTag": "경영지도사",
+      "sourceTag": "2020 경영지도사",
       "explanationText": "통제활동이란 경영자가 계획된 여러 가지 활동들이 바람직 한 방향으로 진행되는지 또는 조직이 의도했던 결과를 달성 할 수 있는지를 확인하고 문제가 있을 때에는 수정조치를 취하여 미래의 계획에 반영시기는 과정을 말한다. 통제의 목적은 환경의 변화와 불확실성에의 대처, 오류와 실수의 발견, 비용감소와 생산성 향상, 기회의 발견 등이다.",
       "probPage": 23,
-      "ansPage": 4
+      "ansPage": 4,
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "기회의 발견",
+          "isCorrect": true
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "오류와 실수의 발견",
+          "isCorrect": true
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "비용감소와 생산성 향상",
+          "isCorrect": true
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "환경의 변화와 불확실성에의 대처",
+          "isCorrect": true
+        }
+      ]
     },
     {
       "id": "mgmt_0030",
@@ -810,17 +981,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0033\" data-shuffle=\"false\">\n  <div class=\"question-number\">***문제 0033</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">7급 군무원</span>\n    <div class=\"stem-ocr-text\">경영을 구성하는 3가지 요소에 해당하지 않는 것은? 경제적 수익성 ㉦ 대외적 공헌성 환경적 건전성 사회적 책임성</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0033.webp\" alt=\"문제 0033 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0033\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0033</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2022 7급 군무원</span>\n    <div class=\"stem-ocr-text\">기업의 지속가능경영을 구성하는 3가지 요소(Triple Bottom Line)에 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제적 수익성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">환경적 건전성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">대외적 공헌성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">사회적 책임성</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0033\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">지속가능경영(sustainable management)은 기업의 모든 경영활동 과정을 경제적 수익성, 환경적 건전성, 사회적 책임성을 바탕으로 통합 추진해 지속가능발전을 추구하는 경영 패러다임을 말한다.</div>\n  </div>\n</div>",
-      "stemText": "경영을 구성하는 3가지 요소에 해당하지 않는 것은? 경제적 수익성 ㉦ 대외적 공헌성 환경적 건전성 사회적 책임성",
-      "choices": [],
+      "stemText": "기업의 지속가능경영을 구성하는 3가지 요소(Triple Bottom Line)에 해당하지 않는 것은?",
+      "choices": [
+        "1번: ① 경제적 수익성",
+        "2번: ② 환경적 건전성",
+        "3번: ③ 대외적 공헌성",
+        "4번: ④ 사회적 책임성"
+      ],
       "note": "정답: 3번",
       "search": "문제 0033 | 1.01 경영학일반 | 7급 군무원 | 경영을 구성하는 3가지 요소에 해당하지 않는 것은? 경제적 수익성 ㉦ 대외적 공헌성 환경적 건전성 사회적 책임성 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0033"
       ],
-      "sourceTag": "7급 군무원",
+      "sourceTag": "2022 7급 군무원",
       "explanationText": "지속가능경영(sustainable management)은 기업의 모든 경영활동 과정을 경제적 수익성, 환경적 건전성, 사회적 책임성을 바탕으로 통합 추진해 지속가능발전을 추구하는 경영 패러다임을 말한다.",
       "probPage": 23,
       "ansPage": 4
@@ -856,17 +1032,23 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0035\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0035</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">경영의사결정에 관한 설명으로 옳은 것은? (1) 버나드(c. Barnard)는 정형적 • 비정형적 의사길정으로 분류하였다 @ 기업목표 변경, 기업 성장• 다각화 계획 등은 관리적 의 사결정에 해당한다. 업무적 의사결정은 조직 내 여러 자원의 변한과정에서 효율성을 극대화하는 것과 관련되며 주로 하위 경영층에 의해 이루어진다. 위험성 하에서의 의사결정은 발생할 수 있는 결과를 추 정할 수 있으나 그 발생확률을 알수 없는 경우에 이루어 진다. ㉭ 각 대안에 대한 기대치를 계산하는 의사결정나무는 비 정형적 의사결정에 속한다</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0035.webp\" alt=\"문제 0035 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0035\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0035</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 경영지도사</span>\n    <div class=\"stem-ocr-text\">경영의사결정에 관한 설명으로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">버나드(C. Barnard)는 정형적·비정형적 의사결정으로 분류하였다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업목표 변경, 기업 성장·다각화 계획 등은 관리적 의사결정에 해당한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">업무적 의사결정은 조직 내 여러 자원의 변환과정에서 효율성을 극대화하는 것과 관련되며 주로 하위 경영층에 의해 이루어진다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">위험성 하에서의 의사결정은 발생할 수 있는 결과를 추정할 수 있으나 그 발생확률을 알 수 없는 경우에 이루어진다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">각 대안에 대한 기대치를 계산하는 의사결정나무는 비정형적 의사결정에 속한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0035\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 사이몬대. A Simon)은 구조화 정도에 따라서 의사결정을 정형적 의사결정, 비정형적 의사결정의 2가지 유형으로 분류하였다. 기업목표 변경, 기업 성장따각화 계획 등은 관리적 의사 결정이 아니라 •전략적 의사결정&#x27;에 해당한다. 관리적 의사결정은 목표의 달성을 위한 자원의 획득 및 효율적인 활용과 연관된 활동을 말한다. 이는 주로 중간경영자충이 수행하는 의사결정이다. 의사결정자가 발생할 수 있는 결과를 추정할 수 있으나 그 발생학를을 알 수 없는 경우는 불확실성 하에서의 의사결정(decision makjng under uncertaintv)이다 각 대안에 대한 기대치를 계산하는 의사결정나무는 &#x27;정형 적&#x27; 의사결정에 속한다.</div>\n  </div>\n</div>",
-      "stemText": "경영의사결정에 관한 설명으로 옳은 것은? (1) 버나드(c. Barnard)는 정형적 • 비정형적 의사길정으로 분류하였다 @ 기업목표 변경, 기업 성장• 다각화 계획 등은 관리적 의 사결정에 해당한다. 업무적 의사결정은 조직 내 여러 자원의 변한과정에서 효율성을 극대화하는 것과 관련되며 주로 하위 경영층에 의해 이루어진다. 위험성 하에서의 의사결정은 발생할 수 있는 결과를 추 정할 수 있으나 그 발생확률을 알수 없는 경우에 이루어 진다. ㉭ 각 대안에 대한 기대치를 계산하는 의사결정나무는 비 정형적 의사결정에 속한다",
-      "choices": [],
+      "stemText": "경영의사결정에 관한 설명으로 옳은 것은?",
+      "choices": [
+        "1번: ① 버나드(C. Barnard)는 정형적·비정형적 의사결정으로 분류하였다.",
+        "2번: ② 기업목표 변경, 기업 성장·다각화 계획 등은 관리적 의사결정에 해당한다.",
+        "3번: ③ 업무적 의사결정은 조직 내 여러 자원의 변환과정에서 효율성을 극대화하는 것과 관련되며 주로 하위 경영층에 의해 이루어진다.",
+        "4번: ④ 위험성 하에서의 의사결정은 발생할 수 있는 결과를 추정할 수 있으나 그 발생확률을 알 수 없는 경우에 이루어진다.",
+        "5번: ⑤ 각 대안에 대한 기대치를 계산하는 의사결정나무는 비정형적 의사결정에 속한다."
+      ],
       "note": "정답: 3번",
       "search": "문제 0035 | 1.01 경영학일반 | 경영지도사 | 경영의사결정에 관한 설명으로 옮은 것은? (1) 버나드(c. Barnard)는 정형적 • 비정형적 의사길정으로 분류하였다 @ 기업목표 변경, 기업 성장• 다각화 계획 등은 관리적 의 사결정에 해당한다. 업무적 의사결정은 조직 내 여러 자원의 변한과정에서 효율성을 극대화하는 것과 관련되며 주로 하위 경영층에 의해 이루어진다. 위험성 하에서의 의사결정은 발생할 수 있는 결과를 추 정할 수 있으나 그 발생확률을 알수 없는 경우에 이루어 진다. ㉭ 각 대안에 대한 기대치를 계산하는 의사결정나무는 비 정형적 의사결정에 속한다 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0035"
       ],
-      "sourceTag": "경영지도사",
+      "sourceTag": "2023 경영지도사",
       "explanationText": "① 사이몬대. A Simon)은 구조화 정도에 따라서 의사결정을 정형적 의사결정, 비정형적 의사결정의 2가지 유형으로 분류하였다. 기업목표 변경, 기업 성장따각화 계획 등은 관리적 의사 결정이 아니라 •전략적 의사결정'에 해당한다. 관리적 의사결정은 목표의 달성을 위한 자원의 획득 및 효율적인 활용과 연관된 활동을 말한다. 이는 주로 중간경영자충이 수행하는 의사결정이다. 의사결정자가 발생할 수 있는 결과를 추정할 수 있으나 그 발생학를을 알 수 없는 경우는 불확실성 하에서의 의사결정(decision makjng under uncertaintv)이다 각 대안에 대한 기대치를 계산하는 의사결정나무는 '정형 적' 의사결정에 속한다.",
       "probPage": 24,
       "ansPage": 4
@@ -928,10 +1110,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0038\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0038</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">조직의 목표를 달성하기 위하여 조직구성원들이 담당해야 할 역 할 구조를 설정하는 관리과정의 단계는? 0 계획 지휘 ㉭통제 ㉣조직화 ㉦ 조정</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0038.webp\" alt=\"문제 0038 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0038\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0038</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2021 공인노무사</span>\n    <div class=\"stem-ocr-text\">조직의 목표를 달성하기 위하여 조직구성원들이 담당해야 할 역할 구조를 설정하는 관리과정의 단계는?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">계획</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조직화</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지휘</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">조정</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">통제</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0038\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 계획은 기업의 목표를 설정하고 그 달성을 위해 미래를 예견하고 행동 방침을 결정하는 것을 말한다.<br>① 지휘는 사람들로 하여금 조직•집단 목표 달성에 기여하도록 그들을 동기부여하고 리더십을 행사하는 것을 말한다.<br>② 조정은 조직화 단계에서 설정된 업무와 할당된 자원을 효율적으로 조정하는 것을 말한다. 통제는 경영자가 계획한 여러 가지 일들이 바람직한 방향으로 이루어지고 있는지를 확인 •감독하는 것을 말한다.</div>\n  </div>\n</div>",
-      "stemText": "조직의 목표를 달성하기 위하여 조직구성원들이 담당해야 할 역 할 구조를 설정하는 관리과정의 단계는? 0 계획 지휘 ㉭통제 ㉣조직화 ㉦ 조정",
-      "choices": [],
+      "stemText": "조직의 목표를 달성하기 위하여 조직구성원들이 담당해야 할 역할 구조를 설정하는 관리과정의 단계는?",
+      "choices": [
+        "1번: ① 계획",
+        "2번: ② 조직화",
+        "3번: ③ 지휘",
+        "4번: ④ 조정",
+        "5번: ⑤ 통제"
+      ],
       "note": "정답: 2번",
       "search": "문제 0038 | 1.01 경영학일반 |  | 조직의 목표를 달성하기 위하여 조직구성원들이 담당해야 할 역 할 구조를 설정하는 관리과정의 단계는? 0 계획 지휘 ㉭통제 ㉣조직화 ㉦ 조정 | ",
       "tags": [
@@ -940,7 +1128,8 @@
       ],
       "explanationText": "① 계획은 기업의 목표를 설정하고 그 달성을 위해 미래를 예견하고 행동 방침을 결정하는 것을 말한다.\n① 지휘는 사람들로 하여금 조직•집단 목표 달성에 기여하도록 그들을 동기부여하고 리더십을 행사하는 것을 말한다.\n② 조정은 조직화 단계에서 설정된 업무와 할당된 자원을 효율적으로 조정하는 것을 말한다. 통제는 경영자가 계획한 여러 가지 일들이 바람직한 방향으로 이루어지고 있는지를 확인 •감독하는 것을 말한다.",
       "probPage": 24,
-      "ansPage": 5
+      "ansPage": 5,
+      "sourceTag": "2021 공인노무사"
     },
     {
       "id": "mgmt_0039",
@@ -948,17 +1137,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0039\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0039</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">5급 군무원</span>\n    <div class=\"stem-ocr-text\">경영의 과정을 설명하는 내용 중 리드(leading)에 대한 설명으로 가장 적절한 것은? 0 조직의 성괴를 위해 목표를 설정하고, 그 목표를 달성하기 위한 과업을 정하고 필요한 자원을 결정하는 일이다 ㉨ 과업을 정하고, 관련된 과업을 묶어 부서를 정의하고, 권 한을 부여하고, 자원을 배분하는 과정이다. ㉦ 직원의 활동을 관찰 및 평가하고. 조직이 목표를 항해 가 고 있는지 확인하고 필요한 경우 수정을 가하는 작업이 다 조직의 목표를 달성하기 위해 일할 동기를 부여하는 활 동이다</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0039.webp\" alt=\"문제 0039 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0039\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0039</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2024 5급 군무원</span>\n    <div class=\"stem-ocr-text\">다음 경영의 과정을 설명하는 내용 중 리딩(leading/지휘)에 대한 설명으로 가장 적절한 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">조직의 성과를 위해 목표를 설정하고, 그 목표를 달성하기 위한 과업을 정하고 필요한 자원을 결정하는 일이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">과업을 정하고, 관련된 과업을 묶어 부서를 정의하고, 권한을 부여하고, 자원을 배분하는 과정이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">직원의 활동을 관찰 및 평가하고, 조직이 목표를 향해 가고 있는지 확인하고 필요한 경우 수정을 가하는 작업이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">조직의 목표를 달성하기 위해 일할 동기를 부여하는 활동이다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0039\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 계획화(planning)에 대한 설명이다. 조직화(organizing)에 대한 설명이다. 통제화(c예t℃|hng)에 대한 설명이다.<br>② leading은 지휘화라고도 하며 동기부여, 리더십, 의사소 통 등을 포함한다.</div>\n  </div>\n</div>",
-      "stemText": "경영의 과정을 설명하는 내용 중 리드(leading)에 대한 설명으로 가장 적절한 것은? 0 조직의 성괴를 위해 목표를 설정하고, 그 목표를 달성하기 위한 과업을 정하고 필요한 자원을 결정하는 일이다 ㉨ 과업을 정하고, 관련된 과업을 묶어 부서를 정의하고, 권 한을 부여하고, 자원을 배분하는 과정이다. ㉦ 직원의 활동을 관찰 및 평가하고. 조직이 목표를 항해 가 고 있는지 확인하고 필요한 경우 수정을 가하는 작업이 다 조직의 목표를 달성하기 위해 일할 동기를 부여하는 활 동이다",
-      "choices": [],
+      "stemText": "다음 경영의 과정을 설명하는 내용 중 리딩(leading/지휘)에 대한 설명으로 가장 적절한 것은?",
+      "choices": [
+        "1번: ① 조직의 성과를 위해 목표를 설정하고, 그 목표를 달성하기 위한 과업을 정하고 필요한 자원을 결정하는 일이다.",
+        "2번: ② 과업을 정하고, 관련된 과업을 묶어 부서를 정의하고, 권한을 부여하고, 자원을 배분하는 과정이다.",
+        "3번: ③ 직원의 활동을 관찰 및 평가하고, 조직이 목표를 향해 가고 있는지 확인하고 필요한 경우 수정을 가하는 작업이다.",
+        "4번: ④ 조직의 목표를 달성하기 위해 일할 동기를 부여하는 활동이다."
+      ],
       "note": "정답: 4번",
       "search": "문제 0039 | 1.01 경영학일반 | 5급 군무원 | 경영의 과정을 설명하는 내용 중 리드(leading)에 대한 설 명으로 가장 적절한 것은? 0 조직의 성괴를 위해 목표를 설정하고, 그 목표를 달성하 기 위한 과업을 정하고 필요한 자원을 결정하는 일이다 ㉨ 과업을 정하고, 관련된 과업을 묶어 부서를 정의하고, 권 한을 부여하고, 자원을 배분하는 과정이다. ㉦ 직원의 활동을 관찰 및 평가하고. 조직이 목표를 항해 가 고 있는지 확인하고 필요한 경우 수정을 가하는 작업이 다 조직의 목표를 달성하기 위해 일할 동기를 부여하는 활 동이다 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0039"
       ],
-      "sourceTag": "5급 군무원",
+      "sourceTag": "2024 5급 군무원",
       "explanationText": "① 계획화(planning)에 대한 설명이다. 조직화(organizing)에 대한 설명이다. 통제화(c예t℃|hng)에 대한 설명이다.\n② leading은 지휘화라고도 하며 동기부여, 리더십, 의사소 통 등을 포함한다.",
       "probPage": 24,
       "ansPage": 5
@@ -969,10 +1163,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0040\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0040***</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00十0 20B 결일지도사 전락적 의사결정의 특징으로 옳지 않은 것은? (0 전사적 ㉦ 비구조적 ㉦비징, 형적 (기 비만복적 (0 분권 적</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0040.webp\" alt=\"문제 0040 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0040\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0040</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2018 경영지도사</span>\n    <div class=\"stem-ocr-text\">전략적 의사결정의 특징으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">전사적</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">비반복적</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">비구조적</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">분권적</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">비정형적</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0040\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업의 상위 경영층의 의사결정인 전략적 의사결정은 분권 적이기 보다는 집권적 프로세스로 진행된다.</div>\n  </div>\n</div>",
-      "stemText": "00十0 20B 결일지도사 전락적 의사결정의 특징으로 옳지 않은 것은? (0 전사적 ㉦ 비구조적 ㉦비징, 형적 (기 비만복적 (0 분권 적",
-      "choices": [],
+      "stemText": "전략적 의사결정의 특징으로 옳지 않은 것은?",
+      "choices": [
+        "1번: ① 전사적",
+        "2번: ② 비반복적",
+        "3번: ③ 비구조적",
+        "4번: ④ 분권적",
+        "5번: ⑤ 비정형적"
+      ],
       "note": "정답: 4번",
       "search": "문제 0040 | 1.01 경영학일반 |  | 00十0 20B 결일지도사 전락적 의사결정의 특징으로 옳지 않은 것은? (0 전사적 ㉦ 비구조적 ㉦비징,형적 (기 비만복적 (0 분권 적 | ",
       "tags": [
@@ -981,7 +1181,8 @@
       ],
       "explanationText": "기업의 상위 경영층의 의사결정인 전략적 의사결정은 분권 적이기 보다는 집권적 프로세스로 진행된다.",
       "probPage": 25,
-      "ansPage": 5
+      "ansPage": 5,
+      "sourceTag": "2018 경영지도사"
     },
     {
       "id": "mgmt_0041",
@@ -1067,10 +1268,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0044\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0044</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00十十 2015 경영지도사 기업의 성과에 영향을 주는 기업 외부환경(external envtronment) 이아닌 것은? 사회문화 ㉦경제정책 (9 최고경영자 ㉣법률 (0정치</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0044.webp\" alt=\"문제 0044 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0044\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0044</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2015 경영지도사</span>\n    <div class=\"stem-ocr-text\">기업의 성과에 영향을 주는 기업 외부환경(external environment)이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사회문화</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">법률</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">경제정책</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">정치</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">최고경영자</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0044\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업의 외부환경이란 기업 외부에 존재하면서 기업에 영향을 미치는 것으로 사회문화, 법률, 경제정책, 정치 등은 해당되지만 최고경영자는 회사의 내부 환경에 해당한다.</div>\n  </div>\n</div>",
-      "stemText": "00十十 2015 경영지도사 기업의 성과에 영향을 주는 기업 외부환경(external envtronment) 이아닌 것은? 사회문화 ㉦경제정책 (9 최고경영자 ㉣법률 (0정치",
-      "choices": [],
+      "stemText": "기업의 성과에 영향을 주는 기업 외부환경(external environment)이 아닌 것은?",
+      "choices": [
+        "1번: ① 사회문화",
+        "2번: ② 법률",
+        "3번: ③ 경제정책",
+        "4번: ④ 정치",
+        "5번: ⑤ 최고경영자"
+      ],
       "note": "정답: 5번",
       "search": "문제 0044 | 1.01 경영학일반 |  | 00十十 2015 경영지도사 기업의 성과에 영향을 주는 기업 외부환경(external envtronment) 이아닌것은? 사회문화 ㉦경제정책 (9 최고경영자 ㉣법률 (0정치 | ",
       "tags": [
@@ -1079,7 +1286,8 @@
       ],
       "explanationText": "기업의 외부환경이란 기업 외부에 존재하면서 기업에 영향을 미치는 것으로 사회문화, 법률, 경제정책, 정치 등은 해당되지만 최고경영자는 회사의 내부 환경에 해당한다.",
       "probPage": 26,
-      "ansPage": 5
+      "ansPage": 5,
+      "sourceTag": "2015 경영지도사"
     },
     {
       "id": "mgmt_0045",
@@ -1137,12 +1345,17 @@
       "id": "mgmt_0047",
       "qid": "0047",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
-      "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0047\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0047</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00十0 20기 5급 군무원 기업의 전략적 의사결정을 위한 환경위협 요인에 해당하지 않은 것을 모두 고른 것은? 기특1미짜 다 정부의 통화정책 유(10F기술 1 기 t: r- 공급자 긭져래경생자</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0047.webp\" alt=\"문제 0047 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "typ": "박스선택형",
+      "correct": 2,
+      "front": "<div class=\"mcq-card\" data-qid=\"0047\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0047</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2021 5급 군무원</span>\n    <div class=\"stem-ocr-text\">마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">기존 경쟁기업 간의 경쟁</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대체재의 위협</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">정부의 통화정책</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">공급자의 교섭력</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">잠재적 진입자의 위협</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0047\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업이 전략적 의사결정을 할 때 환경위협 요인을 파악하기 위해 사용하는 것이 산업구조분석(5 force 모형)이다. 기존 기업 간 경쟁, 참재경생자의 진입위협, 대체재의 위협, 공급자의 교섭력, 구매자의 교섭력은 5 force 모형의 5가지 요 인에 포함되지만 정부의 통화정책과 유망기술은 포함되지 않는다.</div>\n  </div>\n</div>",
-      "stemText": "00十0 20기 5급 군무원 기업의 전략적 의사결정을 위한 환경위협 요인에 해당하지 않은 것을 모두 고른 것은? 기특1미짜 다 정부의 통화정책 유(10F기술 1 기 t: r- 공급자 긭져래경생자",
-      "choices": [],
+      "stemText": "마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ, ㄴ",
+        "2번: ② ㄷ",
+        "3번: ③ ㄷ, ㄹ",
+        "4번: ④ ㄹ, ㅁ"
+      ],
       "note": "정답: 3번",
       "search": "문제 0047 | 1.01 경영학일반 |  | 00十0 20기 5급 군무원 기업의 전략적 의사결정을 위한 환경위협 요인에 해당하지 않은 것을 모두 고른 것은? 기특1미짜 다 정부의 통화정책 유(10F기술 1 기 t: r- 공급자 긭져래경생자 | ",
       "tags": [
@@ -1151,7 +1364,35 @@
       ],
       "explanationText": "기업이 전략적 의사결정을 할 때 환경위협 요인을 파악하기 위해 사용하는 것이 산업구조분석(5 force 모형)이다. 기존 기업 간 경쟁, 참재경생자의 진입위협, 대체재의 위협, 공급자의 교섭력, 구매자의 교섭력은 5 force 모형의 5가지 요 인에 포함되지만 정부의 통화정책과 유망기술은 포함되지 않는다.",
       "probPage": 26,
-      "ansPage": 5
+      "ansPage": 5,
+      "sourceTag": "2021 5급 군무원",
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "기존 경쟁기업 간의 경쟁"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "대체재의 위협"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "정부의 통화정책"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "공급자의 교섭력"
+        },
+        {
+          "id": "ㅁ",
+          "label": "ㅁ",
+          "text": "잠재적 진입자의 위협"
+        }
+      ]
     },
     {
       "id": "mgmt_0048",
@@ -1159,10 +1400,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0048\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0048</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00十8 2023 공인노무사 경영환경을 일반환경과 과업환경으로 구분할 때, 기업에게 직접 적인 영향을 주는 과업환경에 해당하는 것은? 0 정치적 환경 기술적 환경 ㉭ 사회문화적 환경 경제적 환경 ㉦경생자</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0048.webp\" alt=\"문제 0048 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0048\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0048</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 공인노무사</span>\n    <div class=\"stem-ocr-text\">경영환경을 일반환경과 과업환경으로 구분할 때, 기업에게 직접적인 영향을 주는 과업환경에 해당하는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">정치적 환경</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">경제적 환경</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기술적 환경</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">경쟁자</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">사회·문화적 환경</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0048\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">과업환경(task environment)은 경영활동의 수행에 직접적으로 영향을 끼치는 환경 요소들을 의미하며, 경쟁자, 지역사회, 공급업자, 노동조합 등이 이에 포함된다.</div>\n  </div>\n</div>",
-      "stemText": "00十8 2023 공인노무사 경영환경을 일반환경과 과업환경으로 구분할 때, 기업에게 직접 적인 영향을 주는 과업환경에 해당하는 것은? 0 정치적 환경 기술적 환경 ㉭ 사회문화적 환경 경제적 환경 ㉦경생자",
-      "choices": [],
+      "stemText": "경영환경을 일반환경과 과업환경으로 구분할 때, 기업에게 직접적인 영향을 주는 과업환경에 해당하는 것은?",
+      "choices": [
+        "1번: ① 정치적 환경",
+        "2번: ② 경제적 환경",
+        "3번: ③ 기술적 환경",
+        "4번: ④ 경쟁자",
+        "5번: ⑤ 사회·문화적 환경"
+      ],
       "note": "정답: 4번",
       "search": "문제 0048 | 1.01 경영학일반 |  | 00十8 2023 공인노무사 경영환경을 일반환경과 과업환경으로 구분할 때, 기업에게 직접 적인 영향을 주는 과업환경에 해당하는 것은? 0 정치적 환경 기술적 환경 ㉭ 사회문화적 환경 경제적 환경 ㉦경생자 | ",
       "tags": [
@@ -1171,7 +1418,8 @@
       ],
       "explanationText": "과업환경(task environment)은 경영활동의 수행에 직접적으로 영향을 끼치는 환경 요소들을 의미하며, 경쟁자, 지역사회, 공급업자, 노동조합 등이 이에 포함된다.",
       "probPage": 26,
-      "ansPage": 6
+      "ansPage": 6,
+      "sourceTag": "2023 공인노무사"
     },
     {
       "id": "mgmt_0049",
@@ -1179,10 +1427,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0049\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0049</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00十9 2024 경영지도사 기업환경은 기업에 미치는 영향의 정도인 밀접성에 따라 직접적 환경과 간접적 환경으로 구분한다. 간접적 환경 요인에 해당하지 않는 것은? 0 사회계층 기술수준 ㉭ 국가정책 경제체제 소비자</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0049.webp\" alt=\"문제 0049 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0049\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0049</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2024 경영지도사</span>\n    <div class=\"stem-ocr-text\">기업환경은 기업에 미치는 영향의 정도인 밀접성에 따라 직접적 환경과 간접적 환경으로 구분한다. 간접적 환경 요인에 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사회계층</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">경제체제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기술 수준</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">소비자</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">국가정책</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0049\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">소비자는 기업에 직접 영향을 미치는 직접적 환경에 해 당한다.</div>\n  </div>\n</div>",
-      "stemText": "00十9 2024 경영지도사 기업환경은 기업에 미치는 영향의 정도인 밀접성에 따라 직접적 환경과 간접적 환경으로 구분한다. 간접적 환경 요인에 해당하지 않는 것은? 0 사회계층 기술수준 ㉭ 국가정책 경제체제 소비자",
-      "choices": [],
+      "stemText": "기업환경은 기업에 미치는 영향의 정도인 밀접성에 따라 직접적 환경과 간접적 환경으로 구분한다. 간접적 환경 요인에 해당하지 않는 것은?",
+      "choices": [
+        "1번: ① 사회계층",
+        "2번: ② 경제체제",
+        "3번: ③ 기술 수준",
+        "4번: ④ 소비자",
+        "5번: ⑤ 국가정책"
+      ],
       "note": "정답: 4번",
       "search": "문제 0049 | 1.01 경영학일반 |  | 00十9 2024 경영지도사 기업환경은 기업에 미치는 영향의 정도인 밀접성에 따라 직접적 환경과 간접적 환경으로 구분한다. 간접적 환경 요인에 해당하지 않는 것은? 0 사회계층 기술수준 ㉭ 국가정책 경제체제 소비자 | ",
       "tags": [
@@ -1191,7 +1445,8 @@
       ],
       "explanationText": "소비자는 기업에 직접 영향을 미치는 직접적 환경에 해 당한다.",
       "probPage": 26,
-      "ansPage": 6
+      "ansPage": 6,
+      "sourceTag": "2024 경영지도사"
     },
     {
       "id": "mgmt_0050",
@@ -1225,17 +1480,23 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0051\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0051</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">기업형태는? 0 합명회사 ㉦ 유한회사 ㉭ 민법상의 조합 02 합자회사 주식회사</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0051.webp\" alt=\"문제 0051 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0051\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0051</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2015 경영지도사</span>\n    <div class=\"stem-ocr-text\">무한책임사원과 유한책임사원으로 구성되는 기업형태는?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">합명회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">주식회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">민법상의 조합</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0051\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 합명회사: 무한책임 사원으로만 구성<br>① 합자회사. 무한책임 사원+유한책임 사원<br>① 유한회사: 유한책임사원으로만 구성 주식회사. 유한책임사원으로만 구성</div>\n  </div>\n</div>",
-      "stemText": "기업형태는? 0 합명회사 ㉦ 유한회사 ㉭ 민법상의 조합 02 합자회사 주식회사",
-      "choices": [],
+      "stemText": "무한책임사원과 유한책임사원으로 구성되는 기업형태는?",
+      "choices": [
+        "1번: ① 합명회사",
+        "2번: ② 합자회사",
+        "3번: ③ 유한회사",
+        "4번: ④ 주식회사",
+        "5번: ⑤ 민법상의 조합"
+      ],
       "note": "정답: 2번",
       "search": "문제 0051 | 1.01 경영학일반 | 경영지도사 | 기업형태는? 0 합명회사 ㉦ 유한회사 ㉭ 민법상의 조합 02 합자회사 주식회사 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0051"
       ],
-      "sourceTag": "경영지도사",
+      "sourceTag": "2015 경영지도사",
       "explanationText": "① 합명회사: 무한책임 사원으로만 구성\n① 합자회사. 무한책임 사원+유한책임 사원\n① 유한회사: 유한책임사원으로만 구성 주식회사. 유한책임사원으로만 구성",
       "probPage": 27,
       "ansPage": 6
@@ -1246,17 +1507,23 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0052\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0052</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">기업 채무에 사원 전원이 연대하여 무한 책임을 지는 기업형태는? (0 유한회사 ㉦ 합명회사 주식회사 (기 합자회사 ㉦ 협동조합</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0052.webp\" alt=\"문제 0052 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0052\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0052</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2017 경영지도사</span>\n    <div class=\"stem-ocr-text\">2명 이상의 공동출자로 기업 채무에 사원 전원이 연대하여 무한책임을 지는 기업형태는?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">합명회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">협동조합</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주식회사</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0052\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">합명회사는 회사의 채무에 관하여 직접젼대 무한책임을 지는 2인 이상의 사원으로 구성된 전형적인 인적회사이다. 각 사원이 회사채권자에 대하여 직접젼대•무한책임을 지는 결과, 사원 각자의 신용은 회사채권자와의 관계에 있어 중대한 영향을 미친다.</div>\n  </div>\n</div>",
-      "stemText": "기업 채무에 사원 전원이 연대하여 무한 책임을 지는 기업형태는? (0 유한회사 ㉦ 합명회사 주식회사 (기 합자회사 ㉦ 협동조합",
-      "choices": [],
+      "stemText": "2명 이상의 공동출자로 기업 채무에 사원 전원이 연대하여 무한책임을 지는 기업형태는?",
+      "choices": [
+        "1번: ① 유한회사",
+        "2번: ② 합자회사",
+        "3번: ③ 합명회사",
+        "4번: ④ 협동조합",
+        "5번: ⑤ 주식회사"
+      ],
       "note": "정답: 3번",
       "search": "문제 0052 | 1.01 경영학일반 | 경영지도사 | 기업 채무에 사원 전원이 연대하여 무한 책임을 지는 기업형태는? (0 유한회사 ㉦ 합명회사 주식회사 (기 합자회사 ㉦ 협동조합 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0052"
       ],
-      "sourceTag": "경영지도사",
+      "sourceTag": "2017 경영지도사",
       "explanationText": "합명회사는 회사의 채무에 관하여 직접젼대 무한책임을 지는 2인 이상의 사원으로 구성된 전형적인 인적회사이다. 각 사원이 회사채권자에 대하여 직접젼대•무한책임을 지는 결과, 사원 각자의 신용은 회사채권자와의 관계에 있어 중대한 영향을 미친다.",
       "probPage": 27,
       "ansPage": 6
@@ -1343,17 +1610,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0056\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0056</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">9급 군무원</span>\n    <div class=\"stem-ocr-text\">기업 형태로 가장 옳은 것은? 0 주식회사 합자회사 유한회사 @합명회사</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0056.webp\" alt=\"문제 0056 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0056\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0056</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 9급 군무원</span>\n    <div class=\"stem-ocr-text\">다음 중 무한책임사원과 유한책임사원으로 구성된 기업 형태로 가장 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">주식회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">합명회사</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0056\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 주식회사의 주주는 유한책임을 진다. 유한회사는 1인 이상의 유한책임사원으로 구성된다.<br>② 합명회사는 회사의 채무에 관하여 직접•연대•무한책임을 지는 2인 이상의 사원으로 구성된다.</div>\n  </div>\n</div>",
-      "stemText": "기업 형태로 가장 옳은 것은? 0 주식회사 합자회사 유한회사 @합명회사",
-      "choices": [],
+      "stemText": "다음 중 무한책임사원과 유한책임사원으로 구성된 기업 형태로 가장 옳은 것은?",
+      "choices": [
+        "1번: ① 주식회사",
+        "2번: ② 유한회사",
+        "3번: ③ 합자회사",
+        "4번: ④ 합명회사"
+      ],
       "note": "정답: 3번",
       "search": "문제 0056 | 1.01 경영학일반 | 9급 군무원 | 기업 형태로 가장 옳은 것은? 0 주식회사 합자회사 유한회사 @합명회사 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0056"
       ],
-      "sourceTag": "9급 군무원",
+      "sourceTag": "2023 9급 군무원",
       "explanationText": "① 주식회사의 주주는 유한책임을 진다. 유한회사는 1인 이상의 유한책임사원으로 구성된다.\n② 합명회사는 회사의 채무에 관하여 직접•연대•무한책임을 지는 2인 이상의 사원으로 구성된다.",
       "probPage": 28,
       "ansPage": 6
@@ -1362,12 +1634,17 @@
       "id": "mgmt_0057",
       "qid": "0057",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0057\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0057</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2023 5급 군무원 합명회사에 대한 설명으로 옳은 것을 모두 고른 것은? 기. 출자에 있어서는 물적 재산, 인적 신용, 노무 등이 모두 가능하다. L. 합명회사는 합자회사에 비해 자본 조달이 용이하다. c. 합명 회사는 무한책 임사원과 유한책 임사원으로 구성 된다. 근 합명회사는 대자본을필요로하는회사에는부적당하다. 1 그 ㉨書근 (쇠딕근</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0057.webp\" alt=\"문제 0057 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0057\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0057</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 5급 군무원</span>\n    <div class=\"stem-ocr-text\">합명회사에 대한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">출자에 있어서는 물적 재산, 인적 신용, 노무 등이 모두 가능하다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 합자회사에 비해 자본 조달이 용이하다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 무한책임사원과 유한책임사원으로 구성된다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 대자본을 필요로 하는 회사에는 부적당하다.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0057\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">L- 무한책임사원으로 구성완 합명회사에 비해 합자회사는 자본 조달이 용이한 반면 무한책임사원의 지분을 양도할 경우에 전체 사원들의 동의를 필요로 하고 유한책임사원의 지분 양도에 있어서도 무한책임사원의 동의를 필요로하는 등의 지분양도에 있어 제약이 따른다.<br>③ 무한책임을 지는 1인 이상의 무한책임사원과 유한책임을 지는 1인 이상의 유한책임사원으로 구성된 회사는 합 자회사이다.</div>\n  </div>\n</div>",
-      "stemText": "2023 5급 군무원 합명회사에 대한 설명으로 옳은 것을 모두 고른 것은? 기. 출자에 있어서는 물적 재산, 인적 신용, 노무 등이 모두 가능하다. L. 합명회사는 합자회사에 비해 자본 조달이 용이하다. c. 합명 회사는 무한책 임사원과 유한책 임사원으로 구성 된다. 근 합명회사는 대자본을필요로하는회사에는부적당하다. 1 그 ㉨書근 (쇠딕근",
-      "choices": [],
+      "stemText": "합명회사에 대한 설명으로 옳은 것을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ, ㄴ",
+        "2번: ② ㄱ, ㄹ",
+        "3번: ③ ㄴ, ㄷ",
+        "4번: ④ ㄷ, ㄹ"
+      ],
       "note": "정답: 2번",
       "search": "문제 0057 | 1.01 경영학일반 |  | 2023 5급 군무원 합명회사에 대한 설명으로 옳은 것을 모두 고른 것은? 기. 출자에 있어서는 물적 재산, 인적 신용, 노무 등이 모두 가능하다. L. 합명회사는 합자회사에 비해 자본 조달이 용이하다. c. 합명 회사는 무한책 임사원과 유한책 임사원으로 구성 된다. 근 합명회사는 대자본을필요로하는회사에는부적당하다. 1 그 ㉨書근 (쇠딕근 | ",
       "tags": [
@@ -1376,28 +1653,102 @@
       ],
       "explanationText": "L- 무한책임사원으로 구성완 합명회사에 비해 합자회사는 자본 조달이 용이한 반면 무한책임사원의 지분을 양도할 경우에 전체 사원들의 동의를 필요로 하고 유한책임사원의 지분 양도에 있어서도 무한책임사원의 동의를 필요로하는 등의 지분양도에 있어 제약이 따른다.\n③ 무한책임을 지는 1인 이상의 무한책임사원과 유한책임을 지는 1인 이상의 유한책임사원으로 구성된 회사는 합 자회사이다.",
       "probPage": 28,
-      "ansPage": 6
+      "ansPage": 6,
+      "sourceTag": "2023 5급 군무원",
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "출자에 있어서는 물적 재산, 인적 신용, 노무 등이 모두 가능하다.",
+          "isCorrect": true,
+          "desc": "사원의 신용이나 노무 출자도 인정됨"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "합명회사는 합자회사에 비해 자본 조달이 용이하다.",
+          "isCorrect": false,
+          "reason": "무한책임사원으로만 구성되어 자본조달이 더 곤란함"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "합명회사는 무한책임사원과 유한책임사원으로 구성된다.",
+          "isCorrect": false,
+          "reason": "합명회사는 전원 무한책임사원(유한책임사원 없음)"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "합명회사는 대자본을 필요로 하는 회사에는 부적당하다.",
+          "isCorrect": true,
+          "desc": "소규모 친목적 기업에 적합"
+        }
+      ]
     },
     {
       "id": "mgmt_0058",
       "qid": "0058",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
-      "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0058\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0058</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">경영지도사</span>\n    <div class=\"stem-ocr-text\">기업 행태에 관한 설명으로 옳은 것을 모두 고른 것은? 가 주식회사의 주주는 유한책임이 원시이며, 무한책임올 지는 경우도 있다 1- 합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부답하는 인적회사이다 t: 합명회사는 출자금의 한도도 없고, 자-금조달도 용이 하다는 장점이 있다. 근. 합자회사의 무한책임사원은 출자와 경영업무를 말고, 유한책 임사원은 출자만을 담당한다 t, 유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다 1 그</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0058.webp\" alt=\"문제 0058 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "typ": "박스선택형",
+      "correct": 4,
+      "front": "<div class=\"mcq-card\" data-qid=\"0058\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0058</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2024 경영지도사</span>\n    <div class=\"stem-ocr-text\">다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">주식회사의 주주는 유한책임이 원칙이며, 무한책임을 지는 경우도 있다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부담하는 인적회사이다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 출자금의 한도도 없고, 자금조달도 용이하다는 장점이 있다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합자회사의 무한책임사원은 출자와 경영업무를 맡고, 유한책임사원은 출자만을 담당한다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄹ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄷ, ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0058\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">그 주식회사의 주주는 유한책임을 원칙으로 하고 있으므로 무한책임을 지는 경우는 없다.<br>③ 합명회사는 사원전체가 동의해야만 지분의 양도가 가능하므로 자금조달이 용이하지는 않다. 口 유한회사는 합명회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n  </div>\n</div>",
-      "stemText": "기업 행태에 관한 설명으로 옳은 것을 모두 고른 것은? 가 주식회사의 주주는 유한책임이 원시이며, 무한책임올 지는 경우도 있다 1- 합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부답하는 인적회사이다 t: 합명회사는 출자금의 한도도 없고, 자-금조달도 용이 하다는 장점이 있다. 근. 합자회사의 무한책임사원은 출자와 경영업무를 말고, 유한책 임사원은 출자만을 담당한다 t, 유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다 1 그",
-      "choices": [],
+      "stemText": "다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은?",
+      "choices": [
+        "1번: ① ㄱ, ㄴ, ㄷ",
+        "2번: ② ㄱ, ㄷ, ㄹ",
+        "3번: ③ ㄴ, ㄷ, ㅁ",
+        "4번: ④ ㄴ, ㄹ, ㅁ",
+        "5번: ⑤ ㄷ, ㄹ, ㅁ"
+      ],
       "note": "정답: 3번",
       "search": "문제 0058 | 1.01 경영학일반 | 경영지도사 | 기업 행태에 관한 설명으로 옮은 것을 모두 고른 것은? 가 주식회사의 주주는 유한책임이 원시이며, 무한책임올 지는 경우도 있다 1- 합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부답하는 인적회사이다 t: 합명회사는 출자금의 한도도 없고, 자-금조달도 용이 하다는 장점이 있다. 근. 합자회사의 무한책임사원은 출자와 경영업무를 말고, 유한책 임사원은 출자만을 담당한다 t, 유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다 1 그 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0058"
       ],
-      "sourceTag": "경영지도사",
+      "sourceTag": "2024 경영지도사",
       "explanationText": "그 주식회사의 주주는 유한책임을 원칙으로 하고 있으므로 무한책임을 지는 경우는 없다.\n③ 합명회사는 사원전체가 동의해야만 지분의 양도가 가능하므로 자금조달이 용이하지는 않다. 口 유한회사는 합명회사와 주식회사의 장점을 고려한 기업 유형이다.",
       "probPage": 28,
-      "ansPage": 6
+      "ansPage": 6,
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "주식회사의 주주는 유한책임이 원칙이며, 무한책임을 지는 경우도 있다.",
+          "isCorrect": false,
+          "reason": "주주는 예외 없이 출자액 한도의 유한책임"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부담하는 인적회사이다.",
+          "isCorrect": true,
+          "desc": "합명회사의 정의"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "합명회사는 출자금의 한도도 없고, 자금조달도 용이하다는 장점이 있다.",
+          "isCorrect": false,
+          "reason": "무한책임 위험으로 자본조달이 곤란함"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "합자회사의 무한책임사원은 출자와 경영업무를 맡고, 유한책임사원은 출자만을 담당한다.",
+          "isCorrect": true,
+          "desc": "합자회사의 이원적 구조"
+        },
+        {
+          "id": "ㅁ",
+          "label": "ㅁ",
+          "text": "유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다.",
+          "isCorrect": true,
+          "desc": "합자회사의 폐쇄성과 주식회사의 유한책임 결합"
+        }
+      ]
     },
     {
       "id": "mgmt_0059",
@@ -1663,10 +2014,15 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0069\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0069</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영자의 의사결정과 행위 등을 통제하는 기업 지배구조는 크계 내부와 외부 통제메커니즘으로 구분할 수 있다. 내부 통제에거니 즘에 해당하지 않는 것은? (0 노동조합 (9 최고경영자 보상 (기 위임장 경생 (9 이사회</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0069.webp\" alt=\"문제 0069 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0069\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0069</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2014 7급 국가직</span>\n    <div class=\"stem-ocr-text\">경영자의 의사결정과 행위 등을 통제하는 기업 지배구조는 크게 내부와 외부 통제메커니즘으로 구분할 수 있다. 내부 통제메커니즘에 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">노동조합</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">위임장 경쟁</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">최고경영자 보상</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">이사회</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0069\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">투자자보호의 관점에서 기업지배구조는 크게 내부에커니즘과 외부에커니증으로 구분 가능함 내부에커니증은 의사결정관리와 의사결정 통제기능의 분 리, 주식소유분포(대주주, 경영자, 기관투자자 지분), 이사 회 구성(사내이사, 사외이사), 인센티브에 기초한 보수체계 (스톡옵션, 성과급) 등의 적절성에 의해 그 효율성이 결정<br>• 외부에커니즘은 채권단에 의한 기업감시 및 파산절차, 자 본시장, 기업지배시장(위임장경쟁, 기업합병 및 인수), 경영자 노동시장 등의 적절성에 의해 그 효율성이 결정</div>\n  </div>\n</div>",
-      "stemText": "경영자의 의사결정과 행위 등을 통제하는 기업 지배구조는 크계 내부와 외부 통제메커니즘으로 구분할 수 있다. 내부 통제에거니 즘에 해당하지 않는 것은? (0 노동조합 (9 최고경영자 보상 (기 위임장 경생 (9 이사회",
-      "choices": [],
+      "stemText": "경영자의 의사결정과 행위 등을 통제하는 기업 지배구조는 크게 내부와 외부 통제메커니즘으로 구분할 수 있다. 내부 통제메커니즘에 해당하지 않는 것은?",
+      "choices": [
+        "1번: ① 노동조합",
+        "2번: ② 위임장 경쟁",
+        "3번: ③ 최고경영자 보상",
+        "4번: ④ 이사회"
+      ],
       "note": "정답: 2번",
       "search": "문제 0069 | 1.01 경영학일반 |  | 경영자의 의사결정과 행위 등을 통제하는 기업 지배구조는 크계 내부와 외부 통제메커니즘으로 구분할 수 있다. 내부 통제에거니 즘에 해당하지 않는 것은? (0 노동조합 (9 최고경영자 보상 (기 위임장 경생 (9 이사회 | ",
       "tags": [
@@ -1675,7 +2031,8 @@
       ],
       "explanationText": "투자자보호의 관점에서 기업지배구조는 크게 내부에커니즘과 외부에커니증으로 구분 가능함 내부에커니증은 의사결정관리와 의사결정 통제기능의 분 리, 주식소유분포(대주주, 경영자, 기관투자자 지분), 이사 회 구성(사내이사, 사외이사), 인센티브에 기초한 보수체계 (스톡옵션, 성과급) 등의 적절성에 의해 그 효율성이 결정\n• 외부에커니즘은 채권단에 의한 기업감시 및 파산절차, 자 본시장, 기업지배시장(위임장경쟁, 기업합병 및 인수), 경영자 노동시장 등의 적절성에 의해 그 효율성이 결정",
       "probPage": 30,
-      "ansPage": 7
+      "ansPage": 7,
+      "sourceTag": "2014 7급 국가직"
     },
     {
       "id": "mgmt_0070",
@@ -1785,12 +2142,18 @@
       "id": "mgmt_0074",
       "qid": "0074",
       "subj": "1.01 경영학일반",
-      "typ": "객관식",
-      "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0074\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0074</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00디十 2023 공인노무사 다음 특성에 모두 해당되는 기업의 형태는? • 대규모 자본조답이 용이하다 • 출자지들은 유한책임을 진다. • 전문경영인을 고용하여 소유와 경영의 분리가 기능하다 자본의 중권화를 통해 소유권 이전이 용이하다 0개인기업 ㉦ 합자회사 ㉭주식회사 (㉦합명회사 @유한회사</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0074.webp\" alt=\"문제 0074 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "typ": "박스선택형",
+      "correct": 5,
+      "front": "<div class=\"mcq-card\" data-qid=\"0074\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0074</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 공인노무사</span>\n    <div class=\"stem-ocr-text\">다음 특성에 모두 해당되는 기업의 형태는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>보기 진술문 (탭하여 개별 확인)</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"1\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대규모 자본조달이 용이하다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"2\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">출자자들은 유한책임을 진다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"3\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영인을 고용하여 소유와 경영의 분리가 가능하다.</div>\n        </div>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"4\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">자본의 증권화를 통해 소유권 이전이 용이하다.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">개인기업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">합명회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주식회사</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0074\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">주식회사에서 주식은 유가증권으로서 그 양도가 자유롭고, 증권 제도의 발전으로 자본의 증권화를 가능케 하여 자본조달의 용이성을 제공한다. 또한, 자본의 증권화 제 도로 인해 투자의 회수가 용이하며, 동시에 주식회사의 출자자는 다수이며 또한 그 전부가 유한책임사원으로서 주식의 매매생도를 통하여 자유로이 주주의 지위를 떠 날 수 있으므로 소유와 경영의 분리가 측진된다는 특징을 지닌다</div>\n  </div>\n</div>",
-      "stemText": "00디十 2023 공인노무사 다음 특성에 모두 해당되는 기업의 형태는? • 대규모 자본조답이 용이하다 • 출자지들은 유한책임을 진다. • 전문경영인을 고용하여 소유와 경영의 분리가 기능하다 자본의 중권화를 통해 소유권 이전이 용이하다 0개인기업 ㉦ 합자회사 ㉭주식회사 (㉦합명회사 @유한회사",
-      "choices": [],
+      "stemText": "다음 특성에 모두 해당되는 기업의 형태는?",
+      "choices": [
+        "1번: ① 개인기업",
+        "2번: ② 합명회사",
+        "3번: ③ 합자회사",
+        "4번: ④ 유한회사",
+        "5번: ⑤ 주식회사"
+      ],
       "note": "정답: 1번",
       "search": "문제 0074 | 1.01 경영학일반 |  | 00디十 2023 공인노무사 다음 특성에 모두 해당되는 기업의 형태는? • 대규모 자본조답이 용이하다 • 출자지들은 유한책임을 진다. • 전문경영인을 고용하여 소유와 경영의 분리가 기능하다 자본의 중권화를 통해 소유권 이전이 용이하다 0개인기업 ㉦ 합자회사 ㉭주식회사 (㉦합명회사 @유한회사 | ",
       "tags": [
@@ -1799,7 +2162,30 @@
       ],
       "explanationText": "주식회사에서 주식은 유가증권으로서 그 양도가 자유롭고, 증권 제도의 발전으로 자본의 증권화를 가능케 하여 자본조달의 용이성을 제공한다. 또한, 자본의 증권화 제 도로 인해 투자의 회수가 용이하며, 동시에 주식회사의 출자자는 다수이며 또한 그 전부가 유한책임사원으로서 주식의 매매생도를 통하여 자유로이 주주의 지위를 떠 날 수 있으므로 소유와 경영의 분리가 측진된다는 특징을 지닌다",
       "probPage": 31,
-      "ansPage": 8
+      "ansPage": 8,
+      "sourceTag": "2023 공인노무사",
+      "boxStatements": [
+        {
+          "id": "1",
+          "label": "•",
+          "text": "대규모 자본조달이 용이하다."
+        },
+        {
+          "id": "2",
+          "label": "•",
+          "text": "출자자들은 유한책임을 진다."
+        },
+        {
+          "id": "3",
+          "label": "•",
+          "text": "전문경영인을 고용하여 소유와 경영의 분리가 가능하다."
+        },
+        {
+          "id": "4",
+          "label": "•",
+          "text": "자본의 증권화를 통해 소유권 이전이 용이하다."
+        }
+      ]
     },
     {
       "id": "mgmt_0075",
@@ -1807,10 +2193,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0075\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0075</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2023 경영지도사 주식회사의 특징에 관한 설명으로 옳지 않은 것은? 0 일반대중으로부터 자본을 쉽게 조달할수 있다. 주주총회는 주주의 공동의사를 결정하는 최고 의사결정 기관이다 이사회는 회사의 경영 전반에 관한 의사결정 기관이다 ㉦ 주식회사는소유와 경영이 분리되어 있다 ㉭ 주식회사의 주주는 무한책 임사원으로 구성된다</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0075.webp\" alt=\"문제 0075 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0075\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0075</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2023 경영지도사</span>\n    <div class=\"stem-ocr-text\">주식회사의 특징에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">일반대중으로부터 자본을 쉽게 조달할 수 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">주주총회는 주주의 공동의사를 결정하는 최고 의사결정 기관이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">이사회는 회사의 경영 전반에 관한 의사결정 기관이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">주식회사는 소유와 경영이 분리되어 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주식회사의 주주는 무한책임사원으로 구성된다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0075\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">주식회사의 출자자인 주주는 모두 유한책임사원으로서 출자액 범위 내에서 회사의 적자째무짜본 리스크에 대 한 책임을 진다</div>\n  </div>\n</div>",
-      "stemText": "2023 경영지도사 주식회사의 특징에 관한 설명으로 옳지 않은 것은? 0 일반대중으로부터 자본을 쉽게 조달할수 있다. 주주총회는 주주의 공동의사를 결정하는 최고 의사결정 기관이다 이사회는 회사의 경영 전반에 관한 의사결정 기관이다 ㉦ 주식회사는소유와 경영이 분리되어 있다 ㉭ 주식회사의 주주는 무한책 임사원으로 구성된다",
-      "choices": [],
+      "stemText": "주식회사의 특징에 관한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "1번: ① 일반대중으로부터 자본을 쉽게 조달할 수 있다.",
+        "2번: ② 주주총회는 주주의 공동의사를 결정하는 최고 의사결정 기관이다.",
+        "3번: ③ 이사회는 회사의 경영 전반에 관한 의사결정 기관이다.",
+        "4번: ④ 주식회사는 소유와 경영이 분리되어 있다.",
+        "5번: ⑤ 주식회사의 주주는 무한책임사원으로 구성된다."
+      ],
       "note": "정답: 5번",
       "search": "문제 0075 | 1.01 경영학일반 |  | 2023 경영지도사 주식회사의 특징에 관한 설명으로 옳지 않은 것은? 0 일반대중으로부터 자본을 쉽게 조달할수 있다. 주주총회는 주주의 공동의사를 결정하는 최고 의사결정 기관이다 이사회는 회사의 경영 전반에 관한 의사결정 기관이다 ㉦ 주식회사는소유와 경영이 분리되어 있다 ㉭ 주식회사의 주주는 무한책 임사원으로 구성된다 | ",
       "tags": [
@@ -1819,7 +2211,8 @@
       ],
       "explanationText": "주식회사의 출자자인 주주는 모두 유한책임사원으로서 출자액 범위 내에서 회사의 적자째무짜본 리스크에 대 한 책임을 진다",
       "probPage": 31,
-      "ansPage": 8
+      "ansPage": 8,
+      "sourceTag": "2023 경영지도사"
     },
     {
       "id": "mgmt_0076",
@@ -1852,10 +2245,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0077\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0077</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">2015 경영지도사 주식회사의 대리인 문제에서 발생하는 감시비용에 포함되지 않는 것은? (1) 성과급 (㉦ 잔여손실 ㉭ 외부회계, tl卜사 (기 사외이사 (0 주식옵선</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0077.webp\" alt=\"문제 0077 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0077\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0077</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2015 경영지도사</span>\n    <div class=\"stem-ocr-text\">주식회사의 대리인 문제에서 발생하는 감시비용에 포함되지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">성과급</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">사외이사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">잔여손실</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">주식옵션</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">외부회계감사</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0077\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">대리인 문제와 관련된 비용에는 감시비용, 확증비용, 잔여 손실이 있는데, 감시비용은 주주들이 경영자를 감시하는데 사용되는 비용으로 성과급 제도, 사외이사, 주식옵션(stock option), 외부회계감사 등의 제도 운영에 들어가는 직간접적인 비용이 모두 포함된다.</div>\n  </div>\n</div>",
-      "stemText": "2015 경영지도사 주식회사의 대리인 문제에서 발생하는 감시비용에 포함되지 않는 것은? (1) 성과급 (㉦ 잔여손실 ㉭ 외부회계, tl卜사 (기 사외이사 (0 주식옵선",
-      "choices": [],
+      "stemText": "주식회사의 대리인 문제에서 발생하는 감시비용에 포함되지 않는 것은?",
+      "choices": [
+        "1번: ① 성과급",
+        "2번: ② 사외이사",
+        "3번: ③ 잔여손실",
+        "4번: ④ 주식옵션",
+        "5번: ⑤ 외부회계감사"
+      ],
       "note": "정답: 3번",
       "search": "문제 0077 | 1.01 경영학일반 |  | 2015 경영지도사 주식회사의 대리인 문제에서 발생하는 감시비용에 포함되지 않 는것은? (1) 성과급 (㉦ 잔여손실 ㉭ 외부회계,tl卜사 (기 사외이사 (0 주식옵선 | ",
       "tags": [
@@ -1864,7 +2263,8 @@
       ],
       "explanationText": "대리인 문제와 관련된 비용에는 감시비용, 확증비용, 잔여 손실이 있는데, 감시비용은 주주들이 경영자를 감시하는데 사용되는 비용으로 성과급 제도, 사외이사, 주식옵션(stock option), 외부회계감사 등의 제도 운영에 들어가는 직간접적인 비용이 모두 포함된다.",
       "probPage": 32,
-      "ansPage": 8
+      "ansPage": 8,
+      "sourceTag": "2015 경영지도사"
     },
     {
       "id": "mgmt_0078",
@@ -1921,18 +2321,23 @@
       "qid": "0080",
       "subj": "1.01 경영학일반",
       "typ": "객관식",
-      "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0080\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0080</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">7급 국가직</span>\n    <div class=\"stem-ocr-text\">협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은? (0 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공 동출자로 조직한 공동기업이다. ㉨ 조합원에게는 출자액에 비례하여 의결권이 부여된다 ㉦ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된 운영주체 또는 기능에 따라 소비자협동조합, 생산자협 동조합 등으로 나눌 수 있다.</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0080.webp\" alt=\"문제 0080 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "correct": 2,
+      "front": "<div class=\"mcq-card\" data-qid=\"0080\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0080</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2019 7급 국가직</span>\n    <div class=\"stem-ocr-text\">협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조합원에게는 출자액에 비례하여 의결권이 부여된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">영리보다 조합원의 이용과 편익제공을 목적으로 운영된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0080\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 협동조합이 아니라, 민법상의 조합에 관한 내용이다. 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1 표제가 적용된다.</div>\n  </div>\n</div>",
-      "stemText": "협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은? (0 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공 동출자로 조직한 공동기업이다. ㉨ 조합원에게는 출자액에 비례하여 의결권이 부여된다 ㉦ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된 운영주체 또는 기능에 따라 소비자협동조합, 생산자협 동조합 등으로 나눌 수 있다.",
-      "choices": [],
+      "stemText": "협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은?",
+      "choices": [
+        "1번: ① 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다.",
+        "2번: ② 조합원에게는 출자액에 비례하여 의결권이 부여된다.",
+        "3번: ③ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된다.",
+        "4번: ④ 운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다."
+      ],
       "note": "정답: 4번",
       "search": "문제 0080 | 1.01 경영학일반 | 7급 국가직 | 협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은? (0 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공 동출자로 조직한 공동기업이다. ㉨ 조합원에게는 출자액에 비례하여 의결권이 부여된다 ㉦ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된 운영주체 또는 기능에 따라 소비자협동조합, 생산자협 동조합 등으로 나눌 수 있다. | ",
       "tags": [
         "1.01 경영학일반",
         "문 0080"
       ],
-      "sourceTag": "7급 국가직",
+      "sourceTag": "2019 7급 국가직",
       "explanationText": "① 협동조합이 아니라, 민법상의 조합에 관한 내용이다. 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1 표제가 적용된다.",
       "probPage": 32,
       "ansPage": 8
@@ -1967,18 +2372,24 @@
       "qid": "0082",
       "subj": "1.01 경영학일반",
       "typ": "객관식",
-      "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0082\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0082</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">가맹거래사</span>\n    <div class=\"stem-ocr-text\">기업 간 수평적으로 맺는 협정은? 0 트러스트 지주회사 ㉭기업합동 콘체른 카르텔</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0082.webp\" alt=\"문제 0082 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "correct": 2,
+      "front": "<div class=\"mcq-card\" data-qid=\"0082\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0082</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2014 가맹거래사</span>\n    <div class=\"stem-ocr-text\">동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">트러스트</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지주회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업합동</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">콘체른</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0082\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 카르W(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독 립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담 합형태이다.<br>⑤ 기업합동: 트러스트(trust)를 의미함</div>\n  </div>\n</div>",
-      "stemText": "기업 간 수평적으로 맺는 협정은? 0 트러스트 지주회사 ㉭기업합동 콘체른 카르텔",
-      "choices": [],
+      "stemText": "동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은?",
+      "choices": [
+        "1번: ① 트러스트",
+        "2번: ② 카르텔",
+        "3번: ③ 지주회사",
+        "4번: ④ 기업합동",
+        "5번: ⑤ 콘체른"
+      ],
       "note": "정답: 4번",
       "search": "문제 0082 | 1.01 경영학일반 | 가맹거래사 | 기업 간 수평적으로 맺는 협정은? 0 트러스트 지주회사 ㉭기업합동 콘체른 카르텔 | ",
       "tags": [
         "1.01 경영학일반",
         "문 0082"
       ],
-      "sourceTag": "가맹거래사",
+      "sourceTag": "2014 가맹거래사",
       "explanationText": "② 카르W(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독 립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담 합형태이다.\n⑤ 기업합동: 트러스트(trust)를 의미함",
       "probPage": 32,
       "ansPage": 8
@@ -2348,11 +2759,17 @@
       "qid": "0097",
       "subj": "1.01 경영학일반",
       "typ": "객관식",
-      "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0097\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0097</div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">00% 2014 경영지도사 민간부문이 보유한 정뵈 기술, 자본을 공공부문에 도입해 공동 출자형식으로 행하는 기관 또는 사업은? 0 정부출연기관 (희제3색터 ㉭주택사업 (기정부재정지원기관 ㉦ 공익사업</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0097.webp\" alt=\"문제 0097 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "correct": 3,
+      "front": "<div class=\"mcq-card\" data-qid=\"0097\" data-shuffle=\"false\">\n  <div class=\"question-number\">문제 0097</div>\n  <div class=\"mcq-stem\">\n    <span class=\"source-badge\">2014 경영지도사</span>\n    <div class=\"stem-ocr-text\">민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">정부출연기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">정부재정지원기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">제3섹터</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">공익사업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주택사업</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0097\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">민간 부문이 가진 우수한 정보기술과 풍부한 자본을 공공 부문에 도입해 공동출자 형식으로 행하는 지역개발사업을 말한다. 제3젝터란 이름은 공공부문인 1섹터와 민간부문인 2섹터의 장점을 서로 혼합한 새로운 형태의 개발주체라고해서 붙여진 것이다.</div>\n  </div>\n</div>",
-      "stemText": "00% 2014 경영지도사 민간부문이 보유한 정뵈 기술, 자본을 공공부문에 도입해 공동 출자형식으로 행하는 기관 또는 사업은? 0 정부출연기관 (희제3색터 ㉭주택사업 (기정부재정지원기관 ㉦ 공익사업",
-      "choices": [],
+      "stemText": "민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은?",
+      "choices": [
+        "1번: ① 정부출연기관",
+        "2번: ② 정부재정지원기관",
+        "3번: ③ 제3섹터",
+        "4번: ④ 공익사업",
+        "5번: ⑤ 주택사업"
+      ],
       "note": "정답: 1번",
       "search": "문제 0097 | 1.01 경영학일반 |  | 00% 2014 경영지도사 민간부문이 보유한 정뵈 기술, 자본을 공공부문에 도입해 공동 출자형식으로 행하는 기관 또는 사업은? 0 정부출연기관 (희제3색터 ㉭주택사업 (기정부재정지원기관 ㉦ 공익사업 | ",
       "tags": [
@@ -2361,7 +2778,8 @@
       ],
       "explanationText": "민간 부문이 가진 우수한 정보기술과 풍부한 자본을 공공 부문에 도입해 공동출자 형식으로 행하는 지역개발사업을 말한다. 제3젝터란 이름은 공공부문인 1섹터와 민간부문인 2섹터의 장점을 서로 혼합한 새로운 형태의 개발주체라고해서 붙여진 것이다.",
       "probPage": 35,
-      "ansPage": 10
+      "ansPage": 10,
+      "sourceTag": "2014 경영지도사"
     },
     {
       "id": "mgmt_0098",
