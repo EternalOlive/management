@@ -9396,7 +9396,7 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
     }
     if (btn) {
       btn.classList.remove('saved');
-      btn.textContent = 'OX 저장';
+      btn.textContent = 'OX';
     }
     toast('OX 저장을 해제했어요');
   } else {
@@ -9651,7 +9651,7 @@ function runCardScripts(container) {
     }
     const alreadySaved = isOxSaved(qid, orig);
     oxBtn.className = 'mcq-ox-btn' + (alreadySaved ? ' saved' : '');
-    oxBtn.textContent = alreadySaved ? '저장됨' : 'OX 저장';
+    oxBtn.textContent = alreadySaved ? '저장됨' : 'OX';
     oxBtn.title = '이 선지를 OX 카드로 저장';
     oxBtn.onclick = (e) => {
       e.stopPropagation();
