@@ -10549,6 +10549,7 @@ function rebuildCardHtml(c) {
   const hasText = trimmedChoices.some(t => t.length > 0);
   const maxChoiceLen = Math.max(...trimmedChoices.map(t => t.length), 0);
   
+  const isSplitOn = (localStorage.getItem('mgmt_split_mode') === 'on');
   let optLayoutClasses = [];
   if (!hasText) {
     optLayoutClasses.push('compact');
@@ -10556,7 +10557,6 @@ function rebuildCardHtml(c) {
     optLayoutClasses.push('grid-2col');
   }
   const optClassStr = optLayoutClasses.join(' ');
-  const isSplitOn = (localStorage.getItem('mgmt_split_mode') === 'on');
   const splitClass = isSplitOn ? 'split-layout' : '';
 
   c.front = `<div class="mcq-card ${splitClass}" data-qid="${qNum}" data-shuffle="false">
@@ -10840,8 +10840,9 @@ function closeCardEditor() {
 }
 
 async function saveCurrentCardEdit() {
-  const c = _currentEditingCard;
-  if (!c) return;
+  try {
+    const c = _currentEditingCard;
+    if (!c) return;
 
   const srcEl = document.getElementById('editSourceTag');
   const stemEl = document.getElementById('editStem');
@@ -10938,6 +10939,10 @@ async function saveCurrentCardEdit() {
         toast('GitHub 동기화 실패 (로컬 저장은 완료됨)');
       }
     }
+  }
+  } catch(err) {
+    console.error('[CardEdit Save Error]', err);
+    toast('저장 오류: ' + (err ? err.message : err));
   }
 }
 
@@ -11472,6 +11477,7 @@ function doUndo(){
       saveSessionsSoon();
     }
   }else{                           // 내일로·은퇴·끄기 — 로그에 없던 조작
+    if(sn.entry) dropLogEntry(sn.entry);   // 끄기 카운트 되돌리기
     markDirty('marks'); markDirty('fb');
   }
   const card = sn.card || BYID[sn.id];
@@ -11566,6 +11572,7 @@ $('rOff').onclick=()=>{ // 끄기 = 이 카드 그만 (2026-08-22 — 은퇴·�
   const act = { label: '끄기', btn: 'Off', color: 'var(--c-sec, #8e8e93)', num: null };
   const sn=dropSnap(c, act);
   lastAction = act;
+  const _offEntry=[c.id, Date.now(), 0, {off:1}]; pushLog(_offEntry); sn.entry=_offEntry; // 끄기도 오늘 학습 카운트
   offCard(c,true); dropFromQueue(c.id);   // 큐 뒤에 남은 같은 카드도 함께 정리
   removeCurFromQueue(sn);
   toast('껐어요 — 오늘 밤 루틴이 spec에도 반영해요 (되돌리기 가능)');
@@ -11600,6 +11607,7 @@ $('rOffAll').onclick=()=>{
   const c=cur(); if(!c)return; if(tooSoon()) return;
   const sib=blSiblings(c); if(!sib.length){ toast('형제 낱장이 없어요'); return; }
   const sn=dropSnap(c); sn.also=sib.map(x=>({id:x.id, prev:JSON.parse(JSON.stringify(state.cards[x.id]||null))}));
+  const _offEntry=[c.id, Date.now(), 0, {off:1}]; pushLog(_offEntry); sn.entry=_offEntry; // 형제 끄기도 오늘 학습 카운트
   offCard(c,true); dropFromQueue(c.id);
   for(const x of sib){ offCard(x,true); dropFromQueue(x.id); }
   removeCurFromQueue(sn);
