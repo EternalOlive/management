@@ -11305,13 +11305,15 @@ function backParts(back){
 function fillBackText(c, hide){
   const el=$('cBack'); el.classList.remove('short','ans-s','ans-m','ans-l','ans-struct');
   if(hide){ el.textContent=''; el.style.display='none'; $('cAnsLab').style.display='none'; return; }
-  el.style.display='block'; $('cAnsLab').style.display='';
+  el.style.display='block';
   const b=String(c.back||'');
   if(c.typ==='객관식' || b.includes('mcq-result')){
+    $('cAnsLab').style.display='none'; // mcq-answer-badge가 이미 "정답:" 표시
     el.innerHTML = b;
     runCardScripts(el);
     return;
   }
+  $('cAnsLab').style.display='';
   const rows=backParts(b);
   if(rows){ el.classList.add('ans-struct');
     el.innerHTML=rows.map(([k,v])=>`<div class="as-row"><div class="as-k">${esc(k)}</div><div class="as-v">${esc(v)}</div></div>`).join(''); return; }
