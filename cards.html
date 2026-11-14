@@ -3287,6 +3287,44 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   padding-right: 0 !important;
 }
 
+
+/* 상단 과목명 옆 문제번호 및 출제처 배지 통합 (디자인 일원화) */
+.scope-qnum-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 8px;
+  margin-left: 8px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-fill);
+  color: var(--c-sec);
+  font-size: 11.5px;
+  font-weight: 700;
+  border: 0.5px solid var(--c-sep);
+  flex-shrink: 0;
+  user-select: none;
+}
+.scope-source-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 8px;
+  margin-left: 5px;
+  border-radius: var(--r-pill, 999px);
+  background: var(--c-acc-tint);
+  color: var(--c-acc);
+  font-size: 11.5px;
+  font-weight: 600;
+  flex-shrink: 0;
+  user-select: none;
+}
+/* 문제 카드 내부의 중복된 번호/배지 줄 숨김 (상단 cScope로 완전히 통합) */
+.question-header-row, .mcq-card > .question-number {
+  display: none !important;
+}
+
 </style>
 </head>
 <body>
@@ -11082,7 +11120,15 @@ function scopeHtml(c){   // 경로 = 과목 › 갈래 › 주제 (과목 번호
   const parts=String(scopeOf(c)||'').split(/\s+·\s+/).filter(Boolean);
   if(parts.length) parts[0]=parts[0].replace(/^\d+\./,'');
   const chev='<svg class="sc-chev" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m1.5 1.5 6 6-6 6"/></svg>';
-  return parts.map((p,i)=>`<span class="sc-p${i===0?' sc-first':''}${i===parts.length-1?' sc-last':''}">${esc(p)}</span>`).join(chev);
+  let html = parts.map((p,i)=>`<span class="sc-p${i===0?' sc-first':''}${i===parts.length-1?' sc-last':''}">${esc(p)}</span>`).join(chev);
+  
+  // 객관식 문제의 경우 문제 번호 및 출제 출처 배지를 과목명 옆에 나란히 배치
+  const qNum = c.qid || (c.id ? c.id.replace('mgmt_', '') : '');
+  if (qNum) {
+    const sBadge = c.sourceTag ? `<span class="scope-source-badge">${esc(c.sourceTag)}</span>` : '';
+    html += `<span class="scope-qnum-badge">문제 ${esc(qNum)}</span>${sBadge}`;
+  }
+  return html;
 }
 function reveal(){
   const c=cur(); if(!c||revealed)return;
