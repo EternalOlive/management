@@ -6976,8 +6976,11 @@ function applyLogEntry(sx, e){        // rate()와 같은 규칙으로 한 건 �
      `rate()`가 그렇게 하므로 로그 재계산도 똑같아야 한다(로그가 정본 = 두 경로가 같은 값을 내야 한다).
      이 줄이 없으면 재출 「다시」가 `miss`를 한 번 더 올려, 앱을 새로 켜는 순간 거머리 판정이
      조용히 갈린다(같은 카드 같은 날인데 miss 2). 등가성 검사에서 잡은 것이다. */
+  if(!e || !e[0]) return;
+  const num=e[2];
+  if(!RATING[num]) return;
   if(e[3] && e[3].re) return;
-  const ts=logTs(e), num=e[2], day=dayKey(new Date(ts));
+  const ts=logTs(e), day=dayKey(new Date(ts));
   if(sx.d!==day){
     const fc = sx.fsrs?fsrsRevive(sx.fsrs):FSRS.createEmptyCard(new Date(ts));
     const r=engFor(e[0]).next(fc, new Date(ts), RATING[num]);   // 갈래별 목표율(교육과정=cret)
@@ -6993,7 +6996,7 @@ function replayLog(){
      base가 있으면 그 시각의 상태에서 시작하고 그 뒤 로그만 얹는다 —
      「처음부터 다시」·「일정 조정」은 채점이 아니라 사람이 한 조작이라 로그에 없다. */
   const byCard={};
-  for(const e of state.log){ if(BYID[e[0]]) (byCard[e[0]]=byCard[e[0]]||[]).push(e); }
+  for(const e of state.log){ if(e && e[0] && BYID[e[0]] && RATING[e[2]]) (byCard[e[0]]=byCard[e[0]]||[]).push(e); }
   for(const id in state.cards){       // 채점 이력이 사라진 카드도 파생분은 비워준다
     const sx=state.cards[id];
     const b=sx.base;
@@ -7058,7 +7061,13 @@ function normalizeLogItems(){
 function rebuildLog(){               // 주별 묶음 → 화면·통계가 쓰는 단일 배열
   normalizeLogItems();               // 🔴 읽는 쪽이 보기 전에 불변식을 세운다 (위 주석)
   const all=[];
-  for(const wk in logWeeks) all.push(...logWeeks[wk]);
+  for(const wk in logWeeks){
+    if(Array.isArray(logWeeks[wk])){
+      for(const e of logWeeks[wk]){
+        if(e && e[0] && RATING[e[2]]) all.push(e);
+      }
+    }
+  }
   all.sort((x,y)=>logTs(x)-logTs(y));
   state.log=all;
 }
@@ -10019,6 +10028,34 @@ function showHoedokLink(c){
 }
 
 // ─── 객관식(MCQ) 인터랙션, 소거(Elimination) 및 PDF 이동 헬퍼 ───
+// 진술문 O/X 판단 대상 문항인지 확인 (순서 나열형, 단순 특성 지문 등은 제외)
+function isStatementJudgingCard(c) {
+  if (!c) return false;
+  const stem = c.stemText || '';
+  const choices = c.choices || [];
+  const sample = choices.join(' ');
+
+  // 1) 순서 나열형 문항: 순서, 나열, 단계 또는 화살표(→, ->), 대시(-) 연결
+  if (stem.includes('순서') || stem.includes('나열') || /단계.*순/.test(stem)) return false;
+  if (sample.includes('→') || sample.includes('->') || /([ㄱ-ㅎa-zA-Z가-힣])\s*[-–—]\s*([ㄱ-ㅎa-zA-Z가-힣])/.test(sample)) return false;
+
+  // 2) 보기가 ㄱ, ㄴ, ㄷ 조합형이 아닌 단순 단답형/개념형 선지인 경우 (예: 문제 74번 등)
+  const hasComboChoices = choices.some(ch => /[ㄱ-ㅎ가-힣a-zA-Z]/.test(ch) && (ch.includes(',') || ch.includes('·') || ch.includes('및')));
+  // 만약 보기에 콤마가 없더라도 선택지가 오직 ㄱ, ㄴ 등의 기호만 있는 1지선다 형태가 아니라면
+  const isSymbolOnly = choices.some(ch => /^[1-5]번:\s*[①-⑤]?\s*[ㄱ-ㅎ가-힣a-zA-Z]\s*$/.test(ch.trim()));
+  
+  if (!hasComboChoices && !isSymbolOnly) {
+    // 선택지 내용이 일반 텍스트 문항(개인기업, 합명회사 등)이면 지문 O/X 판단 대상 아님
+    const isPlainTextChoice = choices.some(ch => {
+      const clean = ch.replace(/^[1-5]번:\s*[①-⑤]?\s*/, '').trim();
+      return clean.length > 1 && !/[ㄱ-ㅎ]/.test(clean);
+    });
+    if (isPlainTextChoice) return false;
+  }
+
+  return true;
+}
+
 let userSelectedChoice = null;
 let userStatementJudgments = {}; // { 'ㄱ': 'O', 'ㄴ': 'X' } 사용자 진술문 OX 판단 상태
 let PDF_PAGE_MAP = {};
@@ -10430,11 +10467,27 @@ function runCardScripts(container) {
     helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
   }
 
-  // 5. 보기 진술문(boxStatements) O/X 버튼 및 판단 바인딩
+  // 5. 보기 진술문(boxStatements) O/X 버튼 및 판단 바인딩 (순서 나열 문항 등 제외)
+  const isJudging = isStatementJudgingCard(c);
   const stmtItems = container.querySelectorAll('.mcq-statement-item');
+  const stmtBoxHeader = container.querySelector('.mcq-statement-header');
+  if (stmtBoxHeader && !isJudging) {
+    stmtBoxHeader.innerHTML = '<span>&lt;보기&gt;</span>';
+  }
+
   stmtItems.forEach(item => {
     const stmtKey = item.dataset.stmt;
     if (!stmtKey) return;
+
+    if (!isJudging) {
+      // 순서 문제 등에서는 O/X 버튼 및 상태 뱃지 제거/숨김
+      const oxGroup = item.querySelector('.mcq-stmt-ox-actions');
+      if (oxGroup) oxGroup.style.display = 'none';
+      const statusEl = item.querySelector('.mcq-stmt-status');
+      if (statusEl) statusEl.style.display = 'none';
+      item.onclick = null;
+      return;
+    }
 
     // 만약 기존 HTML에 O/X 액션 버튼이 없다면 동적 주입
     let oxGroup = item.querySelector('.mcq-stmt-ox-actions');
@@ -10448,6 +10501,8 @@ function runCardScripts(container) {
       } else {
         item.appendChild(oxGroup);
       }
+    } else {
+      oxGroup.style.display = '';
     }
 
     const btnO = item.querySelector('.stmt-ox-btn.ox-o');
@@ -10546,7 +10601,7 @@ function checkMcqAnswerAndHighlight(c) {
 
   // 1-1. 진술문(boxStatements) 항목별 정답(O/X) 판정 및 오답 사유 인라인 표시
   const frontElForStmts = $('cFront');
-  if (frontElForStmts) {
+  if (frontElForStmts && isStatementJudgingCard(c)) {
     const stmtItems = frontElForStmts.querySelectorAll('.mcq-statement-item');
     stmtItems.forEach(item => {
       const stmtKey = item.dataset.stmt;
