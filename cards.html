@@ -1284,6 +1284,9 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
 }
 .tb-btn{width:44px;height:44px;border-radius:22px;color:var(--c-label);}
 .tb-btn svg{width:20px;height:20px;stroke-width:2.1;}
+#btnTopOff svg{width:18px;height:18px;color:var(--c-sec);}
+#btnTopOff.on{background:rgba(255,59,48,.12);color:var(--c-red, #FF3B30);}
+#btnTopOff.on svg{color:var(--c-red, #FF3B30);}
 #btnPause svg,#ohPause svg{width:17px;height:17px;}
 .glass-c{border-radius:22px;}
 #tbProg{height:44px;border-radius:22px;display:flex;align-items:center;gap:14px;padding:0 20px;min-width:0;max-width:100%;}
@@ -1463,7 +1466,7 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
 
 /* 아이폰(≤500) — 반경 26 · 안쪽 18/18/12 · 윗줄 = ‹ | 진행 | ⏸ ↶ ⋯(09-25 한 손 막대 은퇴) · 채점 54/8/16 */
 @media (max-width:500px){
-  #topbar{grid-template-columns:44px minmax(0,1fr) auto;padding-top:4px;height:48px;gap:8px;}
+  #topbar{grid-template-columns:auto minmax(0,1fr) auto;padding-top:4px;height:48px;gap:8px;}
   #tbProg{background:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none;height:44px;padding:0;gap:4px 8px;
     flex-wrap:wrap;justify-content:center;align-content:center;}
   #tbSess,#tbCounts{font-size:15px;font-weight:600;color:var(--c-label);}
@@ -2897,7 +2900,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   <div id="main">
     <div id="banner"></div>
     <div id="topbar">
-      <div class="tb-l"><button class="tb-btn glass-c" id="btnHome" title="홈" aria-label="홈으로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><span id="saveBadge" title="미저장분 있음"></span></div>
+      <div class="tb-l"><button class="tb-btn glass-c" id="btnHome" title="홈" aria-label="홈으로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><button class="tb-btn glass-c" id="btnTopOff" title="카드 끄기 (Q)" aria-label="이 카드 끄기" style="color:var(--c-sec);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5v8"/><path d="M6.4 7.2a7.5 7.5 0 1 0 11.2 0"/></svg></button><span id="saveBadge" title="미저장분 있음"></span></div>
       <div id="tbProg"><span id="tbSess"></span><span class="tb-pbar"><span id="tbBar"></span></span><span id="tbCounts"></span><span id="tbReCount" style="display:none"></span></div>
       <div class="tb-r"><button class="tb-btn" id="btnStudy" title="스터디" aria-label="스터디"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M15.5 4.9a3.2 3.2 0 0 1 0 6.2M17.5 14.7c1.6.7 2.7 2.4 3 4.8"/></svg></button><button class="tb-btn" id="btnPause" title="잠시 멈춤" aria-label="잠시 멈춤"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4.5" width="4" height="15" rx="1.2"/><rect x="14" y="4.5" width="4" height="15" rx="1.2"/></svg></button><button class="tb-btn" id="btnUndo" title="되돌리기" aria-label="되돌리기" disabled><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg></button><button class="tb-btn" id="btnMore" title="피드백 · 이 카드" aria-label="피드백 · 이 카드"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5.5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="18.5" cy="12" r="1.8"/></svg></button></div>
     </div>
@@ -10792,7 +10795,9 @@ function syncRail(){
     b.classList.toggle('on', ann.includes(b.dataset.ann));
   });
   $('rFlag').classList.toggle('on', !!(s&&s.flag!=null));
-  $('rOff').classList.toggle('on', !!(s&&s.ann&&s.ann.includes('끄기')));
+  const isCardOff = !!(s&&s.ann&&s.ann.includes('끄기'));
+  $('rOff').classList.toggle('on', isCardOff);
+  if ($('btnTopOff')) $('btnTopOff').classList.toggle('on', isCardOff);
   { const n=c?blSiblings(c).length:0; $('rOffAll').style.display=n?'':'none'; $('rOffAllLab').textContent='형제 '+(n+1)+'장 끄기'; }
   $('flagMemoRow').classList.toggle('on', !!(s&&s.flag!=null));
   $('flagMemo').value = memoWas = (s&&s.flag)||''; memoFor=c?c.id:null;
@@ -10850,6 +10855,7 @@ $('rOff').onclick=()=>{ // 끄기 = 이 카드 그만 (2026-08-22 — 은퇴·�
   removeCurFromQueue(sn);
   toast('껐어요 — 오늘 밤 루틴이 spec에도 반영해요 (되돌리기 가능)');
 };
+if($('btnTopOff')) $('btnTopOff').onclick = () => $('rOff').click();
 /* 🔴 **형제 끄기** (동하 09-16 「열거형을 낱장으로 쪼갰잖아, 그 형제들 한번에 전부 끌 방법 없어?」). 낱장은 같은 열거에서 나온 것끼리 `pr` 「bl:…」 무리를
    공유한다(QC 09-15) → 그 무리 전부를 ID-off. 끄기 규칙은 그대로(카드 한 장 = ID-off · spec 마커 아님)이고 장수만 N이다. 되돌리기 한 번에 전부 되살린다(sn.also).
    원 열거 카드(elems 보유)는 무리에 안 든다 — 낱장이 전부 꺼지면 게이트가 열려 원 카드가 나온다(살아 있는 낱장 0 = 게이트 없음). */
