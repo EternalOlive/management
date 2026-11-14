@@ -2692,17 +2692,17 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0081\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0081</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사기업의 성격이 깅하나 공기업으로 분류된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조합 자체 의 영리보다 조합원의 상호부조를 목적으로 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">조합원의 임의 가입 및 탈퇴가 인정되며 출자액에 관계 없이 평등한 의결권을 가진다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">잉여금의 배분은 원칙적으로 조합원의 이용도에 따른 다. 그기업집중</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0081\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0081</span>\n    <span class=\"source-badge\">2024 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 중 특수형태기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사기업의 성격이 강하나 공기업으로 분류된다.</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조합 자체의 영리보다 조합원의 상호부조를 목적으로 한다.</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">조합원의 임의 가입 및 탈퇴가 인정되며 출자액에 관계없이 평등한 의결권을 가진다.</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">잉여금의 배분은 원칙적으로 조합원의 이용도에 따른다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0081\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 협동조합은 사기업에 속한다.</div>\n  </div>\n</div>",
-      "stemText": "기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은?",
+      "stemText": "다음 중 특수형태기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은?",
       "choices": [
-        "1번: 사기업의 성격이 깅하나 공기업으로 분류된다.",
-        "2번: 조합 자체 의 영리보다 조합원의 상호부조를 목적으로 한다.",
-        "3번: 조합원의 임의 가입 및 탈퇴가 인정되며 출자액에 관계 없이 평등한 의결권을 가진다.",
-        "4번: 잉여금의 배분은 원칙적으로 조합원의 이용도에 따른 다. 그기업집중"
+        "1번: 사기업의 성격이 강하나 공기업으로 분류된다.",
+        "2번: 조합 자체의 영리보다 조합원의 상호부조를 목적으로 한다.",
+        "3번: 조합원의 임의 가입 및 탈퇴가 인정되며 출자액에 관계없이 평등한 의결권을 가진다.",
+        "4번: 잉여금의 배분은 원칙적으로 조합원의 이용도에 따른다."
       ],
-      "note": "정답: 1번\n[지문] 다음 중 특수형태기업으로서 협동조합에 대한 설명으로 가장 적 절하지 않은 것은?",
-      "search": "문제 0081 | 1.01 경영학일반 |  | 기업으로서 협동조합에 대한 설명으로 가장 적 절하지 않은 것은? | 1번: 사기업의 성격이 깅하나 공기업으로 분류된다. | 2번: 조합 자체 의 영 리 보다 조합원의 상호부조를 목적으로 한다. | 3번: 조합원의 임의 가입 및 탈퇴가 인정되며 출자액에 관계 없이 평등한 의결권을 가진다. | 4번: 잉여금의 배분은 원칙적으로 조합원의 이용도에 따른 다. 그기업집중",
+      "note": "정답: 1번\n[지문] 다음 중 특수형태기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은?",
+      "search": "문제 0081 | 1.01 경영학일반 | 2024 5급 군무원 | 다음 중 특수형태기업으로서 협동조합에 대한 설명으로 가장 적절하지 않은 것은? | ",
       "tags": [
         "1.01 경영학일반",
         "문 0081"
@@ -2713,7 +2713,8 @@
       "probPdf": "prob_01.pdf",
       "probPdfPage": 15,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 7
+      "ansPdfPage": 7,
+      "sourceTag": "2024 5급 군무원"
     },
     {
       "id": "mgmt_0082",
