@@ -6242,15 +6242,14 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0201\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0201</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영학의 역사적 흐름에 따라 제시된 이론의 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">테일러의 과학적 관리법에서 차별적 성과급제란 표준을 설정하고 표준을 달성한 작업자에게 높은 임금을 지급</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">베버(Weber)가 주장한 관료주의(bureaucracy)란 합리적 이고 이상적이며 매우 효율적인 조직은 분업，명쾌하게 정의된 조직의 위계，공식적인 규칙과 절차, 인간적(개인</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">페이율의 관리과정론에서는 관리활동을 계획화，조직</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">화，지휘，조정, 통제의 5단계로 구분했다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">길브레스 부부는 모션픽쳐(motion picture)를 통해 과업 을 기본동작으로 분해했다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0201\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">베버가 주장한 관료주의(bureaucracy)의 원칙에 인간적<br>(개인적)인 면을 최대한 고려한 관계는 존재하지 않는다 오히려 베버의 이상적인 관료제는 인간적인 면을 최대한 배제한 비개인성의 원칙을 근간으로 운영되어야 한다고 주장했다</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0201\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0201</span>\n    <span class=\"source-badge\">2021 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">경영학의 역사적 흐름에 따라 제시된 이론의 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">테일러의 과학적 관리법에서 차별적 성과급제란 표준을 설정하고 표준을 달성한 작업자에게 높은 임금을 지급하는 것을 말한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">베버(Weber)가 주장한 관료주의(bureaucracy)란 합리적이고 이상적이며 매우 효율적인 조직은 분업, 명쾌하게 정의된 조직의 위계, 공식적인 규칙과 절차, 인간적(개인적)인 면을 최대한 고려한 관계 등의 원칙에 근거한다는 것이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">페이욜의 관리과정론에서는 관리활동을 계획화, 조직화, 지휘, 조정, 통제의 5단계로 구분했다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">길브레스 부부는 모션픽쳐(motion picture)를 통해 과업을 기본동작으로 분해했다.</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0201\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 베버가 주장한 관료주의에서 이상적인 관료제는 인간적인 면을 배제한 '몰인정성(비개인성, impersonality)'의 원칙을 근간으로 한다.</div>\n  </div>\n</div>",
       "stemText": "경영학의 역사적 흐름에 따라 제시된 이론의 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 테일러의 과학적 관리법에서 차별적 성과급제란 표준을 설정하고 표준을 달성한 작업자에게 높은 임금을 지급",
-        "2번: 베버(Weber)가 주장한 관료주의(bureaucracy)란 합리적 이고 이상적이며 매우 효율적인 조직은 분업，명쾌하게 정의된 조직의 위계，공식적인 규칙과 절차, 인간적(개인",
-        "3번: 페이율의 관리과정론에서는 관리활동을 계획화，조직",
-        "4번: 화，지휘，조정, 통제의 5단계로 구분했다.",
-        "5번: 길브레스 부부는 모션픽쳐(motion picture)를 통해 과업 을 기본동작으로 분해했다."
+        "1번: 테일러의 과학적 관리법에서 차별적 성과급제란 표준을 설정하고 표준을 달성한 작업자에게 높은 임금을 지급하는 것을 말한다.",
+        "2번: 베버(Weber)가 주장한 관료주의(bureaucracy)란 합리적이고 이상적이며 매우 효율적인 조직은 분업, 명쾌하게 정의된 조직의 위계, 공식적인 규칙과 절차, 인간적(개인적)인 면을 최대한 고려한 관계 등의 원칙에 근거한다는 것이다.",
+        "3번: 페이욜의 관리과정론에서는 관리활동을 계획화, 조직화, 지휘, 조정, 통제의 5단계로 구분했다.",
+        "4번: 길브레스 부부는 모션픽쳐(motion picture)를 통해 과업을 기본동작으로 분해했다."
       ],
       "note": "정답: 2번\n[지문] 경영학의 역사적 흐름에 따라 제시된 이론의 설명으로 가장 옳지 한으 거으7",
       "search": "문제 0201 | 1.01 경영학일반 |  | 경영학의 역사적 흐름에 따라 제시된 이론의 설명으로 가장 옳지 않은 것은? | 1번: 테일러의 과학적 관리법에서 차별적 성과급제란 표준을 설정하고 표준을 달성한 작업자에게 높은 임금을 지급 | 2번: 베버(Weber)가 주장한 관료주의(bureaucracy)란 합리적 이고 이상적이며 매우 효율적인 조직은 분업，명쾌하게 정의된 조직의 위계，공식적인 규칙과 절차, 인간적(개인 | 3번: 페이율의 관리과정론에서는 관리활동을 계획화，조직 | 4번: 화，지휘，조정, 통제의 5단계로 구분했다. | 5번: 길브레스 부부는 모션픽쳐(motion picture)를 통해 과업 을 기본동작으로 분해했다.",
@@ -6258,13 +6257,14 @@
         "1.01 경영학일반",
         "문 0201"
       ],
-      "explanationText": "베버가 주장한 관료주의(bureaucracy)의 원칙에 인간적\n(개인적)인 면을 최대한 고려한 관계는 존재하지 않는다 오히려 베버의 이상적인 관료제는 인간적인 면을 최대한 배제한 비개인성의 원칙을 근간으로 운영되어야 한다고 주장했다",
+      "explanationText": "② 베버가 주장한 관료주의에서 이상적인 관료제는 인간적인 면을 배제한 몰인정성(비개인성)의 원칙을 근간으로 한다.",
       "probPage": 54,
       "ansPage": 18,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 37,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 17
+      "ansPdfPage": 17,
+      "sourceTag": "2021 7급 군무원"
     },
     {
       "id": "mgmt_0202",
@@ -8004,15 +8004,14 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0262\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0262</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">다음 중 국민경제의 순환과정에 대한 설명으로 가장 적절하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">가계, 기업, 정부가 주요 주체이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업은 가계가 제공하는 노동력을 소비하는 소비주체이 다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">가계가 기업에 제공하는 노동력의 대가로 기업은 임금</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">을 지불한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">임금은 가계소득의 원천 중의 하나가 된다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0262\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 소비주체는 기업이 아니라 가계이다. 단일전공 • 금융공기업 성납및6H현<br>① 1. 경영혜9d 나</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0262\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0262</span>\n    <span class=\"source-badge\">2024 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 중 국민경제의 순환과정에 대한 설명으로 가장 적절하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">가계, 기업, 정부가 주요 주체이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업은 가계가 제공하는 노동력을 소비하는 소비주체이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">가계가 기업에 제공하는 노동력의 대가로 기업은 임금을 지불한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">임금은 가계소득의 원천 중의 하나가 된다.</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0262\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 소비주체는 기업이 아니라 가계이다. 기업은 생산주체에 해당한다.</div>\n  </div>\n</div>",
       "stemText": "다음 중 국민경제의 순환과정에 대한 설명으로 가장 적절하지 않은 것은?",
       "choices": [
         "1번: 가계, 기업, 정부가 주요 주체이다.",
-        "2번: 기업은 가계가 제공하는 노동력을 소비하는 소비주체이 다.",
-        "3번: 가계가 기업에 제공하는 노동력의 대가로 기업은 임금",
-        "4번: 을 지불한다.",
-        "5번: 임금은 가계소득의 원천 중의 하나가 된다."
+        "2번: 기업은 가계가 제공하는 노동력을 소비하는 소비주체이다.",
+        "3번: 가계가 기업에 제공하는 노동력의 대가로 기업은 임금을 지불한다.",
+        "4번: 임금은 가계소득의 원천 중의 하나가 된다."
       ],
       "note": "정답: 2번\n[지문] 다음 중 국민경제의 순환과정에 대한 설명으로 가장 적절하지 않 은 것은?",
       "search": "문제 0262 | 1.01 경영학일반 |  | 다음 중 국민경제의 순환과정에 대한 설명으로 가장 적절하지 않은 것은? | 1번: 가계, 기업, 정부가 주요 주체이다. | 2번: 기업은 가계가 제공하는 노동력을 소비하는 소비주체이 다. | 3번: 가계가 기업에 제공하는 노동력의 대가로 기업은 임금 | 4번: 을 지불한다. | 5번: 임금은 가계소득의 원천 중의 하나가 된다.",
@@ -8020,13 +8019,14 @@
         "1.01 경영학일반",
         "문 0262"
       ],
-      "explanationText": "① 소비주체는 기업이 아니라 가계이다. 단일전공 • 금융공기업 성납및6H현\n① 1. 경영혜9d 나",
+      "explanationText": "② 소비주체는 기업이 아니라 가계이다. 기업은 생산주체에 해당한다.",
       "probPage": 65,
       "ansPage": 23,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 48,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 22
+      "ansPdfPage": 22,
+      "sourceTag": "2024 5급 군무원"
     },
     {
       "id": "mgmt_0263",
@@ -9637,14 +9637,14 @@
       "subj": "1.02 조직행동: 개인",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0315\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0315</span>\n    <span class=\"source-badge\">2021 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">성격과 가치관에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">성 격의 유형에서 내새관사(internals)와 외재론사 (externals)는 통제의 위치(locus of control)에 따라 사하 린다.:</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">성 적 측성 도구로는 MBTI와 비파이브 모형이 있다.:</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">가치관은 개인의 판단기준으로 인간의 록성율 구분 짓 는 요소 중 가장 상위개념으로 생각할 수 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">로 키 치 는《Rokeach》는 가 치 란율 수단적 가 치 (instrumental value》와 궁극적 가치(terminal value)로 분 류하고, 궁극적 가치로서 행동 방식, 용기，정직, 지성 등 을제시했다.</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0315\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0315</span>\n    <span class=\"source-badge\">2021 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">성격과 가치관에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">성격의 유형에서 내재론자(internals)와 외재론자(externals)는 통제의 위치(locus of control)에 따라 갈린다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">성격 측정 도구로는 MBTI와 빅파이브(Big 5) 모형이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">가치관은 개인의 판단기준으로 인간의 특성을 구분 짓는 요소 중 가장 상위개념으로 생각할 수 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">로키치(Rokeach)는 가치관을 수단적 가치(instrumental value)와 궁극적 가치(terminal value)로 분류하고, 궁극적 가치로서 행동 방식, 용기, 정직, 지성 등을 제시했다.</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0315\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답 4번</div>\n  <div class=\"mcq-explanation\"><div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">로기치의 연구에서 궁극적 가치(terminal values)는 사람의 가장 바람직한 존재양식에 관한 것이고, 수단적 가치 (instrumental values)는 선호하는 행위 양식 또는 궁극 적 가치를 달성하는 수단에 해당한다. 따라서 행동방식, 용기, 정직, 지성 등은 수단적 가치에 해당한다.</div></div>\n</div>",
       "stemText": "성격과 가치관에 대한 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 성 격의 유형에서 내새관사(internals)와 외재론사 (externals)는 통제의 위치(locus of control)에 따라 사하 린다.:",
-        "2번: 성 적 측성 도구로는 MBTI와 비파이브 모형이 있다.:",
-        "3번: 가치관은 개인의 판단기준으로 인간의 록성율 구분 짓 는 요소 중 가장 상위개념으로 생각할 수 있다.",
-        "4번: 로 키 치 는《Rokeach》는 가 치 란율 수단적 가 치 (instrumental value》와 궁극적 가치(terminal value)로 분 류하고, 궁극적 가치로서 행동 방식, 용기，정직, 지성 등 을제시했다."
+        "1번: 성격의 유형에서 내재론자(internals)와 외재론자(externals)는 통제의 위치(locus of control)에 따라 갈린다.",
+        "2번: 성격 측정 도구로는 MBTI와 빅파이브(Big 5) 모형이 있다.",
+        "3번: 가치관은 개인의 판단기준으로 인간의 특성을 구분 짓는 요소 중 가장 상위개념으로 생각할 수 있다.",
+        "4번: 로키치(Rokeach)는 가치관을 수단적 가치(instrumental value)와 궁극적 가치(terminal value)로 분류하고, 궁극적 가치로서 행동 방식, 용기, 정직, 지성 등을 제시했다."
       ],
       "note": "정답: 4번\n",
       "search": "02 0315 | 1.02 조직행동: 개인 | 문제 0315",
