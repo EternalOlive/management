@@ -3538,10 +3538,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0109\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0109</span>\n    <span class=\"source-badge\">경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">국제표준화기구(ISO)에서 제정한 기업의 사회적 책임에 관한 국제표준은?</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0109.webp\" alt=\"문제 0109 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0109\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0109</span>\n    <span class=\"source-badge\">2018 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">국제표준화기구(ISO)에서 제정한 기업의 사회적 책임에 관한 국제표준은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ISO 9000</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ISO 14000</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ISO 22000</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ISO 26000</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ISO/IEC 27000</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0109\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 60 9000: 품질경영<br>① 6014000: 환경경영 60 22000. 식품안전경영 60 2600이 사회적 책임 ISO/IEC 27000: 정보보안관리 시스템</div>\n  </div>\n</div>",
       "stemText": "국제표준화기구(ISO)에서 제정한 기업의 사회적 책임에 관한 국제표준은?",
-      "choices": [],
+      "choices": [
+        "1번: ISO 9000",
+        "2번: ISO 14000",
+        "3번: ISO 22000",
+        "4번: ISO 26000",
+        "5번: ISO/IEC 27000"
+      ],
       "note": "정답: 4번",
       "search": "문제 0109 | 1.01 경영학일반 | 경영지도사 | 국제표준화기구(ISO)에서 제정한 기업의 사회적 책임에 관한 국제표준은? | ",
       "tags": [
@@ -3680,10 +3686,15 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0114\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0114</span>\n    <span class=\"source-badge\">2015 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">친환경 경영과 직접적인 관련이 없는 것은?</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0114.webp\" alt=\"문제 0114 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0114\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0114</span>\n    <span class=\"source-badge\">2015 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">친환경 경영과 직접적인 관련이 없는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">식스시그마(6 sigma) 운동</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">탄소배출권</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지속가능한 경영</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">교토의정서</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0114\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">식스시그마(6 sigma) 운동은 품질경영과 관련된 것이다.</div>\n  </div>\n</div>",
       "stemText": "친환경 경영과 직접적인 관련이 없는 것은?",
-      "choices": [],
+      "choices": [
+        "1번: 식스시그마(6 sigma) 운동",
+        "2번: 탄소배출권",
+        "3번: 지속가능한 경영",
+        "4번: 교토의정서"
+      ],
       "note": "정답: 1번",
       "search": "문제 0114 | 1.01 경영학일반 | 2015 7급 국가직 | 친환경 경영과 직접적인 관련이 없는 것은? | ",
       "tags": [
@@ -3706,10 +3717,15 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0115\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0115</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">공급사슬관리(SCM)에서 \"현재세대의 자원 운영 계획이 미래세대의 자원 활용 가능성을 제한하지 않아야 한다\"라고 정의되는 지속가능성(sustainability)의 3요소가 아닌 것은?</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0115.webp\" alt=\"문제 0115 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0115\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0115</span>\n    <span class=\"source-badge\">2017 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">공급사슬관리에서 \"현재세대의 자원 운영 계획이 미래세대의 자원 활용 가능성을 제한하지 않아야 한다.\"라고 정의되는 지속 가능성(Sustainability)의 3요소가 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">재무적(경제적) 가치</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기술적 가치</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">환경적 가치</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">사회적 가치</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0115\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">지속가능경영이란 기업의 모든 경영활동 과정을 경제적 수익성, 환경적 건전성, 사회적 책임성을 바탕으로 통합 추진해 지속가능 발전을 추구하는 경영 패러다임을 말한다. 이는 기업경영 전반에 적용되는데 공급사슬관리에도 역시 적용된다.</div>\n  </div>\n</div>",
-      "stemText": "공급사슬관리(SCM)에서 \"현재세대의 자원 운영 계획이 미래세대의 자원 활용 가능성을 제한하지 않아야 한다\"라고 정의되는 지속가능성(sustainability)의 3요소가 아닌 것은?",
-      "choices": [],
+      "stemText": "공급사슬관리에서 \"현재세대의 자원 운영 계획이 미래세대의 자원 활용 가능성을 제한하지 않아야 한다.\"라고 정의되는 지속 가능성(Sustainability)의 3요소가 아닌 것은?",
+      "choices": [
+        "1번: 재무적(경제적) 가치",
+        "2번: 기술적 가치",
+        "3번: 환경적 가치",
+        "4번: 사회적 가치"
+      ],
       "note": "정답: 2번",
       "search": "문제 0115 | 1.01 경영학일반 |  | 공급사슬관리(SCM)에서 \"현재세대의 자원 운영 계획이 미래세대의 자원 활용 가능성을 제한하지 않아야 한다\"라고 정의되는 지속가능성(sustainability)의 3요소가 아닌 것은? | ",
       "tags": [
@@ -3877,15 +3893,15 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0121\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0121</span>\n    <span class=\"source-badge\">경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">이윤 극대화. 얼자리 창ft 등 기본적 영역에 해당하는 기업의 사 회적 책임은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제에는 외부경제효과와 외부* 성제효과가 숀재하저 되는대 주로 외부항경세효과가 주는 사성서 성상 때본 이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">현실적으로 시상의 많은 부분에서 普상성하 싱생이 이 루어지고 있기 때문이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사회률 구성하는 모든 요인듈의 상호 이손싱이 야화칙 고 있어 각 구성원들의 책임이 강조된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업의 영향력이 상대적으로 중대되고 있기 때문이다 48</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">사회봉사 책임 자유재량직책입 012 牛 2024 5급 군당幻 기업의 사회적 책임이 요구되는 배경으로 다용 증 가상 적정하저 않은 것은?</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0121\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0121</span>\n    <span class=\"source-badge\">2023 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">이윤 극대화, 일자리 창출 등 기본적 영역에 해당하는 기업의 사회적 책임은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">윤리적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">경제적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">법적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">자유 재량적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">사회봉사 책임</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0121\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">경제적 책임(Economc Responsibtl,ües)은 기업은 사 회구성원들에게 재화와 서비스를 생산하도록 설계된 경 제주체로, 소비자들이 필요로 하는 재화와 서비스를 생산하고, 고용을 늘리고 이를 통해 이윤을 창출하여야 한다.</div>\n  </div>\n</div>",
-      "stemText": "이윤 극대화. 얼자리 창ft 등 기본적 영역에 해당하는 기업의 사 회적 책임은?",
+      "stemText": "이윤 극대화, 일자리 창출 등 기본적 영역에 해당하는 기업의 사회적 책임은?",
       "choices": [
-        "1번: 경제에는 외부경제효과와 외부* 성제효과가 숀재하저 되는대 주로 외부항경세효과가 주는 사성서 성상 때본 이다.",
-        "2번: 현실적으로 시상의 많은 부분에서 普상성하 싱생이 이 루어지고 있기 때문이다.",
-        "3번: 사회률 구성하는 모든 요인듈의 상호 이손싱이 야화칙 고 있어 각 구성원들의 책임이 강조된다.",
-        "4번: 기업의 영향력이 상대적으로 중대되고 있기 때문이다 48",
-        "5번: 사회봉사 책임 자유재량직책입 012 牛 2024 5급 군당幻 기업의 사회적 책임이 요구되는 배경으로 다용 증 가상 적정하저 않은 것은?"
+        "1번: 윤리적 책임",
+        "2번: 경제적 책임",
+        "3번: 법적 책임",
+        "4번: 자유 재량적 책임",
+        "5번: 사회봉사 책임"
       ],
       "note": "정답: 2번",
       "search": "문제 0121 | 1.01 경영학일반 | 경영지도사 | 기업의 사회적 책임(CSR)에 해당하지 않는 것은? | ",
@@ -3909,10 +3925,16 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0122\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0122</span>\n    <span class=\"source-badge\">경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐럴(A. B. Carroll)이 제시한 기업의 사회적 책임(CSR Corporate Soaal Responslblllty) 4단계에 해당하지 않는 것은?</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0122.webp\" alt=\"문제 0122 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0122\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0122</span>\n    <span class=\"source-badge\">2024 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐롤(A. Carroll)이 제시한 기업의 사회적 책임(CSR: Corporate Social Responsibility) 4단계에 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">자생적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">법률적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">윤리적 책임</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">자선적 책임</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0122\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">개를(A CarroIl)이 제시한 기업의 사회적 책임(CSR Corporate Socjal Responslbility)의 4단계는 경제적 책임 법률적 책임, 윤리적 책임, 자선적 책임이다.</div>\n  </div>\n</div>",
-      "stemText": "캐럴(A. B. Carroll)이 제시한 기업의 사회적 책임(CSR Corporate Soaal Responslblllty) 4단계에 해당하지 않는 것은?",
-      "choices": [],
+      "stemText": "캐롤(A. Carroll)이 제시한 기업의 사회적 책임(CSR: Corporate Social Responsibility) 4단계에 해당하지 않는 것은?",
+      "choices": [
+        "1번: 경제적 책임",
+        "2번: 자생적 책임",
+        "3번: 법률적 책임",
+        "4번: 윤리적 책임",
+        "5번: 자선적 책임"
+      ],
       "note": "정답: 1번",
       "search": "문제 0122 | 1.01 경영학일반 | 경영지도사 | 캐럴(A. B. Carroll)이 제시한 기업의 사회적 책임(CSR Corporate Soaal Responslblllty) 4단계에 해당하지 않는 것은? | ",
       "tags": [
@@ -3935,15 +3957,15 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0123\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0123</span>\n    <span class=\"source-badge\">공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은? ••.경제적 책임 법적 책임 윤리적 책임 ᄅ.자선적 책임</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ᄀ，</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ᄂ，</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">e，e</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">”, L，a</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">I, e 기업윤리</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0123\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0123</span>\n    <span class=\"source-badge\">2024 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄱ</span><span class=\"statement-text\">경제적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄴ</span><span class=\"statement-text\">법적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄷ</span><span class=\"statement-text\">윤리적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄹ</span><span class=\"statement-text\">자선적 책임</span></div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0123\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">경제적 책임과 법적 책임은 자발성보다는 의무성이 더 강하지만 윤리적 책임과 자선적 책임은 의무성보다는 자발성이 더 강하다.</div>\n  </div>\n</div>",
-      "stemText": "캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은? ••.경제적 책임 법적 책임 윤리적 책임 ᄅ.자선적 책임",
+      "stemText": "캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은?",
       "choices": [
-        "1번: ᄀ，",
-        "2번: ᄂ，",
-        "3번: e，e",
-        "4번: ”, L，a",
-        "5번: I, e 기업윤리"
+        "1번: ㄱ, ㄴ",
+        "2번: ㄴ, ㄷ",
+        "3번: ㄷ, ㄹ",
+        "4번: ㄱ, ㄴ, ㄹ",
+        "5번: ㄴ, ㄷ, ㄹ"
       ],
       "note": "정답: 3번",
       "search": "문제 0123 | 1.01 경영학일반 | 공인노무사 | 캐럴(A. B. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은? | ",
