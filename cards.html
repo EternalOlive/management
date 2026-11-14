@@ -2339,7 +2339,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
     grid-template-areas: 
       "head opts"
       "stem opts"
-      "help opts";
+      "stem help";
     column-gap: 28px;
     align-items: start;
     max-width: 1100px;
@@ -2384,7 +2384,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 
 .mcq-option {
   display: grid;
-  grid-template-columns: 40px minmax(0, 1fr) auto;
+  grid-template-columns: 34px 1fr;
   align-items: center;
   width: 100%;
   padding: 12px 16px;
@@ -2473,7 +2473,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 
 /* 소거 ✕ 버튼 */
 .mcq-elim-btn {
-  display: inline-flex;
+  display: none !important;
   align-items: center;
   justify-content: center;
   width: 26px;
@@ -10313,7 +10313,7 @@ function runCardScripts(container) {
   const helpEl = container.querySelector('.mcq-help');
   if (helpEl && !helpEl.dataset.elimPatched) {
     helpEl.dataset.elimPatched = '1';
-    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
+    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/길게 누르기/Shift+1~5: 보기 소거</b>';
   }
 
   // 이미지 클릭 시 라이트박스 확대 연결
