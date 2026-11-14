@@ -3083,6 +3083,210 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 .btn-subtle:hover {
   background: rgba(255, 59, 48, 0.1);
 }
+
+/* ══════════ [UI/UX 전면 개선] 문제 헤더 한 줄 통합 & RemNote 진술문 카드 ══════════ */
+.question-header-row {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  margin-bottom: 12px !important;
+  width: fit-content !important;
+}
+.question-number {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  height: 26px !important;
+  line-height: 26px !important;
+  padding: 0 10px !important;
+  margin: 0 !important;
+  border-radius: var(--r-pill, 999px) !important;
+  background: var(--c-fill) !important;
+  color: var(--c-sec) !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  border: 0.5px solid var(--c-sep) !important;
+  width: fit-content !important;
+  flex: none !important;
+  user-select: none !important;
+}
+.source-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  height: 26px !important;
+  line-height: 26px !important;
+  padding: 0 10px !important;
+  margin: 0 !important;
+  border-radius: var(--r-pill, 999px) !important;
+  background: var(--c-acc-tint) !important;
+  color: var(--c-acc) !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  border: 0.5px solid transparent !important;
+  width: fit-content !important;
+  flex: none !important;
+  user-select: none !important;
+}
+.mcq-card.split-layout .question-header-row {
+  grid-area: head !important;
+  margin-bottom: 10px !important;
+}
+
+/* ── RemNote 진술문(ㄱ, ㄴ, ㄷ, ㄹ) 인셋 카드 (가로 한 줄 flex row) ── */
+.mcq-statement-box {
+  margin: 16px 0 20px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+}
+.mcq-statement-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 12px !important;
+  padding: 12px 16px !important;
+  background: var(--c-card) !important;
+  border: 0.5px solid var(--c-sep) !important;
+  border-radius: var(--r-cell, 12px) !important;
+  box-shadow: var(--sh-card) !important;
+  cursor: pointer !important;
+  user-select: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease !important;
+  box-sizing: border-box !important;
+  text-align: left !important;
+}
+.mcq-statement-item:hover {
+  background: var(--c-fill) !important;
+}
+.mcq-statement-item:active {
+  transform: scale(0.995) !important;
+}
+.mcq-stmt-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: var(--r-pill, 999px) !important;
+  background: var(--c-fill) !important;
+  color: var(--c-label) !important;
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  flex-shrink: 0 !important;
+  transition: all 0.15s ease !important;
+}
+.mcq-stmt-content {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+.mcq-stmt-text {
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+  color: var(--c-label) !important;
+  word-break: keep-all !important;
+  margin: 0 !important;
+}
+.mcq-stmt-reason {
+  margin-top: 4px !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  color: var(--c-again) !important;
+}
+.mcq-stmt-status {
+  flex-shrink: 0 !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 4px 10px !important;
+  border-radius: var(--r-pill, 999px) !important;
+  background: var(--c-fill) !important;
+  color: var(--c-sec) !important;
+  transition: all 0.15s ease !important;
+}
+
+/* 선택 상태 */
+.mcq-statement-item.selected {
+  background: var(--c-acc-tint) !important;
+  border-color: var(--c-acc) !important;
+  box-shadow: 0 0 0 1px var(--c-acc) !important;
+}
+.mcq-statement-item.selected .mcq-stmt-badge {
+  background: var(--c-acc) !important;
+  color: #fff !important;
+}
+.mcq-statement-item.selected .mcq-stmt-text {
+  color: var(--c-acc) !important;
+  font-weight: 600 !important;
+}
+.mcq-statement-item.selected .mcq-stmt-status {
+  background: var(--c-acc) !important;
+  color: #fff !important;
+}
+
+/* 정답/오답 결과 상태 */
+.mcq-statement-item.result-hit {
+  background: var(--c-good-bg) !important;
+  border-color: var(--c-good) !important;
+  box-shadow: 0 0 0 1px var(--c-good) !important;
+}
+.mcq-statement-item.result-hit .mcq-stmt-badge,
+.mcq-statement-item.result-hit .mcq-stmt-status {
+  background: var(--c-good) !important;
+  color: #fff !important;
+}
+
+.mcq-statement-item.result-miss {
+  background: var(--c-again-bg) !important;
+  border-color: var(--c-again) !important;
+  box-shadow: 0 0 0 1px var(--c-again) !important;
+}
+.mcq-statement-item.result-miss .mcq-stmt-badge,
+.mcq-statement-item.result-miss .mcq-stmt-status {
+  background: var(--c-again) !important;
+  color: #fff !important;
+}
+
+.mcq-statement-item.result-missed {
+  background: var(--c-card) !important;
+  border: 1.5px dashed var(--c-good) !important;
+}
+.mcq-statement-item.result-missed .mcq-stmt-badge {
+  border: 1px solid var(--c-good) !important;
+  color: var(--c-good) !important;
+}
+.mcq-statement-item.result-missed .mcq-stmt-status {
+  background: var(--c-good-bg) !important;
+  color: var(--c-good) !important;
+}
+
+.mcq-statement-item.result-passed {
+  opacity: 0.45 !important;
+  background: var(--c-fill) !important;
+  border-color: var(--c-sep) !important;
+}
+.mcq-statement-item.result-passed:hover {
+  opacity: 0.85 !important;
+}
+
+/* 박스형 진술문 문항일 때 하단/우측의 번호 조합 버튼(1 ㄱ,ㄴ 등) 완전 숨김 */
+.mcq-card:has(.mcq-statement-box) .mcq-options,
+.mcq-card.has-statements .mcq-options,
+.mcq-card[data-mode="statement-multi"] .mcq-options {
+  display: none !important;
+}
+
+/* 스플릿 레이아웃일 때도 진술문 카드가 있으면 단일 집중 컬럼으로 렌더링 */
+.mcq-card.split-layout:has(.mcq-statement-box),
+.mcq-card.split-layout.has-statements {
+  display: block !important;
+  max-width: 900px !important;
+}
+.mcq-card.split-layout:has(.mcq-statement-box) .mcq-stem,
+.mcq-card.split-layout.has-statements .mcq-stem {
+  border-right: none !important;
+  padding-right: 0 !important;
+}
+
 </style>
 </head>
 <body>
