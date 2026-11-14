@@ -1316,11 +1316,12 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 #cardScroll{flex:1 1 auto;min-height:0;display:block;}   /* 🔴 block — flex면 #cSplit이 칸 높이로 줄어들어 긴 문면이 가림 면과 겹쳤다(09-24 아이폰 실측) */
 #cSplit{min-height:100%;display:flex;flex-direction:column;}
-#cUpper{flex:42 1 0;display:flex;flex-direction:column;justify-content:center;padding:12px 0;position:relative;}
+#cUpper{flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-start;padding:6px 0 12px;position:relative;}
 .c-upper-act{display:inline-flex;align-items:center;gap:6px;margin-left:auto;}
 .c-copy-btn{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;padding:0;color:var(--c-sec);background:var(--c-fill);border:0;border-radius:50%;cursor:pointer;transition:all .15s ease;-webkit-user-select:none;user-select:none;}
 .c-copy-btn:hover{color:var(--c-label);background:var(--c-fill-hi,rgba(120,120,128,0.22));}
 .c-copy-btn svg{width:14px;height:14px;}
+.c-copy-btn.active{color:var(--c-acc);background:var(--c-acc-tint);}
 .c-gpt-btn{color:var(--c-sec);}
 .c-gpt-tag{color:var(--c-sec);}
 .c-copy-tag{cursor:pointer;display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;padding:0 !important;border:0;color:var(--c-sec);border-radius:50% !important;user-select:none;-webkit-user-select:none;}
@@ -1343,7 +1344,18 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
 .cline-dots.fading{opacity:0;}
 .cline-dots .cld-dot{width:7.5px;height:7.5px;border-radius:50%;flex:0 0 auto;box-sizing:border-box;box-shadow:0 0.5px 2px rgba(0,0,0,.25);animation:cldPop .18s ease-out;}
 @keyframes cldPop{from{transform:scale(0.5);opacity:0;}to{transform:scale(1);opacity:1;}}
-#cLower{flex:58 1 0;position:relative;display:flex;flex-direction:column;}
+#cLower{flex:0 0 auto;position:relative;display:flex;flex-direction:column;}
+
+/* ─── 가변 높이: 정답 공개 전에는 문제/선지가 전체 공간 100% 점유, 하단 빈 가림판 제거 ─── */
+#card:not(.rev) #cUpper{flex:1 1 auto;padding-bottom:16px;}
+#card:not(.rev) .c-line-wrap{display:none !important;}
+#card:not(.rev) #cLower{display:none !important;}
+
+/* ─── 정답 공개 후: 정답/해설 영역이 펼쳐짐 ─── */
+#card.rev #cUpper{flex:0 0 auto;padding-bottom:10px;}
+#card.rev .c-line-wrap{display:flex !important;margin:8px 0 12px;}
+#card.rev #cLower{flex:1 1 auto;display:flex !important;}
+
 #cBackWrap,#cBackWrap.on{display:flex;flex-direction:column;flex:1 1 auto;margin:0;border:0;padding:0;visibility:hidden;}
 #cBackWrap.on{visibility:visible;}
 #cAnsBody{position:relative;flex:1 1 auto;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr);}
@@ -1357,10 +1369,9 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
 #cBack .as-row{padding:10px 0;}
 #cBack .as-row+.as-row{box-shadow:inset 0 .5px 0 var(--c-sep);}
 #cBack .as-k{font-size:13px;font-weight:600;line-height:18px;color:var(--c-sec);margin-bottom:2px;}
-/* 가림 면 — 앞면에서만. 부모가 visibility:hidden이어도 이 면은 visible로 되살린다(답 글자는 계속 숨음) */
-#cCover{grid-area:1/1;position:relative;visibility:visible;background:transparent;border-radius:20px;   /* 채움 없음(동하 09-28 「네모칸이랑 선이 묘하게 거슬려」 → B안) — 앞면·정답 면이 같은 틀(선 하나)이고 누르면 답 글자만 나타난다 */
+#cCover{grid-area:1/1;position:relative;visibility:visible;background:transparent;border-radius:20px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:16px;cursor:pointer;}
-#card.rev #cCover{visibility:hidden;}   /* 답면 = 숨기기만(높이 유지 → 선·버튼 불변) */
+#card.rev #cCover{visibility:hidden;}
 #card.tbl #cCover{display:none;}
 #revealHint{margin:0;font-size:15px;font-weight:400;color:var(--c-sec);text-align:center;}
 #hintBox{margin:0;max-width:none;gap:8px;}
@@ -2308,6 +2319,69 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   gap: 10px;
   margin-top: 16px;
 }
+
+/* 2열 스마트 그리드 (선지 텍스트가 적당히 짧은 경우) */
+@media (min-width: 520px) {
+  .mcq-options.grid-2col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 12px;
+  }
+  .mcq-options.grid-2col .mcq-option:last-child:nth-child(odd) {
+    grid-column: span 2;
+  }
+}
+
+/* 가로 대화면 좌우 2분할 (Split Layout) */
+@media (min-width: 860px) {
+  .mcq-card.split-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+    grid-template-areas: 
+      "head opts"
+      "stem opts"
+      "help opts";
+    column-gap: 28px;
+    align-items: start;
+    max-width: 1100px;
+  }
+  .mcq-card.split-layout .question-number {
+    grid-area: head;
+    margin-bottom: 8px;
+  }
+  .mcq-card.split-layout .mcq-stem {
+    grid-area: stem;
+    border-bottom: none;
+    border-right: 0.5px solid var(--c-sep);
+    padding-right: 24px;
+    padding-bottom: 0;
+  }
+  .mcq-card.split-layout .mcq-options {
+    grid-area: opts;
+    margin-top: 0;
+  }
+  .mcq-card.split-layout .mcq-help {
+    grid-area: help;
+    margin-top: 12px;
+  }
+}
+
+/* 높이 820px 이하 뷰포트 반응형 컴팩트 모드 */
+@media (max-height: 820px) {
+  #topbar { height: 46px; min-height: 46px; padding-top: 4px; }
+  #card { padding: 14px 24px 10px; border-radius: 18px; }
+  #cHead { margin-bottom: 0; }
+  .mcq-stem { font-size: 15.5px; line-height: 1.5; padding: 2px 0 10px; }
+  .stmt-box { padding: 10px 14px; margin: 8px 0; font-size: 14px; }
+  .mcq-options { gap: 6px 10px; margin-top: 10px; }
+  .mcq-option { padding: 8px 12px; min-height: 40px; font-size: 14.5px; }
+  .mcq-label { font-size: 16px; }
+  .mcq-choice-text { font-size: 14.5px; line-height: 1.35; }
+  #gradeBar { margin-top: 8px; gap: 8px; }
+  .gbtn { height: 48px; border-radius: 14px; }
+  .gbtn .gl { font-size: 14px; }
+  .gbtn .gi { font-size: 11px; }
+}
+
 .mcq-option {
   display: grid;
   grid-template-columns: 40px minmax(0, 1fr) auto;
@@ -3044,7 +3118,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
         <!-- 🔴 디자인 이식 09-24: 카드 = 위아래 반반. 답면 내용은 **앞면에서도 미리 채워 visibility:hidden**으로 깔고 가림 면으로 덮는다 →
              앞면↔답면에서 질문·선·버튼이 1px도 안 움직인다(디자인_언어 §1-1 · §7.1). 가림은 visibility라 글자가 선택·낭독되지 않는다. -->
         <div id="card">
-          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><div class="c-upper-act"><a id="btnPdfFront" class="c-pdf-btn" href="#" target="_blank" title="문제 PDF 열기" style="display:none;">문제 PDF ↗</a><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="c-copy-btn" id="btnEditCard" title="카드 내용 수정 (e)" aria-label="카드 내용 수정" onclick="openCardEditor()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button></div></div></div>
+          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><div class="c-upper-act"><a id="btnPdfFront" class="c-pdf-btn" href="#" target="_blank" title="문제 PDF 열기" style="display:none;">문제 PDF ↗</a><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="c-copy-btn" id="btnEditCard" title="카드 내용 수정 (e)" aria-label="카드 내용 수정" onclick="openCardEditor()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button><button type="button" class="c-copy-btn" id="btnToggleSplit" title="좌우 분할 / 상하 배치 전환" aria-label="레이아웃 전환"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18"/></svg></button></div></div></div>
           <div id="cardScroll"><div id="cSplit">
             <div id="cUpper">
               <div class="c-imgs front" id="cImgF"></div>
@@ -9906,6 +9980,24 @@ function runCardScripts(container) {
   const cardId = c ? (c.id || ('mgmt_' + (c.qid || ''))) : null;
   const elimList = cardId ? getCardEliminated(cardId) : [];
 
+  // 0. 레이아웃 모드 (Split Layout 및 2열 스마트 그리드) 동적 적용
+  const mcqCardEl = container.classList.contains('mcq-card') ? container : container.querySelector('.mcq-card');
+  if (mcqCardEl) {
+    const isSplit = (localStorage.getItem('mgmt_split_mode') !== 'off');
+    mcqCardEl.classList.toggle('split-layout', isSplit);
+  }
+  const optsEl = container.querySelector('.mcq-options');
+  if (optsEl && !optsEl.classList.contains('compact')) {
+    const optBtns = [...optsEl.querySelectorAll('.mcq-option')];
+    const maxLen = Math.max(...optBtns.map(b => {
+      const t = b.querySelector('.mcq-choice-text');
+      return t ? t.textContent.trim().length : 0;
+    }), 0);
+    if (maxLen > 0 && maxLen <= 38) {
+      optsEl.classList.add('grid-2col');
+    }
+  }
+
   // 1. 앞면 문제 번호 옆 문제 PDF 이동 버튼 주입
   const qNumEl = container.querySelector('.question-number');
   if (qNumEl && !container.querySelector('.pdf-jump-btn.prob-btn') && pages.probPage) {
@@ -10218,14 +10310,26 @@ function rebuildCardHtml(c) {
     return `<button type="button" class="mcq-option text-option" data-original="${num}"><span class="mcq-label">${label}</span><span class="mcq-choice-text">${escapeHtml(text)}</span></button>`;
   }).join('');
 
-  const optCompactClass = choicesList.some(ch => ch.replace(/^[1-5]번:\s*/, '').trim()) ? '' : 'compact';
+  const trimmedChoices = choicesList.map(ch => ch.replace(/^[1-5]번:\s*/, '').trim());
+  const hasText = trimmedChoices.some(t => t.length > 0);
+  const maxChoiceLen = Math.max(...trimmedChoices.map(t => t.length), 0);
+  
+  let optLayoutClasses = [];
+  if (!hasText) {
+    optLayoutClasses.push('compact');
+  } else if (maxChoiceLen <= 38) {
+    optLayoutClasses.push('grid-2col');
+  }
+  const optClassStr = optLayoutClasses.join(' ');
+  const isSplitOn = (localStorage.getItem('mgmt_split_mode') !== 'off');
+  const splitClass = isSplitOn ? 'split-layout' : '';
 
-  c.front = `<div class="mcq-card" data-qid="${qNum}" data-shuffle="false">
+  c.front = `<div class="mcq-card ${splitClass}" data-qid="${qNum}" data-shuffle="false">
   <div class="question-number">문제 ${qNum}</div>
   <div class="mcq-stem">
     ${sourceBadge}<div class="stem-ocr-text">${escapeHtml(c.stemText || '')}</div>${stmtBoxHtml}${imgHtml}
   </div>
-  <div class="mcq-options ${optCompactClass}">${choicesHtml}</div>
+  <div class="mcq-options ${optClassStr}">${choicesHtml}</div>
   <div class="mcq-help">1~${choicesList.length}번 키 또는 보기를 눌러 답을 선택하세요.</div>
 </div>`;
 
@@ -10672,6 +10776,12 @@ function showCard(){
     } else {
       pdfFront.style.display = 'none';
     }
+  }
+  const btnSplit = $('btnToggleSplit');
+  if (btnSplit) {
+    const isSplit = localStorage.getItem('mgmt_split_mode') !== 'off';
+    btnSplit.classList.toggle('active', isSplit);
+    btnSplit.title = isSplit ? '현재: 좌우 나란히 보기 (클릭 시 상하 보기)' : '현재: 상하 보기 (클릭 시 좌우 나란히)';
   }   // 긴 문면 = 질문 20(폰 16) · 디자인 §4
   $('card').classList.toggle('tbl', !!c.table);                           // 표 카드는 표가 곧 답 칸 — 가림 면 없음
   $('cBackWrap').classList.remove('on');
@@ -11158,6 +11268,22 @@ $('rOff').onclick=()=>{ // 끄기 = 이 카드 그만 (2026-08-22 — 은퇴·�
   toast('껐어요 — 오늘 밤 루틴이 spec에도 반영해요 (되돌리기 가능)');
 };
 if($('btnTopOff')) $('btnTopOff').onclick = () => $('rOff').click();
+function toggleSplitMode() {
+  const current = localStorage.getItem('mgmt_split_mode') !== 'off';
+  const next = !current;
+  localStorage.setItem('mgmt_split_mode', next ? 'on' : 'off');
+  const mcqCard = document.querySelector('.mcq-card');
+  if (mcqCard) {
+    mcqCard.classList.toggle('split-layout', next);
+  }
+  const btn = $('btnToggleSplit');
+  if (btn) {
+    btn.classList.toggle('active', next);
+    btn.title = next ? '현재: 좌우 나란히 보기 (클릭 시 상하 보기)' : '현재: 상하 보기 (클릭 시 좌우 나란히)';
+  }
+  toast(next ? '좌우 나란히 보기 (860px 이상)' : '상하 기본 보기');
+}
+if($('btnToggleSplit')) $('btnToggleSplit').onclick = toggleSplitMode;
 /* 🔴 **형제 끄기** (동하 09-16 「열거형을 낱장으로 쪼갰잖아, 그 형제들 한번에 전부 끌 방법 없어?」). 낱장은 같은 열거에서 나온 것끼리 `pr` 「bl:…」 무리를
    공유한다(QC 09-15) → 그 무리 전부를 ID-off. 끄기 규칙은 그대로(카드 한 장 = ID-off · spec 마커 아님)이고 장수만 N이다. 되돌리기 한 번에 전부 되살린다(sn.also).
    원 열거 카드(elems 보유)는 무리에 안 든다 — 낱장이 전부 꺼지면 게이트가 열려 원 카드가 나온다(살아 있는 낱장 0 = 게이트 없음). */
