@@ -3188,14 +3188,37 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   margin: 0 !important;
 }
 .mcq-stmt-reason {
-  margin-top: 5px !important;
+  margin-top: 6px !important;
   font-size: 13px !important;
   font-weight: 600 !important;
-  color: var(--c-again, #FF3B30) !important;
-  background: var(--c-again-bg, rgba(255, 59, 48, 0.08)) !important;
-  padding: 4px 8px !important;
+  padding: 5px 10px !important;
   border-radius: 6px !important;
-  line-height: 1.4 !important;
+  line-height: 1.45 !important;
+  transition: all 0.15s ease !important;
+}
+/* 오답 지문 (빨간색 계열) */
+.mcq-stmt-reason.is-incorrect {
+  color: var(--c-red, #FF3B30) !important;
+  background: rgba(255, 59, 48, 0.12) !important;
+  border-left: 3.5px solid var(--c-red, #FF3B30) !important;
+}
+/* 옳은 지문 (초록색 계열) */
+.mcq-stmt-reason.is-correct {
+  color: var(--c-green, #34C759) !important;
+  background: rgba(52, 199, 89, 0.12) !important;
+  border-left: 3.5px solid var(--c-green, #34C759) !important;
+}
+
+/* 정답 공개 시 상태 뱃지 O / X 전용 색상 */
+.mcq-stmt-status.status-ans-o {
+  background: rgba(52, 199, 89, 0.18) !important;
+  color: var(--c-green, #34C759) !important;
+  font-weight: 800 !important;
+}
+.mcq-stmt-status.status-ans-x {
+  background: rgba(255, 59, 48, 0.18) !important;
+  color: var(--c-red, #FF3B30) !important;
+  font-weight: 800 !important;
 }
 
 /* O / X 액션 버튼 그룹 */
@@ -10636,17 +10659,18 @@ function checkMcqAnswerAndHighlight(c) {
         }
       }
 
-      // 상태 뱃지 갱신 (정답: O / 정답: X)
+      // 상태 뱃지 갱신 (정답: O / 정답: X) 및 전용 색상 적용
       const stBadge = item.querySelector('.mcq-stmt-status');
       if (stBadge) {
+        stBadge.classList.remove('status-ans-o', 'status-ans-x');
+        stBadge.classList.add(answerIsO ? 'status-ans-o' : 'status-ans-x');
         const userMark = userJudged ? `(내선택: ${userJudged}) ` : '';
         stBadge.textContent = `${userMark}정답: ${correctVal}`;
       }
 
-      // 오답 사유 또는 해설 텍스트 인라인 노출
+      // 오답 사유 또는 해설 텍스트 인라인 노출 (옳은 지문=초록, 오답 지문=빨강으로 구분)
       let reasonText = (stmtData && (stmtData.reason || stmtData.desc)) || '';
       if (!reasonText && stmtData && !answerIsO && stmtData.text) {
-        // 사유가 명시되지 않은 틀린 진술문
         reasonText = '옳지 않은 진술입니다.';
       }
       
@@ -10654,11 +10678,11 @@ function checkMcqAnswerAndHighlight(c) {
       if (reasonText) {
         if (!reasonEl) {
           reasonEl = document.createElement('div');
-          reasonEl.className = 'mcq-stmt-reason';
           const contentEl = item.querySelector('.mcq-stmt-content') || item;
           contentEl.appendChild(reasonEl);
         }
-        reasonEl.innerHTML = `↳ ${answerIsO ? '<b>[옳은 지문]</b> ' : '<b>[오답 지문]</b> '}${reasonText}`;
+        reasonEl.className = 'mcq-stmt-reason ' + (answerIsO ? 'is-correct' : 'is-incorrect');
+        reasonEl.innerHTML = `↳ ${answerIsO ? '<b>[옳은 지문]</b> ' : '<b>[오답 지문]</b> '}${escapeHtml(reasonText)}`;
         reasonEl.style.display = 'block';
       }
     });
@@ -11511,6 +11535,7 @@ function resetMcqAnswerHighlight(c) {
       if (btnX) btnX.classList.remove('active');
 
       const stBadge = item.querySelector('.mcq-stmt-status');
+      if (stBadge) stBadge.classList.remove('status-ans-o', 'status-ans-x');
       if (judged === 'O') {
         item.classList.add('judged-o');
         if (btnO) btnO.classList.add('active');
