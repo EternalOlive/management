@@ -1,0 +1,4525 @@
+{
+  "mgmt_0277": {
+    "id": "mgmt_0277",
+    "qid": "0277",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "조직행동에서 성과에 관련된 변수로서 능력(ablllty)에 관한 설명 으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 능력(ability)이란 어떤 일을 할 수 있는 최대한의 한계를 의미한다.",
+      "2번: 가드너(Gardner)는 IQ점수와 개인이 발휘하는 행동 성과 와의 관계가 일관성이 부족하다고 주장하며 이를 보완",
+      "3번: 사회지능(SQ: social intelligence)이란 손다이크 (Thorndike)에 의해 능력으로 처음 제시되었다.",
+      "4번: 감성지능(EQ: emotional intelligence)은 명확히 측정될 수 있어 최근 조직행동 분야에서는 이에 대한 논쟁의 여",
+      "5번: 도덕지능(MQ: moral intelligence》은 최근 사회적 책임에 대한 이론구축과 기업조직에서 신뢰Ghjst)에 관한 관심 이 높아지면서 중요성이 강조되고 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0278": {
+    "id": "mgmt_0278",
+    "qid": "0278",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 긍정심리자본(positive psychological capital)에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 창의력(creativity)",
+      "2번: 자기효능감(self-efficacy)",
+      "3번: 낙관주의(optimism)",
+      "4번: 희망(hope)",
+      "5번: 회복 탄력성(resilience)"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0279": {
+    "id": "mgmt_0279",
+    "qid": "0279",
+    "sourceTag": "공기업 출제경항 반영",
+    "stemText": "아메바일(Amablle)의 창의력 모텔에서 창의력(creatmty)i & 가시기는 조직요인들에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 자유로운 분위기",
+      "2번: 충분한 자원",
+      "3번: 도전적 직무",
+      "4번: 업무 과중",
+      "5번: 창의성 발휘를 위한 상사의 독려"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0280": {
+    "id": "mgmt_0280",
+    "qid": "0280",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "참재적 창의성에 대한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 창의적인 업무는 전문성이 기본이다.",
+      "2번: 똑똑한 사람은 복잡한 문제를 푸는 데 능숙하기 때문에 창의적이다.",
+      "3번: 희망，자기효과성, 긍정성은 개인의 창의성을 파악할 수 있는 요소이다.",
+      "4번: 창의성은 바람직한 많은 개별적 특성과 관계가 있어 윤리와 상관관계 가 높다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0281": {
+    "id": "mgmt_0281",
+    "qid": "0281",
+    "sourceTag": "2022 가맹거래사",
+    "stemText": "스키너(B. sklnner)의 작동적 조건화 이É(operant conditi theory)에 포함되지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 소거(extinction)",
+      "2번: 처벌(punishment)",
+      "3번: 대리적 강화(vicarious reinforcement)",
+      "4번: 긍정적 강화(positive reinforcement)",
+      "5번: 부정적 강화(negative reinforcement)"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0282": {
+    "id": "mgmt_0282",
+    "qid": "0282",
+    "sourceTag": "2013 공인노무사",
+    "stemText": "기존에 제공해 주던 금정적 보상을 제공해 주지 않음으로써 어떤 행동을 졸이거나 중지하도록 하기 위한 강화(retnforcement) 방 법은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 긍정적 강화",
+      "2번: 소거",
+      "3번: 벌",
+      "4번: 부정적 강화",
+      "5번: 소극적 강화"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0283": {
+    "id": "mgmt_0283",
+    "qid": "0283",
+    "sourceTag": "2019 공인노무사",
+    "stemText": "강화계획(schedules of reinforcement)에서 불규칙한 횟수의 바람직한 행동 후 강화요인을 제공하는 기법은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고정간격법",
+      "2번: 변동간격법",
+      "3번: 고정비율법",
+      "4번: 변동비율법",
+      "5번: 연속강화법"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0284": {
+    "id": "mgmt_0284",
+    "qid": "0284",
+    "sourceTag": "2017 경영지도사",
+    "stemText": "조직개발 기법 중 스키너(B. F. Skinner)의 조작적 조건화의 원리 를 조직 상황에 적용하여 긍정적 행동의 강화에 이론적 기초를 두고 있는 기법은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 행동수정기법",
+      "2번: 형태적 접근기법",
+      "3번: 의사거래분석법",
+      "4번: 감수성 훈련기법",
+      "5번: 델파이법"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0285": {
+    "id": "mgmt_0285",
+    "qid": "0285",
+    "sourceTag": "2010 7급 국가직",
+    "stemText": "행위강화전략 중 소거(extjnction)에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 품행이 좋은 학생에게 칭찬과 격려룰 아끼지 않는다,",
+      "2번: 성적이 기준에 미달한 학생에개 장학금 지급옵 입시적 으로 중지한다.",
+      "3번: 수형생활을 모범적으로 하는 죄수에게 감형이나 가석방 의 기회를 부여한다.",
+      "4번: 업무수행 실적이 계속해서 좋지 않은 직원을 징계한다."
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0286": {
+    "id": "mgmt_0286",
+    "qid": "0286",
+    "sourceTag": "2020 코레일 수송직렬 복원",
+    "stemText": "조작적 조건 형성에서 반응에 대해 삶거나 또는 불편한 결과를 주거나 긍정적인 결과를 제거하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 적극적 강화",
+      "2번: 소극적 강화",
+      "3번: 소거",
+      "4번: 벌",
+      "5번: 연속적 강화계획"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0287": {
+    "id": "mgmt_0287",
+    "qid": "0287",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "반두라(Bandura)의 자기효능(self-efficacy) 이론에 따른 자기효 능감 향상 방법이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 성공 경험(enactive mastery experience)",
+      "2번: 대리 모델링(vicarious learning)",
+      "3번: 구두 설득(verbal persuasion)",
+      "4번: 정신적 • 육체적 각성(arousal)",
+      "5번: 구체적 목표(specific goal)"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0288": {
+    "id": "mgmt_0288",
+    "qid": "0288",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "조직에서 강화이른을 적용한 것으로 유은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 해서는 바람직한 행위 뒤에 제공되는 강화물의 alence》이 낮은 것이 좋다.",
+      "2번: 부성적 o^^negative reinforcement》는 종업令! 이 인치 않는 범과 갑은 결과물옵 접회하는 것올 말하며 벌",
+      "3번: 소저(extinction)의 에시로 연수원에시 교육반는 종업원 의 교육성적이 낮은 경우 교육수당을 반납시키는 행위",
+      "4번: 벌(punishment》이란 구성원에게 선호하는 보상이 주어 진 상태에서 보상을 철회시키는 것을 의미한다.",
+      "5번: 부정적 강화｛negative reinforcement)의 예로 실적이 낮 은 종업원에게도 실적이 높은 종업원과 동일한 보상을 주어 실적이 낮은 종업원에게 강화 효과를 일으키는 것 을들수있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0289": {
+    "id": "mgmt_0289",
+    "qid": "0289",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "인지주의(cognitivism) 학습이론에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 인지주의 학습이론의 대표적인 학자로는 손다이크 (Thorndike), 톨만「Tolman), 될러(Kdhler)가 있다.",
+      "2번: 대표적인 이론으로 잠재학습이론과 통찰학습이론 (insightful learning theory)0］ 있다.",
+      "3번: 인지주의 학자들은 강화물 없이도 인지 구조를 통한 학 습이 가능하다고 보았다.",
+      "4번: 톨만은 쥐 실험을 통해 행동을 결정하는 유기체의 기대， 목적, 내부 인지과정의 중요성을 역설하였다.",
+      "5번: 통찰학습이란 문제 상황에서 관련 없는 여러 요인이 갑 자기 완전한 형태로 재구성되어 문제를 해결한다는 뜻 이다."
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0290": {
+    "id": "mgmt_0290",
+    "qid": "0290",
+    "sourceTag": "2024 7급 국가직",
+    "stemText": "강화이론에 대한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 강화이론은 인간의 행동율 원인변수로 가주6내，어， 행동을 취하는 사람■의 목표와 4나1의 위이이 무상&#x27; 시",
+      "2번: 구성원의 행동이 조직의 목표 답성에 도움이 니분 병 에는 소극적 강5打negative reinforcement)# 농새 바",
+      "3번: 바람직하지 못한 행동을 악화하기 위해 괄편한 자극 주는 것을 벌(punishment)이라고 한다.",
+      "4번: 바람직하지 못한 행동을 제약하기 위해 보상을 설외 는 것도 강화이론에 해당한다. ［태도］"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0291": {
+    "id": "mgmt_0291",
+    "qid": "0291",
+    "sourceTag": "2019 공인노무사",
+    "stemText": "상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 도의 구성요소를 옳게 연결한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ㄱ- 감정적 요소 / ㄴ- 인지적 요소 / ㄷ- 행동적 요소",
+      "2번: ㄱ- 긍정적 요소 / ㄴ- 행동적 요소 / ㄷ- 인지적 요소",
+      "3번: ㄱ- 인지적 요소 / ㄴ- 행동적 요소 / ㄷ- 감정적 요소",
+      "4번: ㄱ- 인지적 요소 / ㄴ- 감정적 요소 / ㄷ- 행동적 요소",
+      "5번: ㄱ- 행동적 요소 / ㄴ- 감정적 요소 / ㄷ- 인지적 요소"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0292": {
+    "id": "mgmt_0292",
+    "qid": "0292",
+    "sourceTag": "2021 7급 군무원",
+    "stemText": "태도와 학습에 대한 설명으로 가장 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 람직하지 못한 행위롭 소멸시키기 위한 강화방법이다.",
+      "2번: 必 단속적 강화 유형에서 빠른 시간 내에 안정적인 성과 달 성올 하기 위해서는 고정비율법이 효과적이다.",
+      "3번: 레빈(Lewin》은 태도의 년화과정을 해빙, 변화, 재동결의 과정을 거쳐 이루어진다고 했으며 이러한 태도 변화는 개인수준 뿐만 아니라 집단, 조직 수준에서도 같은 방법",
+      "4번: 마이어와 알렌(Meyer &amp; Allen)은 조직몰입(organization commitment)을 정서적(affective)몰입，지속적 (continuance)몰입，규범적(normative)몰입으로 나누어 설명했다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0293": {
+    "id": "mgmt_0293",
+    "qid": "0293",
+    "sourceTag": "2016 7급 국가직",
+    "stemText": "직무만족 및 불만족에 대한 설명으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무불만족을 중가시키는 개인적 성향은 긍정적 정서와 긍정적 자기평 가이다.",
+      "2번: 할 모호성, 역할 갈등, 역할 과다를 경험한 사람들의 직무 만족이 높다.",
+      "3번: 직무만족이란 직무를 통해 그 가치를 느끼고 업무 성취 감을 느끼는 긍정적 감정 상태를 말한다.",
+      "4번: 종업원과 상사 사이의 공유된 가치관은 직무만족을 감 소시 킨다."
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0294": {
+    "id": "mgmt_0294",
+    "qid": "0294",
+    "sourceTag": "2022 5급 군무원",
+    "stemText": "다음 중 조직몰입(organizatjonal commtment)에 대한 설명으 로 가장 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 조직몰입은 조직에 대한, 그리고 조직의 목표에 대한 인 식을 분명히 한 상태에서 그 조직에 남아 조직의 일원이",
+      "2번: 감정적 조직몰입은 조직에 남아 있는 이유가 조직에 대 한 강한 애정일 때 나타난다.",
+      "3번: 규범적 조직 몰입은 조직에 남아 있는 이유가 자신이 떠 난 이후에 회사에 미칠 피해 둥으로 인한 걱정，도덕적,",
+      "4번: 재무적 조직몰입은 조직에 남아 있는 이유가 생계, 경제 적 가치를 위한 것일 때 나타난다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0295": {
+    "id": "mgmt_0295",
+    "qid": "0295",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "직무 불만족에 따른 파*의 4가지 반응 모텔 중 종업원 반응이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 주장(voice)",
+      "2번: 이탈(exit)",
+      "3번: 일탈(deviance)",
+      "4번: 충성(loyalty)",
+      "5번: 방관(neglect)"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0296": {
+    "id": "mgmt_0296",
+    "qid": "0296",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "직무만족에 대한 설명으로 다음 중 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무만족을 측정하는 방법으로 널리 사용되는 방법은 단순 종합평가법(single global rating)과 직무요소 합산",
+      "2번: 성과차이 이론(discrepancy theory)에 따르면 직무만속 의 크기는 실제로 얻은 보상과 기대했던 보상의 차이에",
+      "3번: Porter와 Lawler의 동기모델에 따르면 만족은 보상에 대 한 공정성 지각에 의해 조절된다.",
+      "4번: Herzberg는 2요인 이론에서 위생요인(hygiene factor)이 직무만족의 결 정 요소로서 직무만족을 높여 종업원올",
+      "5번: 직무만족이란 직무의 특성에 대한 평가로부터 나오는 직무에 대한긍정적 감정으로 정의될 수 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0297": {
+    "id": "mgmt_0297",
+    "qid": "0297",
+    "sourceTag": "공기업 출14t결함반영",
+    "stemText": "조직행동에서 대도(attltude)에 관한 설명으로 가장 적절하지 않 은것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 유지하려는 욕구가 존",
+      "2번: 합리 석 행 위이본《theory of reasoned action》은 행동에 대 한 태도가 어떻게 행동에 영향율 미치는지 보여준다.",
+      "3번: 합리적 행위이론에 따르면 행동에 대한 주관적 규범 (subjective norm)은 행동에 대한 태도(attitude toward the behavior)와 함께 행위 의도(behavior intention》에 영",
+      "4번: 계획된 행위 이론(theory of planned behavior)은 합리적 행위이론에 더해서 행동에 대한 지각된 통제감 (perceived behavior control)을 행동을 예측하는 변수로",
+      "5번: 레온 페스팅어(Leon Festinger)의 인지부조화^cognitive dissonance)이론은 태도와 행동은 다를 수 없고 항상 같 다고 보았다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0298": {
+    "id": "mgmt_0298",
+    "qid": "0298",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "개인이 사물, 사람, 사건에 대해 가지는 주관적인 경험을 나타내 는 태도를 구성하는 요소가 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 정서적 요소",
+      "2번: 인지적 요소",
+      "3번: 관계적 요소",
+      "4번: 행위적 요소"
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0299": {
+    "id": "mgmt_0299",
+    "qid": "0299",
+    "sourceTag": "2017 가맹거래사",
+    "stemText": "조직에서 공식적으로 주어진 임무 이외의 일을 자발적으로 수행 하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 집단사고(groupthink)",
+      "2번: 직무만족(job satisfaction)",
+      "3번: 직무몰입(job involvement)",
+      "4번: 감정노동《emotional labor)",
+      "5번: ® 조지시 미 행•^•(ofganiMtional citizenship behavior)"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0300": {
+    "id": "mgmt_0300",
+    "qid": "0300",
+    "sourceTag": "2022 가맹거래사",
+    "stemText": "조직시민행동에서 조직 생활에 관심을 가지고 적극적으로 참여 하는 행동은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 예의 행동(courtesy》",
+      "2번: 이타적 행동(altruism)",
+      "3번: 공익적 행동(civic virtue)",
+      "4번: 양심적 행동(conscientiousness)",
+      "5번: 혁신적 행동(innovative behavior)"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0301": {
+    "id": "mgmt_0301",
+    "qid": "0301",
+    "sourceTag": "2022 7급 국가직",
+    "stemText": "감정노동(emotlonal labor)에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 01",
+      "2번: 22 7급 국가직 감정노동(emotlonal labor)에 대한 설명으로 옳지 않은 것은? (0 감정노동이란 업무 현장에서 근로자가 느끼는 감정 맞추어 조직의 노동문화를 바뀌아 하는 노동을 의 미 다.",
+      "3번: 감정부조화(emotional dissonance)는 근로자들이 에서 느끼는 감정과 조직에서 요구하는 감정이 다를 나타나는 내적 갈등 현상이다.",
+      "4번: 감정부조화 발생 시, 근로자들은 표면 연기(surfa acting)와 심충 연기(deep acting) 두 가지 전략으로 할수있다 ㉧ 표면 연기는 실제 느끼는 감정과 상관없이 조직에서 구하는 적합한 감정을 검으로 표현하는 것이 다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0302": {
+    "id": "mgmt_0302",
+    "qid": "0302",
+    "sourceTag": "",
+    "stemText": "수기업 4까`결방뺴 정서적 사건 반용 이€(AET affective events theory)에 관한 내 용으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 02 수기업 4까`결방뺴 정서적 사건 반용 이€(AET affective events theory)에 관한 내 용으로 옮지 않은 것은? (0 상서 34 사건 반응이`부에시 감정이란 작업환경에서 일이 나는 사건에 대한 구성원의 반응이라고 인식한다. (가 종업원들은 직장에서 일어나는 사건에 대해 감정적으로 반응하고 그러한 반응이 곧 직무성과와 직무만족에 영 항을 미친다고 본다.",
+      "2번: 작업 사건에 대한 종업원의 감정반응은 개인적 성향과 무관하게 일관되게 나타난다 작업 사건에 대한 감정반응은 긍정적이거나 부정적이 다. 업무와 관련된 사건이 긍정적 혹은 부정적 반응을 유발 하는 경우, 종업원의 성격과 기분에 따라 반응의 강도가 조절된다 스트레스",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0303": {
+    "id": "mgmt_0303",
+    "qid": "0303",
+    "sourceTag": "2022 공인노무사",
+    "stemText": "직무스트레스에 관한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무스트레스의 잠재적 원인으로는 환경요인, 조직적 요인，개인적 요인이 존재한다.",
+      "2번: 직무스트레스 원인과 경험된 스트레스 간에 조정변수가 존재한다.",
+      "3번: 사회적 지지는 직무스트레스의 조정변수이다.",
+      "4번: 직무스트레스 결과로는 생리적 중상, 심리적 중상, 행동 적 중상이 있다.",
+      "5번: 직무스트레스와 직무성과 간의 관계는 U자형으로 나타 난다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0304": {
+    "id": "mgmt_0304",
+    "qid": "0304",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "직무 스트레스에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무요구가 높다면 스트레스 수준온 그에 따라 높아질 수 있다.",
+      "2번: 가지고 있는 자원 수준에 따라 직무 스트레스 수준은 조 절된다. 斤",
+      "3번: 셉리에《Selye)의 일반적웅 증후군《GAS: general adaption syndrome)은 스트레스가 진행되는 과성율 연 구하였다.",
+      "4번: 스트레스의 신체적 결과 피로도가 상승하고 스트레스 호르몬을 중가시 킨다.",
+      "5번: 셀리에의 일반적응 증후군에 따르면 경고 반옹 단계에 서 신체의 기능 수준이 가장 높게 나타난다. ［성격］"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0305": {
+    "id": "mgmt_0305",
+    "qid": "0305",
+    "sourceTag": "20기 가맹거래사",
+    "stemText": "성격에 관한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 자신에게 일어나는 일을 통제할 수 있다고 믿으면 내재 론자｛internal locus of control)라고 한다.",
+      "2번: 자기효능감(self-efficacy》은 특정 과업을 얼마나 잘 수행 할 수 있는가에 대한 믿음이다.",
+      "3번: 나르시시즘(narcissism)은 위험을 감수하는 싱향이다.",
+      "4번: 자기관찰(self-monitoring)은 환경의 신호를 읽고 해석하 여 자신의 행위를 환경요구에 맞춰 조절해가는 성향이 다.",
+      "5번: 마키아벨리즘(machiavellism)은 자신의 목적을 위해 다 른 사람을 이용하고 통제하려는 성향이다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0306": {
+    "id": "mgmt_0306",
+    "qid": "0306",
+    "sourceTag": "2015 공인노무사",
+    "stemText": "Btg 5 모텔에서 제시하는 다섯 가지 성격요소가 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 개방성(openness)",
+      "2번: 객관성(objectivity)",
+      "3번: 외향성 (extraversion)",
+      "4번: 성실성(conscientiousness》",
+      "5번: 정서적 안정성(emotional stability)"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0307": {
+    "id": "mgmt_0307",
+    "qid": "0307",
+    "sourceTag": "2021 공인노무사",
+    "stemText": "마키아벨리ä(machiavellism)에 관한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 마키아벨리즘은 자신의 이익을 위해 타인을 이용하고 조작하려는 성향이 다.",
+      "2번: 마키아벨리즘이 높은 사람은 감정적 거리를 잘 유지한 다.",
+      "3번: 마키아벨리즘이 높은 사람은 남을 잘 설득하며 자신도 잘 설득된다.",
+      "4번: 마키아벨리즘이 높은 사람은 최소한의 규정과 재량권이 있을 때 높은 성과를 보이는 경향이 있다.",
+      "5번: 마키아벨리즘이 높은 사람은 목적이 수단을 정당화시킬 수 있다고 믿는 경향이 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0308": {
+    "id": "mgmt_0308",
+    "qid": "0308",
+    "sourceTag": "2020 코레일 수송직렬 복원",
+    "stemText": "다음 중 Big 5 모델에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 조화성",
+      "2번: 신경성",
+      "3번: 성실성",
+      "4번: 외향성",
+      "5번: 개방성"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0309": {
+    "id": "mgmt_0309",
+    "qid": "0309",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "성격-직무 적합성에 관한 이본으로서 다음 중 Hollandq 유형 구분(RIASEC 모형) 중 옮은 것은 무엇인가?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 현실형(Realistic》은 제도적 규제와 실서&#x27; 명하한 항아 선호하며 회계사와 같은 직무가 적절하다•",
+      "2번: 사업형(Enterprising)은 상대방에 대한 영향과 언1하 을 선호하며 변호사 같은 직무가 적절하다.",
+      "3번: 탐구형(Investigative)은 다른 사람을 도와주고 육성시 는 활동에 주력한다.",
+      "4번: 예술형(Artistic》은 사고력，조직력，이해력이 요나되는 동올 선호한다.",
+      "5번: 친화형(Social)은 소심하고 성실하며 고집있고 실용적 성격특성올 가진다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0310": {
+    "id": "mgmt_0310",
+    "qid": "0310",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 MBTl(Myers-Bnggs Type lndicator)에 관한 설명 지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 10 공기업 출제경향 반영 다음 중 MBTl(Myers-Bnggs Type lndicator)에 관한 설명 지 않은 것은? 스위스의 심리분석학자 칼 Jung)의 연구를 로 한다 다섯 가지 자원으로 이루어져 있다. 총 16가지의 성격 유형이 제시된다. 각각의 차원은 상반된 두 유형으로 분류된다. (9 신뢰성과 타당성이 부족하다는 비판이 있다.",
+      "2번: 선택지 2",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0311": {
+    "id": "mgmt_0311",
+    "qid": "0311",
+    "sourceTag": "2023 공인노무사",
+    "stemText": "성격의 BIG 5 모형에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 11",
+      "2번: 23 공인노무사 성격의 BIG 5 모형에 해당하지 않는 것은? (0 정서적 안정성 (기성실성 (희진회싱 모험선호성 (9 개E2갂성",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0312": {
+    "id": "mgmt_0312",
+    "qid": "0312",
+    "sourceTag": "2024 가맹거래사",
+    "stemText": "성격의 5 모형의 요소로 옮은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 12",
+      "2번: 24 가영거래나 성격의 5 모형의 요소로 옮은 것은?",
+      "3번: elßlß(agæeableness)",
+      "4번: 자efl(self-esteem)",
+      "5번: 자기효#0(self-efficacy)"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0313": {
+    "id": "mgmt_0313",
+    "qid": "0313",
+    "sourceTag": "2024 공인노무사",
+    "stemText": "핵심 자기평가(core self-evaluation)가 높은 사람들은 자신을 가능성 있고, 능력 있고, 가치 있는 사람으로 평가한다. 핵심 자기평가의 구성요소를 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "자존감",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "통제 위치",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "정서적 안정성",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "관계성",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "일반화된 자기효능감",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ, ㄹ",
+      "2번: ㄱ, ㄷ, ㄹ",
+      "3번: ㄴ, ㄷ, ㄹ",
+      "4번: ㄱ, ㄴ, ㄷ, ㅁ",
+      "5번: ㄴ, ㄷ, ㄹ, ㅁ"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0314": {
+    "id": "mgmt_0314",
+    "qid": "0314",
+    "sourceTag": "2017 가맹거래사",
+    "stemText": "국가 간 문화차이와 관련하여 홀스테드(G. Hofstede)가 제시한 문화차원(cultural dimensions)에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 1十",
+      "2번: 17 가행거래사 국가 간 문화차이와 관련하여 홀스테드(G. Hofstede)가 제시한 문화차원(cultural dimensions)에 해당하지 않는 것은? (0 권력 거 리(power distance)",
+      "3번: 불확실성 회피(uncertainty avoidance) (㉦ 남성성 여성성(mascuhnity-femininity)",
+      "4번: 민주주의 - 독재주의(democracy-autocracy) (9 개인주의 집단주의ctndivtdualism<ollectivism)"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0315": {
+    "id": "mgmt_0315",
+    "qid": "0315",
+    "sourceTag": "2021 7급 군무원",
+    "stemText": "성격과 가치관에 대한 설명으로 가장 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 성 격의 유형에서 내새관사(internals)와 외재론사 (externals)는 통제의 위치(locus of control)에 따라 사하 린다.:",
+      "2번: 성 적 측성 도구로는 MBTI와 비파이브 모형이 있다.:",
+      "3번: 가치관은 개인의 판단기준으로 인간의 록성율 구분 짓 는 요소 중 가장 상위개념으로 생각할 수 있다.",
+      "4번: 로 키 치 는《Rokeach》는 가 치 란율 수단적 가 치 (instrumental value》와 궁극적 가치(terminal value)로 분 류하고, 궁극적 가치로서 행동 방식, 용기，정직, 지성 등 을제시했다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0316": {
+    "id": "mgmt_0316",
+    "qid": "0316",
+    "sourceTag": "2013 7급 국가직",
+    "stemText": "국가간 문화적 차이를 이해하기 위해 홈스테드(G. Hofstede)가 제시한 모형에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 개인주의 문화권에서는 개인의 성취도와 자유도가 높게 평가되고, 집단주의 문화권에서는 내부집단에 대한 충 성이 중요시된다.",
+      "2번: 의사소통시 고맥락(high context) 문화권에서는 배 경과 상황을 중시하고，저맥락(low context) 문화권에서는 언 어 나 문서를 중시한다.",
+      "3번: 남성다움이 강한 문화권에서는 남녀의 사회적 역할 구 분이 명확하다.",
+      "4번: 불확실성 회피 성향이 높은 문화권에서는 직업의 안정 성과 명확한 업무지시 등을 선호하고, 불확실성 회피 성 향이 낮은 문화권에서는 변화를 두려워하지 않는다."
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0317": {
+    "id": "mgmt_0317",
+    "qid": "0317",
+    "sourceTag": "2022 7급 국가직",
+    "stemText": "홀스테드(G Hofstede)의 문화적 차이에 대한 설명으로 옮지 않 은것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 권력거리는 사회 내에서 부와 권럭의 불평동에 대한 수 용 정도이다.",
+      "2번: 여성 중심적인 문화에서는 관계를 중요시하며 구성원을 배려하는 경향이 있다.",
+      "3번: 불확실성 회피 성향이 낮은 문화에서는 변화를 두려워 하지 않으며 위험을 극복하려는 경향이 높다.",
+      "4번: 사회주의의 몰락 이후, 문화적 차이가 세계적인 갈등의 가장 큰 원인이 될 것으로 예측하였다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0318": {
+    "id": "mgmt_0318",
+    "qid": "0318",
+    "sourceTag": "2022 5급 군무원",
+    "stemText": "다음 중 호프스테드대ofstede)가 제시한 국가 간 문화분류 차원 에 해당되지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 불확실성 기피 성향(uncertainty avoidance)",
+      "2번: 개인주의(individualism) 대 집단주의(collectivism)",
+      "3번: 편협성(parochialism) 대 진취성(progressiveness》",
+      "4번: 남성성(masculinity) 대 여성성(femininity)"
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0319": {
+    "id": "mgmt_0319",
+    "qid": "0319",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 을포트(시lpo貳)가 제시한 가치의 분류로 가장 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 19 공기업 출제경향 반영 다음 중 을포트(시lpo貳)가 제시한 가치의 분류로 가장 옳지 않은 것은? 경제적 가치 사회적 가치 이론적 가치 심미적 가치",
+      "2번: 수단적 가치",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0320": {
+    "id": "mgmt_0320",
+    "qid": "0320",
+    "sourceTag": "공기업 반원",
+    "stemText": "조직행동에서 가치관(value)에 관한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 가치관이란 어떤 행동양식이나 생활양시이 나은’ 상、경 식이나 생활양식보다 더 바람식아다교 여시분 개’ 사 및 사회적 확신율 의미한다.",
+      "2번: 가치관은상대적으로 안성적이고 고정 서이 사싱이 入、",
+      "3번: 밀튼 로키치《Milton Rokeach》는 셰 궁극 - 八 (terminal val니es)와 수단적 가치《instrumental vak하‘ 구분한다.",
+      "4번: 가치관은 세대별로 다르게 나타날 수 있지만 살은 조 내에 있다면 모든 종업원이 같은 가치관을 갖&#x27; 5^다’",
+      "5번: 가치관은 태도와 동기부여를 설 명하는 근간이 된다ᅳ"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0321": {
+    "id": "mgmt_0321",
+    "qid": "0321",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "E. T. Hall의 배경 문화이É(context culture theory)에 대흐 명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고배 경 문화(high context culture)란 상황중시 문화라 도 불리며 타인과 의사소통하는 경우 타인의 배경을 시하는 문화를 의 미한다.",
+      "2번: 저배경 문화(low context culture)란 공통의 경험이 결 되어 객관적 의사소통이 필요하다.",
+      "3번: 고배경 문화에서 비언어적 의사소통에 비해 언어적 사소통이 많이 나타난다.",
+      "4번: 저배경 문화에서는 기록과 같은 &#x27; 직접적’ 의사소통이 호된다.",
+      "5번: 배경 문화이론은 배경 문화가 서로 다른 국가 사이어 사소통이 있을 때 이를 알고 대처할 수 있도록 해 준다 시사점이 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0322": {
+    "id": "mgmt_0322",
+    "qid": "0322",
+    "sourceTag": "2024 가맹거래사",
+    "stemText": "로키치(M Rokeach)의 수단가치(instrumental values)로 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 야망(ambitious)",
+      "2번: 용기(courageous)",
+      "3번: 청결(clean)",
+      "4번: 자유(freedom)",
+      "5번: 복종(obedient)"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0323": {
+    "id": "mgmt_0323",
+    "qid": "0323",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "다음 중 호프스테드(G. Hofstede)가 제시한 국가적 문화 유형의 차이를 구분하는 기준에 해당하는 것으로 가장 알맞게 짝지어진 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "㉠",
+        "label": "㉠",
+        "text": "권력 격차(power distance)",
+        "isCorrect": true
+      },
+      {
+        "id": "㉡",
+        "label": "㉡",
+        "text": "개인주의 / 집단주의(individualism / collectivism)",
+        "isCorrect": true
+      },
+      {
+        "id": "㉢",
+        "label": "㉢",
+        "text": "개방성 / 배타성(openness / exclusiveness)",
+        "isCorrect": false
+      },
+      {
+        "id": "㉣",
+        "label": "㉣",
+        "text": "단기 지향성 / 장기 지향성(short-term / long-term)",
+        "isCorrect": true
+      },
+      {
+        "id": "㉤",
+        "label": "㉤",
+        "text": "불확실성 회피(uncertainty avoidance)",
+        "isCorrect": true
+      },
+      {
+        "id": "㉥",
+        "label": "㉥",
+        "text": "수직적 계층성 / 수평적 계층성(vertical hierarchy / horizontal hierarchy)",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: ㉠, ㉡, ㉢, ㉣",
+      "2번: ㉠, ㉡, ㉣, ㉤",
+      "3번: ㉠, ㉡, ㉤, ㉥",
+      "4번: ㉢, ㉣, ㉤, ㉥"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0324": {
+    "id": "mgmt_0324",
+    "qid": "0324",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "미국 인류학자인 에드워드 홀(Edward Hall)은 배경을 기준으로 문화를 분류했다 배경이란 커뮤니케이션 상황 또는 명시적으로 표현되지 않은 의도를 말하며, 맥락이라고도 불린다. 문화는 배 경의 영향력에 따라 고배경 문화와 저배경 문화로 구분된다. 다 음 중 고배경 문화에 대한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 2十",
+      "2번: 24 5급 군무원 미국 인류학자인 에드워드 홀(Edward Hall)은 배경을 기준으로 문화를 분류했다 배경이란 커뮤니케이션 상황 또는 명시적으로 표현되지 않은 의도를 말하며, 맥락이라고도 불린다. 문화는 배 경의 영향력에 따라 고배경 문화와 저배경 문화로 구분된다. 다 음 중 고배경 문화에 대한 설명으로 가장 적절하지 않은 것은? 우리나라 문화는 미국이나 독일 등 서구 국가에 비해 고 배경 문화 성격이 높다.",
+      "3번: 고배경 문화에서는 저배경 문회에 비해 시간 개념이 분 명하지 않다",
+      "4번: 고배경 문화에서는 협상을 오래 끈다. 이러한 목적은 서 로 상대를 알기 위함이다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0325": {
+    "id": "mgmt_0325",
+    "qid": "0325",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "지각에 영향을 미치는 요소 중 지각주체 관련 요소에 해당하는 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "크기",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "배경",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "태도",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "시간",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "동기",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅂ",
+        "label": "ㅂ",
+        "text": "직무여건",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅅ",
+        "label": "ㅅ",
+        "text": "근접성",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅇ",
+        "label": "ㅇ",
+        "text": "흥미",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ, ㄷ",
+      "2번: ㄱ, ㅁ, ㅅ",
+      "3번: ㄷ, ㅁ, ㅇ",
+      "4번: ㄹ, ㅁ, ㅂ",
+      "5번: ㅁ, ㅅ, ㅇ"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0326": {
+    "id": "mgmt_0326",
+    "qid": "0326",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 개인이 한 일에 대한 성공 가능성을 객관적인 성공 가능 성보다 높게 지각하는 귀인 오류로서, 세상일을 자기 노력으로 다 할 수 있다고 믿어 어떤 일이 실패하였을 때, 이것이 외적 귀 인(external attribution)임에도 불구하고 내적 귀인(internal attribution)으로 돌리는 경우를 뜻하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 근원적 귀 인 오류《fundamental attribution error)",
+      "2번: 행위자 관찰자 편견(actor-observer bias)",
+      "3번: 통제의 환상(illusion of control)",
+      "4번: 자존적 편견(self-serving bias)",
+      "5번: 대응 추론 편향(correspondence bias)"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0327": {
+    "id": "mgmt_0327",
+    "qid": "0327",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 인상형성이É(impression formation theory)에서 나타 나는 효과가 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 초두효과《primacy effect)",
+      "2번: 현저 성 효과(salience effect)",
+      "3번: 중심욕질과 주번특질",
+      "4번: 입관성 원 리(principle of consistency)",
+      "5번: 안본적 구I 이 오AHfundamental attribution error)"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0328": {
+    "id": "mgmt_0328",
+    "qid": "0328",
+    "sourceTag": "",
+    "stemText": "사회적 정보처리 모형에 따른 지각과정을 순서대로 연결한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 선택적 주의/이해 - 부호화/단순화 - 인출/반응 - 저장/보유",
+      "2번: 선택적 주의/이해 - 부호화/단순화 - 저장/보유 - 인출/반응",
+      "3번: 부호화/단순화 - 선택적 주의/이해 - 저장/보유 - 인출/반응",
+      "4번: 부호화/단순화 - 저장/보유 - 선택적 주의/이해 - 인출/반응",
+      "5번: 부호화/단순화 - 인출/반응 - 선택적 주의/이해 - 저장/보유"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0329": {
+    "id": "mgmt_0329",
+    "qid": "0329",
+    "sourceTag": "2021 7급 군무원",
+    "stemText": "지각과정과 지각이른에 대한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 29",
+      "2번: 기 7급 군무원 지각과정과 지각이른에 대한 설명으로 옮지 않은 것은? (0 지각의 정보처리 과정은 게스탈트 과8(gestalt process) 이라고도 하며 선택, 조직화, 해석의 3가지 방t업으로 이 루어진다. (기 일관성은 개인이 일정하게 가지는 방til믹이나 대도에 관 런된 것으로 한 1원 형성을 하게 된다면 계속적으-로 같은 습성을 유지하려 한다.",
+      "3번: 질리(Kelley)의 입방체 이본은 외식 귀인성을 일관성 (consistency)이 높고. 일지성(consensus), 특이성 (dtsünativeness)이 낮은 경우로 설 (,6다따. (9 지각의 산출물은 개인의 정보처리 과정과 지각적 신대 에 의해서 달라지는데 이는 개인의 심리적 특성과 연관 이 있다,",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0330": {
+    "id": "mgmt_0330",
+    "qid": "0330",
+    "sourceTag": "",
+    "stemText": "켈리(Kelley)의 귀인이론에 따르면 사람들은 타인의 행동의 원인을 관찰하고 이에 대처하는 경향이 있다. 만일 다른 사람의 행동이 외적 요인이라고 생각하면 그 타인에 대해 너그러운 반응을 보인다. 사람들은 어떤 경우에 이러한 반응을 하게 되는가에 대한 설명으로 가장 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 타인 행동의 높은 특이성",
+      "2번: 타인 행동의 다른 사람들과의 낮은 합의성",
+      "3번: 타인 행동의 높은 일관성",
+      "4번: 타인 행동의 높은 개인성"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0331": {
+    "id": "mgmt_0331",
+    "qid": "0331",
+    "sourceTag": "2021 공인노무사",
+    "stemText": "켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "특이성(distinctiveness)",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "공정성(equity)",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "일관성(consistency)",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "합의성(consensus)",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "관계성(relationship)",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ",
+      "2번: ㄱ, ㄷ, ㄹ",
+      "3번: ㄱ, ㄷ, ㅁ",
+      "4번: ㄴ, ㄷ, ㄹ",
+      "5번: ㄷ, ㄹ, ㅁ"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0332": {
+    "id": "mgmt_0332",
+    "qid": "0332",
+    "sourceTag": "2023 7급 국가직",
+    "stemText": "귀인이€(attribution theory)에 대한 설명으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 32",
+      "2번: 23 7급 국가직 귀인이€(attribution theory)에 대한 설명으로 옳은 것은? (0 자존적 귀인오#(self-serving bias)는 타인의 행동을 할 때 외재직 요인에 대해서 과소핑기하고 내재적 에 대해서 과대펑가하는 것이다. (기 행위자 관찰자 \\qtl(actor-observer bias)은 어떤 에 대해 자기가 행한 행동에 대해서는 외재적 귀인i 고 타인이 행한 행동에 대해서는 내재시 귀인을 하품 이다. (시 근본시 귀인오#(fundamental attnbution errot)V 의 성공에 대해서는 내재시 귀인을 하고 실패에 대? 는 외재시 귀인을 비는 것이다",
+      "3번: 관})한 행동의 원인은 그 행동의 합의4,l(consensU 특이41(dlsoncuveness)이 때 내재시 요인에 이* 인'권다",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0333": {
+    "id": "mgmt_0333",
+    "qid": "0333",
+    "sourceTag": "℃06 가영거려사",
+    "stemText": "다른 사람을 평가할 때 나타나는 오류에 대한 설명으로 가장 적 합한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 후광효과: 사밤의 배경이나 출신학교블 근거로 평가하 는정향",
+      "2번: 관대화 경향: 지원자의 한 특질을 보고 현혹되어 지원자 률 제대로 평가하지 못하는 경향",
+      "3번: 중심화 경향: 아주 좋거나 나쁜 점수를 주지 않고 중간점 수를 주는 경향",
+      "4번: 가혹화 경향: 최근에 좋은 업적을 냈더라도 과거의 실적 이 좋지 않으면 나쁘게 평가하는 경향",
+      "5번: 스테레오타입: 하나의 영역에서 좋은 점수를 보이면 다 른 영역도 잘할 것이라고 판단하는 경향"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0334": {
+    "id": "mgmt_0334",
+    "qid": "0334",
+    "sourceTag": "2010 가맹거래사",
+    "stemText": "자신이 속한 집단의 지각에 기초하여 타인을 평가하는 지각적 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 스테레오타입",
+      "2번: 후광효과",
+      "3번: 대조효과",
+      "4번: 최근효과",
+      "5번: 자존적 편견"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0335": {
+    "id": "mgmt_0335",
+    "qid": "0335",
+    "sourceTag": "2011 가맹거래사",
+    "stemText": "피그말리언 효과(Pygmalion effect)와 동일한 의미를 나타내는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 감성적 몰입",
+      "2번: 자기실현적 예언",
+      "3번: 후광효과",
+      "4번: 자존적 편견",
+      "5번: 스테레오타이핑"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0336": {
+    "id": "mgmt_0336",
+    "qid": "0336",
+    "sourceTag": "",
+    "stemText": "20기 가명거래사 어떤 대상의 한 특성을 중심으로 다른 것까지 평가하는 현상은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 유사효과(similar-to-me effect)",
+      "2번: 후광:fil피＜halo effect)",
+      "3번: 관대화 성 향《leniency tendency)",
+      "4번: 부영 효과(projection)",
+      "5번: 중심화 경 향(central tendency)"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0337": {
+    "id": "mgmt_0337",
+    "qid": "0337",
+    "sourceTag": "2010 공인노무사",
+    "stemText": "개인의 일부 특성을 기반으로 그 개인 전체를 평가하는 지각경향은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 스테레오타입",
+      "2번: 투사",
+      "3번: 기대효과",
+      "4번: 최근효과",
+      "5번: 후광효과"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0338": {
+    "id": "mgmt_0338",
+    "qid": "0338",
+    "sourceTag": "2016 공인노무사",
+    "stemText": "다음 설명에 해당하는 지각 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고정관념",
+      "2번: 자존적 편견",
+      "3번: 최근효과",
+      "4번: 후광효과",
+      "5번: 투사"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0339": {
+    "id": "mgmt_0339",
+    "qid": "0339",
+    "sourceTag": "2016 경영지도사",
+    "stemText": "평가자의 사람에 대한 경직된 고정관념이 평가에 영향을 미치는 인사고과의 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 판■대화 경향(leniency tendency)",
+      "2번: 중심화 경향(central tendency)",
+      "3번: 주관의 객관화(projection)",
+      "4번: 최근효과｛recency tendency)",
+      "5번: 상동적 태도(stereotyping)"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0340": {
+    "id": "mgmt_0340",
+    "qid": "0340",
+    "sourceTag": "2018 경영지도사",
+    "stemText": "타인에 대한 평가에 평가자 자신의 감정이나 특성을 귀속 또는 전가시키는데서 발생하는 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 후광효과",
+      "2번: 관대화 경향",
+      "3번: 중심화 경향",
+      "4번: 가혹화 경향",
+      "5번: 스테레오타입"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0341": {
+    "id": "mgmt_0341",
+    "qid": "0341",
+    "sourceTag": "2017 7급 서울시",
+    "stemText": "인사평가 시 발생할 수 있는 대인지각 오류에 대한 설명으로 가 장 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 후광오류小alo errors)는 피 평가자의 일부 특성으로 그 사 람에 대한 전체적인 평가를 긍정적으로 내리는 경향이 다.",
+      "2번: 나와 유사성 오류(similar-to-me errors)는 자신의 특성과 유사한 피평가자에 대해 관대히 평가하는 경향이다.",
+      "3번: 상동적 태도(stereotyping)는 피평 가자가 속한 집 단의 특 성으로 피평가자 개인을 평가하려는 경향이다.",
+      "4번: 대 비오류｛contrast errors)는 평 가자가 본인의 특성과 피 평가자의 특성을 비교하려는 경향이다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0342": {
+    "id": "mgmt_0342",
+    "qid": "0342",
+    "sourceTag": "2007 7급 국가직",
+    "stemText": "공정한 평가를 저해하는 요소에 대한 다음 설명 중 옳은 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "논리적 오류 : 외부적 상황이 모호할수록 자신의 경험, 욕구, 동기를 근거로 눈에 먼저 들어오는 정보에 의존하고 다른 정보는 무시하려는 경향",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "현혹효과의 문제 : 피평가자의 어느 한 면을 기준으로 다른 것까지 함께 평가하려는 경향",
+        "isCorrect": true
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "관대화 경향 : 피평가자의 실제 능력이나 실적보다도 더 높게 평가하려는 경향",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "상동적 태도 : 피평가자가 속한 사회적 집단 또는 계층을 기초로 피평가자를 평가하려는 경향",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: a, b, c",
+      "2번: a, b, d",
+      "3번: a, c, d",
+      "4번: b, c, d"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0343": {
+    "id": "mgmt_0343",
+    "qid": "0343",
+    "sourceTag": "2008 7급 국가직",
+    "stemText": "고과자가 피고과자를 평가함에 있어 쉽게 기억할 수 있는 업적이나 능력을 중심으로 평가하려는 데서 나타나는 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 시 간적 오류《recency errors)",
+      "2번: 논리적 오류(logical errors)",
+      "3번: 후광효과＜halo effect)",
+      "4번: 주관의 객관화(projection)"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0344": {
+    "id": "mgmt_0344",
+    "qid": "0344",
+    "sourceTag": "2009 7급 국가직",
+    "stemText": "인사고과를 위한 평가에서 일반적으로 많이 범하게 되는 오류 중, 평가자 자신의 감정이나 경향을 피평가자의 능력을 평가하는 데 귀속시키거나 전가하는 오류는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 주관의 객관화(projection)",
+      "2번: 현혹효과(halo effect)",
+      "3번: 논리적 오류《logical errors) 관대 화 경 향(tendency of leniency)",
+      "4번: 관대 화 경 향(tendency of leniency)"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0345": {
+    "id": "mgmt_0345",
+    "qid": "0345",
+    "sourceTag": "2012 7급 국가직",
+    "stemText": "성과평가 시 평가자들이 종업원들의 성과를 정확하게 측정하지 못하는 오류에 대한 설명으로 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 시간적 오류(recency errors)",
+      "2번: 논리적 오류(logical errors)",
+      "3번: 대비 오류(contrast errors)",
+      "4번: 상동적 오류(stereotyping errors)"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0346": {
+    "id": "mgmt_0346",
+    "qid": "0346",
+    "sourceTag": "2017 7급 국가직",
+    "stemText": "인사평가의 오류 중 평가자가 평가측정을 하여 다수의 피평가자 에게 점수를 부여할 때 점수의 분포가 특정방향으로 쏠리는 현상 으로 인해 발생하는 분배적 오류(Distributional Error) 혹은 항상 오류(constant Error)에 해당하는 것으로만 옳게 짝지은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 유사성 오류, 대비 오류, 관대화 오류",
+      "2번: 유사성 오류，관대화 오류, 중심화 오류",
+      "3번: 대비 오류, 관대화오류, 중심화오류",
+      "4번: 관대화 오류, 중심화 오류, 가혹화 오류 코레일 수송직렬 복원 2020 앞의 내용들 보다는 나중에 제시된 내용을 보다 많이 기억하는"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0347": {
+    "id": "mgmt_0347",
+    "qid": "0347",
+    "sourceTag": "2020 코레일 수송직렬 복원",
+    "stemText": "앞의 내용들 보다는 나중에 제시된 내용을 보다 많이 기억하는 경향을 무엇이라고 하는가?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 스테레오타이핑",
+      "2번: 대비효과",
+      "3번: 주관의 객관화",
+      "4번: 후광효과",
+      "5번: 최근 효과"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0348": {
+    "id": "mgmt_0348",
+    "qid": "0348",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "아래 내용은 대인지각에서 자주 사용되는 편법(지각오류) 증 무 엇에 관한 설명인가?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 유시*효과(similar-to-me effect)",
+      "2번: 스테레오타이핑(stereotyping)",
+      "3번: 후광효과(halo effect)",
+      "4번: 주관의 객관화(projection)",
+      "5번: 대비효고^contrast effect)"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0349": {
+    "id": "mgmt_0349",
+    "qid": "0349",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "다음 중 피그말리온 효과(Pygmalion effect)에 대한 설명으로 옳 은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 피그말리온 효과를 다른 말로 자존적 편 견(self-serving bias)으로 표현할 수 있다.",
+      "2번: 자기효능감을 향상시키는 4가지 요인 중 성공경험 (enactive mastery experience》과 가장 관련이 깊다.",
+      "3번: 피그말리온 효과란 진정으로 간절하게 바라면 실제로 이루어진다는 것을 의미하는데，이 문장에서 주어는 ‘자 신’이다.",
+      "4번: 지각오류의 일종이지만 긍정적인 효과도 가진다. ⑤피그말리온 효과와 반대되는 것으로 로젠탈 효과 (Rosenthal effect)가 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0350": {
+    "id": "mgmt_0350",
+    "qid": "0350",
+    "sourceTag": "",
+    "stemText": "20tS 원영재도사 의사결정에 관한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매그리거(McGregor)의 X이론",
+      "2번: 피그말리온 효과(Pygmalion effect)",
+      "3번: 자기충족적 예언(self-fulfilling prophecy)",
+      "4번: 갈라테아 효과(Galatea effect)",
+      "5번: 긍정적 강화(positive reinforcement)"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0351": {
+    "id": "mgmt_0351",
+    "qid": "0351",
+    "sourceTag": "2016 경영지도사",
+    "stemText": "인간은 인지능력의 한계로 제한된 합리성을 가지게 된다고 주장 한학자는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 마이클 포터 (M. Porter)",
+      "2번: 허버트 사이 먼(H. Simon)",
+      "3번: 헨리 페이욜(H. Fayol)",
+      "4번: 존 내쉬(丄 Nash)",
+      "5번: 엘톤 메이요(E. Mayo)"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0352": {
+    "id": "mgmt_0352",
+    "qid": "0352",
+    "sourceTag": "2018 경영지도사",
+    "stemText": "인간두되의 한계와 정보부족 등으로 인해 완전한 합리성은 불가 능하므로 제한된 합리성에 근거하여 의사결정을 하게 된다는 모 형은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 초두효과",
+      "2번: 대조효과",
+      "3번: 관대화경향",
+      "4번: 가혹화경향",
+      "5번: 중심화경향"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0353": {
+    "id": "mgmt_0353",
+    "qid": "0353",
+    "sourceTag": "2020 경영지도사",
+    "stemText": "사이먼대. Simon)이 주장한 의사결정의 제한된 합리성 (bounded rationallty model)의 내용에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 규법 적 모템",
+      "2번: 단순화 전략의 사용",
+      "3번: 불완전하고 부정하한 정보사용",
+      "4번: 반족 해(satisficing solution)-;? 선녀",
+      "5번: 모든 가능한 대안을 고려 하지 못한"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0354": {
+    "id": "mgmt_0354",
+    "qid": "0354",
+    "sourceTag": "2022 경영지도사",
+    "stemText": "사이먼대. Sim에)의 제한된 합리성 모* rationalit model)의 특성으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 만족해 선택",
+      "2번: 대안에대한완벽한 정보",
+      "3번: 우선순위 불변",
+      "4번: 경제적 인간 가정",
+      "5번: 실행 과정과 결과에 대한 완벽한 지식"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0355": {
+    "id": "mgmt_0355",
+    "qid": "0355",
+    "sourceTag": "2020 7급 서울시",
+    "stemText": "정보 수집과 분석에 대한 인간의 능력 한계로 인하여 객관적 효용의 극대화가 아닌 충분히 만족스럽다고 판단되는 차선의 안 중 하나를 선택한다는 관점을 가진 의사결정 모형은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 정치적 의사결정 모형",
+      "2번: 합리적 의사결정 모형",
+      "3번: 직관적 의사결정 모형",
+      "4번: 제한된 합리성 모형"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0356": {
+    "id": "mgmt_0356",
+    "qid": "0356",
+    "sourceTag": "2020 7급 국가직",
+    "stemText": "허버트 사이면대erbert Simon)이 주장한 제한된| 합리성 rattonallty)에 대한 설명으로 유지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 과학적 관리법옵 추종하며 절대적 합리성반옵 추구하는 정영자둘이 &#x27; 경재인&#x27; 이라면 제한된 합리성 내에서 현실 3 적으로 의사 정율 하는 경영자듬은 &#x27; 관리인’이다.",
+      "2번: 제한된 합리성 때문에 사람들은 &#x27; 만족하기에 충분한’ 또 는 ‘최소한의 핍요조건올 충족시키는’ 선택을 한다.",
+      "3번: 조직이 겪는 상황은 무정부 상태와 같이 불확실하며，이 러한 상황에서 인간의 의사결정은 비합리적으로 이루어 진다.",
+      "4번: 문제해결의 대안을 선택할 때 최선책을 찾으려고 하지 않고, 설정해 놓은 적절한 기준을 통과하는 대안 중에서 먼저 발견되는 것을 선택한다."
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0357": {
+    "id": "mgmt_0357",
+    "qid": "0357",
+    "sourceTag": "공기업 출제경향 반영",
+    "stemText": "개인 의사결정에서 직관적 의사결정(intuftive decision makjng) 을 보완하는 방법으로 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 증거기반 경영(EBM: evidence based management)",
+      "2번: 현장방문 경영(MBWA: management by walking around)",
+      "3번: 배회관리",
+      "4번: 델파이(delphi) 기법",
+      "5번: 빅데이터(big data) 분석"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0358": {
+    "id": "mgmt_0358",
+    "qid": "0358",
+    "sourceTag": "2021 9급 군무원",
+    "stemText": "경영자들이 내리는 의사결정에는 다양한 오류들이 존재한다. 다 음 중 매몰비용 오류에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 선별적으로 정보를 구성하고 선택하는 오류",
+      "2번: 과거의 선택과 부합되는 정보만을 선택하는 오류",
+      "3번: 실패 원인을 내부가 아닌 외부에서만 찾는 오류",
+      "4번: 과거의 선택에 매달리고 집착하는 오류"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0359": {
+    "id": "mgmt_0359",
+    "qid": "0359",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "경영자의 의사결정 접근법 중 합리성 모텔에 대한 주장으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 목적 지향적이고 논리적이다. e. 一 北",
+      "2번: 만족함 만한 대안을 해 결안으로 받아들인다, 北 采",
+      "3번: 조직의 이해를 최대한 반영한다.",
+      "4번: 문제가 영확하고，모호하지 않다."
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0360": {
+    "id": "mgmt_0360",
+    "qid": "0360",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "다음 중 제한된 합리성(bounded rationality)이 시사하는 바에 대한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 엄밀한 의미의 합리적 의사결정은 이상(理想)에 불과하 다.",
+      "2번: 조직운영 시 의사결정자들의 능력에 한계가 있음을 고 려 해야 한다.",
+      "3번: 합리성에도 수준이 있다면 조직이나 집단이 개인보다 더 합리적인 결정을 보장한다고 보아야 한다.",
+      "4번: 정보가 완전할 수 없다는 것이 용인된다면 이를 악용해 서 의사결정자들이 정확한 정보를 왜곡• 조작하여 자신 에게 유리한 결정이 나도록 유도할 가능성도 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0361": {
+    "id": "mgmt_0361",
+    "qid": "0361",
+    "sourceTag": "2024 7급 군무원",
+    "stemText": "의사결정에 크게 영향을 미치는 중요한 요소는 의사결정 스타일 이다. 의사결정 스타일을 모호성을 용인하는 정도와 합리성(이 성적 또는 직관적)을 기준으로 4가지로 구분할 수 있다. 다음 중 모호성을 용인하지 못하며 이성적으로 따져 결정하는 스타일을 지칭하는 용어로서 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 지시적 의사결정 스타일",
+      "2번: 분석적 의사결정 스타일",
+      "3번: 개념적 의사결정 스타일",
+      "4번: 행동적 의사결정 스타일"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0362": {
+    "id": "mgmt_0362",
+    "qid": "0362",
+    "sourceTag": "2024 7급",
+    "stemText": "의사결정과정의 오류에 대한 설명으로 가장 옮은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고착화 오4hanchonng bias》란 초기 성보에 집 착하는 경 향으로 사람듈은 후속 정보에 적절히 대처하는 데 실패 하게 된다",
+      "2번: 확중 오류(confirmation bias》란 의사결 정 과성올 단순화 시켜 즉각적으로 사용 가눙한 정보에 근저하여 판단하 려는 성향이다.",
+      "3번: 맹목성 오류《hindsight bias)란 과거의 선택방식을 재확 인해 주는 정보는 받아들이고 과거의 판단과 모순되는 정보는 무시하는 성향이다. ᄂ",
+      "4번: 유용성 오류｛availability bias》란 결과가 실제로 밝혀진 이 후에 마치 사전에 이를 정확하게 예측한 것처럼 잘못 확 신하는 성향이다. ▲ 동기부여•내용이론"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0363": {
+    "id": "mgmt_0363",
+    "qid": "0363",
+    "sourceTag": "2008 가맹거래사",
+    "stemText": "동기부여 내용이론인 허즈버그대erzberg)의 2요인 이론에 관1 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 63",
+      "2번: 08 가행거래사 동기부여 내용이론인 허즈버그대erzberg)의 2요인 이론에 관1 설명으로 옳지 않은 것은?",
+      "3번: 하위단계의 욕구가 충족되면, 더 이상 이 욕구는 동기」 여 역할을 하지 못하고 그 보다 상위단계의 욕구가 동; 를 유발한다",
+      "4번: 사람들의 욕구는 불만족 해소자원과 만족증진 차원의 이루어져 있다",
+      "5번: 위생요인은 단지 불만족의 감소만을 가져온다 동기요인은 보다 나은 만족을 가져오도록 동기를 부( 한다"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0364": {
+    "id": "mgmt_0364",
+    "qid": "0364",
+    "sourceTag": "2012 가맹거래사",
+    "stemText": "매술로우(MasIow)의 욕구단계이른에서 최상위 욕구는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로우 - ERG이론",
+      "2번: 알더퍼 - 욕구단계이론",
+      "3번: 아담스 - 공정성이론",
+      "4번: 맥클리랜드 - 2요인이론",
+      "5번: 허츠버그 - 성취동기이론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0365": {
+    "id": "mgmt_0365",
+    "qid": "0365",
+    "sourceTag": "2013 가맹거래사",
+    "stemText": "맥그리거(D. McGregor)의 X, Y이론에 관한 설명으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 조직의 감시，감독 및 통제가 필요하다는 주장 이다.",
+      "2번: 쌍방향 의사결정은X이론에서 주로 발생한다-",
+      "3번: 자기통제가 많은 것은 X이론이다.",
+      "4번: 순자의 성악설은 X이론과 Y이론 모두에 해당한다•",
+      "5번: 개인의 목적과 조직의 목적이 부합하는 조직에서 론에 근거해서 운영된다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0366": {
+    "id": "mgmt_0366",
+    "qid": "0366",
+    "sourceTag": "2016 가맹거래사",
+    "stemText": "허츠버그(F. Hertzberg)가 제시한 이요인(two-factor)이 로는 경영자가 종업원들의 동기를 유발시카기 위한 방안 지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 좋은 성과를 낸 종업원을 표창한다.",
+      "2번: 종업원이 하고 있는 업무가 매우 중요함을 강조한",
+      "3번: 좋은 성과를 낸 종업원에게 더 많은 급여를 지급한",
+      "4번: 좋은 성과를 낸 종업원을 승진시킨다",
+      "5번: 좋은 성과를 낸 종업원에게 자기 계발의 기회률 재 다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0367": {
+    "id": "mgmt_0367",
+    "qid": "0367",
+    "sourceTag": "2017 가맹거래사",
+    "stemText": "동기부여의 내용이론에 해당하는 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "가",
+        "label": "가",
+        "text": "A. Maslow의 욕구단계이론",
+        "isCorrect": true
+      },
+      {
+        "id": "나",
+        "label": "나",
+        "text": "C. Alderfer의 ERG이론",
+        "isCorrect": true
+      },
+      {
+        "id": "다",
+        "label": "다",
+        "text": "V. Vroom의 기대이론",
+        "isCorrect": false
+      },
+      {
+        "id": "라",
+        "label": "라",
+        "text": "J. Adams의 공정성이론",
+        "isCorrect": false
+      },
+      {
+        "id": "마",
+        "label": "마",
+        "text": "F. Herzberg의 2요인 이론",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: 가, 나",
+      "2번: 가, 다, 라",
+      "3번: 가, 나, 마",
+      "4번: 나, 라, 마",
+      "5번: 다, 라, 마"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0368": {
+    "id": "mgmt_0368",
+    "qid": "0368",
+    "sourceTag": "2020 가맹거래사",
+    "stemText": "매슬로우(A Maslow)의 욕구단계이론에 관한 설명으로 옳지 않 은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 상위단계의 욕구 충족이 좌절되 면 그 보다 하위단계의 욕구를 충족시키려 한다.",
+      "2번: 하위단계욕구가 충족되었을 때，상위단계욕구가 발생하 게 된다.",
+      "3번: 욕구결핍상태가 발생하게 되면 그 욕구를 충족시키기 위해 노력하게 된다.",
+      "4번: 인간의 욕구는 일련의 단계 내지 중요성에 따라 계층별 로 배열할 수 있다.",
+      "5번: 계층상 가장 상위단계의 욕구는 자아실현의 욕구이다."
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0369": {
+    "id": "mgmt_0369",
+    "qid": "0369",
+    "sourceTag": "20기 가맹거래사",
+    "stemText": "매술로우(A Maslow)가 주장한 욕구 단계이론의 5가지 욕구에 포함되지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 생리적 욕구(physiological needs)",
+      "2번: 안전 욕구(safety needs)",
+      "3번: 소속 및 애정 욕구《belonging ness and love needs)",
+      "4번: 존경 욕귀esteem needs)",
+      "5번: 성장 욕구(growth needs)"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0370": {
+    "id": "mgmt_0370",
+    "qid": "0370",
+    "sourceTag": "2010 공인노무사",
+    "stemText": "허프버그(F. Herzberg)의 2요인이른에서 동기요인(motⅣato() 에 해당되는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 대0",
+      "2번: 10 공인노무사 허프버그(F. Herzberg)의 2요인이른에서 동기요인(motⅣato() 에 해당되는 것은? (0 감독",
+      "3번: 복리후생",
+      "4번: 임금 (기성취감 (0 작업한경",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0371": {
+    "id": "mgmt_0371",
+    "qid": "0371",
+    "sourceTag": "2012 공인노무사",
+    "stemText": "동기부여의 내용이론에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 생리적 욕구",
+      "2번: 안전 욕구",
+      "3번: 사회적 욕구",
+      "4번: 존경 욕구",
+      "5번: 자아실현 욕구"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0372": {
+    "id": "mgmt_0372",
+    "qid": "0372",
+    "sourceTag": "2014 공인노무사",
+    "stemText": "매슬로우(Maslow)의 욕구단계를 순서대로 나열한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "생리욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "안전욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "사회적욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "존경욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "자아실현욕구",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ - ㄴ - ㄷ - ㄹ - ㅁ",
+      "2번: ㄱ - ㄷ - ㄴ - ㄹ - ㅁ",
+      "3번: ㄴ - ㄱ - ㄷ - ㄹ - ㅁ",
+      "4번: ㄴ - ㄱ - ㄷ - ㅁ - ㄹ",
+      "5번: ㄷ - ㄱ - ㄴ - ㄹ - ㅁ"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0373": {
+    "id": "mgmt_0373",
+    "qid": "0373",
+    "sourceTag": "",
+    "stemText": ".刈16 飜`뜨`,나 매술로우(民 H. Maslow)가 제시한 욕구단계이된의 내용이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: % .刈16 飜`뜨`,나 매술로우(民 H. Maslow)가 제시한 욕구단계이된의 내용이 아닌 것은? (0 권한위임에 내한 4\\11 (가 신체시 안전에 내한 욕구",
+      "2번: 소속같이나 애 성에 대한 욕구 (수 의식주에 대한 욕구 (9 존경`판고 싶은 4뇨1",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0374": {
+    "id": "mgmt_0374",
+    "qid": "0374",
+    "sourceTag": "2016 공인노무사",
+    "stemText": "허츠버그(F. Herzberg)의 2요인이론에서 동기요인을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "상사와의 관계",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "성취",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "회사 정책 및 관리방침",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "작업조건",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "인정",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ",
+      "2번: ㄱ, ㄷ",
+      "3번: ㄴ, ㄷ",
+      "4번: ㄴ, ㅁ",
+      "5번: ㄹ, ㅁ"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0375": {
+    "id": "mgmt_0375",
+    "qid": "0375",
+    "sourceTag": "2018 공인노무사",
+    "stemText": "맥그리거(D. McGregor)의 x-Y이론은 인간에 대한 기본 가정에 따라 동기부여방식이 달라진다는 것이다. Y이론에 해당하는 가 정 또는 동기부여방식이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 문제해결을 위한 창조적 능력 보유",
+      "2번: 직무수행에 대한분명한 지시",
+      "3번: 조직목표 달성을 위한 자기 통제",
+      "4번: 성취감과 자아실현 추구",
+      "5번: 노동에 대한 자연스러운 수용"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0376": {
+    "id": "mgmt_0376",
+    "qid": "0376",
+    "sourceTag": "2019 공인노무사",
+    "stemText": "매습로우(시 H Maslow)의 욕구단계이g에 관한 '결에으4 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 외하위 난게이 욕구는 생리시 욕나이다.",
+      "2번: 외상VI 단게이 욕구ᅡ: 자아신어 스이나",
+      "3번: 욕구계충유 5단계로 성 명 하고 있다. I 1",
+      "4번: 다른 사람으로부터 인정과 손경유 빈’J?，자 욕 1 ， 성장욕구에속한다.",
+      "5번: 성하위장단욕계구의에 속욕한구다가. 충족되어야 상위단게 의 육귀卜， M 시키기 위한동기부여가 된다•"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0377": {
+    "id": "mgmt_0377",
+    "qid": "0377",
+    "sourceTag": "2021 공인노무사",
+    "stemText": "허츠버그(F. Herzberg)의 2요인 이론에서 위생요인에 해딩 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 성취감",
+      "2번: 임금",
+      "3번: 책임감",
+      "4번: 발전가능성",
+      "5번: 일 그 자체"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0378": {
+    "id": "mgmt_0378",
+    "qid": "0378",
+    "sourceTag": "2022 공인노무사",
+    "stemText": "맥그리거(D. McGregor)의 XY이론 중 Y이론에 관한 설명으로 옳은 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "동기부여는 생리적 욕구나 안전욕구 단계에서만 가능하다.",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "작업조건이 잘 갖추어지면 일은 놀이와 같이 자연스러운 것이다.",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "대부분의 사람들은 엄격하게 통제되어야 하고 조직 목표를 달성하기 위해서는 강제되어야 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "사람은 적절하게 동기부여가 되면 자율적이고 창의적으로 업무를 수행한다.",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ",
+      "2번: ㄱ, ㄷ",
+      "3번: ㄱ, ㄹ",
+      "4번: ㄴ, ㄹ",
+      "5번: ㄷ, ㄹ"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0379": {
+    "id": "mgmt_0379",
+    "qid": "0379",
+    "sourceTag": "2013 경영지도사",
+    "stemText": "인간의 욕구는 계층을 형성하며, 고차원의 욕구는 저차원의 욕구 가 충족월 때 동기부여 요인으로 작용한다는 욕구단계이론을 제 시한 사람은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: t19",
+      "2번: 이3 (최영`!€사 인간의 욕구는 계층을 형성하며, 고차원의 욕구는 저차원의 욕구 가 충족월 때 동기부여 요인으로 작용한다는 욕구단계이론을 제 시한 사람은?",
+      "3번: 맥그리 기(D. McGægor) (기 매슬로위A. Maslow) (전 페최H Fayol) (수 버나드(c. Bamard) (수사이蠍H Simon)",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0380": {
+    "id": "mgmt_0380",
+    "qid": "0380",
+    "sourceTag": "2015 경영지도사",
+    "stemText": "허즈버그(F. Herzberg)는 직무만족-생산성의 관련성을 연구한 결과, 2요인 이론을 주장하였다. 허즈버그가 제시한 동기요인으로 옳은 것을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "책임감",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "인정",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "급여",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "성장",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "일자체",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ, ㄷ",
+      "2번: ㄱ, ㄷ, ㄹ",
+      "3번: ㄱ, ㄴ, ㄹ, ㅁ",
+      "4번: ㄴ, ㄷ, ㄹ, ㅁ",
+      "5번: ㄱ, ㄴ, ㄷ, ㄹ, ㅁ"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0381": {
+    "id": "mgmt_0381",
+    "qid": "0381",
+    "sourceTag": "2017 경영지도사",
+    "stemText": "맥그리거(D. McGreger)의 X이론에서 인간에 대한 가정에 해당 하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 81",
+      "2번: 17 경영지도사 맥그리거(D. McGreger)의 X이론에서 인간에 대한 가정에 해당 하는 것은?",
+      "3번: 대다수 사람들은 조직문제를 해결할 만한 능력이나 장 의성이 없다. 일은 고통의 원천이 되기도 하지만 조건여하에 따라 만 족의 근원이 된다",
+      "4번: 인간은 외적 강제나 처벌의 위협이 없더라도 조직목표 를 위하여 자기관리와 자기통제를 행한다.",
+      "5번: 현대조직에 있어 인간의 지적 능력은 그 일부분밖에 활 용되지 못하고 있다 (9 일정 조건하에서 인간은 스스로 책임질 뿐r& 아니라 오 二1기으『 위"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0382": {
+    "id": "mgmt_0382",
+    "qid": "0382",
+    "sourceTag": "2017 경영지도사",
+    "stemText": "허즈버그(F. Herzberg)의 이요인 이€(dual factor theory)에 관 한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 만족에 영향율 미치는 요인과 붉만족에 영향읍 미치｛- 요인은 변 S로 존재한다.",
+      "2번: 위 생요인은 만족을 중가시 킬지의 여부에 경향율 미치 며, 붐만족해소 여부에는 영향을 미치지 못한다.",
+      "3번: 동기요인은 개인으로 하여금 열심히 일하게 하며 이에 따라 성과도 높여주는 요인이다.",
+      "4번: 구성원의 만족도를 높이기 위해서는 위생요인보다 동기 요인을 사용해야 한다.",
+      "5번: 이요인 이론에 의하면 불만족요인을 제거한다고 해시 반드시 만족수준이 높아지는 것은 아니다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0383": {
+    "id": "mgmt_0383",
+    "qid": "0383",
+    "sourceTag": "2018 경영지도사",
+    "stemText": "경영이론의 발전과정에서 연구자들과 연구내용의 연결이 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 길브레스부부 (F. B. &amp; L. M. Gilbreth) - 동작연구",
+      "2번: 페이욜(H. Fayol) - 관리자의 의무",
+      "3번: 메이요(E. Mayo)- 호손실험",
+      "4번: 맥그리거(D. McGregor)-&quot; 이론",
+      "5번: 아지 리스(C. Argyris) - 상황이론"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0384": {
+    "id": "mgmt_0384",
+    "qid": "0384",
+    "sourceTag": "2018 경영지도사",
+    "stemText": "모티베이션(motjvatlon) 내용이론에 속하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로우(A. H. Maslow)의 욕구단계이론",
+      "2번: 아담스《丄 S. Adams》의 공정성이론",
+      "3번: 허즈버그(F. Herzberg》의 2요인이론",
+      "4번: 알더퍼(C. P. Alderfer)의 타犯이론",
+      "5번: 맥클리랜드《D. C. McClelland》의 성취동기이론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0385": {
+    "id": "mgmt_0385",
+    "qid": "0385",
+    "sourceTag": "2018 경영지도사",
+    "stemText": "허즈버그(F. Herzberg)의 2요인이론에서 동기요인에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 85",
+      "2번: 이8 경영\\1도사 허즈버그(F. Herzberg)의 2요인이론에서 동기요인에 해당하지 않는 것은?",
+      "3번: 직무에 대한 성취",
+      "4번: 시무에 대한 인정 (㉦ 시무자체",
+      "5번: 능력의 신상"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0386": {
+    "id": "mgmt_0386",
+    "qid": "0386",
+    "sourceTag": "2019 경영지도사",
+    "stemText": "매술로우(民 M丕|ow)의 욕구단계이론과 알더퍼(C Alderfer)의 ERG이른에 관한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 욕구단계이론과 태G이론은 하위욕구가 충족되면 상위 욕구를 추구한다고 보는 공통점 이 있다.",
+      "2번: 태G이론에서는 욕구의 좌절-퇴행 과정도 일어난다.",
+      "3번: 욕구단계이론에서 자아실현의 욕구는 ERG이론에서 성 장욕구에 해당한다.",
+      "4번: 욕구단계이론에서는 한 시점에 낮은 단계와 높은 단계 의 욕구가 동시에 발생한다.",
+      "5번: 욕구단계이론에서 생리적 욕구는 대G이론에서 존재욕 구에 해당한다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0387": {
+    "id": "mgmt_0387",
+    "qid": "0387",
+    "sourceTag": "2020 경영지도사",
+    "stemText": "허즈버그(F. Herzberg)의 2요인 이론에서 위생요인에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기대이론",
+      "2번: ERG이론",
+      "3번: 공정성이론",
+      "4번: 직무특성이론",
+      "5번: 목표설정이론"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0388": {
+    "id": "mgmt_0388",
+    "qid": "0388",
+    "sourceTag": "2022 경영지도사",
+    "stemText": "행동주의 경영이본에 관한 설명 중 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 호손(Hawthorne》실헌의 주민 목시斤 과하 적 뻬 유효성율 실제로검중하는 것이다. 1",
+      "2번: 호손실험으로 비공식 집단의 중요성이",
+      "3번: 매슬로우 (A. Maslow) 의 욕구단게설은 오乂, 구가 계층화되어 있다고 주장한다. &amp; 匕 비서左다계의 특성으로 T농성,",
+      "4번: 아지 리스(C. Argyris) 匕 - 비미 서 o 게 左다계의 특성으로 T농성, 단기적 안목, 다양한행 t양식^^ 감시와 통제를 콩",
+      "5번: 맥그리거(D. McGregor)는 X 이i 해 종업원을 관리해야 한다고 주장한다*"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0389": {
+    "id": "mgmt_0389",
+    "qid": "0389",
+    "sourceTag": "2010 7급 국가직",
+    "stemText": "여러 학자들이 제시한 동기부여의 내용이른을 고차욕구와 7 욕구로 나누어 볼 때, 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로우 자아실현욕구 존재욕구 성장욕구",
+      "2번: 앨더퍼 성장욕구 존재욕구 권력욕구 성취욕구",
+      "3번: 맥클리랜드 성취욕구 권력욕구 위생요인 동기요인",
+      "4번: 허즈버그 동기요인 위생요인"
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0390": {
+    "id": "mgmt_0390",
+    "qid": "0390",
+    "sourceTag": "2011 7급 국가직",
+    "stemText": "욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "일상의 안전, 보호, 안정 등에 대한 욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "물과 음식, 물질적 풍요 등에 대한 욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "다른 사람과의 관계 속에서 사랑, 관심, 소속감 등에 대한 욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "창조적인 능력을 향상시키고 활용하여 자아를 실현하고자 하는 욕구",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "타인으로부터 존경, 권위, 위엄 등에 대한 욕구",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ - ㄴ - ㄷ - ㄹ - ㅁ",
+      "2번: ㄴ - ㄱ - ㄷ - ㅁ - ㄹ",
+      "3번: ㄴ - ㄱ - ㄷ - ㄹ - ㅁ",
+      "4번: ㄷ - ㄴ - ㄱ - ㅁ - ㄹ"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0391": {
+    "id": "mgmt_0391",
+    "qid": "0391",
+    "sourceTag": "",
+    "stemText": ",℃11 7,) 국가시 동기이본 증 8|프버그(F. Herzberg)의 2요인 이혼(two factor theoty)에 대한 설명으로 유지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 91 ,℃11 7,) 국가시 동기이본 증 8|프버그(F. Herzberg)의 2요인 이혼(two factor theoty)에 대한 설명으로 유지 않은 것은?",
+      "2번: 임금. 작업조건. 동료관계 등은 동기유발요인에 해당된 (기 동기유발요인은 만족요인, 위생요인은 불만족요인이라 고한다.",
+      "3번: 만족과 불만족을 동일 차원의 양 극점이 아닌 별개의 자 원으로 본다 직무불만족은 직무 상황과 관런되고, 직무만족은 직무 내용과관런된다",
+      "4번: 선택지 4"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0392": {
+    "id": "mgmt_0392",
+    "qid": "0392",
+    "sourceTag": "2021 7급 국가직",
+    "stemText": "허즈버그(F. Herzberg)의 동기 - 위생이É(two-factor theory•2 요인 이론)에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 동기요인은 직무만족 요인이며, 위생요인은 직무불만족 요인이다.",
+      "2번: 작업조건, 고용안정，회사정책은 위생요인이다.",
+      "3번: 직무의 불만족요인을 제거하고, 만족요인으로 동기를 유발해야 성과를 높일 수 있다.",
+      "4번: 만족요인인 종업원의 임금 인상으로 성과를 높일 수 있 다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0393": {
+    "id": "mgmt_0393",
+    "qid": "0393",
+    "sourceTag": "2021 5급 군무원",
+    "stemText": "사랑에 실패한 사람들 중에는 갑자기 식욕이 느는 경우가 있다고 한다. 이 현상을 설명할 수 있는 이론으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 타와3（존재관계성장） 이론",
+      "2번: 요인 이론",
+      "3번: 욕구단계이론",
+      "4번: &quot; 이론"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0394": {
+    "id": "mgmt_0394",
+    "qid": "0394",
+    "sourceTag": "2019 산업안전지도사",
+    "stemText": "매술로우(民 Maslow)의 욕구단계이본 증 자아실현욕구를 조직 행동에 적용한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 도전적 과업 및 창의적 역합 부여",
+      "2번: 타인의 인정 및 칭찬",
+      "3번: 화해와 친목분위기 조성 및 우호적인 작업팀 결성",
+      "4번: 안전한 작업조건 조성 및 고용 보장",
+      "5번: 넁난방 시설 및 사내식당운영"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0395": {
+    "id": "mgmt_0395",
+    "qid": "0395",
+    "sourceTag": "2020 코레일 수송직렬 복원",
+    "stemText": "다음 허즈버그 꼬인 중 위생요인에 해당하지 않는 것은 무엇인 가?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기대이론",
+      "2번: 강화이론",
+      "3번: 공정성이론",
+      "4번: 목표설정이론",
+      "5번: 성취동기이론"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0396": {
+    "id": "mgmt_0396",
+    "qid": "0396",
+    "sourceTag": "2020 코레일 수송직렬 복원",
+    "stemText": "고차원적 욕구가 만족되지 않아 저차원의 욕구로 가게 되는 좌 절-퇴행 형태를 취하는 이론은 무엇인가?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 앨더퍼 ERG 이론",
+      "2번: 매슬로우 욕구단계이론",
+      "3번: 허즈버그 2요인 이론",
+      "4번: 맥클리랜드 성취동기이론",
+      "5번: 아지리스의 미성숙• 성숙 이론"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0397": {
+    "id": "mgmt_0397",
+    "qid": "0397",
+    "sourceTag": "2023 경영지도사",
+    "stemText": "경영이본에 관한 연구자와 그 이본의 연결이 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: % 꼬23 결영지도사 경영이본에 관한 연구자와 그 이본의 연결이 옮지 않은 것은?",
+      "2번: 베이요(E Mayo) - ERG이론 (기 맥그리거(D. McGregor) - x碍이론",
+      "3번: 아지리스(c. Argyns) 미 성숙• 성숙이론 (9 매슬로위A Maslow) 욕구단계론",
+      "4번: 61쓰버그(F.. Herzberg) - 2요인이론",
+      "5번: 선택지 5"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0398": {
+    "id": "mgmt_0398",
+    "qid": "0398",
+    "sourceTag": "2023 9급 군무원",
+    "stemText": "허츠버그(F. Herzberg)의 꼬인 이É(two-factor theory)에 대 한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 임금, 작업조건, 회사정책은 위생요인에 해당한다.",
+      "2번: 위생요인을 개선하면 만족이 증가한다.",
+      "3번: 직장에서 타인으로부터 인정받지 못한 직원은 불만족하 게 된다.",
+      "4번: 불만족을 해소시키면 만족이 증가한다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0399": {
+    "id": "mgmt_0399",
+    "qid": "0399",
+    "sourceTag": "2023 7급 서울시",
+    "stemText": "동기부여의 내용이론이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 99",
+      "2번: 23 7급 서울시 동기부여의 내용이론이 아닌 것은?",
+      "3번: 성취동기 이론",
+      "4번: 요인 이론 기대 이론 ERG 이론"
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0400": {
+    "id": "mgmt_0400",
+    "qid": "0400",
+    "sourceTag": "",
+    "stemText": "0十00 2024 기급 군무원 다음은 동기부여 이른들 중 61즈버그(F. Herzberg)의 2-요2 €(two-factor theory)에 관한 설명들이다 가장 적절하지 1 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十00",
+      "2번: 24 기급 군무원 다음은 동기부여 이른들 중 61즈버그(F. Herzberg)의 2-요2 €(two-factor theory)에 관한 설명들이다 가장 적절하지 1 것은? (0 2•요인이란 직무만쪽과 관런되는 동기요인과 적부 족과 관런된 위생요인을 일한다.",
+      "3번: 직무 불만족과 관런된 외적 요인 “ 1 프-으 의생요인(hyg, factor)이라 하며, 이들을 적절히 관리하tl편 불만을 않게 됨에 따라 동기부여 효과가 적극적으로 발생 된다.",
+      "4번: 직무만족과 관런된 내적 요인들을 동기요인(motiv 이라 하며, 이들을 적절히 관리하면 동기부여 효과 휘되게 된다 (9 성취7규, 인정감, 책임7t수 등은 동기요인에, 감독, 회 책, 작업조건, 동료와의 관계 등은 위생요인에 해 -",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0401": {
+    "id": "mgmt_0401",
+    "qid": "0401",
+    "sourceTag": "",
+    "stemText": "0十01 2024 7급 서울시 매슬로우(A. Maslow)의 욕구단계 이É(hierarchY of theory)에 대한 설명으로 가장 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 인간에게는 위계가 있는 다섯 가지 욕구단계가 존재 다고 주장하였으며，이는 동기부여 이론 중 내용이 해당한다.",
+      "2번: 다섯 가지 욕구를 고차와 저차로 구분하였고 고차의 구는존경 욕구, 자아실현 욕구이며, 저차의 욕구는 적 욕구, 안전 욕구，사회적 욕구라고 주장하였다.",
+      "3번: 고차의 욕구는 내적 요인으로 충족되는 반면, 저차의 구는 대부분 외적 요인으로 충족된다고 주장하였다.",
+      "4번: 자아실현 욕구를 성장，잠재력 실현, 자아 충족감 포함하여 자신이 원하는 존재가 되고자 하는 욕구 주장하였다."
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0402": {
+    "id": "mgmt_0402",
+    "qid": "0402",
+    "sourceTag": "",
+    "stemText": "0十02 2005 가영거래사 목표설정이른에 의하면 동기유발효과를 갖는 목표의 특성은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 목표91 도전성/난이도",
+      "2번: 목표의 자융성",
+      "3번: 지시왼 목표",
+      "4번: 계산된 위 험부담(calculated risk taking)",
+      "5번: 목표의 가변성"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0403": {
+    "id": "mgmt_0403",
+    "qid": "0403",
+    "sourceTag": "",
+    "stemText": "0十03 2010 가행거래사 동기부여 이론은 내용이론과 과정이론으로 구분된다. 다음 중 과 정이론에 속하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로우의 욕구단계이론",
+      "2번: 맥그리거의 X이론，노이론",
+      "3번: 브룸의 기대이론",
+      "4번: 허즈버그의 2 요인이론",
+      "5번: 아지리스의 성숙, 미성숙이론"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0404": {
+    "id": "mgmt_0404",
+    "qid": "0404",
+    "sourceTag": "",
+    "stemText": "0十0十 2018 가행거래사 동기부여의 과정이론에 속하는 이론은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十0十",
+      "2번: 18 가행거래사 동기부여의 과정이론에 속하는 이론은?",
+      "3번: 매슬로우의 욕구단계이론",
+      "4번: 로크의 목표설정이론",
+      "5번: 일더퍼의 ERG이론 맥그리거의 이론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0405": {
+    "id": "mgmt_0405",
+    "qid": "0405",
+    "sourceTag": "2019 가맹거래사",
+    "stemText": "동기부여 이론 중 공정성이론(equity theory)에서 불공정성으로 인한 긴장을 해소할 수 있는 방법을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "가",
+        "label": "가",
+        "text": "투입의 변경",
+        "isCorrect": true
+      },
+      {
+        "id": "나",
+        "label": "나",
+        "text": "산출의 변경",
+        "isCorrect": true
+      },
+      {
+        "id": "다",
+        "label": "다",
+        "text": "준거대상의 변경",
+        "isCorrect": true
+      },
+      {
+        "id": "라",
+        "label": "라",
+        "text": "현상 또는 조직으로부터 이탈",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: 가, 나",
+      "2번: 가, 다, 라",
+      "3번: 나, 다, 라",
+      "4번: 가, 나, 다",
+      "5번: 가, 나, 다, 라"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0406": {
+    "id": "mgmt_0406",
+    "qid": "0406",
+    "sourceTag": "",
+    "stemText": "0十06 2020 가영거래사 동기부여의 과정이론에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 허즈버그(F. Herzberg)의 2요인이론",
+      "2번: 맥클레란■드(D. McClelland)의 성취동기이론",
+      "3번: 앨더퍼(C. Alderfer)의 타? G이론",
+      "4번: 허시… Hersey)의 수명주기이론",
+      "5번: 아답스(丄 Adams》의 공성성 이론"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0407": {
+    "id": "mgmt_0407",
+    "qid": "0407",
+    "sourceTag": "",
+    "stemText": "0十00 2015 공인노무사 수단성(instrumentallty) 및 유의성(valence)을 포함한 동기부여 이론은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十00",
+      "2번: 15 공인노무사 수단성(instrumentallty) 및 유의성(valence)을 포함한 동기부여 이론은?",
+      "3번: 기대이론(expectancy theory)",
+      "4번: 요인이론(two factor theory) 강화이론(reinforcement theory) 목표설정이론(9°a| setting theory)"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0408": {
+    "id": "mgmt_0408",
+    "qid": "0408",
+    "sourceTag": "",
+    "stemText": "0十08 2이7 공인노무사 기대이른에서 동기부여를 유발하는 요인에 관한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 수단성이 높아야 동기부여가 된다.",
+      "2번: 기대가 높아야 동기부여가 된다.",
+      "3번: 조직에 대한 신뢰가 클수록 수단성이 높아진다.",
+      "4번: 가치관에 부합되는 보상이 주어 질수록 유의성이 높아진 다.",
+      "5번: 종업원들은 주어진 보상에 대하여 동일한 유의성을 갖 는다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0409": {
+    "id": "mgmt_0409",
+    "qid": "0409",
+    "sourceTag": "",
+    "stemText": "0十09 2018 공인노무사 다음 사례에서 A의 행동을 설명하는 동기부여이론은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 인지부조화이론",
+      "2번: 목표설정이론",
+      "3번: 귀인이론",
+      "4번: 기대이론",
+      "5번: 공정성이론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0410": {
+    "id": "mgmt_0410",
+    "qid": "0410",
+    "sourceTag": "",
+    "stemText": "0十10 2019 공인노무사 아담스(」. 5. Adams)의 공정성이론에서 조직구성원들이 개인적 불공정성을 시정(是正)하기 위한 방법에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 투입의 변경",
+      "2번: 산출의 변경",
+      "3번: 투입과산출의 인지적 왜곡",
+      "4번: 장쌔） 이탈",
+      "5번: 준거인둘 유지"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0411": {
+    "id": "mgmt_0411",
+    "qid": "0411",
+    "sourceTag": "",
+    "stemText": "브룸(V. Vroom)이 제시한 기대이론의 작동순서로 올바른 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기대감 - 수단성 - 유의성",
+      "2번: 기대감 - 유의성 - 수단성",
+      "3번: 수단성 - 유의성 - 기대감",
+      "4번: 수단성 - 기대감 - 유의성",
+      "5번: 유의성 - 수단성 - 기대감"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0412": {
+    "id": "mgmt_0412",
+    "qid": "0412",
+    "sourceTag": "",
+    "stemText": "0十12 2016 경영지도사 동기부여이론 중 과정이론에 해당하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 브룸CZ Vroom）의 기대이론",
+      "2번: 매슬로우＜入 Maslow）의 욕구단계이론",
+      "3번: 아지리스＜C. Argyris）의 성숙• 미성숙이론",
+      "4번: 허즈버그《F. Herzberg）의 2요인이론",
+      "5번: 맥그리거（D. McGreg이j의 X.Y이론"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0413": {
+    "id": "mgmt_0413",
+    "qid": "0413",
+    "sourceTag": "",
+    "stemText": "0十13 2019 경영지도사 모티베이션 이론 중 과정이론으로만 묶인 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 욕구단계론，성취동기이론",
+      "2번: 공정성이론, 목표설정이론",
+      "3번: 타范이론, 기대이론",
+      "4번: 타犯이론, 2요인이론",
+      "5번: 성취동기이론, 욕구단계론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0414": {
+    "id": "mgmt_0414",
+    "qid": "0414",
+    "sourceTag": "",
+    "stemText": "0十1十 2022 7급 군무원 다음 동기부여 이른 중에서 빅터 브름(Ⅵct예 vroom)의 기대이 E(expectancy theory)에 대한 설명으로 가장 옮은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十1十",
+      "2번: 22 7급 군무원 다음 동기부여 이른 중에서 빅터 브름(Ⅵct예 vroom)의 기대이 E(expectancy theory)에 대한 설명으로 가장 옮은 것은? (0 높은 수준의 노력이 좋은 성과를 가져오고 좋은 성과평 가는 임금상승이나 조직 31 보상으로 이이 진다 강화요인이 바람직한 행동을 만복할 가능성을 높이고 행동이 그 결과의 함수라고 주장하는 이론이다.",
+      "3번: 직무만족을 가져오는 요인은 직무 불만족을 가져오는 요인과는 서로 분리되고 구별된다. 자기효능감은 어떤 과업을 수행할 수 있다는 개인의 믿 음을 의미하며, 자기효능감이 높을수록 성공할 능력에 더 큰 확신을 가진다",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0415": {
+    "id": "mgmt_0415",
+    "qid": "0415",
+    "sourceTag": "",
+    "stemText": "0十15 2007 7급 국가직 로크(Locke)의 목표설정이É(goal-setting theory)에 기초한 주 장으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 추상적인 목표의 제시는 목표 실행자의 창의력을 증진 시켜 성과를 높일 수 있게 해 준다.",
+      "2번: 적절한 피드백의 제공은 성과 향상의 필요조건이다.",
+      "3번: 목표 실행자의 목표설정과정 참여는 목표에 대한 이해 도를 향상시켜 성과를 높일 수 있게 해 준다.",
+      "4번: 목표달성에 대한 적절한 보상은 성과 향상을 위한 필요 조건이다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0416": {
+    "id": "mgmt_0416",
+    "qid": "0416",
+    "sourceTag": "",
+    "stemText": "0十16 2017 7급 국가직 브룸(vr예m)의 기대이론에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 자기효능감이 높고 목표의 난이도가 낮으면 기대가 커 진다.",
+      "2번: 조직에 대한 신뢰가 낮고 의사결정이 조직정치에 의해 좌우된다는 인식이 강할수록 수단성이 커진다.",
+      "3번: 개인적 욕구와 가치관, 목표에 부합되는 보상이 주어지 면 유의성이 커진다.",
+      "4번: 유의성, 수단성, 기대감 중 어느 하나라도 0이 발생하면 동기는 일어나지 않는다."
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0417": {
+    "id": "mgmt_0417",
+    "qid": "0417",
+    "sourceTag": "",
+    "stemText": "0十1디 공기업 출x||경향 반영 다음 중 조직 공정성(organizational justice)에 해당하지 않는 것 은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 분배적 공정성(distributive justice》",
+      "2번: 상호작용 공정성《interaction justice)",
+      "3번: 정보 공정성《informational justice)",
+      "4번: 행동적 공정성(behavioral justice)",
+      "5번: 절차적 공정성(procedural justice)"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0418": {
+    "id": "mgmt_0418",
+    "qid": "0418",
+    "sourceTag": "",
+    "stemText": "0十18 2023 가맹거래사 브룸(v. vroom)의 기대이론에서 동기부여를 나타내는 공식으로 ( )에들어갈내용으로옳은것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十18",
+      "2번: 23 가맹거래사 브룸(v. vroom)의 기대이론에서 동기부여를 나타내는 공식으로 ( )에들어갈내용으로옳은것은? 동기부여(M)=기대(E)x수단성(幻x( )",
+      "3번: 욕구(Needs)",
+      "4번: 성격(Personality) 역e&(Competency) 유의성cvalence)",
+      "5번: 타당성ß/alidity)"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0419": {
+    "id": "mgmt_0419",
+    "qid": "0419",
+    "sourceTag": "",
+    "stemText": "브룸(V. Vroom)이 제시한 기대이론의 요소에 해당하지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기대감",
+      "2번: 수단성",
+      "3번: 유의성",
+      "4번: 만족도"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0420": {
+    "id": "mgmt_0420",
+    "qid": "0420",
+    "sourceTag": "",
+    "stemText": "0十20 2007 가영거래사 핵크만과 을드행(」. R Hackman & G. Oldham)이 주장한 직무 특성이른에서 핵심직무차원에 포함되지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十20",
+      "2번: 07 가영거래사 핵크만과 을드행(」. R Hackman & G. Oldham)이 주장한 직무 특성이른에서 핵심직무차원에 포함되지 않는 것은?",
+      "3번: 기능다양성(skiⅡ vanety) 과업 체 identlty)",
+      "4번: 과업 중요성(task significance) (9 과업 자율성(aut예0마) (9 성 상욕구(9℃* and need strength)",
+      "5번: 선택지 5"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0421": {
+    "id": "mgmt_0421",
+    "qid": "0421",
+    "sourceTag": "",
+    "stemText": "0十21 2010 공인노무사 핵크맨(J. R Hackman)과 올드행(G. Oldham)의 직무특성이론 에서 제시된 핵심직무특성이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 목표설정이론",
+      "2번: 강화이론",
+      "3번: 인지평가이론",
+      "4번: 공정성이론",
+      "5번: 기대이론"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0422": {
+    "id": "mgmt_0422",
+    "qid": "0422",
+    "sourceTag": "",
+    "stemText": "0十22 20기 공인노무사 직무특성모형(]ob characteristlcs model)의 핵심 직무 차원에 포함되지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 성장 욕구 강도(growth need strength)",
+      "2번: 과업 정체성(task identity)",
+      "3번: 과업 중요성(task significance)",
+      "4번: 자울성(autonomy)",
+      "5번: 피드백(feedback)"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0423": {
+    "id": "mgmt_0423",
+    "qid": "0423",
+    "sourceTag": "",
+    "stemText": "0十23 2이6 경영지도사 해크먼(R. Hackman)과 을드행(G. Oldham)의 직무특성모乞 서 직무가 다른 사람의 작업이나 생활에 실질적인 영향을 미 수 있는 정도를 의미하는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 합의성",
+      "2번: 특이성",
+      "3번: 일관성",
+      "4번: 독특성",
+      "5번: 보편성"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0424": {
+    "id": "mgmt_0424",
+    "qid": "0424",
+    "sourceTag": "",
+    "stemText": "0十2十 2017 경영지도사 내재적으로 동기부여된 행동에 외재적 보상이 제공되면 오2 내재적 동기가 감소하게 되는 현상을 설명하고 있는 이론은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十2十",
+      "2번: 17 경영지도사 내재적으로 동기부여된 행동에 외재적 보상이 제공되면 오2 내재적 동기가 감소하게 되는 현상을 설명하고 있는 이론은? (0 기대이론",
+      "3번: 욕구단계이론 (9 인지평가이론",
+      "4번: ERG이론 (9 목표설정이론"
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0425": {
+    "id": "mgmt_0425",
+    "qid": "0425",
+    "sourceTag": "",
+    "stemText": "0十25 2019 경영지도사 해크만과 올드행(R Hackman & G. Oldham)의 직무특성모 서 5가지 핵심 직무특성이 아닌 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十25",
+      "2번: 19 경영지도사 해크만과 올드행(R Hackman & G. Oldham)의 직무특성모 서 5가지 핵심 직무특성이 아닌 것은?",
+      "3번: 기능 다양성 과업 정체성 (9 과업 중요성 과업 전문성 (9 자율성",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0426": {
+    "id": "mgmt_0426",
+    "qid": "0426",
+    "sourceTag": "",
+    "stemText": "0十26 2019 7급 서울시 해크만대ackman)과 올드행(이dham)이 제시한 직무특성 에 포함되지 않는 직무특성은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十26",
+      "2번: 19 7급 서울시 해크만대ackman)과 올드행(이dham)이 제시한 직무특성 에 포함되지 않는 직무특성은?",
+      "3번: 피드백 (기 자율성 (기과업정체성 (0 과업 적합성",
+      "4번: 선택지 4"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0427": {
+    "id": "mgmt_0427",
+    "qid": "0427",
+    "sourceTag": "",
+    "stemText": "0十2대 4刈13 7급 국가s,l 직무특성이른에서 주장하는 핵심직무특성에 대한 내용으로 옳 지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十2대",
+      "2번: 刈13 7급 국가s,l 직무특성이른에서 주장하는 핵심직무특성에 대한 내용으로 옳 지 않은 것은?",
+      "3번: 기술 다양성• 직무를 수행하는 데 요구되는 기술의 종류 가 얼마나 다양한가를 의미한다.",
+      "4번: 과업 정체성: 직무가 독립적으로 완결되는 것을 확인할 수 있는 정도를 의미한다",
+      "5번: 직무 혁신성: 개인이 수행하는 직무가 조직 혁신에 어느 정도 기여할수 있는가를 의미한다"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0428": {
+    "id": "mgmt_0428",
+    "qid": "0428",
+    "sourceTag": "2017 7급 국가직",
+    "stemText": "핵크맨(Hackman)과 올드햄(Oldham)이 제시한 직무특성모형에서 핵심직무차원에 해당하는 것만을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "ㄱ",
+        "label": "ㄱ",
+        "text": "기술 다양성",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄴ",
+        "label": "ㄴ",
+        "text": "과업 표준성",
+        "isCorrect": false
+      },
+      {
+        "id": "ㄷ",
+        "label": "ㄷ",
+        "text": "과업 정체성",
+        "isCorrect": true
+      },
+      {
+        "id": "ㄹ",
+        "label": "ㄹ",
+        "text": "과업 중요성",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅁ",
+        "label": "ㅁ",
+        "text": "과업 교차성",
+        "isCorrect": false
+      },
+      {
+        "id": "ㅂ",
+        "label": "ㅂ",
+        "text": "자율성",
+        "isCorrect": true
+      },
+      {
+        "id": "ㅅ",
+        "label": "ㅅ",
+        "text": "피드백",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: ㄱ, ㄴ, ㄷ, ㄹ",
+      "2번: ㄱ, ㄷ, ㄹ, ㅂ, ㅅ",
+      "3번: ㄱ, ㄷ, ㅁ, ㅂ, ㅅ",
+      "4번: ㄴ, ㄷ, ㄹ, ㅁ"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0429": {
+    "id": "mgmt_0429",
+    "qid": "0429",
+    "sourceTag": "2023 공인노무사",
+    "stemText": "직무특성모형에서 중요 심리상태의 하나인 의미 충만(meaningfulness)에 영향을 미치는 핵심 직무 차원을 모두 고른 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "가",
+        "label": "가",
+        "text": "기술다양성",
+        "isCorrect": true
+      },
+      {
+        "id": "나",
+        "label": "나",
+        "text": "과업정체성",
+        "isCorrect": true
+      },
+      {
+        "id": "다",
+        "label": "다",
+        "text": "과업중요성",
+        "isCorrect": true
+      },
+      {
+        "id": "라",
+        "label": "라",
+        "text": "자율성",
+        "isCorrect": false
+      },
+      {
+        "id": "마",
+        "label": "마",
+        "text": "피드백",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: 가, 나, 다",
+      "2번: 가, 나, 라",
+      "3번: 가, 다, 마",
+      "4번: 나, 다, 라",
+      "5번: 나, 다, 마"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0430": {
+    "id": "mgmt_0430",
+    "qid": "0430",
+    "sourceTag": "",
+    "stemText": "0十30 2024 가맹거래사 직무특성모형의 결과요인으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 내적인 동기부여 중대 02.",
+      "2번: 작업성과의 질적 향상. 1",
+      "3번: 과업 정체성의 중가",
+      "4번: 작업에대한만족도 중대",
+      "5번: 이직률 및 결근율 저하"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0431": {
+    "id": "mgmt_0431",
+    "qid": "0431",
+    "sourceTag": "",
+    "stemText": "0十31 2024 가행거래사 데시(E DecD는 내재적 동기에 의해 직무를 수행할 때 외재적 보 상이 주어지면 내재적 동기가 낮아진다고 주장한다 이 이론으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十31",
+      "2번: 24 가행거래사 데시(E DecD는 내재적 동기에 의해 직무를 수행할 때 외재적 보 상이 주어지면 내재적 동기가 낮아진다고 주장한다 이 이론으로 옳은 것은? (0 목표설정이론 (기 절차공정성이론 분배공정성이론",
+      "3번: 기대이론 (9 인지평가이론 동기부여 • 종합",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0432": {
+    "id": "mgmt_0432",
+    "qid": "0432",
+    "sourceTag": "",
+    "stemText": "0十32 2016 경영지도사 동기부여이론에 관한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로우《A. Maslow)의 욕구단계이론에 의하면 자아실 현이 최상위의 욕구이다.",
+      "2번: 허즈버그(F. Herzberg)의 2요인이론에 의하면 금전적 보 상은 위생요인에 속한다.",
+      "3번: 알더퍼(C. Alderfer)의 ERG이론은 존재욕구, 관계욕구， 성장욕구로 구분하여 설 명하였다.",
+      "4번: 아담스(丄 Adams)의 공정성이론은 내용이론에 속한다. (5)맥클레랜드(D. McClelland)는 성취욕구, 권력 욕구, 친교 욕구로구분하여 설 명하였다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0433": {
+    "id": "mgmt_0433",
+    "qid": "0433",
+    "sourceTag": "",
+    "stemText": "동기부여의 연구자와 그 이론의 연결이 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 브룸(Vroom) - 기대이론",
+      "2번: 아담스(Adams) - 공정성이론",
+      "3번: 허즈버그(Herzberg) - 2요인이론",
+      "4번: 로크(Locke) - 목표설정이론",
+      "5번: 앨더퍼(Alderfer) - 2요인이론"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0434": {
+    "id": "mgmt_0434",
+    "qid": "0434",
+    "sourceTag": "",
+    "stemText": "0十3十 含022 원원`|도사 동기부여에 관한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十3十 含022 원원`|도사 동기부여에 관한 설명으로 옮지 않은 것은? 매수로위시 Maslow)의 욕구 단계 이돈(에서 지이신\\되』1 구는 결\\11•충족의 원리가 시용되지 않는다. (가 (벽글리랜드(D McClelland)의 성가기동기이{:.l에시 귀력뙤 구가 강한 사람은 타인에게 행사하고, 인정법 는 것을 좋아한다",
+      "2번: vroom)의 기대이론에서 기대감, 수단성, 유의성 등이 중요한 동기부여 요소이다. (㉦ 알더퍼(c. Alderfer)의 ERG 이론에서 관기1욕구와 성장 욕 구가 동시에 발현될 수 있다. (9 스기니(B. Skinner)의 강화이론에시 비난, 징계 등과 같은 불쾌한 지-극을 제거함으로씨 바람직한 행동을 강화하는 것을 소7d(extinction)라고 한다.",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0435": {
+    "id": "mgmt_0435",
+    "qid": "0435",
+    "sourceTag": "",
+    "stemText": "0十35 2016 7급 서울시 다음 동기부여 이본들에 대한 설명 중 가장 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十35",
+      "2번: 16 7급 서울시 다음 동기부여 이본들에 대한 설명 중 가장 옮지 않은 것은? (0 매습로우(Mas|ow)의 욕구계층이론에 따르면 인건은 하 위단계의 욕구가 개위지면 순자적으로 상위단기1의 욕구 품} 재우려 한다고 가정 한다 (기 허즈버그대erzb아9)의 2요인이{과에서 동기유Ei!t 요인은 급여, 작업조건, 고용안정 등 작업한경과 관런된 것을 의 미한다. (㉦ Y{å(Vroom)의 기대이론에 의하면 동기부여는 기대, 보 상의 가지, 수단성의 3요소에 의해 영향을 받는다.",
+      "3번: 애덤스(Adams)el 공정성이芒은 개인의 투입과 산출에 대한 평가에 기초를 두고 있다.",
+      "4번: 선택지 4"
+    ],
+    "answer": "2",
+    "choiceCount": 4
+  },
+  "mgmt_0436": {
+    "id": "mgmt_0436",
+    "qid": "0436",
+    "sourceTag": "",
+    "stemText": "서ㆍ1| 통기부이 이쯔에 대한 셜기으爨 가살 BP 것P?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ö)lfl?2(Adamo)91 새심/과이4甕(四니\"/ 개인의 지 하모니는 일)} 수구 “7 기제기 ,간 이는 4,l)『lß|인 요소가 던다",
+      "2번: |,께습'•1 ?(MasIow)91 욕구기l용이,4改hiorar하,/ of n thoory)에 의町 아(,께에시 네 ,핀깨 위지의 자의적 는 존경 욕구 위에 존재한다 (솨 ,!!十}(Vroom)91 기내이十t(oxpoctancy th(,()새)에서 ? (instrumontality)이란 기l인a,가%의 심과가 보상으로 집 것이라는 ,간음을 기리 긴다.",
+      "3번: 선택지 3",
+      "4번: 선택지 4"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0437": {
+    "id": "mgmt_0437",
+    "qid": "0437",
+    "sourceTag": "",
+    "stemText": "0十3t1 2018 7급 국가직 동기부여이본에 대한 설명으로 옮지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: Y이론적 관점에 따르민 직원온 부성적 강화《Reinforce 에 의해 동기부이가 된다.",
+      "2번: 아담스(丄 S. Adams)의 공정성이론에 따르면 시-람 신의 입에 무입한 요소와 그로부터 받온 보상의 비 다큰 사람의 그것과 비 교한다,",
+      "3번: 요인이론에서 동기유발요인은 직무에 내재하는 둠이 다.",
+      "4번: 기대이론에서 동기부여가 되는 성도는 노력과 성 련성, 성과와 결과 관런성，겁과와 개인의 욕구 관런성의 영향율 받는다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0438": {
+    "id": "mgmt_0438",
+    "qid": "0438",
+    "sourceTag": "",
+    "stemText": "0十38 2022 5급 군무원 다음은 동기부여에 관한 여러 이른들을 설명한 것이다. 이 중 가 장 옮지 않는 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 공정성 이론(equity theory》에 따르면, 개인이 괄공정성 에 대한 지각에서 오는 긴장율 감소시키는 방법으로는 자신의 투입(input)변 경, 산출(output) 변 경, 투입과 산출 의 인지적 왜곡, 비교 대상의 변경 등이 있다.",
+      "2번: 기대이론《expectancy theory》은 개인의 동기 수준을 기 대감(expectancy), 수단성(instrumentality), 유의성 (valence》의 곱으로 설 명 한다.",
+      "3번: 허쯔버그(Herzberg)의 2요인 이론＜two*factor theory)에서 봉급，작업조건, 감독, 상급자와의 관계 등은 동기요인 (motivator)에 해양하는 것으로, 위생요인(hygiene factor) 이 충족되더라도 구성원을 동기화시키지 못하며, 성과 형상을 위해서는 동기요인을 충족시켜야 한다고 주장한 다.",
+      "4번: 맥크리랜드(McClelland)의 성취동기 이론(achievement motive theory, three-needs theory)에 따르면, 소속 욕구 (need for affiliation)가 높은 사람은 다른 사람의 인정을 받으려고 노력하고, 권 력 욕구(need for power)가 높은 사람은 다른 사람을 지배하고 통제하기를 원한다."
+    ],
+    "answer": "3",
+    "choiceCount": 4
+  },
+  "mgmt_0439": {
+    "id": "mgmt_0439",
+    "qid": "0439",
+    "sourceTag": "",
+    "stemText": "0十39 공기업 출제경향 반영 Porter와 Lawler의 동기모델에 관한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十39 공기업 출제경향 반영 Porter와 Lawler의 동기모델에 관한 설명으로 옳지 않은 것은?",
+      "2번: 브룸한00m)의 기대이론을 기초로 이를 확장한 모델이 다.",
+      "3번: 여러 동기부여 이론들을 통합하여 하나의 모델로 설명 하였다는 데 의의가 있다 노력이 성과로 이어지는데 보상의 공정성에 대한 지각 (perceived equitable rewards)이 조절변수(moderate variables)로서 영향을 미친다. 만족(satisfaction)이란 직무성과에 따라 제공된 보상에 대하여 개인이 느끼는 욕구의 충족 정도를 말한다. 종업원의 능력 및 특성(abilities and traits)과 역할지각 (role perception)의 두 변수 때문에 노력과 성과의 관계 는 완전한 비례관계를 갖지 못한다고 본다.",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0440": {
+    "id": "mgmt_0440",
+    "qid": "0440",
+    "sourceTag": "",
+    "stemText": "0十十0 2023 7급 군무원 다음 중 동기부여 이론에 대한 설명으로 가장 적절하지 않은 것 은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 알더퍼(C. Alderfer)의 ERG 이론은 인간의 욕구를 친교욕 구，권력욕구，성취욕구로 구분하였다. 아리",
+      "2번: 아담스(丄 Adams》의 공정성 이론(equity theory)에 따르 - 면 준거인과 비교할 때 자신이 과다보상을 받았다고 인 식하는 직원은 불공정성을 해소하려는 동기가 유발된 다.",
+      "3번: 브름(V. Vroom)의 기 대이론｛expectancy theory》에서 동기 부여 강도를 설명하는 변수는 기대감，수단성，유의성이 다.",
+      "4번: 허츠버그(F. Herzberg)의 2요인 이론＜two -factor theory) 에서 불만족과 관련된 요인을 위생요인이라고 한다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0441": {
+    "id": "mgmt_0441",
+    "qid": "0441",
+    "sourceTag": "",
+    "stemText": "0十十1 2023 7급 국가직 동기부여에 대한 설명으로 옳지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十十1",
+      "2번: 23 7급 국가직 동기부여에 대한 설명으로 옳지 않은 것은?",
+      "3번: Y*(Vroom)의 기대이론에서 도구성(instrumentality)은 목표 달성과 보상 간의 연결에 대해 개인이 지각하는 주 관적 확률이다 직무특성모형에서 피드백은 작업의 의미감을 주고, 공 정성은 작업성과의 책임감을 경험하게 해 준다",
+      "4번: 앨더퍼(시de粁er)는 ERG 이론을 통해, 특정 욕구의 충족 이 좌절되었을 때 하위 욕구를 추구하는 퇴행 현상이 나 타남을 제시 하였다 허즈버그대erzberg)의 2요인 이론에서, 위생요인은 불만 족의 방지 혹은 감소와 관계가 있다",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0442": {
+    "id": "mgmt_0442",
+    "qid": "0442",
+    "sourceTag": "",
+    "stemText": "0十十2 2024 7급국가직 동기부여에 대한 설명으로 옳은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 강화이론은 동기부여의 내용이론에 해당한다.",
+      "2번: 맥클리랜드(D. C. McClelland)는 욕구단계설의 상위 욕 구에 초점을 맞춰 성취욕구, 권력욕구，인정욕구를 제시 하였다.",
+      "3번: 버나드(C. I. Barnard)의 공정성 이론은 개인의 투입 노력 과 산출 보상과의 비교률 통해 동기유발을 설명하였다.",
+      "4번: 동기부여를 위한 가장 기초적인 수단은 경제적 보상이 다."
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0443": {
+    "id": "mgmt_0443",
+    "qid": "0443",
+    "sourceTag": "",
+    "stemText": "0十十3 2007 CPA 태도와 학습에 관한 다음의 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 부적 강화(negative reinforcement)는 바람직한 행동의 빈도수를 감소시 키고 정 적 강화(positive reinforcement) 는 바람직한 행동의 빈도수를 증가시킨다.",
+      "2번: 마이어와 알앤(Meyer and Allen》은 조직몰입을 정서적 (affective) 몰입，지속적(continuance)몰입, 규범적 (normative) 몰입으로 나누어 설명하였다.",
+      "3번: 태도의 구성요소는 인지적(cognitive》요소，정서적 (affective) 요소, 행동의도적(behavioral intention) 요소로 나누어진다.",
+      "4번: 조직행동분야의 많은 실증연구에서 직무만족이 성과에 미치는 직접적인 효과는 그리 높게 나타나지 않고 있다. ⑤강화 스케줄에서 단속적 강화(intermittent reinforcement)일정은 고정간격일정，변동간격일정, 고 정비율일정，변동비율일정이 있다."
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0444": {
+    "id": "mgmt_0444",
+    "qid": "0444",
+    "sourceTag": "2010 CPA",
+    "stemText": "태도, 통제의 위치, 조직몰입, 귀인이론, 강화에 관한 다음 서술 중에서 옳은 항목만을 모두 모은 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "태도의 구성요소는 인지적(cognitive) 요소, 정서적(affective) 요소, 행동의도적(behavioral intentional) 요소로 나눌 수 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "통제의 위치(locus of control)에 따르면 외재론자에 비해 내재론자는 성과를 결정짓는 것이 자신의 노력이라고 생각한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "마이어(Meyer)와 알렌(Allen)은 조직몰입을 정서적(affective) 몰입, 지속적(continuance) 몰입, 규범적(normative) 몰입으로 나누어 설명한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "켈리(Kelley)의 귀인이론(attribution theory)에서는 행동의 원인을 합의성(consensus), 특이성(distinctiveness), 일관성(consistency)의 세 가지 차원으로 구분하여 해석한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "e",
+        "label": "e",
+        "text": "부정적 강화(negative reinforcement)와 긍정적 강화(positive reinforcement) 모두 바람직한 행동의 빈도를 증가시킨다.",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: a, b, d",
+      "2번: a, b, c, d",
+      "3번: a, b, d, e",
+      "4번: b, c, d, e",
+      "5번: a, b, c, d, e"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0445": {
+    "id": "mgmt_0445",
+    "qid": "0445",
+    "sourceTag": "",
+    "stemText": "조직에서 개인의 태도와 행동에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 조직몰입(organizational commitment)에서 지속적 (continuance commitment)은 조직구성원으로서 가 할 의무감에 기반한 몰입 이 다.",
+      "2번: 정적 강화(positive reinforcement)에서 강화가 중 때，변동 비율법에 따라 강화된 행동이 고정비율법에 라 강화된 행동보다 빨리 사라진다.",
+      "3번: 감정지능(emotional intelligence)0] 높올수록 조직 은 증가하고 감정노동(emotional labor)과 감정 (emotional burnout》은 줄어든다.",
+      "4번: 직무만족(job satisfaction)0] 높을수록 이직의도는 지고 직무관련 스트레스는 줄어든다.",
+      "5번: 조직시민행동(아ganizational citizenship behavio&lt; 사적 행동《sportsmanship), 예의바른 행동(court뻬 타적 행동(altruism), 전문가적 행동(professioW 네 요소로 구성된다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0446": {
+    "id": "mgmt_0446",
+    "qid": "0446",
+    "sourceTag": "",
+    "stemText": "1 성격 0十十6 2008 CPA 어떤 사람들(내재폰자)은 세상살이의 여러 가지 일들 대부분을 자기가 통제할 수 있다고 믿는 반면. 또 다른 사람들(외재론자)은 자기가 할 수 있는 것은 극히 적고 남이나 운명에 달려있다고 믿 는다 이들에 대한 설명으로 다음 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 내 재론자는 외 재론자보다 동기의 수준이 높다.",
+      "2번: 외재론자에 비해 내재론자는 성과를 결정짓는 것이 자 신의 노력이라고 생각한다.",
+      "3번: 내재론자는 외재론자보다 걱정을 더 많이 하는 경향이 있다.",
+      "4번: 외재론자에 비해 내재론자는 업무와 관련된 문제해결이 나 학습에서 높은 성과를 보인다.",
+      "5번: 단순 노동이나 규정대로만 해야 하는 직무, 완전 통제 하 에서 움직여야 하는 조직에서는 외재론자가 더 효과적 일 수 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0447": {
+    "id": "mgmt_0447",
+    "qid": "0447",
+    "sourceTag": "",
+    "stemText": "조직에서 개인의 행동에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 특정 직무 또는 과업에 대한 일련의 성공경험은 그 과업 에 대한 자기효능감(self-efficacy)에 긍정적 영향을 미칠 수 있다.",
+      "2번: 자기 감시성향(self-monitoring)이 높은 사람은 자기 감시 성 향이 낮은 사람보다 외부환경과 상황에 잘 대 처 하는 경향이 있다.",
+      "3번: 타인을 존중하는 개인의 성향은 빅 5(Big Five) 성격유형 에서 성 실성(conscientiousness)에 속하며 성실성은 개 인 의 직무성과와관련성이 없다.",
+      "4번: 성 격유형에서 A타입(Type A)은 B타입(Type 리보다 인내 심이 적고 조급한 편이다.",
+      "5번: 통제의 위 치(locus of control)가 내부에 있는 사람 (internals》은 외부에 있는 사람(externals》보다 자신에게 일어나는 일을 스스로 통제할 수 있다는 믿음이 높다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0448": {
+    "id": "mgmt_0448",
+    "qid": "0448",
+    "sourceTag": "",
+    "stemText": "0十十8 2013 CPA 성격과 태도에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: Big 5 성격유형 중 경험에 대한 개양성(openness to experience)이란 다른 사람듈과 잡 어움리고 납율 신뢰하는 싱항을 의미한다.",
+      "2번: MBTI(Myers-Briggs Type Indicator)에서는 개인이 정보 를 수집하는 방식과 판단하는 방식에 근거하여 성격유 형을 분석하고 성격유형에 적합한 직업을 제시하고 있 다.",
+      "3번: 성공의 원인은 자신의 눙력이나 노력 등의 내재적 요인 에서 찾고, 실패의 원인은 과업의 난이도나 운 둥의 외재 적 요인에서 찾으려는 경향을 자존적 편견(self-serving bias》이라고 한다.",
+      "4번: 성격유형을 A형과 B형으로 구분할 때，A형의 성격을 지 닌 사람은 B형의 성격올 지닌 사람보다 경쟁적이고 조급 한편이다.",
+      "5번: 자기효능감(self-efficacy)이란 특정한 일을 성공적으로 수행할 수 있는지에 대한 스스로의 믿음을 의미한다."
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0449": {
+    "id": "mgmt_0449",
+    "qid": "0449",
+    "sourceTag": "",
+    "stemText": "0十十9 2020 CPA 성격 및 지각에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 외재론자(externalizer)는 내재론자(internalizer)에 비해 자기 자신을 자율적인 인간으로 보고 자기의 운명과 일 상생활에서 당면하는 상황을 자기 자신이 통제할 수 있 다고 믿는 경향이 있다.",
+      "2번: 프리드만과 로즈만(Friedman &amp; Roseman)에 의하면 A형 성격의 사람은 B형 성격의 사람에 비해 참을성이 없고 과업성취를 서두르는 경향이 있다.",
+      "3번: 지각과정에 영향을 미치는 요인에는 지각대상, 지각자, 지각이 일어나는상황등이 있다.",
+      "4번: 외향적인 성향의 사람은 내향적인 성향의 사람보다 말 이 많고 활동적인 경향이 있다.",
+      "5번: 많온 자극 가운데 자신에게 필요한 자극에만 관심을 기울 이고 이해하려 하는 현상율 선택적 지각(selective perception》이라고 한다."
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0450": {
+    "id": "mgmt_0450",
+    "qid": "0450",
+    "sourceTag": "2021 CPA",
+    "stemText": "다음 설명 중 적절한 항목만을 모두 선택한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "성격(personality)은 개인의 독특한 개성을 나타내는 전체적인 개념으로 선천적 유전에 의한 생리적인 것을 바탕으로 하여 개인이 사회문화환경과 작용하는 과정에서 형성된다.",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "욕구(needs)는 어떤 목적을 위해 개인의 행동을 일정한 방향으로 작동시키는 내적 심리상태를 의미한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "사회적 학습이론(social learning theory)에 의하면, 학습자는 다른 사람의 어떤 행동을 관찰하여 그것이 바람직한 결과를 가져올 때에는 그 행동을 모방하고, 좋지 않은 결과를 가져올 때에는 그 같은 행동을 하지 않게 된다.",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "역할갈등(role conflict)은 직무에 대한 개인의 의무·권한·책임이 명료하지 않은 지각상태를 의미한다.",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: a, b",
+      "2번: a, c",
+      "3번: b, c",
+      "4번: a, d",
+      "5번: b, d"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0451": {
+    "id": "mgmt_0451",
+    "qid": "0451",
+    "sourceTag": "",
+    "stemText": "0十51 2008 CPA 사람의 행동이나 태도(attltude)를 이해하기 위해 그 사람의 가 치관(values)을 이해하는 것이 중요하다. 가치관과 태도에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十51",
+      "2번: 08 CPA 사람의 행동이나 태도(attltude)를 이해하기 위해 그 사람의 가 치관(values)을 이해하는 것이 중요하다. 가치관과 태도에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+      "3번: 태도가 구체적인 개념이라면 가치관은 보다 광범위하고 포괄적인 개념이다. 어떤 두 사람의 태도가 같다고 해도 그것은 각각 다른 가 지관에서 비롯될 수 있다",
+      "4번: 태도와 가치관은 모두 장기적이며 고정적인 특성을 갖 지만 태도보다는 가치관이 더 안정적이다. “내 상사가 이런 태도를 보이는 것은 이러이러한 가치관 을 가졌기 때문이야” 라고 말할 수 있으며, 이것은 역으 로도성립된다",
+      "5번: 어떤 가치관이 조직구성원들 사이에 지속적으로 존재하 게 될 때 그것은 하나의 문화적 요소가 될 수 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0452": {
+    "id": "mgmt_0452",
+    "qid": "0452",
+    "sourceTag": "",
+    "stemText": "0十52 2019 CPA 비교경영연구에서 합스테드대ofstede)의 국가간 문화뿐류걱』 원으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고맥락(high context》과 저맥아0。、&quot; context》",
+      "2번: 돌확실성 회피성향(uncertainty avoidance)",
+      "3번: 개인주의《individualism》와 집단주의《collect_이",
+      "4번: 권 력 거 리(power distance)",
+      "5번: 남성성(masculinity》과 여성성(femininity)"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0453": {
+    "id": "mgmt_0453",
+    "qid": "0453",
+    "sourceTag": "",
+    "stemText": "감정, 지각 및 가치관에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十53",
+      "2번: 24 CPA 감정. 지각 및 가치관에 관한 설명으로 가장 적절하지 않•",
+      "3번: 감성지능(emotional intelligence)이 낮은 개 인보다 개인이 타인과의 갈등을 건설적으로 더 잘 해결하 향이 있다 스트레스는 구성원의 직무수행에 있어서 역기능적 뿐만 아니라 순기능적 역할도 한다. 궁극적 가ileftterminal values)은 개인이 어떤 목표 종상태를 달성하기 위해 사용될 수 있는 수용 가능 동을 형성하는 가치관을 말한다. 자존적 편7d(self-serving bias)은 자신의 성공에 대쵸 내재적 요인에 원인을 귀속시기고 실패에 대해서 재적 요인에 원인을 귀속시기는 경향을 말한다.",
+      "4번: 인상관리(impression management)는 다른 사람들 신에 대해 형성하게 되는 지각을 개인이 관리하거 제하려고 시도하는 과정을 말한다.",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0454": {
+    "id": "mgmt_0454",
+    "qid": "0454",
+    "sourceTag": "2005 CPA",
+    "stemText": "켈리(Kelley)의 귀인이론(attribution theory)에서는 행동의 원인을 합의성(consensus), 특이성(distinctiveness), 일관성(consistency)의 세 가지 차원으로 구분하여 해석하고 있다. 다음 중 행동의 원인을 행위자의 내적(internal) 요인으로 판단하기에 가장 적절한 경우는?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 합의성: 높음 / 특이성: 높음 / 일관성: 높음",
+      "2번: 합의성: 높음 / 특이성: 높음 / 일관성: 낮음",
+      "3번: 합의성: 낮음 / 특이성: 낮음 / 일관성: 높음",
+      "4번: 합의성: 낮음 / 특이성: 높음 / 일관성: 낮음",
+      "5번: 합의성: 낮음 / 특이성: 낮음 / 일관성: 낮음"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0455": {
+    "id": "mgmt_0455",
+    "qid": "0455",
+    "sourceTag": "",
+    "stemText": "0十55 2016 CPA 귀인(attnbution)에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 내적 귀인(internal attribution)은 사건의 원인을 행위자 의 운과 맡은 과업의 성격 탓으로 귀인하는 것이고 외적 귀인(e&gt; dernal attribution)은 행위자의 외향적 성 격과 대 인관계 역량에 귀인하는 것이다.",
+      "2번: 켈리(Kelley)의 귀인모형에서 합의성(consensus)이 높으면 행위자의 내적 요인에 귀인하는 경향이 있다.",
+      "3번: 근원적 귀 인오류(fundamental attribution error)는 사•건 의 원인에 대해서 외적 요인을 간과하거나 무시하고 행 위자의 내적 요인으로 귀인하려는 오류이다.",
+      "4번: 자존적 편견(self-serving bias)은 사건의 결과를 실패로 보지 않고 성공을 위한 학습으로 지각하여 실패를 행위 자 자신의 탓으로 돌리려는 귀 인오류이 다.",
+      "5번: 켙리(Kelley》의 귀인모형에서 특이성(distinctiveness)이 높으면 행위자의 내적 요인에 귀인하는 경향이 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0456": {
+    "id": "mgmt_0456",
+    "qid": "0456",
+    "sourceTag": "",
+    "stemText": "0十56 2이8 CPA 지각. 귀인, 의사결정에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十56",
+      "2번: 이8 CPA 지각. 귀인, 의사결정에 관한 설명으로 가장 적절한 것은? (0 10\"경의 후보자가 평가위원과 일대일 최종 면접을 할 때 피평가자의 면접순서는 평가자의 중심화 경향 및 관대 화 경향에 영향을 미칠 수 있으나 최근효과 및 대비효과 와는 관련이 없다",
+      "3번: 겔리(Kelley)의 귀인 모형에 따르면 특이성 (distinctiveness)과 합의성(consensus)이 낮고 일관성 (consistency)이 높은 경우에는 내적귀인을 하게 되고 특 이성과 합의성이 높고 일관성이 낮은 경우에는 외적귀 인을 하게 된다",
+      "4번: 행위자 관찰자효과(act아 observer effect)는 행위자 입장 에서는 행동에 미치는 내적요인에 대한 이해가 충분하 나, 관찰자 입장에서는 행위자의 능력과 노력 등의 내적 요인을 간과하기나 무시하고 행위자의 외적요인으로 귀 인하려는 오류이다. 제한된 합리성(bounded rationality)하에서 개인은 만족 할 만한 수준의 대안을 찾는 의사결정을 하기 보다는 인 지적 한계와 담색비용을 고려하지 않고 최적의 대안 (optmal solution)을 찾는 의사결정을 한다",
+      "5번: 집단 사고(group think)는 응집력이 강한 대규모 집단에 서 복잡한 의사결정을 할 때, 문제에 대한 토론을 진행할 수록 집단내의 의견이 양극화되는 현상이다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0457": {
+    "id": "mgmt_0457",
+    "qid": "0457",
+    "sourceTag": "",
+    "stemText": "0十50 .℃06 CN 인력선발에서의 타인평가 및 지각과 관련된 다음의 용어 중 설명 이 가장 적절한것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十50 .℃06 CN 인력선발에서의 타인평가 및 지각과 관련된 다음의 용어 중 설명 이 가장 적절한것은? (0 주관의 객관화(면의ect,on)는 어떤 과업의 성공식 수행에 필요한 능력을 개인 스스로 가지고 있다고 생각하는 민 유이다",
+      "2번: 자존적 편?(self-serving bias)은 자존심을 지기기 위해서 주위의 사람을 후하게 평 가하는 경향을 말한다.",
+      "3번: 나와의 유AbAdßmilar to me)효과는 주위사람의 기대와 자신의 기대대로 행동함으로써 결국은 예측된 결과가 이루어지는 것을 말한다",
+      "4번: 대비효괴icontrast effect)는 여러 사람 중에서 처음에 평 가한 사람을 나중에 평가한 사람보다 나쁘게 평가하는 경형h을 말한다 최근효괴(recency effect)는 주로 최근의 정보를 가지고 타인을 평 가하는 경향을 말한다",
+      "5번: 선택지 5"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0458": {
+    "id": "mgmt_0458",
+    "qid": "0458",
+    "sourceTag": "",
+    "stemText": "0十58 2012 CPA 타인 평가 및 지각 과정에서 나타나는 오류와 관련된 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 출신학교나 출신지역과 같이 그 사람이 속한 집단을 근 거로 사람을 평 가하는 오류를 후광효과｛halo effect)라고 한다.",
+      "2번: 피평가자가 가진 비숫한 특질들(© 근면성과 성실성)이 서로 관계가 있는 것으로 생각하여 유사하게 평가히려 는 경향올 유사효과라고 한다.",
+      "3번: 평가를 할 때, 처음에 주어진 정보에 더 큰 비중을 두는 경향올 최근효과^recency error》라고 한다.",
+      "4번: 강제할당법을 사용하면 중심화 경향의 오류를 감소시킬 수 있다.",
+      "5번: 정직성이 낮은 평가자가 정직한 평가자보다 피평가자科 덜 부정적으로 평가하는 경싱유 투영효과(투사, 주관의 객반화，projection》라고 한다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0459": {
+    "id": "mgmt_0459",
+    "qid": "0459",
+    "sourceTag": "",
+    "stemText": "0十59 2이5 CPA 대도와 성격에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 생리(Kelley》의 구I인이쏜에시는 행농의 위이욥 사이싱. 합의 싱，입관성으로 구분하이 파악하다",
+      "2번: 자존적 면견(self-serving bias)v- 병 사자사 사시 이 사존 옵 지키기 위하여, 자신이 실패했올 때는 자신의 내부적 요인에서 원인율 찾고，자신의 성공에 대해서는 외부적 요인에서 원인을 찾으려는 성향올 으I미하다.",
+      "3번: 성격유형움 A형과 B형으로 구분합 때, A형은 B형보나 업무처리 속도가 빠르고, 인내심이 부속한 면이다.",
+      "4번: 조지시민행둥(organizational citizenship behavior》이란 조직에서의 공식적인 역할이 아니더라도，조직율 위해 자발적으로 희생하고 노력하며 동료를 돕는 행동을 의 미한다.",
+      "5번: 마이어(Meyer)와 알렌(Allen)이 주상하는 조직몰입 중 지 속적(continuance) 몰입은 조식을 떠나면 정제적 비용이 많이 발생하기 때문에 조직에 머물러 있으려는 태도블 의미한다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0460": {
+    "id": "mgmt_0460",
+    "qid": "0460",
+    "sourceTag": "2023 CPA",
+    "stemText": "다음 설명 중 적절한 항목만을 모두 선택한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "태도(attitude)는 정서적(affective), 인지적(cognitive), 행동적(behavioral) 요소로 구성된다.",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "직무만족은 직무를 활용한 전문가로서의 체계적인 경력개발을 의미한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "마키아벨리즘 성격 특성은 대인관계에 있어 속임수와 조작을 사용하는 성향을 의미한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "켈리(Kelley)가 제시한 귀인의 결정요인은 합의성(consensus), 특이성(distinctiveness), 책무성(accountability)이다.",
+        "isCorrect": false
+      },
+      {
+        "id": "e",
+        "label": "e",
+        "text": "피그말리온 효과(Pygmalion effect)는 특정인에 대한 기대가 실제 행동 결과로 나타나게 되는 현상을 의미한다.",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: a, d",
+      "2번: b, e",
+      "3번: c, d",
+      "4번: a, c, e",
+      "5번: b, c, e"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0461": {
+    "id": "mgmt_0461",
+    "qid": "0461",
+    "sourceTag": "2006 CPA",
+    "stemText": "동기부여(motivation) 이론 중 매슬로우의 욕구이론(need theory)에 관한 서술 중에 가장 적절한 것으로 묶인 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "하나의 욕구가 충족되면 그 다음 상위단계의 욕구를 충족시키려 한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "상위욕구의 충족이 좌절되면 그보다 하위단계의 욕구를 충족시키려 한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "생리적 욕구 - 안전욕구 - 존경욕구 - 사회적 욕구 - 자아실현욕구의 순서로 단계가 나누어진다.",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "사회적 욕구는 위생요인으로, 생리적 욕구와 안전욕구는 동기요인으로 분류하였다.",
+        "isCorrect": false
+      },
+      {
+        "id": "e",
+        "label": "e",
+        "text": "매슬로우의 5가지 욕구 중 존경(esteem), 관계(relatedness), 성장(growth) 욕구 3가지만을 고려하여 ERG이론을 만들었다.",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: a",
+      "2번: a, b, c",
+      "3번: b, c, d",
+      "4번: d, e",
+      "5번: c, d, e"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0462": {
+    "id": "mgmt_0462",
+    "qid": "0462",
+    "sourceTag": "",
+    "stemText": "0十62 2005 CPA 동기부여의 기대이É(expectancy theory)과 관련된 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十62",
+      "2번: 05 CPA 동기부여의 기대이É(expectancy theory)과 관련된 설명으로 가장 적절하지 않은 것은? (0 기대7t}(expectancy), 유의성(valence), 수단성 finstrumenta,ity) 중 하나라도 0의 값을 가지면 동기부여 丁준은 0이 된다. 전체 등기부여 수준은 음(-)의 값을 가질 수 있다.",
+      "3번: 기대0(expectancy)이란 노력을 했을 때 특정 수준의 성 과를 낼 수 있는가에 대한 객관적 확률로서 0에서 1까지 의 값을 가진다.",
+      "4번: 가페테리아식 복리후생 제도는 유의성(valence)을 높이 는 \"장법이 될 수 있다. (되 성과급을 도입하면 수단성finstrumentallty)이 높아질 수 있다.",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0463": {
+    "id": "mgmt_0463",
+    "qid": "0463",
+    "sourceTag": "",
+    "stemText": "0十63 2008 CPA 핵크맨(R. 」. Hackman)과 올드행(G. R Oldham)의 직무특성이 론(job characteristics theory)에서 5대 핵심 직무특성과 직무수 행자의 심리적 상태에 관한 설명으로 다음 중 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기술다양성(skill variety)은 영무수행에 요구되는 기술이 얼마나 여러 가지인가를 뜻하며，다양성이 높은 직무에 서 수행자는 책 임 감(responsibility)을 느끼게 된다.",
+      "2번: 과업정체성(task identity)은 업무내용이 시작부터 끝까지 전체에 관한 것인지 아니면 일부에만 관여하도록 되어 있는지에 관한 것으로 정체성이 높은 직무에서 수행자는 수행결과에 대한 지식을 얻게 된다.",
+      "3번: 과업중요성(task significance》은 수행업무가 조직 내 • 외 에서 타인의 삶과 일에 얼마나 큰 영향을 미치는가에 관 한 것으로 중요성이 큰 직무에서 수행자는 업무에 대한 의미성(meaningness)을 느끼게 된다.",
+      "4번: 자울성(autonomy)은 업무수행에서 개인에게 부여된 자 유와 재량권 정도로서 자율성이 큰 직무에서 수행자는 업무에 대한 의미성(meaningness》을 느끼게 된다.",
+      "5번: 피드백 (feedback)은 업무자체가 주는 수행성과에 대한 정보의 유무를 뜻하며 수행자가 인지하는 상황의 불확 실성을 가중시 킨다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0464": {
+    "id": "mgmt_0464",
+    "qid": "0464",
+    "sourceTag": "",
+    "stemText": "핵크맨(Hackman)과 올드햄(Oldham)이 주장한 직무특성이론(job characteristics theory)에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十6十",
+      "2번: 14 CPA 핵크만대ackman)과 을드행(이dham)이 주장한 직무특성이론",
+      "3번: b characteristics theory)에 관한 설명으로 가장 적절하지 않 으 거으2",
+      "4번: 과업정체성(task identity)이란 업무수행 방법이나 절차가 명확하고 체계적으로 정리되어 있는 정도를 의미한다.",
+      "5번: 결과변수에는 작업의 질, 만족도, 이직율, 결근율이 포함 된다"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0465": {
+    "id": "mgmt_0465",
+    "qid": "0465",
+    "sourceTag": "",
+    "stemText": "0十65 ℃02 CPA 모티베이션과 관련한 다음의 설명 가운데 가장 적절하지 않은 것 은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ERG이론은 욕구단계이론과는 달리 좌절-퇴행의 가능 성율 인정한다.",
+      "2번: 동기-위 생이론(2요인이론》에서는 만족과 불만족율 상 이한 차원으로 이해한다.",
+      "3번: 인지적 평가이론(cognitive evaluation theory)은 내재적 보상과 외 재 적 보상을 구분하지 않는다.",
+      "4번: 공정성이론 또는 형평성이론(equity theory)은 사람의 노 력과 그에 대한 보상을 계량화할 수 있다는 가정을 전제 로한다.",
+      "5번: 목표에 의한 관리(management by objectives)는 목표설 정이론(goal setting theory)을 바탕으로 한 기법이다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0466": {
+    "id": "mgmt_0466",
+    "qid": "0466",
+    "sourceTag": "",
+    "stemText": "0十66 2007 CPA 동기부여(moüvation) 이론을 설명한 것 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 맥클리랜드(McClelland)의 성취동기이론에 따르면 친교 욕구(need for affiliation)가 높은 사람은 다른 사람의 인 정을 받으려고 노력 하고 권 력욕구(need for power)가 높 은 사람은 다른 사람을 지배하고 통제하고 싶 어한다.",
+      "2번: 알더퍼(Alderfer)의 ERG이론은 인간의 욕구를 존재 (existence), 관계(relatedness), 성장(growth)의 세 가지 욕구로 분류하고 욕구의 만족-진행(satisfaction- progression》과 좌절 - 퇴행(frustration - regression)0] 일 어난다고 주장한다.",
+      "3번: 공정성이론(equity theory)에 따르면 개인이 불공정성에 대한 지각에서 오는 긴장을 감소시키는 방법으로 자신 의 투입(input)의 변경，산출(output》의 변경, 투입과산출 의 인지적 왜곡，비교대상의 변경 등이 있다.",
+      "4번: 봉급，작업조건, 감독, 상사와의 관계는 허쯔버그 (Herzberg)의 2요인 이론에서 동기요인(motivator)에 해당하는 것으로 위생요인이 충족되더라도 구성원을 동기 화시키지 못하며 성과향상을 위해서는 동기요인을 충족 시켜야 한다고 주장한다.",
+      "5번: 기대이론(expectancy theory)은 개인의 동기수준이 기대 감(expectancy), 수단성(instrumentality乂 유의싱(valence》 값의 곱으로 설명되고 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0467": {
+    "id": "mgmt_0467",
+    "qid": "0467",
+    "sourceTag": "",
+    "stemText": "0十6다 2009 CPA 동기부여 이본에 대한 서술 중 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 히쯔버그(Herzberg)가 주상한 2요인이론(two factor theory》에 의하면 작업하경윤 개선하면 송입원의 만족노 가 높아진다.",
+      "2번: 공정성이론(equity theory)에 의하면 개인의 지 사보다는 임금 수준 그 자체가 만족도롭 결정하는 해심적인 요소 가된다.",
+      "3번: 기대이론(expectancy theory)에 의하면 종업원이 선호하 는 보상 수단을 제공할 때 수단성(instrumentality)이 높아 진다.",
+      "4번: 직무특성이론에 의하면 성장욕구가 낮은 종업원에게는 단순한 직무를 부여하는 것이 효과적이다.",
+      "5번: 직무특성이론에 의하면 과업의 분화가 많이 될수록 과 업정체성(task identity)0! 높아진다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0468": {
+    "id": "mgmt_0468",
+    "qid": "0468",
+    "sourceTag": "",
+    "stemText": "동기부여(motivation) 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 기대이론(expectancy theory)에서 수단성(instrumentality) 은 행위자의 노력이 1차적 성과를 달성할 수 있을지에 대한 객관적 인 판단이다.",
+      "2번: 아담스(Adams)의 공정성이론(equity theory)은 투입 대 비 산출의 상호작용적 공정성，절차적 공정성, 효율적 조 직성과배분에 대한 분배적 공정성을 모두 고려하고 있 다.",
+      "3번: 허쯔버그(Herzberg)의 2요인이론에서 동기요인은 임금, 작업환경, 근로조건, 칭찬，인정을 포함하고 근로자의 불 만족을 제거하는 역할을 한다.",
+      "4번: MBO(Management by Objectives)는 목표설정이론율 조직에 적용한 예로서 목표의 구체성과 난이도, 피드백 은 동기부여에 영향을 미친다.",
+      "5번: 동기부여 이론을 크게 내용이론(content theory)과 과정 이론(process theory)으로 분류할 때 직무특성이론，ERG 이론，내재적 동기이론은 과정이론에 속한다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0469": {
+    "id": "mgmt_0469",
+    "qid": "0469",
+    "sourceTag": "",
+    "stemText": "0十69 .℃1., (수속 등기부여 이본에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 목표의 구체성",
+      "2번: 목표의 난이도",
+      "3번: 목표에 대한 피드백",
+      "4번: 목표설정에 대한 참여",
+      "5번: 목표의 보상 연계성"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0470": {
+    "id": "mgmt_0470",
+    "qid": "0470",
+    "sourceTag": "",
+    "stemText": "1 0十다0 2013 CPA 동기부여 이론에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ",
+      "2번: ",
+      "3번: 十다0",
+      "4번: 13 CPA 동기부여 이론에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+      "5번: 허쓰버그대erzberg)의 2요인이론(Two Factor Theory)에 의하면, 회사의 정책, 작업조건, 급여 등의 요건이 충족 되어도 만족도가 증가하지는 않는다. 기대이론(Expectancy Theory)에 의하면, 개인이 특정한 성과를 달성했을 때 최종적인 보상을 받을 수 있는 가능 성에 대한 주관적 믿음을 기대(expectancy)라고 하며, 이 는 '0'부터 'f까지의 값을 가진다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0471": {
+    "id": "mgmt_0471",
+    "qid": "0471",
+    "sourceTag": "",
+    "stemText": "0十羽 2014 CPA 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 엘더퍼(Alderfe야의 ERG 이론에 의하면 높은 차원의 욕 구인 관계욕구가 충속되지 않율 때 낮은 차원의 욕구?! J 성 장욕구가 충족되어야 동기부여된다.;",
+      "2번: 공성 성 이론(equity theory)에서는 보상의 상대 적 수순보 다는 절대적 수준율 강조한다.;",
+      "3번: 허쯔버그(Herzberg)의 이 요인 이 론《two factor theory)에 의하면 동료와의 관계가 좋다고 느낄수록 만족도가 높 아진다.",
+      "4번: 기대이론｛expectancy theory)에 의하면 기대(expectancy》, 수단성(instrumentality), 유의성(valence》중 하나라도 *0* 의 값을 가지면 전체 동기부여 수준은 ‘0’이 된다.",
+      "5번: 기대이론에 의하면 개인의 성과와 임금의 상관관계가 높을 때 기대(expectancy) 값이 높아질 수 있다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0472": {
+    "id": "mgmt_0472",
+    "qid": "0472",
+    "sourceTag": "",
+    "stemText": "0十다2 2015 CPA 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 브룸(Vroom)의 기대이론(expectancy theory》에 의하면, 수단성(instrumentality)을 높이기 위해서 종엉원이 선호 하는 보상 수단을 조사할 필요가 있다.",
+      "2번: 허쯔버그(Herzberg)의 이요인이론《two factor theory)에 의하면，임금을 높여주거나 작업환경을 개선하는 것으 로는 종업원의 만족도를 높일 수 없다.",
+      "3번: 브룸의 기대이론에서 기대(expectancy》는 노력했을 때 성과가 나타날 수 있는 객관적 확률이다.",
+      "4번: 브름의 기대이론에 의하면，연공급을 도입하면 기대 (expectancy) 7)- 높아진다.",
+      "5번: 아담스(Adams)의 공정성 이론《equity theory)에 의하면， 과다보상을 받았다고 느끼는 경우에는 만족도가 높기 때문에 행동의 변화가 나타나지 않는다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0473": {
+    "id": "mgmt_0473",
+    "qid": "0473",
+    "sourceTag": "",
+    "stemText": "0十디3 2이6 CPA 학습 및 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 압디버(Alderfer》의 ERG이하, 브롬(Vroom》의 기대이론 (expectancy theory), 허쯔버그(Herzberg네 2요이이온 (two factor theory》은 동기부여의 과정이론《process theory)에 해당된다，",
+      "2번: 강화이론(reinforcement theory)에서 긍정적인 강화 (positive reinforcement)와 부정 적인 강화(negative reinforcement)는 바안식야 행동의 빈도를 증가시 킨다.",
+      "3번: 브름0/room)의 기대이론에 따르면 유의성(valence)은 행 위 자의 성장욕구가 높을수록 크고 존재욕구가 높을수록 작으며 수단성에 영향을 미친다.",
+      "4번: 매슬로우(Maslow)의 욕구단계이론에 따르면 성장욕구 의 충족이 좌절되었을 때 관계욕구를 충족시키려는 좌 절 —퇴행(frustration regression)의 과정이 발생한다.",
+      "5번: 아담스(Adams)의 공정성 이론(equity theory)에 의하면 절차적 공정성, 분배적 공정성, 상호작용적 공정성 순서 로 동기부여가 일어난다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0474": {
+    "id": "mgmt_0474",
+    "qid": "0474",
+    "sourceTag": "",
+    "stemText": "0十디十 2017 CPA 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 목표설정이론에 따르면 구체적인 목표보다 일반적인 목표를 제시하는 것이 구성원들의 동기부여에 더 효 과적이다.",
+      "2번: 공정성이론에 따르면 분배공정성, 절차공정성, 상호작 용공정성의 순서로 동기부여가 이루어지는데，하위 차 원의 공정성이 달성된 이후에 상위차원의 공정성이 동 기부여에",
+      "3번: 교육훈련이나 직무재배치는 기대이론(expectancy theory》에서 말하는 1차 결과《노력 -성과 관계)에 대한 기 대감을 높여주는 방법이다.",
+      "4번: 엘더퍼(Alderfer)가 제시한 ERG 이론에 따르면 한 욕구 의 충족을 위해 계속 시도함에도 불구하고 좌절되는 경 우 개인은 이를 포기하는 대신 이보다 상위욕구를 달성 하기 위해 노력한다.",
+      "5번: 핵크만(Hackman)과 올드햄(Oldham)의 직무득성모형 (job characteristics model)에 의하？L 다양？? 기눙윤 사， 용하는 직무기회롭 재공하는 경우보다 자신이 살하는 한 가지 기능만 사용하는 직무普 부여하는 경우에 동기 부여 수준이 더 놈다,"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0475": {
+    "id": "mgmt_0475",
+    "qid": "0475",
+    "sourceTag": "",
+    "stemText": "0十대5 2018 CPA 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 허쓰비그(Herzberg)의 2요인이씬two factor theory》에시 숭진，작입한경의 개선，권하의 와대, 안선욕구의 충&#x27; 암 위생요인에 속하고 도전적 과제의 부여, 이정，규여，n 독, 회사의 정책은 동기요인에 해당된다.",
+      "2번: 강화이론(reinforcement theory)에서 변(punishment)과 부정적 강화■(negative reinforcement)는 바람직하지 못하 행동의 빈도를 갑소시키지만 소거《extinction)와 남정석 강화(positive reinforcement》는 바람직한 행동의 빈도붊 증가시킨다.",
+      "3번: 브룸사room)의 기대이론에 따르면 행위자의 자기 효눙 감(self efficacy》이 클수록 과업성취에 대한 기대 (expectancy)가 커지고 보상의 유의성(valence)과 수단성 (instmmentality)도 커지게 된다.",
+      "4번: 매슬로우《Maslow)의 욕구이론에 따르면 생리욕구-친 교욕구-안전욕구-성장욕구-자아실현욕구의 순서로 욕구가 충족된다.",
+      "5번: 아담스 (Ad a ms) 의 공정성 이론(equity theory) 에 의하면 개인이 지각하는 투입(input)에는 개인이 직장에서 투여 한 시간, 노력，경험 등이 포함될 수 있고, 개인이 지각하&#x27; 는 산출(output)에는 직장에서 받은 급여와 유무형의 혜 택들이 포함될 수 있다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0476": {
+    "id": "mgmt_0476",
+    "qid": "0476",
+    "sourceTag": "",
+    "stemText": "0十% 2019 CPA 동기부여 이론에 관한 설명으로 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 아담스(Adams)의 공정성이론(equity theory)은 절차적 공정성과 상호작용적 공정성을 고려한 이론이 다.",
+      "2번: 핵크만(Hackman)과 올드햄(Oldham》의 직 무특성 이 론에 서 직무의 의미감에 영향을 미치는 요인은 과업의 정체 성, 과업의 중요성, 기술의 다양성이다.",
+      "3번: 브룸(Vroom)의 기대이론에서 수단성(instrumentality)이 높으면 보상의 유의성(valence)도 커진다.",
+      "4번: 인지적 평가이론(cognitive evaluation theory》에 따르면 내재적 보상에 의해 동기부여가 된 사람에게 외새지 보 상을 주면 내재적 동기부여가 더욱 중가한다.",
+      "5번: 허쯔버그(Herzberg》의 2요인이，factor theory)에서 위생요인은 만폭윤 중대시키고 농기」 나만式 3 0 소시킨다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0477": {
+    "id": "mgmt_0477",
+    "qid": "0477",
+    "sourceTag": "",
+    "stemText": "0十'과 및 학습에 관한 월명으로 가장 최올|한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十'과 및 학습에 관한 월명으로 가장 최올|한 것은? 한) 브`\\'~`卍1`Y:``l ,1내이`팋구`p“tancy theoty)e 개인과",
+      "2번: 일 또는 라 조 한의 교한관 ,하에 초 1,`다 조사서 e{lel(operant condltioning) 월 의하면 학습은 \\!`,墨1 다극에 내한 조건 의 반응에 의 이루이지는 弋)이 아니라 만`&행`'&의로부니의 바람 의 한 결과를 3}'tv시릮에 따라서 이루이 단다. 전 l*öhTÅMaslow)의 욕구이\\`卜에서 성 *짜구는 가상 상 위위 시를 점하는 욕구로.서. 다른 사람들로부터 인성이 나 존-국을 반고 §2이 하는 심리 석 장내를 발한다. 맥그eFl(McGregor)의 ⅸ청 •Y청이론•에 의하면 Y청의 인간관을 가진 관리자는 부하를 신뢰하시 않고 신지하 관리한다. (수 knowledge)는 개인이 제화하여 가지고 있으며 말로 하나하나 설명할 수 없는 내면의 비밀스러 운 시식을 의미하고. 암북지(tacit knowledge)는 전달과 설명이 가능하며 적절히 표현되고 정리된 지식을 의미 한다",
+      "3번: 선택지 3",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0478": {
+    "id": "mgmt_0478",
+    "qid": "0478",
+    "sourceTag": "",
+    "stemText": "동기부여 이론과 성격에 관한 설명으로 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十디8",
+      "2번: 22 CPA 동기부여 이론과 성격에 관한 설명으로 가장 적절하지 않은 것 으7",
+      "3번: 동기는 개인의 욕구(need)에 의해 발생되며, 그 강도는 욕구의 결핍 정도에 의해 직접적인 영향을 받는다",
+      "4번: (먹-글리랜드(McCI해and)에 의하면, 성취욕구(need for achievement)는 개인이 다른 사람들에게 영향력을 행사 하여 그들을 통제하고 싶은 욕구를 말한다.",
+      "5번: 강화이€-(reinforcement theory)에 의하면, 긍정적 강화 (positive reinforcement)와 부정적 강화(negative reinforcement)는 행위자의 바람직한 행동의 빈도를 중가 시킨다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0479": {
+    "id": "mgmt_0479",
+    "qid": "0479",
+    "sourceTag": "",
+    "stemText": "0十'19 202) CC,A 등기부이에 관한 설명으로 가장 적설하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十'19",
+      "2번: 2) CC,A 등기부이에 관한 설명으로 가장 적설하지 않은 것은? 다) 613S미그대e『,b四)의 211원 이본은 ,한쪽과 \\ 일한 개님의 영국으로 보시 않고 투 개의 각각 1,7떻|'킨 개 님으로 본다 (?) 시,,나十성냐규.넣)(job characterjstjcs modej)에AI 개인의 기장 '한자 ,1 '당도(growth noed strongth){: /1무특성과 심리 생니1 간의 관개 및 심리상대와 심과 간의 관계를 조신 (modoraung)fb다 (시 자기jt%<l(self-efficacy)은 어떤 괴임을 수생한 수 있다 는 개인의 1`1)우져다. (0 인지평|가이€(cognttive evatuatton theory)에AI는 이민 『직무에 대하여 내재시 동기가 유발되어 있는 경우 외식 보상이 주이지면 내재시 동기가 강화된다",
+      "3번: 마이어와 qft!l(Meyer & Allen)의 조식몰입 중 규범식 (normauve) 몰입은 도덕책 심리식 부담감이나 의무감 때문에 조직에 {해하는 경우를 의미한다.",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0480": {
+    "id": "mgmt_0480",
+    "qid": "0480",
+    "sourceTag": "2024 CPA",
+    "stemText": "다음 설명 중 적절한 항목만을 모두 선택한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "맥그리거(McGregor)의 X-Y 이론에 의하면, X이론은 인간이 기본적으로 책임을 기꺼이 수용하며 자율적으로 직무를 수행한다고 가정한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "불공정성을 느끼는 경우, 개인은 준거인물을 변경함으로써 불균형 상태를 줄일 수 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "명목집단법(nominal group technique)은 의사결정 과정 동안 토론이나 대인 커뮤니케이션을 제한한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "분배적 공정성(distributive justice)은 결과를 결정하는 데 사용되는 과정의 공정성에 대한 지각을 말한다.",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: a, b",
+      "2번: a, c",
+      "3번: b, c",
+      "4번: a, d",
+      "5번: b, c, d"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0481": {
+    "id": "mgmt_0481",
+    "qid": "0481",
+    "sourceTag": "",
+    "stemText": "0十81 지각(percepoon)과 태도(attltude)와 관련한 다음의 설명 중 가 장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 페스팅 어(Festinger)의 인 지부조화(cognitive dissonance)이론에 의하면 사람들은 인지부조화와 그로 인한 불편을 최소화하려고 한다. 즉 인지일관성을 추구 한다.",
+      "2번: 인지부조화를 일으키는 요소가 그다지 중요하지 않더라 도 인지 불균형을 해소하려는 열망은 강하게 작용한다.",
+      "3번: 절리(Kelley)의 귀인이론｛attribution theory)에서 내적 원 인에 의한 행동은 행위자가 통제할 수 있다고 생각되는 행동을 말하며, 외적 원인에 의한 행동은 그러한 행동을 할 수밖에 없는 상황에 몰려서 특정 행동을 하게 된 경우 를 말한다.",
+      "4번: 켈리의 귀인이론에 따르면, 취업추천 시，우수한 학생이 라는 평판을 받는 학생이 한 시험에서 좋지 않은 점수가 있을 경우에 교수는 그 점수를 무시할 수도 있다.",
+      "5번: “노동조합 활동을 하는 사람들은 아무것도 하지 않으면 서 대가를 요구한다.” 라는 말은 스테레오 타이핑 (stereotyping)0)! 의한 오류라고 볼 수 있다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0482": {
+    "id": "mgmt_0482",
+    "qid": "0482",
+    "sourceTag": "",
+    "stemText": "0十82 동기부여(motⅣat|예)와 관련한 다음의 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매습로(Maslow》? l 와구단계이론에 따르며 이미 충족된 욕구는 더 이상 동기부여의 효과가 없으며 사람듈의 행 동에 동기률 부여하는 것은 충족되지 않은 욕군이다.",
+      "2번: 허즈버그(Herzberg》의 2요인 이론에 따르면 불만족을 유 발하는 요인들율 제거하면 평화스러운 분위기가 조성될 지는 모르지만 그렇다고 조직 구성원들의 만족이 높아 지는 것은 아니다.",
+      "3번: 맥클리랜드(McClelland》는 조직구성원들의 성취욕구 (need for achievement》는 교육이 나 훈련을 통하여 학습 시킬 수 있다고 주장한다.",
+      "4번: 핵크만과 을드햄(Hackman &amp; Oldham)의 직무특성이론 (job characteristics theory)에서 성장욕구가 높은 사람은 그렇지 않은사람에 비해 직무충실(job enrichment) 정도 가 높은 직무에서 중요 심리상태를 경험할 가능성이 더 높다.",
+      "5번: 공정한 인사평가 제도의 확립은 기대이론(expectancy theory)의 기대감(expectancy)과 밀접하게 관련된다"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0483": {
+    "id": "mgmt_0483",
+    "qid": "0483",
+    "sourceTag": "",
+    "stemText": "학습(learning)에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 고전적 학습이론(classical conditioning)은 중성 자극끌 무조건 자극과 관련시 킴으로써 중성 자극으로부터 새로 운 조건반응을 얻어내는 과정을 밀한다.",
+      "2번: 손다이크(Thorndike)의 효과의 법 칙(law of effect》은 동일 자극에 대한 여 러 반응들 중에서 만족을 수반하는 반응 은 계속되고 불만족을 수반하는 반응은 점점 소멸된다 는것이다.",
+      "3번: 불시에 실시하는 퀴즈(pop quiz)가 전체 성적의 20%를 차지한다면 이는 강화스케줄 가운데, 변동비율법 (variable ratio)에 해당한다.",
+      "4번: 연속적 강화법(continuous reinforcement)의 효과가 가장 좋으나 현실 적용에 어려움이 있다.",
+      "5번: 사회적 학습이론《socal learning)에서 학습은 남의 행동 율 관칠하거나，남에게 얘기를 듣거나，자신이 직접 경험 함으로써 이루어진다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0484": {
+    "id": "mgmt_0484",
+    "qid": "0484",
+    "sourceTag": "",
+    "stemText": "0十8十 등기부여(n℃tⅳatton)에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十8十 등기부여(n℃tⅳatton)에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+      "2번: 매수로(Mas|ow)의 욕구단계이본에 따르면 미충족 욕구 보다 충`수된 욕구가 동기부여에 미지는 영향이 더 그다. (수) 아담스(Adams)의 공정성이十(equity theo월)에서 준기인 과의 교한비율이 공정(equity)하다고 인지한 개인은 불 공정성을 줄이기 위한 행동에 동기부여되지 않는다",
+      "3번: 기대이€(expectancy theory)에 따르면, 생산이윤분비1제 (gain sharing)는 종업원의 수단성(instrumentahty)을 높 일수 있다 핵크만과 올드햄대ackman & Oldham)의 직무특성이론 에서 직무수행자가 직무의 의미7갆과 책임감 그리고 직 무수행의 결과에 대한 지식을 경험하지 못한다면 동기 부여의 효과는 없다 데시(DeCI)의 인지적 평가이론(cognitive evaluation theory)에 따르면 내재적으로 동기부여된 사람에게 외재 적 보상을 제공하면 내재적 동기부여의 효과는 사라진",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0485": {
+    "id": "mgmt_0485",
+    "qid": "0485",
+    "sourceTag": "",
+    "stemText": "성격과 지각(perception)에 대한 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: Big 5 성 격 유형에서 정서적 안정성(emotional stability) 이란책임감있고，잘조직화되어 있어의존할 만하고 일 관성이 있음을 의미한다.",
+      "2번: 절리(Kelley)의 귀인이론(attribution theory)에서 특이성 (distinctiveness》이란 귀인하려는 행동이 얼마나 예외적 인 것인지에 관한 것이다.",
+      "3번: 다른 사람의 행동을 평가할 때 외부적인 요인의 영향을 과소평가하고，내부적인 요인의 영향을 과대평가하려는 경향을 군원적 귀인오휴《fundamental attribution error) 라고 한다.",
+      "4번: 마키아13 리습《Machiavellianism) 성향이 높은 사람은 일 반적으로 단체교섭과 같이 협상 기술이 필요하거나 판 매실적에 따라 급여가 결정되는 영업 직무에서 성과가 뉴다",
+      "5번: 외재於자보다 내재론자｛internals)가 더욱 복잡하고 도전 적^ 시무發 답당하려 하고，직무著 잘 수행함 수 있다는 확신옮 가지며, 궁정적 결과에 대해 자신이 노러 덕택이"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0486": {
+    "id": "mgmt_0486",
+    "qid": "0486",
+    "sourceTag": "",
+    "stemText": "0十86 동기부여(motⅣati에)에 대한 설명으로 가장 적절하지 않은 것 은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 로크(Locke)의 독표설정이관(goal-setting theory》，卜 목묘 가 없는 것보다는 있는 것이 더 동기부여가 높다고 성병 한다.",
+      "2번: 데시(Deci)의 인지적 평가이론《cognitive evaluation theory)에서 외재적 보상없이 내재적으로 동기가 유발뒤 경우에는 열심히 일하는 원인을 입 자체에 귀인하게 된 다.",
+      "3번: 공정성 이론(equity theory)에 따르면 임금이 적은 종업원 이 바로 불공정성(inequity)을 지 각하는 것은 아니다.",
+      "4번: 허즈버그(Herzberg)의 2요인 이론(two-factor theory)에 따르면 사람들은 만족과 불만족을 동시에 가질 수도 있 다.",
+      "5번: 핵크만과 올드행(Hackman &lt; Oldham)의 직무특성이론 (JCM: job characteristic model)은 작업자의 성장욕구 (growth needs) 수준에 맞는 직무설계 가 중요함을 강조 한다."
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0487": {
+    "id": "mgmt_0487",
+    "qid": "0487",
+    "sourceTag": "",
+    "stemText": "0十8디 조직의 성과 향상을 위한 조직행동(OB organizational behavior)의 활용이 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 종업원들의 올바른 행동은 지속시키고, 옳지 못한 행동 은 근절시키기 위해 강화&quot; einforcement)요인을 적절히 사용하여야 한다.",
+      "2번: 서비스 직무에서 고객만족(customer satisfaction)을 높이 기 위해서는 먼저 종업원의 직무만족(job satisfaction)을 향상시켜야 한다.",
+      "3번: 복잡한 정보 처리나 학습을 요구하는 관리직 또는 전문 직에는 외재론자(externals》보다 내재론자(internals)를 선 발하는 것이 적합하다.",
+      "4번: 선발면접시 발생할 수 있는 면접자의 지각오류를 줄이 기 위해 비구조화된 면접(unstructured interview)의 사용 이 권장된다.",
+      "5번: 성과에 근거한 보수 지급이 옳다는 가치관(value)을 가진 종업원에게 연공급(seniority-based pay》제도는 그들의 직무에 대한불만을 가중시킬 것이다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0488": {
+    "id": "mgmt_0488",
+    "qid": "0488",
+    "sourceTag": "",
+    "stemText": "0十88 동기부여(n℃tⅳat,혜)의 공정성 이E(equlty theory)에 대한 다 음 설명 증 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 조직 구성원듈 간 공정성율 유지하는 전략은 겁근, 이직, 또는 부정적 행위 둥율 즐입 수 있지만, 공정성 유지寒 봉해 성과률 높일 수는 없다.",
+      "2번: 조직이 과소보상율 봉해 얻올 수 있는 긍정적 결과는 거 의 없다.",
+      "3번: 조직과의 교환관계(exchange relationship)에서 불공정 성을 지각한 종업원은 공정성을 회복하기 위한 행동에 동기부여된다.",
+      "4번: 공정성의 인식은 보상의 절대액보다는 조직에 투입하는 것과 조직으로부터 받는 것의 상대적 비율에 의해 결정 된다.",
+      "5번: 투입과 산출의 비율이 준거인보다 낮다고 지각한 종업 원은 비율을높이기 위해 더 많은노력을 기울이게 된다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0489": {
+    "id": "mgmt_0489",
+    "qid": "0489",
+    "sourceTag": "",
+    "stemText": "0十89 조직행동(OB organizational behavior)의 개인(individuaD 차 원변수에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무와 관련한 대표적 태도인 조직몰입(organizational commitment》은 정시적(affective), 지속적(continuance), 규범 적(normative》몰입으로 구성된다.",
+      "2번: 자기 존중감(self-esteem)이란 개인이 인식하는 자신의 능력과 자아상에 대한 개념으로 마음속에 늘 가지고 있 다.",
+      "3번: 공격적 성향이 높은 평가자는 공격적인 성향이 낮은 평 가자보다 피평가자의 성 격을 더 공격적인 것으로 평가 하는데 이를 유사효과{similar-to-me effect)라고 한다.",
+      "4번: 스테레오타입(stereotype》이란 어떤 사람을 판단함에 있 어 그 사람이 속한 집단에 대한 선입관을 바탕으로 판단 하는 경우를 말한다.",
+      "5번: 합리적 으Ml■결정(rational decision making) 모형은 어떤 문제에 대해서 모든 대안을 갖고 있고 모든 정보를 알고 있으며 모든 능력을 갖추고 있는 완벽한 인간을 전제로 한다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0490": {
+    "id": "mgmt_0490",
+    "qid": "0490",
+    "sourceTag": "CPA 기출",
+    "stemText": "동기부여(motivation) 이론에 관한 다음 설명 중 옳은 것을 모두 고르면?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "매슬로(Maslow)의 욕구단계이론에서 사회적 욕구(social needs)는 존경욕구(esteem needs)보다 더 상위의 욕구이다.",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "허즈버그(Herzberg)의 2요인이론은 급여나 작업조건을 개선할수록 종업원들의 '만족' 수준은 높아진다고 주장한다.",
+        "isCorrect": false
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "알더퍼(Alderfer)의 ERG이론은 관계욕구(relatedness needs)가 제대로 충족되지 않은 경우, 존재욕구(existence needs)가 더 커질 수 있다고 주장한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "핵크만(Hackman)과 올드햄(Oldham)의 직무특성이론(job characteristics theory)에서 개인의 성장욕구수준은 직무특성과 심리상태, 심리상태와 성과관계를 조절해주는 역할을 하고 있다.",
+        "isCorrect": true
+      },
+      {
+        "id": "e",
+        "label": "e",
+        "text": "기대이론(expectancy theory)은 개인이 기대감(expectancy), 수단성(instrumentality), 유의성(valence)을 모두 높게 지각했을 때 노력의 양을 가장 많이 투입한다고 주장한다.",
+        "isCorrect": true
+      }
+    ],
+    "choices": [
+      "1번: a, b, c",
+      "2번: b, c, d",
+      "3번: c, d, e",
+      "4번: b, d, e",
+      "5번: a, c, e"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0491": {
+    "id": "mgmt_0491",
+    "qid": "0491",
+    "sourceTag": "",
+    "stemText": "0十91 학습(learning)과 태도(attitude)에 대한 다음 설명 중 가장 하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 직무만족^ob satisfaction》이 높다고 해서 반드시 생산성 과 같은 양적 성과가 높아지는 것은 아니다.",
+      "2번: 만약 어떤 사람이 소속된 조직과 결별하는데 따르는 비 용이 많이 들기 때문에 구성원으로서의 자격을 유지하 려 한다면 이는 조직몰입(organizational commitment)의 차원 가운데 지속적 몰입(continuance commitment)에 해당된다.",
+      "3번: 페스팅어(Fesinger)의 인지부조호^cognitive dissonance) 이론에 따르면 태도와 행동간의 부조화가 발생한 경우 사람들은 행동을 바꾸는 것보다는 태도를 바꿔서 인지 부조화를 해소하려고 한다.",
+      "4번: 연속적 강화^continuous reinforcement)는 강화요인 이 매 번 제공되는 한 꾸준한 성과를 기대할 수 있으나 강화요 인이 제거되고 나면 나타났던 반응이 급속히 소거듸는 경향이 있다.",
+      "5번: 단속적 강화(intermittent reinforcement) 가운데 고정비 율법(fixed-ratio》에서 바람직한 행동과 보상의 비율을 1 대 1로 고정시키면 고정간격법(fixed-, nterval)과 동일해 진다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0492": {
+    "id": "mgmt_0492",
+    "qid": "0492",
+    "sourceTag": "",
+    "stemText": "0十92 등기부여(mouvatm)의 내용이른((예tent theory)에 대한 다음 삶영 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十92 등기부여(mouvatm)의 내용이른((예tent theory)에 대한 다음 삶영 중 가장 적절하지 않은 것은? 구 내용이ekcontent theory)은 사람들이 '갔는 욕구(needs) 에 초점을 이른들로. 사람들이 내면에 갖고 있는 결국| 과 {국({빠 서 동기의 원인을 찾으려 한다. 욕구 출현의 진행방향이 상항(卍 É,J) 일변도였지만. ERG 이론에서는 상향 또는 하향으로 진행된다.",
+      "2번: 떡글리랜드(Mcc|해and)의 성취동기이론의 욕구단계를 지 자적인 것부터 고차적인 것으로 나일하면 친화욕구 (need for afflliatjony--•권 력 욕구(need for power)—성 취 욕구(need for achievement)의 순이다",
+      "3번: ",
+      "4번: 하즈버그대erzberg)는 만족의 만대는 들5픈나이 아니라 만족이 '영(zero)'인 상대이며, 마찬가지로 불만족의 반대 도 만족이 아니라 불만족이 '영(ze㈇'인 상대라고 주장하 였다.",
+      "5번: 핵크만과 올드햄대ackman & 01dham)의 직무특성이론 에 따르면 성장욕구수준이 높은 사람에게는 동기 잠재 력 지수(MPS. moüvatjng potentjal score)가 높은 직무를 맡기는 것이 적절하다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0493": {
+    "id": "mgmt_0493",
+    "qid": "0493",
+    "sourceTag": "",
+    "stemText": "0十93 성격(personality), 지각(perceptjon), 가치관(馹|ue)에 대한 다 음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十93 성격(personality), 지각(perceptjon), 가치관(馹|ue)에 대한 다 음 설명 중 가장 적절하지 않은 것은? Obig 5 성격유형은 외향성(extraversion), 친화성 (agreeableness), 성실성(conscientiousness), 정서적 안 정성(emotional stability), 개방성(openness to expenence)으로 구분된 다. 마기아벨리즘(Machiavellianism)이란 자신의 목표 달성 을 위해 다른 사람을 이용하고 조작하려는 성향을 말한",
+      "2번: 통제의 위il(locus of control)가 내부에 있는 사람 (internals)에게는 지시적(directive) 리더십이 적절하고, 통제의 위치가 외부에 있는 사람(externals)에게는 참여 적(partjcjpative) 리더십이 적절하다",
+      "3번: 자존적 편 d(self-serving bias)이란 자신의 성공에 대해서 는 능력이나 노력과 같은 내부 교인으로 귀인하고, 실패 에 대해서는 운이 없었다는 식의 외부 요인으로 귀인하 는 경영* 말한다.",
+      "4번: 가지관(vaiue)은 절대식 기준이나 흑백 논리로 형성되기 때문에 안정성과 지속성을 지닌다.",
+      "5번: 선택지 5"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0494": {
+    "id": "mgmt_0494",
+    "qid": "0494",
+    "sourceTag": "",
+    "stemText": "0十9十 동기부여(mot~at|에) 이본에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 데시(Deci》의 인지 시 병가이왼cognitive evaluation 유 theory)은 내재적으로 동시가 유발되어 있는 정우，이재 -» 적 보상이 주어지면 내재서 동기가 갑소한다고 본다. 的 OW",
+      "2번: ■균성성이론(equity theory)은 인지부조화 이본가 정차서 •선 斤 정의(procedural justice)의 개념율기초로 한다.",
+      "3번: 시대이본(expectancy theory)은 개인이 행농과 노여의 방향율 스스로 선택한다는 관점 에서 보았다",
+      "4번: 핵크만과 올드fl(Hackman &amp; Oldham》의 직무톡성이본 의 3가지 심리상태는 의미갑, 책임감. 직무수행겁과에 대한지식이다.",
+      "5번: 매슬로(Maslow)의 이론에서 5가지 욕구는 저차원에서 고차원으로 반드시 순서대로 출현한다."
+    ],
+    "answer": "2",
+    "choiceCount": 5
+  },
+  "mgmt_0495": {
+    "id": "mgmt_0495",
+    "qid": "0495",
+    "sourceTag": "",
+    "stemText": "0十95 동기부여(motivation) 이론에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로(Maslow)의 이론은 인간행동의 동기를 인간의 욕 구(needs)에서 찾으려고 하였다. • •",
+      "2번: 핵크만과 올드햄(Hackman &amp; Oldham)의 이론은 인간행 동의 동기를 개인의 내면보다는 개인이 맡고 있는 직무 의 특성에서 찾으려고 하였다.",
+      "3번: 브룸(Vroom)의 기대이론(expectancy theory》은 동기분여 를 인간의 인지적 작용의 결과로 본다.",
+      "4번: 허쯔버그(Herzberg)의 2요인이론에서 위생요인이 아닌 동기요인을 충족시키려면 직무를 수직적으로 확대하여 설계하는 것이 바람직하다.",
+      "5번: 데시(Deci)의 인지적 평사이론(cognitive evaluation theory)은 내재적 보상에 추가석으로 외재적 보상이 주 어지면 동기부여 수준이 더 높아진다고 보았디"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0496": {
+    "id": "mgmt_0496",
+    "qid": "0496",
+    "sourceTag": "",
+    "stemText": "조직행동의 개인차원 변수에 관한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十96 조직행동의 개인차원 변수에 관한 다음 설명 중 가장 적절하지 않은것은7",
+      "2번: 자기 $#(self-mon,tonng)이 높은 사람들은 외부 자 -주에 대해 민 ,(수하외 상황에 따라서 다른 방식으로 행동 하는데 능숙하나. (가 소N(exttncfton)는 바람직하지 않은 행동을 감소시기기 나 중지하도록 하기 위해 재공하던 보상(긍성석 결과)을 세거하는 것을 의미한다. (쇠 조식 서민형동OCB organizatjonal citæenship behavjor) 이란 공식적으로 부여받지는 않았으나, 조직과 다른 구 성원들에게 도움이 되는 행동을 뜻한다.",
+      "3번: 자존t(selfæsteem)은 자신을 얼마나 가치 있는 존재로 여기는지를 의미하며. 자존감이 높은 사람은 외부한경 에 큰 영향을 받으며. 타인으로부터 좋은 평가를 받는 것 에 많은 관심을 기울인다 고전석 조건•kclasscal condltloning)와 조작적 조건화 (operant condiüoning) 이론은 모두 인간이 직접적인 경 험을 통해 학습(learning)을 한다는 것을 전제로 하고 있 다",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0497": {
+    "id": "mgmt_0497",
+    "qid": "0497",
+    "sourceTag": "",
+    "stemText": "동기부여(motivation) 이론에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 매슬로(Maslow)의 욕구단계이론에서는 상위 욕구로 진 전하는 과정을 강조했으나，ERG 이론은 상위 욕구로의 진전과 더불어 낮은 욕구로의 퇴행과정도 강조한다.",
+      "2번: 맥그리거(McGregor)의 Y이론 관점에서 경영자의 역할 은 명령 이 나 통제 가 아니 라，사람들이 갖고 있는 능력을 발휘할 수 있는 업무 환경을 만들어 주는 것이다.",
+      "3번: 허쯔버그(Herzberg)는 직무에서 불만족 관련 요소를 제 거한다고 하여 종업원 만족도가 높아지는 것은 아니라 고 주장하였다.",
+      "4번: 데시(Deci》의 인지적 평 가이론(cognitive evaluation theory)은 개인의 성과와 연동하여 보상을 지급하는 것 은 조직 구성원들이 직무 수행 과정에서 느끼던 내재적 만족을 떨어뜨릴 가능성이 있다고 주장한다.",
+      "5번: 직무충실화仏b enrichment)는 직무의 수직 적 확대로 관 리자가 담당하던 책임과 통제까지 수행자가 직집하도록 하기 때문에 직무특성 가운데 기술다양성(skill variety)을 중가시킨다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0498": {
+    "id": "mgmt_0498",
+    "qid": "0498",
+    "sourceTag": "",
+    "stemText": "0十98 동기부여(motivation) 이륜에 대한 다음 실명 증 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 十98 동기부여(motivation) 이륜에 대한 다음 실명 증 가장 적절하지 않은 것은? (0 네시(Deci)의 인지시 평가이€-(cognittve evaluation theory)에 따르면 종업원이 생각하는 총보상은 내재적 보상과 외재시 보상의 합이다 (기 Zl(Locke)의 목표설정이된9예| settjng theory)에 의하 면 목표 자체가 종업원들의 동기부이에 영상을 미시며. 피드백이 주어지지 않을 때 보다는 피드백이 주어질 때 성과가높다.",
+      "2번: 허쓰버그대erzbe四)의 2요인이론(two factor t\\℃0옆)에 의하면 종업원에게 제공되는 급여(sa|a열)를 이용하여 얻 을 수 있는 최선의 결과는 불만족 수준올 •o•으로 하는 것 이다 Y*(Vroom)의 기대이€-(expectancy theory)에 의하면 종업원의 직무수행 성과를 정확하고 공정하게 측정하는 것은 수단성onstrumentallty)을 높이는 방법이다.",
+      "3번: 아담스(Adams)의 공정성이론(equity theory)에 의하면 종업원은 자신과 준기인물의 투입과 산출의 비율을 교하여 불공정하다고 지각하게 될 때 공정성을 방향으로 동기유발 된다.",
+      "4번: 선택지 4",
+      "5번: 선택지 5"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0499": {
+    "id": "mgmt_0499",
+    "qid": "0499",
+    "sourceTag": "",
+    "stemText": "조직에서 개인의 행동과 관련한 다음 설명 중 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 내재론자(internal locus of control》는 시험 합격과 갈은 긍정적 결과는 자신의 눙력에 귀인(attribution)하며, 참 합격과 같은 부정적 사건은 운이나 운명 갈은 환경 적 요 소에 귀인하려 한다.",
+      "2번: 자기존중감(self-esteem)이 높은 사람은 스스로가 가 시 있고 유능하며 만족감이 높으나, 자존감이 낮은 사람은 스스로에 관하여 좋게 느끼지 못하고 자기불신에 빠셔 있다.",
+      "3번: 자신의 능력에 확신이 찬 사람들은 성공하는 경향읍 보 이는 것과는 달리 미리 실패할 것이라고 생각하는 사람 들은 실패하는 경우가 많은데 이는 자기효능감(self- efficacy》으로 설명이 가능하다.",
+      "4번: 어떤 사람이 특정 소프트웨어 패키지가 배우기 쉬웠다 는 이유로 새로운 다튼 소프트웨어 패기지한 만기간 내 에 숙달합 수 있율 거라고 믿는 것은 대표성 오뷰 (representative bias)에 해당한다.",
+      "5번: 사람듈은 사々! 의 태도 혹은 신념과 행등 사이에 입간성 을 유지시키기 위해 동기부여되기 때문에 상하게 나리 잡은 태도(attitude》와 현십 사이에서 모순이 상} 상|바서 이 지부조화(cognitive dissonance)•&amp; 느찌 세 위나"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  },
+  "mgmt_0500": {
+    "id": "mgmt_0500",
+    "qid": "0500",
+    "sourceTag": "",
+    "stemText": "1 0500 동기WM(mouvatton) 이본에 관한 실명 증 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ",
+      "2번: ",
+      "3번: 00 동기WM(mouvatton) 이본에 관한 실명 증 가장 적절하지 않은 것은?",
+      "4번: i'NfrK'.(Mastow)의 욕구난기1이`빠(needs hierarchy t+℃()월)은 이미 삶한되기나 충`수된 욕구는 더 이상 사람 들을 농기부여 시기 시 못한다고 주장한다 넣) 시부확대(10b enlargement)와 시무•수신화(job ennchment)는 식부설계를 -통제이 종업원을 동기부여 시 기는 방안이라고 할수 있다.",
+      "5번: 기대이€(expectancy theory)과 공정성이€(equity theory)의 공통점은 동기부여의 정도를 계랑화할 수 있 다고 가청했다는 점이다 (9 하프버그대e口ber㉻의 2요인이론(two factor theory)에 의하면 좋은 관리감독과 근로조건, 높은 급여를 받지법 승진기회가 적고 지루한 업무를 담당하는 종업원은 불 만족은 거의 없고, 동시에 만족도 매우 낮을 것이다."
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0501": {
+    "id": "mgmt_0501",
+    "qid": "0501",
+    "sourceTag": "",
+    "stemText": "동기부여(motivation)에 대한 다음 설명 가운데 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 아담스(Adams》의 공정 성 이론(equity theory)은 조직공정 성(organizational justice) 가운데 분배적 공정성 (distribirtive justice)에만 초점을 두고 있다.",
+      "2번: 엘더퍼(Alderfer)의 태G이론에 따르면 종업원들은 저차 적 욕구가 충족되 면 고차원 욕구를 충족시키려고 노력 하게 되는데 만약 고차원 욕구 충족이 억제되면(혹은 좌 절되 면》저차원 욕구를 과다하게 요구하는 부작용이 발 생하게 된다.",
+      "3번: 맥그리거(McGregor)의 X，Y이론에 따르면 X이론적 관리 자는 강압성을 사용하지만，노이론적 관리자는 자울성과 위임을 사용한다，",
+      "4번: 기대이론(expectancy theory)에서는 동시부여한 E(기대) x I《수단성》X V(유의성》로 계산하는대 이寒 로또구매 생위로 실명하면 로또구매는 ‘1(수단성)’ 값이 애우 낮은 귀이어서 동기부어 수준이 낮다고 봅 수 있디•. 〜 애습와Mallow》의 욕구난계이於의 래심 사성은 ‘모는 이 간에게 있어 고차원 사구보다는 서차적 욕구가 우선아 다’이다"
+    ],
+    "answer": "1",
+    "choiceCount": 4
+  },
+  "mgmt_0502": {
+    "id": "mgmt_0502",
+    "qid": "0502",
+    "sourceTag": "",
+    "stemText": "자아개념. 성격, 대도에 대한 다음 셜명 가운데 가장 적셜하지 않 끄은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 02 자아개념. 성격, 대도에 대한 다음 셜명 가운데 가장 적셜하지 않 끄은?",
+      "2번: 자기1%•0(self-efficacy)이람 개인이 이던 특징한 과임 유 성공시으로 완수할 수 있다고 믿는 것이고, 자기감시 (self-monltoring)<! 자신의 행동을 외부 상황4| 요인에 시 응시기는 개인의 능력을 의미한다. (기 자신의 삶에 영향을 미치는 사건의 결과를 자신이 통제 할 수 있다고 믿는 사람들유 내재본자라 하고, 만대로 본 인의 성과는 자신의 통제를 님이시는 한경의 걸고}el고 믿는 사람들유 외재론자라고 한다.",
+      "3번: Btg 5 성격유형에서 외8J4(extraverston)이 높은 사람들 은 새로운 것에 대한 관심과 홍미 정도가 높고, ,황의식이 기 때문에 조직 면회와 외부식 한경 번화에 더 적용한 다.",
+      "4번: 인지부조회(c四n,tⅳe dlssonance)fb 사람들의 대도 또는 신님이 행동과 일지하지 않을 때 느끼는 심리적 불편함 을 말하며, 만약 강하게 자리잡고 있는 태도와 현실 사이 에서 모순이 발생하민 사람들은 인지부조화를 경힘할 수 있다",
+      "5번: 과거에는 대도(attitude)가 행동에 식죄적인 영향을 미진 다고 생각했지만, 최근 연구에 따르면 대도는 행동의 의 도(behavioral intentjon)를 통해서 행동에 영향을 미친다 고 파악되고 있다."
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0503": {
+    "id": "mgmt_0503",
+    "qid": "0503",
+    "sourceTag": "",
+    "stemText": "동기부여(n℃tⅣat,에)에 대한 다음 설명 가운데 가장 적절한 것 은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 허즈녀그(Herzberg)의 2요인 이론은 사람둘의 욕구는 상아於 해소차원과 &#x27; 만족’ 중진차원으로 구성되며，불만 족 해소률 위해서는 지무내용율 개선하는 것이 바람직 하고. 만족 중진을 위해서는 작업한경을 개선하는 것이 바람직하다.",
+      "2번: 브룸(Vroom)의 기대이론(expectancy theory)에 따르면 종업원과 기업 간 신뢰(trust)가 클수록 유의성(valence) 이 높아지고, 종업원 개인의 가치관에 부합하는 보상이 주어질수록 수단성(instr⑴mentality)이 높아진다.",
+      "3번: 핵크만(Hackman》과 을드햄(Oldham)의 직무특성이론에 따르면, 기술의 다양성과 작업자의 성장욕구 수준은 직 무에서 경험하는 의미를 통해 사람들을 동기부여시킨 다.",
+      "4번: 데시(Deci)의 인지적 평가이론(cognitive evaluation theory)은 내재적으로 동기부여된 행동에 외재적 보상이 제공되면 오히려 내재적 동기가 감소한다고 주장한다.",
+      "5번: 맥클리랜드｛McClelland)의 성취동기이론에서 가장 높은 수준의 욕구는 성취욕구(need for achievement)0]31, 한 개인의 욕구수준은 변하지 않는다고 보았다."
+    ],
+    "answer": "4",
+    "choiceCount": 5
+  },
+  "mgmt_0504": {
+    "id": "mgmt_0504",
+    "qid": "0504",
+    "sourceTag": "",
+    "stemText": "동기부여(motivation)에 대한 다음 설명 가운데 가장 적절한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 0十 동기부여(motⅣat|에)에 대한 다음 설명 가운데 가장 적절한 것 (0 동기부여의 내용이론(content theory)은 동기를 유ittzl 기는 역동적 면수들 간의 관계성을 찾는데 초점을 맞추 는 반면, 과정이론(한凶ess theory)e 으 이가t,,장동을 동기와 시기는 원동력을 찾는데 초점을 맞추고 있다.",
+      "2번: 핵그만과 올드햄대ackman & 01dham)의 직무특그경이론",
+      "3번: b charactenstic model)에서 5가지 핵심직무특성의 이 모두 '10'이라고 가정하면, 동기잠재력 지수(MPS motivatjng potenttal 5C0℃)는 '30'이 된다",
+      "4번: 아담스(Adams)의 공정성 이€-(equity theory)은 호만스 대omans)의 분배적 정의(distributwe justice)의 개님을 펜으로 하는데, 분비1적 정의란 보상제도가 보상 분배 에 대한 의사결정에 있어서 편의(bas)나 오류를 감소시 기도록 설계 되었는지를 의미한다. (9 공정성 이론은 개인 혼자서도 동기부여되지만. 기대이 론(expectancy theory)은 개인 혼자서는 동기부여될 수 없으며, 다른 사람과 비교를 통해 동기부여된다고 주장 한다.",
+      "5번: '만국과 '불만족'에 관한 전통적 관점에서는 만족과 불만 족은 양립할 수 없지만. 허즈버그대erzberg)의 관점에서 는 만족과 불만족은 양립할 수 있다"
+    ],
+    "answer": "5",
+    "choiceCount": 5
+  },
+  "mgmt_0505": {
+    "id": "mgmt_0505",
+    "qid": "0505",
+    "sourceTag": "",
+    "stemText": "0505 등기VcN(motivatt«m) 이본 중 기대이배 공정성 이본에 대한 다음 증 가장 적전한 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: ",
+      "2번: 05 등기VcN(motivatt«m) 이본 중 기대이배 공정성 이본에 대한 다음 증 가장 적전한 것은? (던 이본(`1(“ty theoty)에서는 과입과 과입수행에 따 은 보상이 주이시면 개인이 스스-로 행\\과 노력의 방탕 과 양을 공한다고 보았나` •IV스(Adams)의 공정성이€(equity theory)은 전자식 -StNN(procedural justice)과 상호작용시 공정성 (interacttonal jusuce)9 모두 고려 한 이 본이 다.",
+      "3번: 아남스의 공정성 이론에서 한 개인이 준거인보다 낮은 임금을 받는다는 것을 지각했다고 해서 즉각적으로 불 공정성을 지각하는 것은 아니다.",
+      "4번: 선택적 복리후생세도(flexible beneflt plan)와 성과급 (performance-based pay)은 모두 기대이론의 수단성",
+      "5번: nstrumentality)을 높이는 방안이 될 수 있다 (9 기대이론은 동기부여가 되는 과정을 계량적으로 표출-딴 수 있지만. 공정성 이론은 동기부여 과정을 개량식으로 표현할수 없다"
+    ],
+    "answer": "3",
+    "choiceCount": 5
+  },
+  "mgmt_0506": {
+    "id": "mgmt_0506",
+    "qid": "0506",
+    "sourceTag": "",
+    "stemText": "학습, 태도, 가치관에 대한 다음 설명 중 가장 적절하지 않은 것은?",
+    "typ": "객관식",
+    "boxStatements": [],
+    "choices": [
+      "1번: 학습(learning)은 경험의 결과로 발생한 행동의 항구직 변화로 정의되며，이 때 경험은 실습과 같은 직접적인 것 뿐아니라독서와 같은 간접적인 것도 포함한다.",
+      "2번: 단속적 강화^intermittent reinforcement) 중 고정 간격 법 (fixed-interval)은 강화물과 강화물 사이의 시간 간격이 고정되는 것이고，고정 비율법(fixed-ratio》은 바람직한 행동의 횟수와 강화물의 비율이 고정되는 것이다.",
+      "3번: 가치관(value)은 개인의 가치판단 기준을 의미하며. 로키 치(Rokeach)는 가치관을 궁극적 가치(terminal value)와 도구적 가치(instrumental value)로 분류하였다. 태도^attitude》란 특정 대상에 대한 좋고 싱음의 감정올",
+      "4번: 태도^attitude》란 특정 대상에 대한 좋고 싱음의 감정올 포괄하는 개념이며, 조직 내 대표적 태도 면수에는 직무 만족《job satisfaction), 조직•達•입(organizational commitment), 조식시민행동(organizational citizenship behavior) 둥이 있다. 公 대노와 가치관 모두 어느 정도 임관성올 갖지아 태도보 다는 가치관이 상대적으로 더 안정직이다"
+    ],
+    "answer": "4",
+    "choiceCount": 4
+  },
+  "mgmt_0507": {
+    "id": "mgmt_0507",
+    "qid": "0507",
+    "sourceTag": "CPA 기출",
+    "stemText": "귀인(attribution)과 귀인오류(attribution error)에 대한 설명 중 적절한 것을 모두 선택한 것은?",
+    "typ": "박스선택형",
+    "boxStatements": [
+      {
+        "id": "a",
+        "label": "a",
+        "text": "켈리(Kelley)의 귀인이론에서 특이성(distinctiveness)은 사람이 상황에 따라 얼마나 다른 방식으로 행동하는 성향이 있는가의 문제로 특이성이 높을 때 내부적으로 귀인하게 된다.",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "text": "자존적 편견(self-serving bias)이란 자신의 성공은 내부에 귀인하고 자신의 실패는 외부에 귀인하는 오류를 말한다.",
+        "isCorrect": true
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "text": "근원적 귀인오류(fundamental attribution error)란 다른 사람의 행동을 판단할 때 내부적 요인의 영향을 과소평가하고 외부적인 요인의 영향을 과대평가하는 경향이다.",
+        "isCorrect": false
+      },
+      {
+        "id": "d",
+        "label": "d",
+        "text": "행위자-관찰자 효과(actor-observer bias)란 다른 사람들의 행동은 상황적인 요소에 의한 것으로 판단하는 반면, 자신 즉 행위자의 행동은 기질적 요소 때문에 발생한 것으로 생각하는 것이다.",
+        "isCorrect": false
+      }
+    ],
+    "choices": [
+      "1번: b",
+      "2번: b, c",
+      "3번: a, d",
+      "4번: b, c, d",
+      "5번: a, b, c"
+    ],
+    "answer": "1",
+    "choiceCount": 5
+  }
+}
