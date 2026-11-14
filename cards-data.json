@@ -3448,7 +3448,7 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0106\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0106</span>\n    <span class=\"source-badge\">2017 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">지속가능경영을 구성하는 세 가지 요소는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄱ</span><span class=\"statement-text\">대내적 공정성</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄴ</span><span class=\"statement-text\">대외적 공헌성</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄷ</span><span class=\"statement-text\">경제적 수익성</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄹ</span><span class=\"statement-text\">환경적 건전성</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㅁ</span><span class=\"statement-text\">사회적 책임성</span></div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄷ, ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0106\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0106</span>\n    <span class=\"source-badge\">2017 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">지속가능경영을 구성하는 세 가지 요소는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>진술문 보기 (O / X 버튼을 눌러 각 지문의 진위 판단)</span>\n        <span class=\"mcq-stmt-hint\">단축키: ㄱ/ㄴ/ㄷ/ㄹ 또는 클릭</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">대내적 공정성</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">대외적 공헌성</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">경제적 수익성</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">환경적 건전성</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">사회적 책임성</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄷ, ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0106\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① ℃6 지속가능경영을 구성하는 3가지 구성요소는 경제적 수익성, 환경적 건전성, 사회적 책임성이다.</div>\n  </div>\n</div>",
       "stemText": "지속가능경영을 구성하는 세 가지 요소는?",
       "choices": [
@@ -3472,7 +3472,44 @@
       "probPdf": "prob_01.pdf",
       "probPdfPage": 20,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 10
+      "ansPdfPage": 10,
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "대내적 공정성",
+          "isCorrect": false,
+          "reason": "지속가능경영의 3대 축에 해당하지 않음"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "대외적 공헌성",
+          "isCorrect": false,
+          "reason": "지속가능경영의 3대 축에 해당하지 않음"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "경제적 수익성",
+          "isCorrect": true,
+          "desc": "지속가능경영 3대 요소 (경제적 수익성)"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "환경적 건전성",
+          "isCorrect": true,
+          "desc": "지속가능경영 3대 요소 (환경적 건전성)"
+        },
+        {
+          "id": "ㅁ",
+          "label": "ㅁ",
+          "text": "사회적 책임성",
+          "isCorrect": true,
+          "desc": "지속가능경영 3대 요소 (사회적 책임성)"
+        }
+      ]
     },
     {
       "id": "mgmt_0107",
@@ -3959,7 +3996,7 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0123\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0123</span>\n    <span class=\"source-badge\">2024 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄱ</span><span class=\"statement-text\">경제적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄴ</span><span class=\"statement-text\">법적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄷ</span><span class=\"statement-text\">윤리적 책임</span></div>\n      <div class=\"mcq-statement-item\"><span class=\"statement-label\">ㄹ</span><span class=\"statement-text\">자선적 책임</span></div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0123\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0123</span>\n    <span class=\"source-badge\">2024 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-header\">\n        <span>진술문 보기 (O / X 버튼을 눌러 각 지문의 진위 판단)</span>\n        <span class=\"mcq-stmt-hint\">단축키: ㄱ/ㄴ/ㄷ/ㄹ 또는 클릭</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">경제적 책임</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">법적 책임</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">윤리적 책임</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\"><div class=\"mcq-stmt-text\">자선적 책임</div></div>\n        <div class=\"mcq-stmt-ox-actions\"><button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button><button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button></div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0123\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">경제적 책임과 법적 책임은 자발성보다는 의무성이 더 강하지만 윤리적 책임과 자선적 책임은 의무성보다는 자발성이 더 강하다.</div>\n  </div>\n</div>",
       "stemText": "캐롤(B. A. Carroll)이 주장한 기업의 사회적 책임 중 책임 성격이 의무성보다 자발성에 기초하는 것을 모두 고른 것은?",
       "choices": [
@@ -3983,7 +4020,37 @@
       "probPdf": "prob_01.pdf",
       "probPdfPage": 23,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 11
+      "ansPdfPage": 11,
+      "boxStatements": [
+        {
+          "id": "ㄱ",
+          "label": "ㄱ",
+          "text": "경제적 책임",
+          "isCorrect": false,
+          "reason": "의무성에 기초 (1차적·필수적 책임)"
+        },
+        {
+          "id": "ㄴ",
+          "label": "ㄴ",
+          "text": "법적 책임",
+          "isCorrect": false,
+          "reason": "의무성에 기초 (법규 준수 의무)"
+        },
+        {
+          "id": "ㄷ",
+          "label": "ㄷ",
+          "text": "윤리적 책임",
+          "isCorrect": true,
+          "desc": "자발성에 기초 (기대 기준에 부합)"
+        },
+        {
+          "id": "ㄹ",
+          "label": "ㄹ",
+          "text": "자선적 책임",
+          "isCorrect": true,
+          "desc": "자발성에 기초 (순수 사회공헌·기부)"
+        }
+      ]
     },
     {
       "id": "mgmt_0124",
@@ -25964,25 +26031,25 @@
       "id": "mgmt_0818",
       "qid": "0818",
       "subj": "1.03 조직행동: 집단·조직",
-      "typ": "객관식",
+      "typ": "박스선택형",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0818\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0818</span>\n    <span class=\"source-badge\">공기업 출제경향 반영</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">조직간 관계에 관한 이혼 페로우(C Perrow)가 제시한 기술 분류 기준으로 옳은 것을 모두 고론 것은? ᄀ 기술복잡성 V 과업다양성 c 상호의존성 e 과업정체성 a 문제분석 가능성?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\"></span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">이0</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">' ᄃ, e</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ᄂ, e</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ᄃ , O</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card has-statements\" data-mode=\"statement-multi\" data-qid=\"0818\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0818</span>\n    <span class=\"source-badge\">2003 CPA</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">조직이론에 관한 다음의 각 항목을 조직이론의 발전 순서에 따라 바르게 나타낸 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"a\">\n        <span class=\"mcq-stmt-badge\">a</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직의 인간적·사회적 측면을 강조하였으며, 행동과학 분야와 인적자원관리의 발전을 위한 이론적 틀을 제공하였다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"b\">\n        <span class=\"mcq-stmt-badge\">b</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직은 환경과는 무관한 폐쇄체계로 그리고 조직을 구성하는 인간과 인간집단은 합리체계로 간주하였다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"c\">\n        <span class=\"mcq-stmt-badge\">c</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">조직의 목표 달성보다는 생존을 중시하고 조직 내부의 비공식성과 비합리성의 영향을 부각하였다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"d\">\n        <span class=\"mcq-stmt-badge\">d</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">서로 다른 환경의 요구들에 대처할 수 있는 방안을 제시하는 상황적합이론(contingency theory)이 발전하였다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">a - b - c - d</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">a - d - b - c</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">b - a - d - c</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">c - a - d - b</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">d - c - b - a</span></button>\n  </div>\n  <div class=\"mcq-help\">각 진술문을 탭하여 중복 선택하세요 · Space: 정답 확인</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0818\" data-correct=\"3\">\n <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n <div class=\"mcq-explanation\">\n <div class=\"mcq-exp-title\">해설</div>\n <div class=\"mcq-exp-text\">조직이론은 피쇄쫩리. 폐쇄기하 개방•합리, 개방기회 순으로 발전하였다 a는 인간관계론으로 몌쇄가회 체계이른에 해당한다 6는 과학적 관리법이나 관료제를 의미하며 매 쇄빱리 체계이론이다 c는 자원의존이론을 의미하며. 개방• 사회 체계에 속한다. d는 상황적합이본은 개방-합리 체계에 속한다 만약 조직이른의 4가지 분류가 이해하기 어렵다면 경영학 이론의 발전 순으로 이해8H도 무방하다</div>\n </div>\n</div>",
-      "stemText": "조직간 관계에 관한 이혼 페로우(C Perrow)가 제시한 기술 분류 기준으로 옳은 것을 모두 고론 것은? ᄀ 기술복잡성 V 과업다양성 c 상호의존성 e 과업정체성 a 문제분석 가능성?",
+      "stemText": "조직이론에 관한 다음의 각 항목을 조직이론의 발전 순서에 따라 바르게 나타낸 것은?",
       "choices": [
-        "1번: ",
-        "3번: 이0",
-        "5번: ' ᄃ, e",
-        "2번: ᄂ, e",
-        "4번: ᄃ , O"
+        "1번: a - b - c - d",
+        "2번: a - d - b - c",
+        "3번: b - a - d - c",
+        "4번: c - a - d - b",
+        "5번: d - c - b - a"
       ],
       "note": "정답: 3번\n",
-      "search": "문제 0818 | 1.03 조직행동: 집단·조직 | 조직간 관계에 관한 이혼 페로우(C Perrow)가 제시한 기술 분류 기준으로 옳은 것을 모두 고론 것은? ᄀ 기술복잡성 V 과업다양성 c 상호의존성 e 과업정체성 a 문제분석 가능성? | 1번:  | 3번: 이0 | 5번: ' ᄃ, e | 2번: ᄂ, e | 4번: ᄃ , O",
+      "search": "문제 0818 | 1.03 조직행동: 집단·조직 | 조직이론에 관한 다음의 각 항목을 조직이론의 발전 순서에 따라 바르게 나타낸 것은? | 1번: a - b - c - d | 2번: a - d - b - c | 3번: b - a - d - c | 4번: c - a - d - b | 5번: d - c - b - a",
       "tags": [
         "1.03 조직행동: 집단·조직",
         "문 0818"
       ],
-      "sourceTag": "공기업 출제경향 반영",
+      "sourceTag": "2003 CPA",
       "explanationText": "조직이론은 피쇄쫩리. 폐쇄기하 개방•합리, 개방기회 순으로 발전하였다 a는 인간관계론으로 몌쇄가회 체계이른에 해당한다 6는 과학적 관리법이나 관료제를 의미하며 매 쇄빱리 체계이론이다 c는 자원의존이론을 의미하며. 개방• 사회 체계에 속한다. d는 상황적합이본은 개방-합리 체계에 속한다 만약 조직이른의 4가지 분류가 이해하기 어렵다면 경영학 이론의 발전 순으로 이해8H도 무방하다",
       "probPage": 238,
       "ansPage": 100,
