@@ -4081,23 +4081,30 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0127\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0127</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업경영과 관련하여 윤리적 이슈에 해당하지 않는 것은?</div>\n    <div class=\"image-frame\" style=\"margin-top:12px;\"><img src=\"images/_jh_q_0127.webp\" alt=\"문제 0127 전체 원본\"></div>\n  </div>\n  <div class=\"mcq-options compact\"><button type=\"button\" class=\"mcq-option number-option\" data-original=\"1\"><span class=\"mcq-label\">①</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"2\"><span class=\"mcq-label\">②</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"3\"><span class=\"mcq-label\">③</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"4\"><span class=\"mcq-label\">④</span></button><button type=\"button\" class=\"mcq-option number-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0127\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">이기 0 수익성 제고는 기업경영의 윤리적 이슈와 직접적 관계가 없다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0127\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0127</span>\n    <span class=\"source-badge\">2016 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업경영과 관련하여 윤리적 이슈에 해당하지 않는 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">횡령</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">불공정 행위</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">환경파괴</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">수익성 제고</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">안전불감</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0127\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">④ 수익성 제고는 기업경영의 본원적인 경제적 활동으로, 윤리적 이슈(비윤리적 행위나 도덕적 갈등)와 직접적 관계가 없다. 횡령, 불공정 행위, 환경파괴, 안전불감 등은 대표적인 기업의 윤리적 이슈에 해당한다.</div>\n  </div>\n</div>",
       "stemText": "기업경영과 관련하여 윤리적 이슈에 해당하지 않는 것은?",
-      "choices": [],
+      "choices": [
+        "1번: 횡령",
+        "2번: 불공정 행위",
+        "3번: 환경파괴",
+        "4번: 수익성 제고",
+        "5번: 안전불감"
+      ],
       "note": "정답: 4번",
-      "search": "문제 0127 | 1.01 경영학일반 |  | 기업경영과 관련하여 윤리적 이슈에 해당하지 않는 것은? | ",
+      "search": "문제 0127 | 1.01 경영학일반 | 2016 경영지도사 | 기업경영과 관련하여 윤리적 이슈에 해당하지 않는 것은? | 1번: 횡령 | 2번: 불공정 행위 | 3번: 환경파괴 | 4번: 수익성 제고 | 5번: 안전불감",
       "tags": [
         "1.01 경영학일반",
         "문 0127"
       ],
-      "explanationText": "이기 0 수익성 제고는 기업경영의 윤리적 이슈와 직접적 관계가 없다.",
+      "explanationText": "④ 수익성 제고는 기업경영의 윤리적 이슈와 직접적 관계가 없다. 횡령, 불공정 행위, 환경파괴, 안전불감 등은 기업의 대표적인 윤리적 이슈이다.",
       "probPage": 41,
       "ansPage": 12,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 24,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 11
+      "ansPdfPage": 11,
+      "sourceTag": "2016 경영지도사"
     },
     {
       "id": "mgmt_0128",
@@ -8868,18 +8875,18 @@
       "subj": "1.02 조직행동: 개인",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0291\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0291</span>\n    <span class=\"source-badge\">2019 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 도의 구성요소를 옳게 연결한 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ- 감정적 요소 / ㄴ- 인지적 요소 / ㄷ- 행동적 요소</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ- 긍정적 요소 / ㄴ- 행동적 요소 / ㄷ- 인지적 요소</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ- 인지적 요소 / ㄴ- 행동적 요소 / ㄷ- 감정적 요소</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ- 인지적 요소 / ㄴ- 감정적 요소 / ㄷ- 행동적 요소</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄱ- 행동적 요소 / ㄴ- 감정적 요소 / ㄷ- 인지적 요소</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0291\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답 4번</div>\n  <div class=\"mcq-explanation\"><div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">㉦ 대도(attltude)는 인지적(cogmtive), 정서적(affectlve), 행동84(behavioral) 요소로 구성되는데. 인지적 요소란 대상에 대해 인간이 지니고 있는 사고나 아이디어를 의미하며, 정서적 요소는 대상에 대한 느낌과 관련된` 것이며, 행동적 요소는 대상에 대한 행동 의도를 나타나는 부분이다. 따라 서 문제의 보기를 이용하여 태도의 구성요소를 구분하면 다 음과 같다<br>1. 나의 상사 A는 권위적이다.(인지적 요소)<br>2. 나는 상사 A가 권위적이어서 좋아하지 않는다.<br>(감정적 요소)<br>3. 나는 권위적인 상사 A의 지시를 따르지 않겠다.<br>(행동적 요소)</div></div>\n</div>",
-      "stemText": "상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 도의 구성요소를 옳게 연결한 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0291\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0291</span>\n    <span class=\"source-badge\">2019 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 태도의 구성요소를 옳게 연결한 것은?</div>\n    <div class=\"mcq-box\" style=\"margin-top:12px; padding:14px 16px; border:1px solid var(--c-sep); border-radius:8px; background:var(--c-fill); line-height:1.7;\">\n      <div>ㄱ. 나의 상사 A는 권위적이다.</div>\n      <div>ㄴ. 나는 상사 A가 권위적이어서 좋아하지 않는다.</div>\n      <div>ㄷ. 나는 권위적인 상사 A의 지시를 따르지 않겠다.</div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ- 감정적 요소 / ㄴ- 인지적 요소 / ㄷ- 행동적 요소</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ- 감정적 요소 / ㄴ- 행동적 요소 / ㄷ- 인지적 요소</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ- 인지적 요소 / ㄴ- 행동적 요소 / ㄷ- 감정적 요소</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄱ- 인지적 요소 / ㄴ- 감정적 요소 / ㄷ- 행동적 요소</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄱ- 행동적 요소 / ㄴ- 감정적 요소 / ㄷ- 인지적 요소</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0291\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">태도(attitude)는 인지적(cognitive), 정서적(affective), 행동적(behavioral) 요소로 구성되는데, 인지적 요소란 대상에 대해 인간이 지니고 있는 사고나 아이디어를 의미하며, 정서적 요소는 대상에 대한 느낌과 관련된 것이며, 행동적 요소는 대상에 대한 행동 의도를 나타내는 부분이다. 따라서 문제의 보기를 이용하여 태도의 구성요소를 구분하면 다음과 같다.<br><br>1. 나의 상사 A는 권위적이다. (인지적 요소)<br>2. 나는 상사 A가 권위적이어서 좋아하지 않는다. (감정적 요소)<br>3. 나는 권위적인 상사 A의 지시를 따르지 않겠다. (행동적 요소)</div>\n  </div>\n</div>",
+      "stemText": "상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 태도의 구성요소를 옳게 연결한 것은?",
       "choices": [
         "1번: ㄱ- 감정적 요소 / ㄴ- 인지적 요소 / ㄷ- 행동적 요소",
-        "2번: ㄱ- 긍정적 요소 / ㄴ- 행동적 요소 / ㄷ- 인지적 요소",
+        "2번: ㄱ- 감정적 요소 / ㄴ- 행동적 요소 / ㄷ- 인지적 요소",
         "3번: ㄱ- 인지적 요소 / ㄴ- 행동적 요소 / ㄷ- 감정적 요소",
         "4번: ㄱ- 인지적 요소 / ㄴ- 감정적 요소 / ㄷ- 행동적 요소",
         "5번: ㄱ- 행동적 요소 / ㄴ- 감정적 요소 / ㄷ- 인지적 요소"
       ],
-      "note": "정답: 4번\n",
-      "search": "02 0291 | 1.02 조직행동: 개인 | 문제 0291",
+      "note": "정답: 4번\n[지문] 상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 태도의 구성요소를 옳게 연결한 것은?",
+      "search": "문제 0291 | 1.02 조직행동: 개인 | 2019 공인노무사 | 상사 A에 대한 나의 태도를 기술한 것이다. 다음에 해당하는 태도의 구성요소를 옳게 연결한 것은? | ",
       "tags": [
         "1.02 조직행동: 개인",
         "문 0291"
@@ -10216,22 +10223,23 @@
       "subj": "1.02 조직행동: 개인",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0331\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0331</span>\n    <span class=\"source-badge\">2021 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㄹ</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0331\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답 2번</div>\n  <div class=\"mcq-explanation\"><div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">켈리대. H. Kelley)의 귀인이론은 원인귀속의 방향, 즉 원인을 내부로 돌리느냐 아니면 외부로 돌리느냐에 대한 결정요인으로 합의성, 특이성, 일관성을 제시하고 있다.<br>• 합의성(consensus): 개인의 행동을 그의 동료들과 비교하는 것을 말한다.<br>• 특이성(dlstinctiveness) 직무에 있어서 그 사람의 다른 과업에서의 행동과 비교를 통해 결정되는 것을 말한다.<br>• 일관성(conslstency): 시간의 흐름에도 주어진 직무에 얼 마나 일관성이 있는지를 판단함으로써 결정되는 것을 말한다.</div></div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0331\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0331</span>\n    <span class=\"source-badge\">2023 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-box\" style=\"margin-top:12px; padding:14px 16px; border:1px solid var(--c-sep); border-radius:8px; background:var(--c-fill); line-height:1.7;\">\n      <div>ㄱ. 특이성(distinctiveness)&nbsp;&nbsp;&nbsp;&nbsp;ㄴ. 형평성(equity)</div>\n      <div>ㄷ. 일관성(consistency)&nbsp;&nbsp;&nbsp;&nbsp;ㄹ. 합의성(consensus)</div>\n      <div>ㅁ. 관계성(relationship)</div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄱ, ㄹ, ㅁ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㅁ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄴ, ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0331\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 켈리(H. H. Kelley)의 귀인이론은 원인귀속의 방향, 즉 원인을 내부로 돌리느냐 아니면 외부로 돌리느냐에 대한 결정요인으로 합의성, 특이성, 일관성을 제시하고 있다.<br><br>• 합의성(consensus): 개인의 행동을 그의 동료들과 비교하는 것을 말한다.<br>• 특이성(distinctiveness): 직무에 있어서 그 사람의 다른 과업에서의 행동과 비교를 통해 결정되는 것을 말한다.<br>• 일관성(consistency): 시간의 흐름에도 주어진 직무에 얼마나 일관성이 있는지를 판단함으로써 결정되는 것을 말한다.</div>\n  </div>\n</div>",
       "stemText": "켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은?",
       "choices": [
-        "1번: ㄱ, ㄴ",
+        "1번: ㄱ, ㄴ, ㄷ",
         "2번: ㄱ, ㄷ, ㄹ",
-        "3번: ㄱ, ㄷ, ㅁ",
-        "4번: ㄴ, ㄷ, ㄹ"
+        "3번: ㄱ, ㄹ, ㅁ",
+        "4번: ㄴ, ㄷ, ㅁ",
+        "5번: ㄴ, ㄹ, ㅁ"
       ],
-      "note": "정답: 2번\n",
-      "search": "02 0331 | 1.02 조직행동: 개인 | 문제 0331",
+      "note": "정답: 2번\n[지문] 켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은?",
+      "search": "문제 0331 | 1.02 조직행동: 개인 | 2023 공인노무사 | 켈리(H. Kelley)의 귀인이론에서 행동의 원인을 내적 또는 외적으로 판단하는 데 활용하는 것을 모두 고른 것은? | ",
       "tags": [
         "1.02 조직행동: 개인",
         "문 0331"
       ],
-      "sourceTag": "2021 공인노무사",
+      "sourceTag": "2023 공인노무사",
       "explanationText": "켈리대. H. Kelley)의 귀인이론은 원인귀속의 방향, 즉 원인을 내부로 돌리느냐 아니면 외부로 돌리느냐에 대한 결정요인으로 합의성, 특이성, 일관성을 제시하고 있다.\n• 합의성(consensus): 개인의 행동을 그의 동료들과 비교하는 것을 말한다.\n• 특이성(dlstinctiveness) 직무에 있어서 그 사람의 다른 과업에서의 행동과 비교를 통해 결정되는 것을 말한다.\n• 일관성(conslstency): 시간의 흐름에도 주어진 직무에 얼 마나 일관성이 있는지를 판단함으로써 결정되는 것을 말한다.",
       "probPage": 98,
       "ansPage": 33,
@@ -12240,17 +12248,17 @@
       "subj": "1.02 조직행동: 개인",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0390\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0390</span>\n    <span class=\"source-badge\">2011 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ - ㄴ - ㄷ - ㄹ - ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ - ㄱ - ㄷ - ㅁ - ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ - ㄱ - ㄷ - ㄹ - ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄷ - ㄴ - ㄱ - ㅁ - ㄹ</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0390\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답 2번</div>\n  <div class=\"mcq-explanation\"><div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">H술로(Maslow) 이론의 욕구단계는 &#x27;생리적 “ 안전 -+ 사회 적 - 존경 - 자아실현&#x27;의 순이다 기 안전욕구 L- 생리적욕구 c 사회적욕구 근 자아실현 욕구 존경욕구</div></div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0390\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0390</span>\n    <span class=\"source-badge\">2011 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은?</div>\n    <div class=\"mcq-box\" style=\"margin-top:12px; padding:14px 16px; border:1px solid var(--c-sep); border-radius:8px; background:var(--c-fill); line-height:1.7;\">\n      <div>ㄱ. 일상의 안전, 보호, 안정 등에 대한 욕구</div>\n      <div>ㄴ. 물과 음식, 물질적 풍요 등에 대한 욕구</div>\n      <div>ㄷ. 다른 사람과의 관계 속에서 사랑, 관심, 소속감 등에 대한 욕구</div>\n      <div>ㄹ. 창조적인 능력을 향상시키고 활용하여 자아를 실현하고자 하는 욕구</div>\n      <div>ㅁ. 타인으로부터 존경, 권위, 위엄 등에 대한 욕구</div>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ - ㄴ - ㄷ - ㄹ - ㅁ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄴ - ㄱ - ㄷ - ㅁ - ㄹ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ - ㄱ - ㅁ - ㄷ - ㄹ</span></button>\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ - ㄷ - ㄱ - ㅁ - ㄹ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0390\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">매슬로(Maslow) 이론의 욕구단계는 '생리적 → 안전 → 사회적 → 존경 → 자아실현'의 순이다.<br><br>ㄱ. 안전욕구<br>ㄴ. 생리적 욕구<br>ㄷ. 사회적 욕구<br>ㄹ. 자아실현 욕구<br>ㅁ. 존경욕구</div>\n  </div>\n</div>",
       "stemText": "욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은?",
       "choices": [
         "1번: ㄱ - ㄴ - ㄷ - ㄹ - ㅁ",
         "2번: ㄴ - ㄱ - ㄷ - ㅁ - ㄹ",
-        "3번: ㄴ - ㄱ - ㄷ - ㄹ - ㅁ",
-        "4번: ㄷ - ㄴ - ㄱ - ㅁ - ㄹ"
+        "3번: ㄴ - ㄱ - ㅁ - ㄷ - ㄹ",
+        "4번: ㄴ - ㄷ - ㄱ - ㅁ - ㄹ"
       ],
-      "note": "정답: 2번\n",
-      "search": "02 0390 | 1.02 조직행동: 개인 | 문제 0390",
+      "note": "정답: 2번\n[지문] 욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은?",
+      "search": "문제 0390 | 1.02 조직행동: 개인 | 2011 7급 국가직 | 욕구단계 이론에서 매슬로우(Maslow)가 주장하는 인간의 욕구를 하위부터 상위단계 순으로 바르게 나열한 것은? | ",
       "tags": [
         "1.02 조직행동: 개인",
         "문 0390"
