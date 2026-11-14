@@ -3083,29 +3083,29 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0094\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0094</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔 : 독점적 이익협정을 목표 트러스트 : 독점적 기업지배를 목표</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔 : 가입기업의 독립성 유지 트러스트 : 가입기업의 독립성 상실</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">카르텔 : 계약기간이 끝나면 자동 해체</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">트러스트 : 조직 자체가 해체될 때까지 계속 유지</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">카르텔 : 동종 혹은 이종 기업의 수직적 결합 트러스트 : 주로 동종기업의 수평적 결합</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0094\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 카르텔(ca貳el)은 동종 또는 유사한 산업에 속하는 다수의 기업들의 수평적 결합이고, 트러스트(trust)는 시장을 지배할 목적으로 동종 혹은 이종 기업이 서로 간의 수직 적 결합이다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0094\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0094</span>\n    <span class=\"source-badge\">2023 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔 : 독점적 이익협정을 목표 / 트러스트 : 독점적 기업지배를 목표</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔 : 가입기업의 독립성 유지 / 트러스트 : 가입기업의 독립성 상실</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">카르텔 : 계약기간이 끝나면 자동 해체 / 트러스트 : 조직 자체가 해체될 때까지 계속 유지</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">카르텔 : 동종 혹은 이종 기업의 수직적 결합 / 트러스트 : 주로 동종기업의 수평적 결합</span></button></div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0094\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">④ 카르텔(cartel)은 동종 또는 유사한 산업에 속하는 다수의 기업들의 수평적 결합이고, 트러스트(trust)는 시장을 지배할 목적으로 동종 혹은 이종 기업이 서로 간의 수직적 결합이다.</div>\n  </div>\n</div>",
       "stemText": "기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 카르텔: 독점적 이익협정을 목표 트러스트: 독점적 기업지배를 목표",
-        "2번: 카르텔: 가입기업의 독립성 유지 트러스트: 가입기업의 독립성 상실",
-        "3번: 카르텔: 계약기간이 끝나면 자동 해체",
-        "4번: 트러스트: 조직 자체가 해체될 때까지 계속 유지",
-        "5번: 카르텔: 동종 혹은 이종 기업의 수직적 결합 트러스트: 주로 동종기업의 수평적 결합"
+        "1번: 카르텔 : 독점적 이익협정을 목표 / 트러스트 : 독점적 기업지배를 목표",
+        "2번: 카르텔 : 가입기업의 독립성 유지 / 트러스트 : 가입기업의 독립성 상실",
+        "3번: 카르텔 : 계약기간이 끝나면 자동 해체 / 트러스트 : 조직 자체가 해체될 때까지 계속 유지",
+        "4번: 카르텔 : 동종 혹은 이종 기업의 수직적 결합 / 트러스트 : 주로 동종기업의 수평적 결합"
       ],
       "note": "정답: 4번\n[지문] 기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으 로 가장 옳지 않은 것은?",
-      "search": "문제 0094 | 1.01 경영학일반 |  | 기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으로 가장 옳지 않은 것은? | 1번: 카르텔 : 독점적 이익협정을 목표 트러스트 : 독점적 기업지배를 목표 | 2번: 카르텔 : 가입기업의 독립성 유지 트러스트 : 가입기업의 독립성 상실 | 3번: 카르텔 : 계약기간이 끝나면 자동 해체 | 4번: 트러스트 : 조직 자체가 해체될 때까지 계속 유지 | 5번: 카르텔 : 동종 혹은 이종 기업의 수직적 결합 트러스트 : 주로 동종기업의 수평적 결합",
+      "search": "문제 0094 | 1.01 경영학일반 | 2023 5급 군무원 | 기업집중의 형태인 카르텔과 트러스트의 차이점에 대한 설명으로 가장 옳지 않은 것은? | 1번: 카르텔 : 독점적 이익협정을 목표 / 트러스트 : 독점적 기업지배를 목표 | 2번: 카르텔 : 가입기업의 독립성 유지 / 트러스트 : 가입기업의 독립성 상실 | 3번: 카르텔 : 계약기간이 끝나면 자동 해체 / 트러스트 : 조직 자체가 해체될 때까지 계속 유지 | 4번: 카르텔 : 동종 혹은 이종 기업의 수직적 결합 / 트러스트 : 주로 동종기업의 수평적 결합",
       "tags": [
         "1.01 경영학일반",
         "문 0094"
       ],
-      "explanationText": "② 카르텔(ca貳el)은 동종 또는 유사한 산업에 속하는 다수의 기업들의 수평적 결합이고, 트러스트(trust)는 시장을 지배할 목적으로 동종 혹은 이종 기업이 서로 간의 수직 적 결합이다.",
+      "explanationText": "④ 카르텔(cartel)은 동종 또는 유사한 산업에 속하는 다수의 기업들의 수평적 결합이고, 트러스트(trust)는 시장을 지배할 목적으로 동종 혹은 이종 기업이 서로 간의 수직적 결합이다.",
       "probPage": 35,
       "ansPage": 9,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 18,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 8
+      "ansPdfPage": 8,
+      "sourceTag": "2023 5급 군무원"
     },
     {
       "id": "mgmt_0095",
