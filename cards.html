@@ -10518,7 +10518,7 @@ function rebuildCardHtml(c) {
     optLayoutClasses.push('grid-2col');
   }
   const optClassStr = optLayoutClasses.join(' ');
-  const isSplitOn = (localStorage.getItem('mgmt_split_mode') !== 'off');
+  const isSplitOn = (localStorage.getItem('mgmt_split_mode') === 'on');
   const splitClass = isSplitOn ? 'split-layout' : '';
 
   c.front = `<div class="mcq-card ${splitClass}" data-qid="${qNum}" data-shuffle="false">
@@ -10976,7 +10976,7 @@ function showCard(){
   }
   const btnSplit = $('btnToggleSplit');
   if (btnSplit) {
-    const isSplit = localStorage.getItem('mgmt_split_mode') !== 'off';
+    const isSplit = localStorage.getItem('mgmt_split_mode') === 'on';
     btnSplit.classList.toggle('active', isSplit);
     btnSplit.title = isSplit ? '현재: 좌우 나란히 보기 (클릭 시 상하 보기)' : '현재: 상하 보기 (클릭 시 좌우 나란히)';
   }   // 긴 문면 = 질문 20(폰 16) · 디자인 §4
@@ -11526,7 +11526,7 @@ $('rOff').onclick=()=>{ // 끄기 = 이 카드 그만 (2026-08-22 — 은퇴·�
 };
 if($('btnTopOff')) $('btnTopOff').onclick = () => $('rOff').click();
 function toggleSplitMode() {
-  const current = localStorage.getItem('mgmt_split_mode') !== 'off';
+  const current = localStorage.getItem('mgmt_split_mode') === 'on';
   const next = !current;
   localStorage.setItem('mgmt_split_mode', next ? 'on' : 'off');
   const mcqCard = document.querySelector('.mcq-card');
