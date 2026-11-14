@@ -3188,62 +3188,131 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   margin: 0 !important;
 }
 .mcq-stmt-reason {
-  margin-top: 4px !important;
-  font-size: 12.5px !important;
+  margin-top: 5px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
-  color: var(--c-again) !important;
+  color: var(--c-again, #FF3B30) !important;
+  background: var(--c-again-bg, rgba(255, 59, 48, 0.08)) !important;
+  padding: 4px 8px !important;
+  border-radius: 6px !important;
+  line-height: 1.4 !important;
 }
+
+/* O / X 액션 버튼 그룹 */
+.mcq-stmt-ox-actions {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  flex-shrink: 0 !important;
+}
+.stmt-ox-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--c-sep) !important;
+  background: var(--c-card) !important;
+  color: var(--c-sec) !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  user-select: none !important;
+  padding: 0 !important;
+}
+.stmt-ox-btn:hover {
+  background: var(--c-fill) !important;
+  color: var(--c-label) !important;
+}
+.stmt-ox-btn.active.ox-o {
+  background: rgba(52, 199, 89, 0.18) !important;
+  border-color: var(--c-green, #34C759) !important;
+  color: var(--c-green, #34C759) !important;
+  transform: scale(1.06) !important;
+}
+.stmt-ox-btn.active.ox-x {
+  background: rgba(255, 59, 48, 0.18) !important;
+  border-color: var(--c-red, #FF3B30) !important;
+  color: var(--c-red, #FF3B30) !important;
+  transform: scale(1.06) !important;
+}
+
 .mcq-stmt-status {
   flex-shrink: 0 !important;
   font-size: 12px !important;
-  font-weight: 600 !important;
+  font-weight: 700 !important;
   padding: 4px 10px !important;
   border-radius: var(--r-pill, 999px) !important;
   background: var(--c-fill) !important;
   color: var(--c-sec) !important;
   transition: all 0.15s ease !important;
+  min-width: 48px !important;
+  text-align: center !important;
 }
 
-/* 선택 상태 */
-.mcq-statement-item.selected {
-  background: var(--c-acc-tint) !important;
-  border-color: var(--c-acc) !important;
-  box-shadow: 0 0 0 1px var(--c-acc) !important;
+/* O로 판단된 상태 */
+.mcq-statement-item.judged-o {
+  border-color: var(--c-green, #34C759) !important;
+  background: rgba(52, 199, 89, 0.05) !important;
 }
-.mcq-statement-item.selected .mcq-stmt-badge {
-  background: var(--c-acc) !important;
+.mcq-statement-item.judged-o .mcq-stmt-badge {
+  background: var(--c-green, #34C759) !important;
   color: #fff !important;
 }
-.mcq-statement-item.selected .mcq-stmt-text {
-  color: var(--c-acc) !important;
-  font-weight: 600 !important;
+.mcq-statement-item.judged-o .mcq-stmt-status {
+  background: rgba(52, 199, 89, 0.18) !important;
+  color: var(--c-green, #34C759) !important;
 }
-.mcq-statement-item.selected .mcq-stmt-status {
-  background: var(--c-acc) !important;
+
+/* X로 판단된 상태 */
+.mcq-statement-item.judged-x {
+  border-color: var(--c-red, #FF3B30) !important;
+  background: rgba(255, 59, 48, 0.05) !important;
+}
+.mcq-statement-item.judged-x .mcq-stmt-badge {
+  background: var(--c-red, #FF3B30) !important;
   color: #fff !important;
+}
+.mcq-statement-item.judged-x .mcq-stmt-status {
+  background: rgba(255, 59, 48, 0.18) !important;
+  color: var(--c-red, #FF3B30) !important;
+}
+.mcq-statement-item.judged-x .mcq-stmt-text {
+  text-decoration: line-through !important;
+  opacity: 0.75 !important;
 }
 
 /* 정답/오답 결과 상태 */
 .mcq-statement-item.result-hit {
-  background: var(--c-good-bg) !important;
-  border-color: var(--c-good) !important;
-  box-shadow: 0 0 0 1px var(--c-good) !important;
+  background: rgba(52, 199, 89, 0.12) !important;
+  border-color: var(--c-green, #34C759) !important;
+  box-shadow: 0 0 0 1px var(--c-green, #34C759) !important;
 }
 .mcq-statement-item.result-hit .mcq-stmt-badge,
 .mcq-statement-item.result-hit .mcq-stmt-status {
-  background: var(--c-good) !important;
+  background: var(--c-green, #34C759) !important;
   color: #fff !important;
 }
 
 .mcq-statement-item.result-miss {
-  background: var(--c-again-bg) !important;
-  border-color: var(--c-again) !important;
-  box-shadow: 0 0 0 1px var(--c-again) !important;
+  background: rgba(255, 59, 48, 0.12) !important;
+  border-color: var(--c-red, #FF3B30) !important;
+  box-shadow: 0 0 0 1px var(--c-red, #FF3B30) !important;
 }
 .mcq-statement-item.result-miss .mcq-stmt-badge,
 .mcq-statement-item.result-miss .mcq-stmt-status {
-  background: var(--c-again) !important;
+  background: var(--c-red, #FF3B30) !important;
   color: #fff !important;
+}
+
+/* 정답 뱃지 괄호 텍스트 강조 */
+.mcq-ans-comb {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: var(--c-green, #34C759) !important;
+  margin-left: 4px !important;
 }
 
 .mcq-statement-item.result-missed {
@@ -3266,13 +3335,6 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 }
 .mcq-statement-item.result-passed:hover {
   opacity: 0.85 !important;
-}
-
-/* 박스형 진술문 문항일 때 하단/우측의 번호 조합 버튼(1 ㄱ,ㄴ 등) 완전 숨김 */
-.mcq-card:has(.mcq-statement-box) .mcq-options,
-.mcq-card.has-statements .mcq-options,
-.mcq-card[data-mode="statement-multi"] .mcq-options {
-  display: none !important;
 }
 
 /* 스플릿 레이아웃일 때도 진술문 카드가 있으면 단일 집중 컬럼으로 렌더링 */
@@ -9958,6 +10020,7 @@ function showHoedokLink(c){
 
 // ─── 객관식(MCQ) 인터랙션, 소거(Elimination) 및 PDF 이동 헬퍼 ───
 let userSelectedChoice = null;
+let userStatementJudgments = {}; // { 'ㄱ': 'O', 'ㄴ': 'X' } 사용자 진술문 OX 판단 상태
 let PDF_PAGE_MAP = {};
 try {
   fetch('pdf-page-map.json').then(r => r.json()).then(d => { PDF_PAGE_MAP = d; }).catch(() => {});
@@ -10367,6 +10430,85 @@ function runCardScripts(container) {
     helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
   }
 
+  // 5. 보기 진술문(boxStatements) O/X 버튼 및 판단 바인딩
+  const stmtItems = container.querySelectorAll('.mcq-statement-item');
+  stmtItems.forEach(item => {
+    const stmtKey = item.dataset.stmt;
+    if (!stmtKey) return;
+
+    // 만약 기존 HTML에 O/X 액션 버튼이 없다면 동적 주입
+    let oxGroup = item.querySelector('.mcq-stmt-ox-actions');
+    if (!oxGroup) {
+      oxGroup = document.createElement('div');
+      oxGroup.className = 'mcq-stmt-ox-actions';
+      oxGroup.innerHTML = '<button type="button" class="stmt-ox-btn ox-o" title="O (참/옳음)">O</button><button type="button" class="stmt-ox-btn ox-x" title="X (거짓/틀림)">X</button>';
+      const statusEl = item.querySelector('.mcq-stmt-status');
+      if (statusEl) {
+        item.insertBefore(oxGroup, statusEl);
+      } else {
+        item.appendChild(oxGroup);
+      }
+    }
+
+    const btnO = item.querySelector('.stmt-ox-btn.ox-o');
+    const btnX = item.querySelector('.stmt-ox-btn.ox-x');
+    const statusEl = item.querySelector('.mcq-stmt-status');
+
+    function updateItemUI(judged) {
+      item.classList.remove('judged-o', 'judged-x');
+      if (btnO) btnO.classList.remove('active');
+      if (btnX) btnX.classList.remove('active');
+
+      if (judged === 'O') {
+        item.classList.add('judged-o');
+        if (btnO) btnO.classList.add('active');
+        if (statusEl) statusEl.textContent = 'O 판단';
+      } else if (judged === 'X') {
+        item.classList.add('judged-x');
+        if (btnX) btnX.classList.add('active');
+        if (statusEl) statusEl.textContent = 'X 판단';
+      } else {
+        if (statusEl) statusEl.textContent = '미판단';
+      }
+    }
+
+    // 현재 상태 복원
+    updateItemUI(userStatementJudgments[stmtKey]);
+
+    if (btnO) {
+      btnO.onclick = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        if (revealed) return;
+        userStatementJudgments[stmtKey] = (userStatementJudgments[stmtKey] === 'O') ? null : 'O';
+        updateItemUI(userStatementJudgments[stmtKey]);
+      };
+    }
+
+    if (btnX) {
+      btnX.onclick = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        if (revealed) return;
+        userStatementJudgments[stmtKey] = (userStatementJudgments[stmtKey] === 'X') ? null : 'X';
+        updateItemUI(userStatementJudgments[stmtKey]);
+      };
+    }
+
+    // 진술문 항목 자체를 클릭하면 O -> X -> 미판단 순환 토글
+    item.onclick = (e) => {
+      if (e.target && e.target.closest('.stmt-ox-btn')) return;
+      if (revealed) return;
+      const current = userStatementJudgments[stmtKey];
+      let next = null;
+      if (!current) next = 'O';
+      else if (current === 'O') next = 'X';
+      else next = null;
+      userStatementJudgments[stmtKey] = next;
+      updateItemUI(next);
+    };
+  });
+
   // 이미지 클릭 시 라이트박스 확대 연결
   container.querySelectorAll('.image-frame img, img').forEach(img => {
     img.addEventListener('click', (e) => {
@@ -10389,10 +10531,83 @@ function checkMcqAnswerAndHighlight(c) {
   const symMap = { 1: '①', 2: '②', 3: '③', 4: '④', 5: '⑤' };
   const ansSymbol = symMap[correct] || String(correct);
 
-  // 1. 정답 뱃지 텍스트 갱신
+  // 1. 정답 뱃지 텍스트 갱신: 번호 + 선택지 텍스트(조합) 병기 (예: ② (ㄱ, ㄹ))
+  const corrIdx = Number(correct) - 1;
+  const rawChoice = (c.choices && c.choices[corrIdx]) ? c.choices[corrIdx] : '';
+  const cleanChoiceText = rawChoice.replace(/^[1-5]번:\s*/, '').replace(/^[①-⑤]\s*/, '').trim();
+
   document.querySelectorAll('.mcq-current-answer').forEach(el => {
-    el.textContent = ansSymbol;
+    if (cleanChoiceText) {
+      el.innerHTML = `${ansSymbol} <span class="mcq-ans-comb">(${cleanChoiceText})</span>`;
+    } else {
+      el.textContent = ansSymbol;
+    }
   });
+
+  // 1-1. 진술문(boxStatements) 항목별 정답(O/X) 판정 및 오답 사유 인라인 표시
+  const frontElForStmts = $('cFront');
+  if (frontElForStmts) {
+    const stmtItems = frontElForStmts.querySelectorAll('.mcq-statement-item');
+    stmtItems.forEach(item => {
+      const stmtKey = item.dataset.stmt;
+      if (!stmtKey) return;
+
+      // c.boxStatements 에서 매칭되는 진술문 정보 탐색
+      let stmtData = null;
+      if (c.boxStatements && Array.isArray(c.boxStatements)) {
+        stmtData = c.boxStatements.find(s => (s.label || s.id) === stmtKey);
+      }
+
+      // 정답 O/X 판단:
+      // 1) stmtData.isCorrect 가 명시되어 있는 경우
+      // 2) 명시되지 않은 경우, cleanChoiceText (예: "ㄱ, ㄹ") 안에 해당 라벨이 포함되어 있는지 여부
+      let answerIsO = false;
+      if (stmtData && typeof stmtData.isCorrect === 'boolean') {
+        answerIsO = stmtData.isCorrect;
+      } else if (cleanChoiceText) {
+        answerIsO = cleanChoiceText.includes(stmtKey);
+      }
+
+      const userJudged = userStatementJudgments[stmtKey]; // 'O', 'X', or undefined
+      const correctVal = answerIsO ? 'O' : 'X';
+
+      // 결과 클래스 판정
+      item.classList.remove('judged-o', 'judged-x', 'result-hit', 'result-miss');
+      if (userJudged) {
+        if (userJudged === correctVal) {
+          item.classList.add('result-hit');
+        } else {
+          item.classList.add('result-miss');
+        }
+      }
+
+      // 상태 뱃지 갱신 (정답: O / 정답: X)
+      const stBadge = item.querySelector('.mcq-stmt-status');
+      if (stBadge) {
+        const userMark = userJudged ? `(내선택: ${userJudged}) ` : '';
+        stBadge.textContent = `${userMark}정답: ${correctVal}`;
+      }
+
+      // 오답 사유 또는 해설 텍스트 인라인 노출
+      let reasonText = (stmtData && (stmtData.reason || stmtData.desc)) || '';
+      if (!reasonText && stmtData && !answerIsO && stmtData.text) {
+        // 사유가 명시되지 않은 틀린 진술문
+        reasonText = '옳지 않은 진술입니다.';
+      }
+      
+      let reasonEl = item.querySelector('.mcq-stmt-reason');
+      if (reasonText) {
+        if (!reasonEl) {
+          reasonEl = document.createElement('div');
+          reasonEl.className = 'mcq-stmt-reason';
+          const contentEl = item.querySelector('.mcq-stmt-content') || item;
+          contentEl.appendChild(reasonEl);
+        }
+        reasonEl.innerHTML = `↳ ${answerIsO ? '<b>[옳은 지문]</b> ' : '<b>[오답 지문]</b> '}${reasonText}`;
+        reasonEl.style.display = 'block';
+      }
+    });
+  }
 
   // 2. 만약 소거했던 보기가 정답인 경우: 저장소에서 정답 번호 영구 삭제(소거 취소)
   const cardId = c.id || ('mgmt_' + (c.qid || ''));
@@ -10512,14 +10727,18 @@ function rebuildCardHtml(c) {
         <div class="mcq-stmt-content">
           <div class="mcq-stmt-text">${escapeHtml(stmt.text || '')}</div>
         </div>
-        <span class="mcq-stmt-status">선택</span>
+        <div class="mcq-stmt-ox-actions">
+          <button type="button" class="stmt-ox-btn ox-o" title="O (참/옳음)">O</button>
+          <button type="button" class="stmt-ox-btn ox-x" title="X (거짓/틀림)">X</button>
+        </div>
+        <span class="mcq-stmt-status">미판단</span>
       </div>`;
     }).join('\n      ');
 
     stmtBoxHtml = `\n    <div class="mcq-statement-box">
       <div class="mcq-statement-header">
-        <span>진술문 보기 (탭하여 옳은 선지 중복 선택)</span>
-        <span class="mcq-stmt-hint">단축키: ㄱ/ㄴ/ㄷ/ㄹ 또는 1~4</span>
+        <span>진술문 보기 (O / X 버튼을 눌러 각 지문의 진위 판단)</span>
+        <span class="mcq-stmt-hint">단축키: ㄱ/ㄴ/ㄷ/ㄹ 또는 클릭</span>
       </div>
       ${itemsHtml}
     </div>`;
@@ -10995,6 +11214,7 @@ function showCard(){
   const m=c.front.match(/^〔([^〕]*)〕\s*(.*)$/s);
   $('cScope').innerHTML=scopeHtml(c);
   userSelectedChoice = null;
+  userStatementJudgments = {};
   const gGoodEl = $('gGood'), gAgainEl = $('gAgain');
   if (gGoodEl) gGoodEl.style.boxShadow = '';
   if (gAgainEl) gAgainEl.style.boxShadow = '';
@@ -11217,21 +11437,33 @@ function resetMcqAnswerHighlight(c) {
       b.style.display = 'none';
     });
 
-    // 2. RemNote 진술문 아이템 하이라이트 & 오답사유 완전 리셋 (원래 선택 상태 복원)
+    // 2. 진술문 아이템 하이라이트 & 오답사유 완전 리셋 (원래 O/X 판단 상태 복원)
     frontEl.querySelectorAll('.mcq-statement-item').forEach(item => {
       const stmtKey = item.dataset.stmt;
-      item.classList.remove('result-hit', 'result-miss', 'result-missed', 'result-passed');
+      item.classList.remove('result-hit', 'result-miss', 'result-missed', 'result-passed', 'judged-o', 'judged-x');
       
       // 주입된 오답 사유 제거
       const rEl = item.querySelector('.mcq-stmt-reason');
       if (rEl) rEl.remove();
 
-      // 원래 선택 상태로 복원
-      const isSelected = userSelectedStatements.includes(stmtKey);
-      item.classList.toggle('selected', isSelected);
+      // 원래 O/X 판단 상태로 복원
+      const judged = userStatementJudgments[stmtKey];
+      const btnO = item.querySelector('.stmt-ox-btn.ox-o');
+      const btnX = item.querySelector('.stmt-ox-btn.ox-x');
+      if (btnO) btnO.classList.remove('active');
+      if (btnX) btnX.classList.remove('active');
+
       const stBadge = item.querySelector('.mcq-stmt-status');
-      if (stBadge) {
-        stBadge.textContent = isSelected ? '선택됨' : '선택';
+      if (judged === 'O') {
+        item.classList.add('judged-o');
+        if (btnO) btnO.classList.add('active');
+        if (stBadge) stBadge.textContent = 'O 판단';
+      } else if (judged === 'X') {
+        item.classList.add('judged-x');
+        if (btnX) btnX.classList.add('active');
+        if (stBadge) stBadge.textContent = 'X 판단';
+      } else {
+        if (stBadge) stBadge.textContent = '미판단';
       }
     });
   }

@@ -1424,18 +1424,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0043\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0043</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업을 둘러싼 환경에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국 가경제규모，재정, 금융정책 등이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기업의 간접환경（일반환경》에는 정치 • 법률적 환경，경제 적 환경，기술적 환경，사회 • 문화적 환경 등이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업에 노동력을 공급하는 종업원도 기업의 환경요인 중하나이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">기업의 경쟁자나 부품 공급자는 직접환경（과업환경） 요 인이다. 必</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0043\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0043</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업을 둘러싼 환경에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국가경제규모, 재정, 금융정책 등이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기업의 간접환경(일반환경)에는 정치·법률적 환경, 경제적 환경, 기술적 환경, 사회·문화적 환경 등이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업에 노동력을 공급하는 종업원도 기업의 환경요인 중 하나이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">기업의 경쟁자나 부품 공급자는 직접환경(과업환경) 요인이다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0043\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 내부환경에 속한다. 보통 외부환경은 경제적 환경, 정치• I 법률적 환경, 사회은화적 환경, 기술적 환경, 국제경영 환경을 의미하고, 내부환경은 인적자원 환경, 물적자원 환경, 재 무자원 환경, 기술자완』 환경을 의미한다.</div>\n  </div>\n</div>",
       "stemText": "기업을 둘러싼 환경에 관한 설명으로 옳지 않은 것은?",
       "choices": [
-        "1번: 경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국 가경제규모，재정, 금융정책 등이 있다.",
-        "2번: 기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다.",
-        "3번: 기업의 간접환경（일반환경》에는 정치 • 법률적 환경，경제 적 환경，기술적 환경，사회 • 문화적 환경 등이 있다.",
-        "4번: 기업에 노동력을 공급하는 종업원도 기업의 환경요인 중하나이다.",
-        "5번: 기업의 경쟁자나 부품 공급자는 직접환경（과업환경） 요 인이다. 必"
+        "1번: ① 경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국가경제규모, 재정, 금융정책 등이 있다.",
+        "2번: ② 기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다.",
+        "3번: ③ 기업의 간접환경(일반환경)에는 정치·법률적 환경, 경제적 환경, 기술적 환경, 사회·문화적 환경 등이 있다.",
+        "4번: ④ 기업에 노동력을 공급하는 종업원도 기업의 환경요인 중 하나이다.",
+        "5번: ⑤ 기업의 경쟁자나 부품 공급자는 직접환경(과업환경) 요인이다."
       ],
       "note": "정답: 2번\n[지문] 기업을 둘러싼 환경에 관한 설명으로 옮지 않은 것은?",
-      "search": "문제 0043 | 1.01 경영학일반 |  | 기업을 둘러싼 환경에 관한 설명으로 옳지 않은 것은? | 1번: 경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국 가경제규모，재정, 금융정책 등이 있다. | 2번: 기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다. | 3번: 기업의 간접환경（일반환경》에는 정치 • 법률적 환경，경제 적 환경，기술적 환경，사회 • 문화적 환경 등이 있다. | 4번: 기업에 노동력을 공급하는 종업원도 기업의 환경요인 중하나이다. | 5번: 기업의 경쟁자나 부품 공급자는 직접환경（과업환경） 요 인이다. 必",
+      "search": "문제 0043 | 1.01 경영학일반 |  | 기업을 둘러싼 환경에 관한 설명으로 옳지 않은 것은? | 1번: ① 경제적 환경의 구체적 내용으로 경제체제, 경제상황, 국가경제규모, 재정, 금융정책 등이 있다. | 2번: ② 기업의 환경을 내부환경과 외부환경으로 구분했을 때 주주는 외부환경에 속한다. | 3번: ③ 기업의 간접환경(일반환경)에는 정치·법률적 환경, 경제적 환경, 기술적 환경, 사회·문화적 환경 등이 있다. | 4번: ④ 기업에 노동력을 공급하는 종업원도 기업의 환경요인 중 하나이다. | 5번: ⑤ 기업의 경쟁자나 부품 공급자는 직접환경(과업환경) 요인이다.",
       "tags": [
         "1.01 경영학일반",
         "문 0043"
@@ -1546,8 +1546,8 @@
       "qid": "0047",
       "subj": "1.01 경영학일반",
       "typ": "박스선택형",
-      "correct": 2,
-      "front": "<div class=\"mcq-card has-statements\" data-mode=\"statement-multi\" data-qid=\"0047\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0047</span>\n    <span class=\"source-badge\">2021 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">기존 경쟁기업 간의 경쟁</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대체재의 위협</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">정부의 통화정책</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">공급자의 교섭력</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">잠재적 진입자의 위협</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">① ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">② ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">③ ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">④ ㄹ, ㅁ</span></button></div>\n  <div class=\"mcq-help\">각 진술문을 탭하여 중복 선택하세요 · Space: 정답 확인</div>\n</div>",
+      "correct": 3,
+      "front": "<div class=\"mcq-card\" data-qid=\"0047\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0047</span>\n    <span class=\"source-badge\">2021 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">기존 경쟁기업 간의 경쟁</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대체재의 위협</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">정부의 통화정책</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">공급자의 교섭력</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">잠재적 진입자의 위협</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0047\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">기업이 전략적 의사결정을 할 때 환경위협 요인을 파악하기 위해 사용하는 것이 산업구조분석(5 force 모형)이다. 기존 기업 간 경쟁, 참재경쟁자의 진입위협, 대체재의 위협, 공급자의 교섭력, 구매자의 교섭력은 5 force 모형의 5가지 요 인에 포함되지만 정부의 통화정책과 유망기술은 포함되지 않는다.</div>\n  </div>\n</div>",
       "stemText": "마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은?",
       "choices": [
@@ -1557,7 +1557,7 @@
         "4번: ④ ㄹ, ㅁ"
       ],
       "note": "정답: 3번",
-      "search": "문제 0047 | 1.01 경영학일반 |  | 00十0 20기 5급 군무원 기업의 전략적 의사결정을 위한 환경위협 요인에 해당하지 않은 것을 모두 고른 것은? 기특1미짜 다 정부의 통화정책 유(10F기술 1 기 t: r- 공급자 긭져래경쟁자 | ",
+      "search": "문제 0047 | 1.01 경영학일반 | 2021 5급 군무원 | 마이클 포터(M. Porter)의 산업구조분석(5 Forces Model)에서 기업의 환경위협 요인에 해당하지 않는 것을 모두 고른 것은? | 1번: ① ㄱ, ㄴ | 2번: ② ㄷ | 3번: ③ ㄷ, ㄹ | 4번: ④ ㄹ, ㅁ",
       "tags": [
         "1.01 경영학일반",
         "문 0047"
@@ -1666,29 +1666,30 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0050\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0050</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">유한회사의 특징으로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">必 감사는 범요적 상설기관이다</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">이사는 3인 이 상율 두어야 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">(D 경영은 무한책임을 지는 출자자가 답당한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">® 최고의사결정기관은 사원총회이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">기관의 구성이 간단하고 개방적이다. 雄</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0050\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 감사는 임의기관이다. 이사는 1인 이상을 둘 수 있다 출자자는 유한책임을 진다<br>⑤ 기관의 구성이 간단하고 페쇄적이다. 하지만 2011년 개 정된 상법에서는 폐쇄성이 많이 완화되있다</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0050\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0050</span>\n    <span class=\"source-badge\">2013 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">유한회사의 특징으로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">감사는 법률적 상설기관이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">이사는 3인 이상을 두어야 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">경영은 무한책임을 지는 출자자가 담당한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">최고의사결정기관은 사원총회이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">기관의 구성이 간단하고 개방적이다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0050\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 감사는 임의기관이다.<br>② 이사는 1인 이상을 둘 수 있다.<br>③ 출자자는 유한책임을 진다.<br>⑤ 기관의 구성이 간단하고 폐쇄적이다. 하지만 2011년 개정된 상법에서는 폐쇄성이 많이 완화되었다.</div>\n  </div>\n</div>",
       "stemText": "유한회사의 특징으로 옳은 것은?",
       "choices": [
-        "1번: 必 감사는 범요적 상설기관이다",
-        "2번: 이사는 3인 이 상율 두어야 한다.",
-        "3번: (D 경영은 무한책임을 지는 출자자가 답당한다.",
-        "4번: ® 최고의사결정기관은 사원총회이다.",
-        "5번: 기관의 구성이 간단하고 개방적이다. 雄"
+        "1번: ① 감사는 법률적 상설기관이다.",
+        "2번: ② 이사는 3인 이상을 두어야 한다.",
+        "3번: ③ 경영은 무한책임을 지는 출자자가 담당한다.",
+        "4번: ④ 최고의사결정기관은 사원총회이다.",
+        "5번: ⑤ 기관의 구성이 간단하고 개방적이다."
       ],
       "note": "정답: 4번\n[지문] 유한회사의 특징으로 옮은 것은?",
-      "search": "문제 0050 | 1.01 경영학일반 |  | 유한회사의 특징으로 옳은 것은? | 1번: 必 감사는 범요적 상설기관이다 | 2번: 이사는 3인 이 상율 두어야 한다. | 3번: (D 경영은 무한책임을 지는 출자자가 답당한다. | 4번: ® 최고의사결정기관은 사원총회이다. | 5번: 기관의 구성이 간단하고 개방적이다. 雄",
+      "search": "문제 0050 | 1.01 경영학일반 | 2013 경영지도사 | 유한회사의 특징으로 옳은 것은? | 1번: ① 감사는 법률적 상설기관이다. | 2번: ② 이사는 3인 이상을 두어야 한다. | 3번: ③ 경영은 무한책임을 지는 출자자가 담당한다. | 4번: ④ 최고의사결정기관은 사원총회이다. | 5번: ⑤ 기관의 구성이 간단하고 개방적이다.",
       "tags": [
         "1.01 경영학일반",
         "문 0050"
       ],
-      "explanationText": "① 감사는 임의기관이다. 이사는 1인 이상을 둘 수 있다 출자자는 유한책임을 진다\n⑤ 기관의 구성이 간단하고 페쇄적이다. 하지만 2011년 개 정된 상법에서는 폐쇄성이 많이 완화되있다",
+      "explanationText": "① 감사는 임의기관이다.\n② 이사는 1인 이상을 둘 수 있다.\n③ 출자자는 유한책임을 진다.\n⑤ 기관의 구성이 간단하고 폐쇄적이다. 하지만 2011년 개정된 상법에서는 폐쇄성이 많이 완화되었다.",
       "probPage": 27,
       "ansPage": 6,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 10,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 5
+      "ansPdfPage": 5,
+      "sourceTag": "2013 경영지도사"
     },
     {
       "id": "mgmt_0051",
@@ -1940,8 +1941,8 @@
       "subj": "1.01 경영학일반",
       "typ": "박스선택형",
       "correct": 4,
-      "front": "<div class=\"mcq-card has-statements\" data-mode=\"statement-multi\" data-qid=\"0058\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0058</span>\n    <span class=\"source-badge\">2024 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">주식회사의 주주는 유한책임이 원칙이며, 무한책임을 지는 경우도 있다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부담하는 인적회사이다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 출자금의 한도도 없고, 자금조달도 용이하다는 장점이 있다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합자회사의 무한책임사원은 출자와 경영업무를 맡고, 유한책임사원은 출자만을 담당한다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">① ㄱ, ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">② ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">③ ㄴ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">④ ㄴ, ㄹ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">⑤ ㄷ, ㄹ, ㅁ</span></button></div>\n  <div class=\"mcq-help\">각 진술문을 탭하여 중복 선택하세요 · Space: 정답 확인</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0058\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">그 주식회사의 주주는 유한책임을 원칙으로 하고 있으므로 무한책임을 지는 경우는 없다.<br>③ 합명회사는 사원전체가 동의해야만 지분의 양도가 가능하므로 자금조달이 용이하지는 않다. 口 유한회사는 합명회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0058\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0058</span>\n    <span class=\"source-badge\">2024 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄱ\">\n        <span class=\"mcq-stmt-badge\">ㄱ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">주식회사의 주주는 유한책임이 원칙이며, 무한책임을 지는 경우도 있다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄴ\">\n        <span class=\"mcq-stmt-badge\">ㄴ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부담하는 인적회사이다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄷ\">\n        <span class=\"mcq-stmt-badge\">ㄷ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합명회사는 출자금의 한도도 없고, 자금조달도 용이하다는 장점이 있다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㄹ\">\n        <span class=\"mcq-stmt-badge\">ㄹ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">합자회사의 무한책임사원은 출자와 경영업무를 맡고, 유한책임사원은 출자만을 담당한다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"ㅁ\">\n        <span class=\"mcq-stmt-badge\">ㅁ</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">ㄱ, ㄴ, ㄷ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">ㄱ, ㄷ, ㄹ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">ㄴ, ㄷ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">ㄴ, ㄹ, ㅁ</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">ㄷ, ㄹ, ㅁ</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0058\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">그 주식회사의 주주는 유한책임을 원칙으로 하고 있으므로 무한책임을 지는 경우는 없다.<br>③ 합명회사는 사원전체가 동의해야만 지분의 양도가 가능하므로 자금조달이 용이하지는 않다. 口 유한회사는 합명회사와 주식회사의 장점을 고려한 기업 유형이다.</div>\n  </div>\n</div>",
       "stemText": "다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은?",
       "choices": [
         "1번: ① ㄱ, ㄴ, ㄷ",
@@ -1950,8 +1951,8 @@
         "4번: ④ ㄴ, ㄹ, ㅁ",
         "5번: ⑤ ㄷ, ㄹ, ㅁ"
       ],
-      "note": "정답: 3번",
-      "search": "문제 0058 | 1.01 경영학일반 | 경영지도사 | 기업 행태에 관한 설명으로 옮은 것을 모두 고른 것은? 가 주식회사의 주주는 유한책임이 원시이며, 무한책임올 지는 경우도 있다 1- 합명회사는 2인 이상의 사원이 공동출자로 회사 경영에 직접, 무한책임을 부답하는 인적회사이다 t: 합명회사는 출자금의 한도도 없고, 자-금조달도 용이 하다는 장점이 있다. 근. 합자회사의 무한책임사원은 출자와 경영업무를 말고, 유한책 임사원은 출자만을 담당한다 t, 유한회사는 합자회사와 주식회사의 장점을 고려한 기업 유형이다 1 그 | ",
+      "note": "정답: 4번",
+      "search": "문제 0058 | 1.01 경영학일반 | 2024 경영지도사 | 다음 기업 형태에 관한 설명으로 옳은 것을 모두 고른 것은? | 1번: ① ㄱ, ㄴ, ㄷ | 2번: ② ㄱ, ㄷ, ㄹ | 3번: ③ ㄴ, ㄷ, ㅁ | 4번: ④ ㄴ, ㄹ, ㅁ | 5번: ⑤ ㄷ, ㄹ, ㅁ",
       "tags": [
         "1.01 경영학일반",
         "문 0058"
@@ -2248,17 +2249,17 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0067\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0067</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">주식회사의 특징으로 가장 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경영자는 부채에 대해 무한책임을 진다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">@ 기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지분의 유가증권화를 인정하지 않는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">소유와 경영이 분리되면서 대리인 문제가 발생한다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0067\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0067</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">주식회사의 특징으로 가장 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경영자는 부채에 대해 무한책임을 진다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지분의 유가증권화를 인정하지 않는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">소유와 경영이 분리되면서 대리인 문제가 발생한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0067\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① %다<br>① 경영자가 아니라 주주는 부채에 대해 유한책임을 진다. 주식회사도 이해관계자 집단 즉 주주, 지역사회, 공급입 자 등과 이해관계를 조정해야 한다.<br>① 주식회사에 투자한 지분은 유가증권으로 인정된다.</div>\n  </div>\n</div>",
       "stemText": "주식회사의 특징으로 가장 옳은 것은?",
       "choices": [
-        "1번: 경영자는 부채에 대해 무한책임을 진다.",
-        "2번: @ 기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다.",
-        "3번: 지분의 유가증권화를 인정하지 않는다.",
-        "4번: 소유와 경영이 분리되면서 대리인 문제가 발생한다."
+        "1번: ① 경영자는 부채에 대해 무한책임을 진다.",
+        "2번: ② 기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다.",
+        "3번: ③ 지분의 유가증권화를 인정하지 않는다.",
+        "4번: ④ 소유와 경영이 분리되면서 대리인 문제가 발생한다."
       ],
       "note": "정답: 4번\n[지문] 주식회사의 특징으로 가장 옳은 것은?",
-      "search": "문제 0067 | 1.01 경영학일반 |  | 주식회사의 특징으로 가장 옳은 것은? | 1번: 경영자는 부채에 대해 무한책임을 진다. | 2번: @ 기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다. | 3번: 지분의 유가증권화를 인정하지 않는다. | 4번: 소유와 경영이 분리되면서 대리인 문제가 발생한다.",
+      "search": "문제 0067 | 1.01 경영학일반 |  | 주식회사의 특징으로 가장 옳은 것은? | 1번: ① 경영자는 부채에 대해 무한책임을 진다. | 2번: ② 기업의 이해관계자 집단과 이해조정의 문제가 생기지 않는다. | 3번: ③ 지분의 유가증권화를 인정하지 않는다. | 4번: ④ 소유와 경영이 분리되면서 대리인 문제가 발생한다.",
       "tags": [
         "1.01 경영학일반",
         "문 0067"
@@ -2459,8 +2460,8 @@
       "subj": "1.01 경영학일반",
       "typ": "박스선택형",
       "correct": 5,
-      "front": "<div class=\"mcq-card has-statements\" data-mode=\"statement-multi\" data-qid=\"0074\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0074</span>\n    <span class=\"source-badge\">2023 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 특성에 모두 해당되는 기업의 형태는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대규모 자본조달이 용이하다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">출자자들은 유한책임을 진다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영인을 고용하여 소유와 경영의 분리가 가능하다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">자본의 증권화를 통해 소유권 이전이 용이하다.</div>\n        </div>\n        <span class=\"mcq-stmt-status\">선택</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">① 개인기업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">② 합명회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">③ 합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">④ 유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">⑤ 주식회사</span></button></div>\n  <div class=\"mcq-help\">각 진술문을 탭하여 중복 선택하세요 · Space: 정답 확인</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0074\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">주식회사에서 주식은 유가증권으로서 그 양도가 자유롭고, 증권 제도의 발전으로 자본의 증권화를 가능케 하여 자본조달의 용이성을 제공한다. 또한, 자본의 증권화 제 도로 인해 투자의 회수가 용이하며, 동시에 주식회사의 출자자는 다수이며 또한 그 전부가 유한책임사원으로서 주식의 매매생도를 통하여 자유로이 주주의 지위를 떠 날 수 있으므로 소유와 경영의 분리가 측진된다는 특징을 지닌다</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0074\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0074</span>\n    <span class=\"source-badge\">2023 공인노무사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 특성에 모두 해당되는 기업의 형태는?</div>\n    <div class=\"mcq-statement-box\">\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">대규모 자본조달이 용이하다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">출자자들은 유한책임을 진다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">전문경영인을 고용하여 소유와 경영의 분리가 가능하다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n      <div class=\"mcq-statement-item\" data-stmt=\"•\">\n        <span class=\"mcq-stmt-badge\">•</span>\n        <div class=\"mcq-stmt-content\">\n          <div class=\"mcq-stmt-text\">자본의 증권화를 통해 소유권 이전이 용이하다.</div>\n        </div>\n        <div class=\"mcq-stmt-ox-actions\">\n          <button type=\"button\" class=\"stmt-ox-btn ox-o\">O</button>\n          <button type=\"button\" class=\"stmt-ox-btn ox-x\">X</button>\n        </div>\n        <span class=\"mcq-stmt-status\">미판단</span>\n      </div>\n    </div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">개인기업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">합명회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">합자회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">유한회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주식회사</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0074\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">주식회사에서 주식은 유가증권으로서 그 양도가 자유롭고, 증권 제도의 발전으로 자본의 증권화를 가능케 하여 자본조달의 용이성을 제공한다. 또한, 자본의 증권화 제 도로 인해 투자의 회수가 용이하며, 동시에 주식회사의 출자자는 다수이며 또한 그 전부가 유한책임사원으로서 주식의 매매생도를 통하여 자유로이 주주의 지위를 떠 날 수 있으므로 소유와 경영의 분리가 측진된다는 특징을 지닌다</div>\n  </div>\n</div>",
       "stemText": "다음 특성에 모두 해당되는 기업의 형태는?",
       "choices": [
         "1번: ① 개인기업",
@@ -2469,8 +2470,8 @@
         "4번: ④ 유한회사",
         "5번: ⑤ 주식회사"
       ],
-      "note": "정답: 1번",
-      "search": "문제 0074 | 1.01 경영학일반 |  | 00디十 2023 공인노무사 다음 특성에 모두 해당되는 기업의 형태는? • 대규모 자본조답이 용이하다 • 출자지들은 유한책임을 진다. • 전문경영인을 고용하여 소유와 경영의 분리가 기능하다 자본의 중권화를 통해 소유권 이전이 용이하다 0개인기업 ㉦ 합자회사 ㉭주식회사 (㉦합명회사 @유한회사 | ",
+      "note": "정답: 5번",
+      "search": "문제 0074 | 1.01 경영학일반 | 2023 공인노무사 | 다음 특성에 모두 해당되는 기업의 형태는? | 1번: ① 개인기업 | 2번: ② 합명회사 | 3번: ③ 합자회사 | 4번: ④ 유한회사 | 5번: ⑤ 주식회사",
       "tags": [
         "1.01 경영학일반",
         "문 0074"
@@ -2661,8 +2662,8 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0080\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0080</span>\n    <span class=\"source-badge\">2019 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조합원에게는 출자액에 비례하여 의결권이 부여된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">영리보다 조합원의 이용과 편익제공을 목적으로 운영된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0080\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 협동조합이 아니라, 민법상의 조합에 관한 내용이다. 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1 표제가 적용된다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0080\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0080</span>\n    <span class=\"source-badge\">2019 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조합원에게는 출자액에 비례하여 의결권이 부여된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">영리보다 조합원의 이용과 편익제공을 목적으로 운영된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0080\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 협동조합이 아니라 '민법상의 조합'에 관한 내용이다.<br>② 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1표제가 적용된다.</div>\n  </div>\n</div>",
       "stemText": "협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은?",
       "choices": [
         "1번: ① 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다.",
@@ -2670,14 +2671,14 @@
         "3번: ③ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된다.",
         "4번: ④ 운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다."
       ],
-      "note": "정답: 4번",
-      "search": "문제 0080 | 1.01 경영학일반 | 7급 국가직 | 협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은? (0 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공 동출자로 조직한 공동기업이다. ㉨ 조합원에게는 출자액에 비례하여 의결권이 부여된다 ㉦ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된 운영주체 또는 기능에 따라 소비자협동조합, 생산자협 동조합 등으로 나눌 수 있다. | ",
+      "note": "정답: 2번",
+      "search": "문제 0080 | 1.01 경영학일반 | 2019 7급 국가직 | 협동조합(cooperatives)에 대한 설명으로 옳지 않은 것은? | 1번: ① 자신들의 경제적 권익을 보호하기 위해 두 명 이상이 공동출자로 조직한 공동기업이다. | 2번: ② 조합원에게는 출자액에 비례하여 의결권이 부여된다. | 3번: ③ 영리보다 조합원의 이용과 편익제공을 목적으로 운영된다. | 4번: ④ 운영주체 또는 기능에 따라 소비자협동조합, 생산자협동조합 등으로 나눌 수 있다.",
       "tags": [
         "1.01 경영학일반",
         "문 0080"
       ],
       "sourceTag": "2019 7급 국가직",
-      "explanationText": "① 협동조합이 아니라, 민법상의 조합에 관한 내용이다. 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1 표제가 적용된다.",
+      "explanationText": "① 협동조합이 아니라 '민법상의 조합'에 관한 내용이다.\n② 주식회사는 출자액에 따라 의결권이 부여되는 1주 1표제지만, 협동조합은 출자액에 상관없이 모든 이에게 1인 1표제가 적용된다.",
       "probPage": 32,
       "ansPage": 8,
       "probPdf": "prob_01.pdf",
@@ -2720,8 +2721,8 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0082\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0082</span>\n    <span class=\"source-badge\">2014 가맹거래사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">트러스트</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지주회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업합동</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">콘체른</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0082\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 카르W(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독 립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담 합형태이다.<br>⑤ 기업합동: 트러스트(trust)를 의미함</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0082\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0082</span>\n    <span class=\"source-badge\">2014 가맹거래사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">트러스트</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">지주회사</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업합동</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">콘체른</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0082\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 카르텔(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담합형태이다.<br>④ 기업합동: 트러스트(trust)를 의미함.</div>\n  </div>\n</div>",
       "stemText": "동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은?",
       "choices": [
         "1번: ① 트러스트",
@@ -2730,14 +2731,14 @@
         "4번: ④ 기업합동",
         "5번: ⑤ 콘체른"
       ],
-      "note": "정답: 4번",
-      "search": "문제 0082 | 1.01 경영학일반 | 가맹거래사 | 기업 간 수평적으로 맺는 협정은? 0 트러스트 지주회사 ㉭기업합동 콘체른 카르텔 | ",
+      "note": "정답: 2번",
+      "search": "문제 0082 | 1.01 경영학일반 | 2014 가맹거래사 | 동종업종 또는 유사업종 기업 간 수평적으로 맺는 협정은? | 1번: ① 트러스트 | 2번: ② 카르텔 | 3번: ③ 지주회사 | 4번: ④ 기업합동 | 5번: ⑤ 콘체른",
       "tags": [
         "1.01 경영학일반",
         "문 0082"
       ],
       "sourceTag": "2014 가맹거래사",
-      "explanationText": "② 카르W(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독 립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담 합형태이다.\n⑤ 기업합동: 트러스트(trust)를 의미함",
+      "explanationText": "② 카르텔(cartel): 한 상품 또는 상품군의 생산이나 판매를 일정한 형태로 제한하고자 경제적, 법률적으로 서로 독립성을 유지하며, 기업 간 상호 협정에 의해 결합하는 담합형태이다.\n④ 기업합동: 트러스트(trust)를 의미함.",
       "probPage": 32,
       "ansPage": 8,
       "probPdf": "prob_01.pdf",
@@ -2751,18 +2752,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 2,
-      "front": "<div class=\"mcq-card\" data-qid=\"0083\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0083</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">、1、시 수 히 ^holding company)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카쁘텔《cartel》</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">번날로메리노^conglomerate》</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">브러스트(tnjst》</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">® 콘체른(concern)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0083\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0083</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">지주회사(holding company)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔(cartel)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">트러스트(trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">컨글로머리트(conglomerate)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">콘체른(konzern)</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0083\" data-correct=\"2\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">②</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 지주회사(holding company): 다른 회사의 주식을 소유 함으로써, 사업활동을 지배하는 것을 주된 사업으로 하 는회사<br>① 컨글로메리트(conglomerate): 기업집단의 일종으로 이 종기업의 주식을 무차별 집중매입하여 합명함으로써 기업의 규모를 확대시켜 대기업의 이점을 추구하려는 다각 적 합병을 의미<br>② 트러스트(trust): 독점을 목적으로 각 참가기업들이 법률 적 경제적 독립성을 완전히 버리고 새로운 기업으로 통 합하는 결합형태<br>⑤ 콘체른(concern): 기업연맹이라고도 하며, 몇 개 기업의 독립성을 유지하면서 실질적으로 주식소유, 자금대여와 같은 방법에 의해 하나의 기업으로 결합되는 형태</div>\n  </div>\n</div>",
       "stemText": "기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는?",
       "choices": [
-        "1번: 、1、시 수 히 ^holding company)",
-        "2번: 카쁘텔《cartel》",
-        "3번: 번날로메리노^conglomerate》",
-        "4번: 브러스트(tnjst》",
-        "5번: ® 콘체른(concern)"
+        "1번: ① 지주회사(holding company)",
+        "2번: ② 카르텔(cartel)",
+        "3번: ③ 트러스트(trust)",
+        "4번: ④ 컨글로머리트(conglomerate)",
+        "5번: ⑤ 콘체른(konzern)"
       ],
       "note": "정답: 2번\n[지문] 동종 또는 유사업종의 기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는?",
-      "search": "문제 0083 | 1.01 경영학일반 |  | 기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는? | 1번: 、1、시 수 히 ^holding company) | 2번: 카쁘텔《cartel》 | 3번: 번날로메리노^conglomerate》 | 4번: 브러스트(tnjst》 | 5번: ® 콘체른(concern)",
+      "search": "문제 0083 | 1.01 경영학일반 |  | 기업들이 법적. 경제적 독립성을 유지하면 서 협정을 통해 수평적으로 결합하는 행태는? | 1번: ① 지주회사(holding company) | 2번: ② 카르텔(cartel) | 3번: ③ 트러스트(trust) | 4번: ④ 컨글로머리트(conglomerate) | 5번: ⑤ 콘체른(konzern)",
       "tags": [
         "1.01 경영학일반",
         "문 0083"
@@ -2811,18 +2812,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0085\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0085</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">콘체른(konzern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">카르텔(cartel)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">트러스트＜trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">® ■트(kombinat》</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트 벤처(joint venture)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0085\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0085</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔(cartel)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">트러스트(trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">콘체른(konzern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">콤비나트(kombinat)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트 벤처(joint venture)</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0085\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">콘체른(konzern): 기업결합이라고 하며 법률상으로 독립되 어 있으나 지분 결합 등의 방식으로 경영상 실질적으로 독 립성이 없는 기업결합 형태를 말한다. 일반적으로는 거대 기업이 여러 산업의 다수 기업을 지배할 목적으로 형성된다.</div>\n  </div>\n</div>",
       "stemText": "소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은?",
       "choices": [
-        "1번: 콘체른(konzern)",
-        "2번: 카르텔(cartel)",
-        "3번: 트러스트＜trust)",
-        "4번: ® ■트(kombinat》",
-        "5번: 조인트 벤처(joint venture)"
+        "1번: ① 카르텔(cartel)",
+        "2번: ② 트러스트(trust)",
+        "3번: ③ 콘체른(konzern)",
+        "4번: ④ 콤비나트(kombinat)",
+        "5번: ⑤ 조인트 벤처(joint venture)"
       ],
       "note": "정답: 1번\n[지문] 자회사 주식의 일부 또는 전부를 소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은?",
-      "search": "문제 0085 | 1.01 경영학일반 |  | 소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은? | 1번: 콘체른(konzern) | 2번: 카르텔(cartel) | 3번: 트러스트＜trust) | 4번: ® ■트(kombinat》 | 5번: 조인트 벤처(joint venture)",
+      "search": "문제 0085 | 1.01 경영학일반 |  | 소유해서 자회사 경영권을 지배 하는 지주회사와 관련이 있는 기업결합은? | 1번: ① 카르텔(cartel) | 2번: ② 트러스트(trust) | 3번: ③ 콘체른(konzern) | 4번: ④ 콤비나트(kombinat) | 5번: ⑤ 조인트 벤처(joint venture)",
       "tags": [
         "1.01 경영학일반",
         "문 0085"
@@ -2933,18 +2934,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0089\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0089</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">지주회사(holding company)에 의한 주식 소유와 같은 행태의 기업집중은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔(cartel)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">트러스트(trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">(3)콘체른(Konzern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">@ 콤비나li(Komb，nat)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트 벤처(joint venture)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0089\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0089</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">지주회사(holding company)에 의한 주식 소유와 같은 형태의 기업집중은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔(cartel)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">트러스트(trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">콘체른(konzern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">콤비나트(kombinat)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트 벤처(joint venture)</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0089\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">콘Nl€(Konzern)은 기업연행이라고도 하는데 몇 개의 기업이 독립성을 유지하면서 실질적으로 주식 소유, 자금대여와 같은 방법에 의해 하나의 기업으로 결합되는 형태이다. 콘 체른은 생산, 판매 및 금융에 대해 경영상으로 수평적으로는 물론 수직적 또는 다각적으로 결합된다. 콘체른의 지배 방법은 지주회사를 이용한 형태가 일반적이다. 대규모 기업이 중소기업을 지배할 목적으로 이들 중소기업의 주식을 보 유함으로써 경영권을 장악하는 경우에 나타나는데 이때 중 소기업들은 외형상으로는 독립성을 유지하지만 실질적으로는 독립성을 잃고 대규모 기업에 종속하게 된다. 이러한 대 규모 기업을 지주회사 또는 모회사라고 하고 중소기업은 자 회사라고 한다.</div>\n  </div>\n</div>",
-      "stemText": "지주회사(holding company)에 의한 주식 소유와 같은 행태의 기업집중은?",
+      "stemText": "지주회사(holding company)에 의한 주식 소유와 같은 형태의 기업집중은?",
       "choices": [
-        "1번: 카르텔(cartel)",
-        "2번: 트러스트(trust)",
-        "3번: (3)콘체른(Konzern)",
-        "4번: @ 콤비나li(Komb，nat)",
-        "5번: 조인트 벤처(joint venture)"
+        "1번: ① 카르텔(cartel)",
+        "2번: ② 트러스트(trust)",
+        "3번: ③ 콘체른(konzern)",
+        "4번: ④ 콤비나트(kombinat)",
+        "5번: ⑤ 조인트 벤처(joint venture)"
       ],
       "note": "정답: 3번\n[지문] 지주회사(holding company)에 의한 주식 소유와 같은 형태의 기업집중은?",
-      "search": "문제 0089 | 1.01 경영학일반 |  | 지주회사(holding company)에 의한 주식 소유와 같은 행태의 기업집중은? | 1번: 카르텔(cartel) | 2번: 트러스트(trust) | 3번: (3)콘체른(Konzern) | 4번: @ 콤비나li(Komb，nat) | 5번: 조인트 벤처(joint venture)",
+      "search": "문제 0089 | 1.01 경영학일반 |  | 지주회사(holding company)에 의한 주식 소유와 같은 형태의 기업집중은? | 1번: ① 카르텔(cartel) | 2번: ② 트러스트(trust) | 3번: ③ 콘체른(konzern) | 4번: ④ 콤비나트(kombinat) | 5번: ⑤ 조인트 벤처(joint venture)",
       "tags": [
         "1.01 경영학일반",
         "문 0089"
@@ -3141,18 +3142,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0096\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0096</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">(주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">우회 전략(turnaround strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">® 집중전략(concentration strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">프랜차이징(franchising)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">컨소시엄(consortium)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">포획전략(captive strategy)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0096\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 우회전략(tumaround strategy)은 기업수준의 전략 (corporate level) 가운데 &#x27;축소&#x27;전략에 해당하는 것으로 비용절감을 위한 다운사이징과 효율 증진을 위한 구조조 정을 포함하는 것이다. 집중전략(concentration strategy)은 기업의 핵심능력을 한정완 시장에 집중하는 전략을 말한다.<br>① 프랜차이징(franchlsjng)은 상호, 특허품, 기술 등을 소유 한 자(프랜차이저)가 계약을 통해 이를 이용하고 싶은 자<br>(프랜차이지)에게 상호 및 상표의 사용권과 특정 제품의 판매권, 기술 및 특정 지역에서의 독점적 영업권 등을 제 공하고 그 대가로 가행비, 보증금, 로열티 등을 받는 사업 모텔을 의미한다<br>② 컨소시엄(co巫0山um)은 2개 이상의 개인, 기업 또는 단 체 등이 공통의 목적에 참여하는데 공통의 목적을 두고 참여하며 공통의 자원을 투입한다. 통상적으로 특정 작 업을 수행하기 위해 회사나 기업가들이 만든 임시조직을 의미한다.<br>⑤ 포획전략(c꾸tⅳe strategy)은 기업수준의 전략(corporate level) 가운데 &#x27;축소•전략에 해당하는 것으로, 이 전략은 주요 고객에게 집중함으로써 다른 기능 활동은 축소하는 것이다. 보통 이 전략은 중간 정도의 산업매력도를 나타 내거나 쇠퇴하는 사업이기 때문에 우회 전략을 강구할 수 없을 때 채택한다</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0096\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0096</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">(주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">성장전략(growth strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">집중전략(concentration strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">안정전략(stability strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">방어전략(defensive strategy)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">다각화전략(diversification strategy)</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0096\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 우회전략(tumaround strategy)은 기업수준의 전략 (corporate level) 가운데 '축소'전략에 해당하는 것으로 비용절감을 위한 다운사이징과 효율 증진을 위한 구조조 정을 포함하는 것이다. 집중전략(concentration strategy)은 기업의 핵심능력을 한정완 시장에 집중하는 전략을 말한다.<br>① 프랜차이징(franchlsjng)은 상호, 특허품, 기술 등을 소유 한 자(프랜차이저)가 계약을 통해 이를 이용하고 싶은 자<br>(프랜차이지)에게 상호 및 상표의 사용권과 특정 제품의 판매권, 기술 및 특정 지역에서의 독점적 영업권 등을 제 공하고 그 대가로 가행비, 보증금, 로열티 등을 받는 사업 모텔을 의미한다<br>② 컨소시엄(co巫0山um)은 2개 이상의 개인, 기업 또는 단 체 등이 공통의 목적에 참여하는데 공통의 목적을 두고 참여하며 공통의 자원을 투입한다. 통상적으로 특정 작 업을 수행하기 위해 회사나 기업가들이 만든 임시조직을 의미한다.<br>⑤ 포획전략(c꾸tⅳe strategy)은 기업수준의 전략(corporate level) 가운데 '축소•전략에 해당하는 것으로, 이 전략은 주요 고객에게 집중함으로써 다른 기능 활동은 축소하는 것이다. 보통 이 전략은 중간 정도의 산업매력도를 나타 내거나 쇠퇴하는 사업이기 때문에 우회 전략을 강구할 수 없을 때 채택한다</div>\n  </div>\n</div>",
       "stemText": "(주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은?",
       "choices": [
-        "1번: 우회 전략(turnaround strategy)",
-        "2번: ® 집중전략(concentration strategy)",
-        "3번: 프랜차이징(franchising)",
-        "4번: 컨소시엄(consortium)",
-        "5번: 포획전략(captive strategy)"
+        "1번: ① 성장전략(growth strategy)",
+        "2번: ② 집중전략(concentration strategy)",
+        "3번: ③ 안정전략(stability strategy)",
+        "4번: ④ 방어전략(defensive strategy)",
+        "5번: ⑤ 다각화전략(diversification strategy)"
       ],
       "note": "정답: 4번\n[지문] (주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은?",
-      "search": "문제 0096 | 1.01 경영학일반 |  | (주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은? | 1번: 우회 전략(turnaround strategy) | 2번: ® 집중전략(concentration strategy) | 3번: 프랜차이징(franchising) | 4번: 컨소시엄(consortium) | 5번: 포획전략(captive strategy)",
+      "search": "문제 0096 | 1.01 경영학일반 |  | (주)한국은 정부의 대규모 사업에 참여하면서 다수 기업과 공동 출자를 하고자 한다. 이 전략 유형에 해당하는 것은? | 1번: ① 성장전략(growth strategy) | 2번: ② 집중전략(concentration strategy) | 3번: ③ 안정전략(stability strategy) | 4번: ④ 방어전략(defensive strategy) | 5번: ⑤ 다각화전략(diversification strategy)",
       "tags": [
         "1.01 경영학일반",
         "문 0096"
@@ -3171,8 +3172,8 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0097\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0097</span>\n    <span class=\"source-badge\">2014 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">정부출연기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">정부재정지원기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">제3섹터</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">공익사업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주택사업</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번: 정답 선택 · 우클릭 또는 길게 누르기: 보기 소거</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0097\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">민간 부문이 가진 우수한 정보기술과 풍부한 자본을 공공 부문에 도입해 공동출자 형식으로 행하는 지역개발사업을 말한다. 제3젝터란 이름은 공공부문인 1섹터와 민간부문인 2섹터의 장점을 서로 혼합한 새로운 형태의 개발주체라고해서 붙여진 것이다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0097\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0097</span>\n    <span class=\"source-badge\">2014 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">정부출연기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">정부재정지원기관</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">제3섹터</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">공익사업</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">주택사업</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0097\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">민간 부문이 가진 우수한 정보기술과 풍부한 자본을 공공 부문에 도입해 공동출자 형식으로 행하는 지역개발사업을 말한다. 제3젝터란 이름은 공공부문인 1섹터와 민간부문인 2섹터의 장점을 서로 혼합한 새로운 형태의 개발주체라고해서 붙여진 것이다.</div>\n  </div>\n</div>",
       "stemText": "민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은?",
       "choices": [
         "1번: ① 정부출연기관",
@@ -3181,8 +3182,8 @@
         "4번: ④ 공익사업",
         "5번: ⑤ 주택사업"
       ],
-      "note": "정답: 1번",
-      "search": "문제 0097 | 1.01 경영학일반 |  | 00% 2014 경영지도사 민간부문이 보유한 정뵈 기술, 자본을 공공부문에 도입해 공동 출자형식으로 행하는 기관 또는 사업은? 0 정부출연기관 (희제3색터 ㉭주택사업 (기정부재정지원기관 ㉦ 공익사업 | ",
+      "note": "정답: 3번",
+      "search": "문제 0097 | 1.01 경영학일반 | 2014 경영지도사 | 민간부문이 보유한 정보, 기술, 자본을 공공부문에 도입해 공동출자형식으로 행하는 기관 또는 사업은? | 1번: ① 정부출연기관 | 2번: ② 정부재정지원기관 | 3번: ③ 제3섹터 | 4번: ④ 공익사업 | 5번: ⑤ 주택사업",
       "tags": [
         "1.01 경영학일반",
         "문 0097"
@@ -3374,18 +3375,17 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0104\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0104</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">기업의 사회적 목표 추구는 제품 및 서비스의 가격상숭 율 초래하여 소비자들이 피해룰 보게 된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">® 기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기업의 사회적 목표 추구로 기업은 기업이미지 개선을 도모할 수 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업의 사회적 목표 추구로 기업은 정부규제를 회피할 수 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">기업의 사회적 목표 추구는 기업의 권력에 상응하는 책 임의 균형 차원에서 요구된다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0104\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0104</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사회적 책임은 기업이 사회에 대해 지는 도덕적·윤리적 의무이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">기업은 이윤 극대화만을 유일한 사회적 책임으로 삼아야 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">사회공헌활동은 기업의 긍정적인 이미지를 제고한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0104\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① ℃十 (0 사회적 책임의 전통적 관점은 일돈 프리드만(Mllton Fnedman)의 견해로 기업의 사회적 목표 추구는 제품 및 서 비스의 가격상승을 초래하여 소비자들이 피해를 보게 되므로 기업은 가장 중요한 이해관계자인 주주의 이익을 극대화하기 위해 최선을 다해야 한다는 것이다.</div>\n  </div>\n</div>",
       "stemText": "기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것은?",
       "choices": [
-        "1번: 기업의 사회적 목표 추구는 제품 및 서비스의 가격상숭 율 초래하여 소비자들이 피해룰 보게 된다.",
-        "2번: ® 기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다.",
-        "3번: 기업의 사회적 목표 추구로 기업은 기업이미지 개선을 도모할 수 있다.",
-        "4번: 기업의 사회적 목표 추구로 기업은 정부규제를 회피할 수 있다.",
-        "5번: 기업의 사회적 목표 추구는 기업의 권력에 상응하는 책 임의 균형 차원에서 요구된다."
+        "1번: ① 사회적 책임은 기업이 사회에 대해 지는 도덕적·윤리적 의무이다.",
+        "2번: ② 기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다.",
+        "3번: ③ 기업은 이윤 극대화만을 유일한 사회적 책임으로 삼아야 한다.",
+        "4번: ④ 사회공헌활동은 기업의 긍정적인 이미지를 제고한다."
       ],
       "note": "정답: 1번\n[지문] 기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것 은?",
-      "search": "문제 0104 | 1.01 경영학일반 |  | 기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것은? | 1번: 기업의 사회적 목표 추구는 제품 및 서비스의 가격상숭 율 초래하여 소비자들이 피해룰 보게 된다. | 2번: ® 기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다. | 3번: 기업의 사회적 목표 추구로 기업은 기업이미지 개선을 도모할 수 있다. | 4번: 기업의 사회적 목표 추구로 기업은 정부규제를 회피할 수 있다. | 5번: 기업의 사회적 목표 추구는 기업의 권력에 상응하는 책 임의 균형 차원에서 요구된다.",
+      "search": "문제 0104 | 1.01 경영학일반 |  | 기업의 사회적 책임에 대한 고전적 견해의 주장에 해당되는 것은? | 1번: ① 사회적 책임은 기업이 사회에 대해 지는 도덕적·윤리적 의무이다. | 2번: ② 기업의 사회적 목표 추구는 장기적으로 기업에 이익을 가져다준다. | 3번: ③ 기업은 이윤 극대화만을 유일한 사회적 책임으로 삼아야 한다. | 4번: ④ 사회공헌활동은 기업의 긍정적인 이미지를 제고한다.",
       "tags": [
         "1.01 경영학일반",
         "문 0104"
@@ -4639,18 +4639,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0149\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0149</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영이른의 주창자와 그 내용이 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">必 테입러(Taylor》: 차별 적 성과급제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">必 메이요(Mayo): 비공식 조직의 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">페이옵(Fayol): 권한과 책임의 원칙</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">© 포드＜Ford): 고임금 고가격의 원칙</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">® 베버(Weber》: 규칙과 절차의 중시</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0149\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0149</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">경영이른의 주창자와 그 내용이 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">테일러(Taylor): 차별적 성과급제</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">메이요(Mayo): 비공식 조직의 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">페이욜(Fayol): 14가지 일반관리원칙</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">길브레스(Gilbreth): 동작연구와 서블릭(Therblig)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">베버(Weber): 규칙과 절차의 중시</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0149\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">포드(Ford): 고임금 저가격의 원칙</div>\n  </div>\n</div>",
       "stemText": "경영이른의 주창자와 그 내용이 옳지 않은 것은?",
       "choices": [
-        "1번: 必 테입러(Taylor》: 차별 적 성과급제",
-        "2번: 必 메이요(Mayo): 비공식 조직의 중시",
-        "3번: 페이옵(Fayol): 권한과 책임의 원칙",
-        "4번: © 포드＜Ford): 고임금 고가격의 원칙",
-        "5번: ® 베버(Weber》: 규칙과 절차의 중시"
+        "1번: ① 테일러(Taylor): 차별적 성과급제",
+        "2번: ② 메이요(Mayo): 비공식 조직의 중시",
+        "3번: ③ 페이욜(Fayol): 14가지 일반관리원칙",
+        "4번: ④ 길브레스(Gilbreth): 동작연구와 서블릭(Therblig)",
+        "5번: ⑤ 베버(Weber): 규칙과 절차의 중시"
       ],
       "note": "정답: 4번\n[지문] 경영이른의 주창자와 그 내용이 옮지 않은 것은?",
-      "search": "문제 0149 | 1.01 경영학일반 |  | 경영이른의 주창자와 그 내용이 옳지 않은 것은? | 1번: 必 테입러(Taylor》: 차별 적 성과급제 | 2번: 必 메이요(Mayo): 비공식 조직의 중시 | 3번: 페이옵(Fayol): 권한과 책임의 원칙 | 4번: © 포드＜Ford): 고임금 고가격의 원칙 | 5번: ® 베버(Weber》: 규칙과 절차의 중시",
+      "search": "문제 0149 | 1.01 경영학일반 |  | 경영이른의 주창자와 그 내용이 옳지 않은 것은? | 1번: ① 테일러(Taylor): 차별적 성과급제 | 2번: ② 메이요(Mayo): 비공식 조직의 중시 | 3번: ③ 페이욜(Fayol): 14가지 일반관리원칙 | 4번: ④ 길브레스(Gilbreth): 동작연구와 서블릭(Therblig) | 5번: ⑤ 베버(Weber): 규칙과 절차의 중시",
       "tags": [
         "1.01 경영학일반",
         "문 0149"
@@ -5051,29 +5051,30 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0164\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0164</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영학의 역사적 전개과정상에서 나타난 이론 중 성격이 다른 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">매술로우(A. Maslow)의 욕구단계몬</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">허츠버그《F. Herzberg)의 2요이이론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">@ 백그리기(D. McGregor)의 X - Y이론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">베버(M. Weber)의 관료제 조직론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">아지리스(C. Argyns)의 성숙 - 미성숙이론</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0164\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">매슬로, 허즈버그, 맥그리거, 아지리스의 이론은 동기부여 이론, 즉 행동과학 이론에 해당하지만, 베버의 관료제론은 고전적 조직이론에 해당한다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0164\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0164</span>\n    <span class=\"source-badge\">2014 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">경영학의 역사적 전개과정상에서 나타난 이론 중 성격이 다른 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">매슬로우(A. Maslow)의 욕구단계론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">허츠버그(F. Herzberg)의 2요인이론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">맥그리거(D. McGregor)의 X-Y이론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">베버(M. Weber)의 관료제 조직론</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">아지리스(C. Argyris)의 성숙-미성숙이론</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0164\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">매슬로, 허즈버그, 맥그리거, 아지리스의 이론은 동기부여 이론, 즉 인간관계론/행동과학 이론에 해당하지만, 베버의 관료제론은 고전적 조직이론에 해당한다.</div>\n  </div>\n</div>",
       "stemText": "경영학의 역사적 전개과정상에서 나타난 이론 중 성격이 다른 것은?",
       "choices": [
-        "1번: 매술로우(A. Maslow)의 욕구단계몬",
-        "2번: 허츠버그《F. Herzberg)의 2요이이론",
-        "3번: @ 백그리기(D. McGregor)의 X - Y이론",
-        "4번: 베버(M. Weber)의 관료제 조직론",
-        "5번: 아지리스(C. Argyns)의 성숙 - 미성숙이론"
+        "1번: ① 매슬로우(A. Maslow)의 욕구단계론",
+        "2번: ② 허츠버그(F. Herzberg)의 2요인이론",
+        "3번: ③ 맥그리거(D. McGregor)의 X-Y이론",
+        "4번: ④ 베버(M. Weber)의 관료제 조직론",
+        "5번: ⑤ 아지리스(C. Argyris)의 성숙-미성숙이론"
       ],
       "note": "정답: 4번\n[지문] 경영학의 역사적 전개과정상에서 나타난 이본 증 성격이 다른 것",
-      "search": "문제 0164 | 1.01 경영학일반 |  | 경영학의 역사적 전개과정상에서 나타난 이론 중 성격이 다른 것은? | 1번: 매술로우(A. Maslow)의 욕구단계몬 | 2번: 허츠버그《F. Herzberg)의 2요이이론 | 3번: @ 백그리기(D. McGregor)의 X - Y이론 | 4번: 베버(M. Weber)의 관료제 조직론 | 5번: 아지리스(C. Argyns)의 성숙 - 미성숙이론",
+      "search": "문제 0164 | 1.01 경영학일반 | 2014 경영지도사 | 경영학의 역사적 전개과정상에서 나타난 이론 중 성격이 다른 것은? | 1번: ① 매슬로우(A. Maslow)의 욕구단계론 | 2번: ② 허츠버그(F. Herzberg)의 2요인이론 | 3번: ③ 맥그리거(D. McGregor)의 X-Y이론 | 4번: ④ 베버(M. Weber)의 관료제 조직론 | 5번: ⑤ 아지리스(C. Argyris)의 성숙-미성숙이론",
       "tags": [
         "1.01 경영학일반",
         "문 0164"
       ],
-      "explanationText": "매슬로, 허즈버그, 맥그리거, 아지리스의 이론은 동기부여 이론, 즉 행동과학 이론에 해당하지만, 베버의 관료제론은 고전적 조직이론에 해당한다.",
+      "explanationText": "매슬로, 허즈버그, 맥그리거, 아지리스의 이론은 동기부여 이론, 즉 인간관계론/행동과학 이론에 해당하지만, 베버의 관료제론은 고전적 조직이론에 해당한다.",
       "probPage": 47,
       "ansPage": 15,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 30,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 14
+      "ansPdfPage": 14,
+      "sourceTag": "2014 경영지도사"
     },
     {
       "id": "mgmt_0165",
@@ -5484,18 +5485,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0179\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0179</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">호손대a`飜礪t*,)실험과 관련한 설명으로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">작업자는 임금 둥 경 새적 요인에 의해서 농기화위다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">@ 작업자의 생산성온 작업한경 및 작업시간과 민접한 연 관이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">@ 명학한 업무설계와 조직설계가 생산성 향상의 주요 요 인이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">공식조직에 비해 비공식조직은 성과에 영향율 주지 않 는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">작업자는 단지 관심율 기울여주기만 해도 성과가 개선 된다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0179\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0179</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">호손(Hawthorne)실험과 관련한 설명으로 옳은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">작업자는 임금 등 경제적 요인에 의해서 동기화된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">작업자의 생산성은 작업환경 및 작업시간과 밀접한 연관이 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">명확한 업무설계와 조직설계가 생산성 향상의 주요 요인이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">공식조직에 비해 비공식조직은 성과에 영향을 주지 않는다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">작업자는 단지 관심을 기울여주기만 해도 성과가 개선된다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0179\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 호손실험에서 작업자는 경제적 요인보다는 심리적 요인에 의해서 동기화 된다. 작업자의 생산성은 작업환경 및 작업시간 등의 물리적 요인보다는 감정적싱리적 요인과 밀접한 연관이 있다 생산성 향상을 위해 명확한 업무설계와 조직설계를 강조 한 것은 Taylor의 과학적 관리법을 포함한 고전적 경영 학 이론들이다.<br>② 비공식조직도 성과에 영향을 준다는 것을 밝혔다<br>⑤ 인간의 감정적. 심리적 요인이 작업성과에 미치는 영향이 크기 때문에 작업자에게 단지 관심을 기울여주기만 해도 성과가 개선된다.</div>\n  </div>\n</div>",
-      "stemText": "호손대a`飜礪t*,)실험과 관련한 설명으로 옳은 것은?",
+      "stemText": "호손(Hawthorne)실험과 관련한 설명으로 옳은 것은?",
       "choices": [
-        "1번: 작업자는 임금 둥 경 새적 요인에 의해서 농기화위다.",
-        "2번: @ 작업자의 생산성온 작업한경 및 작업시간과 민접한 연 관이 있다.",
-        "3번: @ 명학한 업무설계와 조직설계가 생산성 향상의 주요 요 인이다.",
-        "4번: 공식조직에 비해 비공식조직은 성과에 영향율 주지 않 는다.",
-        "5번: 작업자는 단지 관심율 기울여주기만 해도 성과가 개선 된다."
+        "1번: ① 작업자는 임금 등 경제적 요인에 의해서 동기화된다.",
+        "2번: ② 작업자의 생산성은 작업환경 및 작업시간과 밀접한 연관이 있다.",
+        "3번: ③ 명확한 업무설계와 조직설계가 생산성 향상의 주요 요인이다.",
+        "4번: ④ 공식조직에 비해 비공식조직은 성과에 영향을 주지 않는다.",
+        "5번: ⑤ 작업자는 단지 관심을 기울여주기만 해도 성과가 개선된다."
       ],
       "note": "정답: 5번\n[지문] 호손대a`歌*뽀)실험과 관련한 설명으로 옮은 것은?",
-      "search": "문제 0179 | 1.01 경영학일반 |  | 호손대a`飜礪t*,)실험과 관련한 설명으로 옮은 것은? | 1번: 작업자는 임금 둥 경 새적 요인에 의해서 농기화위다. | 2번: @ 작업자의 생산성온 작업한경 및 작업시간과 민접한 연 관이 있다. | 3번: @ 명학한 업무설계와 조직설계가 생산성 향상의 주요 요 인이다. | 4번: 공식조직에 비해 비공식조직은 성과에 영향율 주지 않 는다. | 5번: 작업자는 단지 관심율 기울여주기만 해도 성과가 개선 된다.",
+      "search": "문제 0179 | 1.01 경영학일반 |  | 호손(Hawthorne)실험과 관련한 설명으로 옳은 것은? | 1번: ① 작업자는 임금 등 경제적 요인에 의해서 동기화된다. | 2번: ② 작업자의 생산성은 작업환경 및 작업시간과 밀접한 연관이 있다. | 3번: ③ 명확한 업무설계와 조직설계가 생산성 향상의 주요 요인이다. | 4번: ④ 공식조직에 비해 비공식조직은 성과에 영향을 주지 않는다. | 5번: ⑤ 작업자는 단지 관심을 기울여주기만 해도 성과가 개선된다.",
       "tags": [
         "1.01 경영학일반",
         "문 0179"
@@ -5762,18 +5763,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0189\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0189</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영학 이본 증 시스템적 접근방법의 속성이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">목표지향성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">한경적옹성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">(D 분화와 통합성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">투입 •전한-산출 과정</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">비공식집단의 중요성</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0189\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0189</span>\n    <span class=\"source-badge\">2014 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">경영학 이론 중 시스템적 접근방법의 속성이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">목표지향성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">환경적응성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">분화와 통합성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">투입-전환-산출 과정</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">비공식집단의 중요성</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0189\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">시스템이란 구성요소(sub-system), 즉 기능적으로 체계가 있는 요소를 상호 연결시킨 복합체가 모여서 공통의 목적을 달성하기 위한 통일체를 의미하며 시스템적 접근방법의 속성은 다음과 같다. 시스템의 속성 목표지향성 환경적용실=<br>-개방시스법<br>•계쇄시스템 1</div>\n  </div>\n</div>",
-      "stemText": "경영학 이본 증 시스템적 접근방법의 속성이 아닌 것은?",
+      "stemText": "경영학 이론 중 시스템적 접근방법의 속성이 아닌 것은?",
       "choices": [
-        "1번: 목표지향성",
-        "2번: 한경적옹성",
-        "3번: (D 분화와 통합성",
-        "4번: 투입 •전한-산출 과정",
-        "5번: 비공식집단의 중요성"
+        "1번: ① 목표지향성",
+        "2번: ② 환경적응성",
+        "3번: ③ 분화와 통합성",
+        "4번: ④ 투입-전환-산출 과정",
+        "5번: ⑤ 비공식집단의 중요성"
       ],
       "note": "정답: 5번\n[지문] 경영학 이본 증 시스템적 접근방법의 속성이 아닌 것은?",
-      "search": "문제 0189 | 1.01 경영학일반 |  | 경영학 이본 증 시스템적 접근방법의 속성이 아닌 것은? | 1번: 목표지향성 | 2번: 한경적옹성 | 3번: (D 분화와 통합성 | 4번: 투입 •전한-산출 과정 | 5번: 비공식집단의 중요성",
+      "search": "문제 0189 | 1.01 경영학일반 | 2014 경영지도사 | 경영학 이론 중 시스템적 접근방법의 속성이 아닌 것은? | 1번: ① 목표지향성 | 2번: ② 환경적응성 | 3번: ③ 분화와 통합성 | 4번: ④ 투입-전환-산출 과정 | 5번: ⑤ 비공식집단의 중요성",
       "tags": [
         "1.01 경영학일반",
         "문 0189"
@@ -5784,7 +5785,8 @@
       "probPdf": "prob_01.pdf",
       "probPdfPage": 35,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 16
+      "ansPdfPage": 16,
+      "sourceTag": "2014 경영지도사"
     },
     {
       "id": "mgmt_0190",
@@ -6066,18 +6068,18 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 5,
-      "front": "<div class=\"mcq-card\" data-qid=\"0200\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0200</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">경영이른에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">必 시스성이른은 인야생농외 영향 요소 간 북잡한 상호삭 용어 중요성유 삼소반다、</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">沒) 公항적와이본은 성영에 유임 최선의 방법은 없고 모한 조직에 임왓적으로 보편적 경영원칙음 적용함 수는 없</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">必 육구단 때 성에서 사밖이 含족시키고자 하는 욕구는 낮온 수준에시 높은 수준으로 윤라간다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">必 계량정영온 경영의사결정에 계량적 기법의 적용윤 강조 한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0200\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다고 주장한 것은 •인간관계론&#x27;이다. 반면 관료 적 조직론은 사회적, 심리적 조건보다는 인간의 합리성에 근거하여 제정된 합리적 원칙(관료제의 원칙)이 조직의 효율성을 높인다고 주장한다. 결국 인간관계론은 조직을 사회적 관점에서 보았지만, 관료적 조직론은 조직을 합리적 관점에서 보았다고 할 수 있다.</div>\n  </div>\n</div>",
-      "stemText": "경영이른에 관한 설명으로 옳지 않은 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0200\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0200</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">경영이론에 관한 설명으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">시스템이론은 조직생존에 영향을 미치는 요소 간 복잡한 상호작용의 중요성을 강조한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">상황적합이론은 경영에 유일 최선의 방법은 없고 모든 조직에 일괄적으로 보편적 경영원칙을 적용할 수는 없다고 본다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">욕구단계설에서 사람이 충족시키고자 하는 욕구는 낮은 수준에서 높은 수준으로 올라간다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">계량경영은 경영의사결정에 계량적 기법의 적용을 강조한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0200\" data-correct=\"5\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">⑤</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다고 주장한 것은 •인간관계론'이다. 반면 관료 적 조직론은 사회적, 심리적 조건보다는 인간의 합리성에 근거하여 제정된 합리적 원칙(관료제의 원칙)이 조직의 효율성을 높인다고 주장한다. 결국 인간관계론은 조직을 사회적 관점에서 보았지만, 관료적 조직론은 조직을 합리적 관점에서 보았다고 할 수 있다.</div>\n  </div>\n</div>",
+      "stemText": "경영이론에 관한 설명으로 옳지 않은 것은?",
       "choices": [
-        "1번: 必 시스성이른은 인야생농외 영향 요소 간 북잡한 상호삭 용어 중요성유 삼소반다、",
-        "2번: 沒) 公항적와이본은 성영에 유임 최선의 방법은 없고 모한 조직에 임왓적으로 보편적 경영원칙음 적용함 수는 없",
-        "3번: 必 육구단 때 성에서 사밖이 含족시키고자 하는 욕구는 낮온 수준에시 높은 수준으로 윤라간다.",
-        "4번: 必 계량정영온 경영의사결정에 계량적 기법의 적용윤 강조 한다.",
-        "5번: 관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다."
+        "1번: ① 시스템이론은 조직생존에 영향을 미치는 요소 간 복잡한 상호작용의 중요성을 강조한다.",
+        "2번: ② 상황적합이론은 경영에 유일 최선의 방법은 없고 모든 조직에 일괄적으로 보편적 경영원칙을 적용할 수는 없다고 본다.",
+        "3번: ③ 욕구단계설에서 사람이 충족시키고자 하는 욕구는 낮은 수준에서 높은 수준으로 올라간다.",
+        "4번: ④ 계량경영은 경영의사결정에 계량적 기법의 적용을 강조한다.",
+        "5번: ⑤ 관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다."
       ],
       "note": "정답: 5번\n[지문] 경영이른에 관한 설명으로 옮지 않은 것은?",
-      "search": "문제 0200 | 1.01 경영학일반 |  | 경영이른에 관한 설명으로 옳지 않은 것은? | 1번: 必 시스성이른은 인야생농외 영향 요소 간 북잡한 상호삭 용어 중요성유 삼소반다、 | 2번: 沒) 公항적와이본은 성영에 유임 최선의 방법은 없고 모한 조직에 임왓적으로 보편적 경영원칙음 적용함 수는 없 | 3번: 必 육구단 때 성에서 사밖이 含족시키고자 하는 욕구는 낮온 수준에시 높은 수준으로 윤라간다. | 4번: 必 계량정영온 경영의사결정에 계량적 기법의 적용윤 강조 한다. | 5번: 관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다.",
+      "search": "문제 0200 | 1.01 경영학일반 |  | 경영이론에 관한 설명으로 옳지 않은 것은? | 1번: ① 시스템이론은 조직생존에 영향을 미치는 요소 간 복잡한 상호작용의 중요성을 강조한다. | 2번: ② 상황적합이론은 경영에 유일 최선의 방법은 없고 모든 조직에 일괄적으로 보편적 경영원칙을 적용할 수는 없다고 본다. | 3번: ③ 욕구단계설에서 사람이 충족시키고자 하는 욕구는 낮은 수준에서 높은 수준으로 올라간다. | 4번: ④ 계량경영은 경영의사결정에 계량적 기법의 적용을 강조한다. | 5번: ⑤ 관료적 조직론에 의하면 생산성은 작업자들의 사회적, 심리적 조건이나 감독방식에 의존한다.",
       "tags": [
         "1.01 경영학일반",
         "문 0200"
@@ -7082,23 +7084,23 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0236\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0236</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">관리(MBO)의 주요 특성이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">복표앙성기간의명시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">® 상사와 부하간의 협의륙 통한 목표설 성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">다면평가</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">목표의 구체성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">실 적에 대한 피드백</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0236\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">다면평가는 인사평가에서 여러 명의 평가자로 하여금 평가를 실행하게 하는 것인데, 목표관리와는 무관하다.</div>\n  </div>\n</div>",
-      "stemText": "관리(MBO)의 주요 특성이 아닌 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0236\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0236</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">목표관리(MBO)의 주요 특성이 아닌 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">목표달성기간의 명시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">상사와 부하 간의 협의를 통한 목표설정</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">다면평가</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">목표의 구체성</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">실적에 대한 피드백</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0236\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">③ 다면평가는 인사평가에서 여러 명의 평가자로 하여금 평가를 실행하게 하는 것인데, 목표관리와는 무관하다.</div>\n  </div>\n</div>",
+      "stemText": "목표관리(MBO)의 주요 특성이 아닌 것은?",
       "choices": [
-        "1번: 복표앙성기간의명시",
-        "2번: ® 상사와 부하간의 협의륙 통한 목표설 성",
-        "3번: 다면평가",
-        "4번: 목표의 구체성",
-        "5번: 실 적에 대한 피드백"
+        "1번: ① 목표달성기간의 명시",
+        "2번: ② 상사와 부하 간의 협의를 통한 목표설정",
+        "3번: ③ 다면평가",
+        "4번: ④ 목표의 구체성",
+        "5번: ⑤ 실적에 대한 피드백"
       ],
       "note": "정답: 3번\n[지문] 목표에 의한 관리(MBO)의 주요 특성이 아닌 것은?",
-      "search": "문제 0236 | 1.01 경영학일반 |  | 관리(MBO)의 주요 특성이 아닌 것은? | 1번: 복표앙성기간의명시 | 2번: ® 상사와 부하간의 협의륙 통한 목표설 성 | 3번: 다면평가 | 4번: 목표의 구체성 | 5번: 실 적에 대한 피드백",
+      "search": "문제 0236 | 1.01 경영학일반 |  | 목표관리(MBO)의 주요 특성이 아닌 것은? | 1번: ① 목표달성기간의 명시 | 2번: ② 상사와 부하 간의 협의를 통한 목표설정 | 3번: ③ 다면평가 | 4번: ④ 목표의 구체성 | 5번: ⑤ 실적에 대한 피드백",
       "tags": [
         "1.01 경영학일반",
         "문 0236"
       ],
-      "explanationText": "다면평가는 인사평가에서 여러 명의 평가자로 하여금 평가를 실행하게 하는 것인데, 목표관리와는 무관하다.",
+      "explanationText": "③ 다면평가는 인사평가에서 여러 명의 평가자로 하여금 평가를 실행하게 하는 것인데, 목표관리와는 무관하다.",
       "probPage": 61,
       "ansPage": 20,
       "probPdf": "prob_01.pdf",
@@ -7497,22 +7499,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0251\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0251</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">전락의 통제 기법인 균형성과표(B50와 경영역신 기법에 관련된1 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">에서는 수주2} 고서욧 기하 외우서 측성시와 스인 하습과 성상의 난형이 민요하다</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">® 시 야기반경쟁（time based competitionbp- 고서이 원하는 재화와 서비스률 가장 管리，그리고 적당한 시성에 세장</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">노나카 이쿠지로（Nonaka Ikujiro》의 시식 경영에서는 지 식을 형식지와 암묵지로 구분했으며, 압북지는 지식 전</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">진략석 제휴《strategic alliance）에서는 경정이 무의미하 기 때문에 차별화와 저비용음 동시에 추구하도록 전략 을구성한다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0251\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">② 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 추구하는 것은 블루오션(B|ue Ocean) 전략이다.</div>\n  </div>\n</div>",
-      "stemText": "전락의 통제 기법인 균형성과표(B50와 경영역신 기법에 관련된1 설명으로 가장 옳지 않은 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0251\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0251</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">전략의 통제 기법인 균형성과표(BSC)와 경영혁신 기법에 관련된 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">BSC에서는 주주와 고객을 위한 외부적 측정치와 직원의 학습과 성장의 균형이 필요하다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">시간기반경쟁(time based competition)은 고객이 원하는 재화와 서비스를 가장 빨리, 그리고 적당한 시점에 제공하는 것이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">노나카 이쿠지로(Nonaka Ikujiro)의 지식경영에서는 지식을 형식지와 암묵지로 구분했으며, 암묵지는 지식 전수가 어렵다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">전략적 제휴(strategic alliance)에서는 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 구성한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~4번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0251\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">④ 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 추구하는 것은 블루오션(Blue Ocean) 전략이다.</div>\n  </div>\n</div>",
+      "stemText": "전략의 통제 기법인 균형성과표(BSC)와 경영혁신 기법에 관련된 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 에서는 수주2} 고서욧 기하 외우서 측성시와 스인 하습과 성상의 난형이 민요하다",
-        "2번: ® 시 야기반경쟁（time based competitionbp- 고서이 원하는 재화와 서비스률 가장 管리，그리고 적당한 시성에 세장",
-        "3번: 노나카 이쿠지로（Nonaka Ikujiro》의 시식 경영에서는 지 식을 형식지와 암묵지로 구분했으며, 압북지는 지식 전",
-        "4번: 진략석 제휴《strategic alliance）에서는 경정이 무의미하 기 때문에 차별화와 저비용음 동시에 추구하도록 전략 을구성한다."
+        "1번: ① BSC에서는 주주와 고객을 위한 외부적 측정치와 직원의 학습과 성장의 균형이 필요하다.",
+        "2번: ② 시간기반경쟁(time based competition)은 고객이 원하는 재화와 서비스를 가장 빨리, 그리고 적당한 시점에 제공하는 것이다.",
+        "3번: ③ 노나카 이쿠지로(Nonaka Ikujiro)의 지식경영에서는 지식을 형식지와 암묵지로 구분했으며, 암묵지는 지식 전수가 어렵다.",
+        "4번: ④ 전략적 제휴(strategic alliance)에서는 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 구성한다."
       ],
       "note": "정답: 4번\n[지문] 전락의 통제 기법인 균형성과표(B50와 경영혁신 기법에 관련된 설명으로 가장 옮지 않은 것은?",
-      "search": "문제 0251 | 1.01 경영학일반 |  | 전락의 통제 기법인 균형성과표(B50와 경영역신 기법에 관련된1 설명으로 가장 옳지 않은 것은? | 1번: 에서는 수주2} 고서욧 기하 외우서 측성시와 스인 하습과 성상의 난형이 민요하다 | 2번: ® 시 야기반경쟁（time based competitionbp- 고서이 원하는 재화와 서비스률 가장 管리，그리고 적당한 시성에 세장 | 3번: 노나카 이쿠지로（Nonaka Ikujiro》의 시식 경영에서는 지 식을 형식지와 암묵지로 구분했으며, 압북지는 지식 전 | 4번: 진략석 제휴《strategic alliance）에서는 경정이 무의미하 기 때문에 차별화와 저비용음 동시에 추구하도록 전략 을구성한다.",
+      "search": "문제 0251 | 1.01 경영학일반 |  | 전략의 통제 기법인 균형성과표(BSC)와 경영혁신 기법에 관련된 설명으로 가장 옳지 않은 것은? | 1번: ① BSC에서는 주주와 고객을 위한 외부적 측정치와 직원의 학습과 성장의 균형이 필요하다. | 2번: ② 시간기반경쟁(time based competition)은 고객이 원하는 재화와 서비스를 가장 빨리, 그리고 적당한 시점에 제공하는 것이다. | 3번: ③ 노나카 이쿠지로(Nonaka Ikujiro)의 지식경영에서는 지식을 형식지와 암묵지로 구분했으며, 암묵지는 지식 전수가 어렵다. | 4번: ④ 전략적 제휴(strategic alliance)에서는 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 구성한다.",
       "tags": [
         "1.01 경영학일반",
         "문 0251"
       ],
-      "explanationText": "② 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 추구하는 것은 블루오션(B|ue Ocean) 전략이다.",
+      "explanationText": "④ 경쟁이 무의미하기 때문에 차별화와 저비용을 동시에 추구하도록 전략을 추구하는 것은 블루오션(Blue Ocean) 전략이다.",
       "probPage": 63,
       "ansPage": 22,
       "probPdf": "prob_01.pdf",
