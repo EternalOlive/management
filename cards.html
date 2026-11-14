@@ -2384,7 +2384,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 
 .mcq-option {
   display: grid;
-  grid-template-columns: 34px 1fr;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
   align-items: center;
   width: 100%;
   padding: 12px 16px;
@@ -2473,7 +2473,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 
 /* 소거 ✕ 버튼 */
 .mcq-elim-btn {
-  display: none !important;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 26px;
@@ -10247,7 +10247,20 @@ function runCardScripts(container) {
       btn.classList.remove('eliminated');
     }
 
-    // (DESIGN.md §7.4: 칸에 보조 버튼을 얹지 않음 -> 우클릭 및 길게 누르기(롱프레스), Shift+1~5로 소거 지원)
+    // 모바일/터치용 소거 ✕ 버튼 주입
+    if (!btn.querySelector('.mcq-elim-btn')) {
+      const elimBtn = document.createElement('span');
+      elimBtn.className = 'mcq-elim-btn';
+      elimBtn.innerHTML = '✕';
+      elimBtn.title = '이 보기 흐리게 소거 (우클릭 또는 탭)';
+      elimBtn.onclick = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        if (revealed) return;
+        toggleEliminateOption(cardId, orig, btn);
+      };
+      btn.appendChild(elimBtn);
+    }
 
     // 마우스 우클릭 -> 소거 토글
     btn.oncontextmenu = (e) => {
@@ -10313,7 +10326,7 @@ function runCardScripts(container) {
   const helpEl = container.querySelector('.mcq-help');
   if (helpEl && !helpEl.dataset.elimPatched) {
     helpEl.dataset.elimPatched = '1';
-    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/길게 누르기/Shift+1~5: 보기 소거</b>';
+    helpEl.innerHTML = '1~5번 키: 정답 선택 · <b>우클릭/✕/Shift+1~5: 보기 소거 (저장됨)</b>';
   }
 
   // 이미지 클릭 시 라이트박스 확대 연결
