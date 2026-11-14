@@ -2471,65 +2471,74 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   color: var(--c-sec) !important;
 }
 
-/* 소거 ✕ 버튼 */
-.mcq-elim-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px;
-  height: 26px;
-  margin-left: 8px;
-  border-radius: var(--r-pill, 999px);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--c-ter);
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  flex-shrink: 0;
-}
-.mcq-elim-btn:hover {
-  background: rgba(255, 59, 48, 0.12);
-  color: var(--c-red, #FF3B30);
-}
-.mcq-option.eliminated .mcq-elim-btn {
-  color: var(--c-red, #FF3B30);
-  background: rgba(255, 59, 48, 0.1);
+/* 보기 우측 액션 컨테이너 (소거 버튼 + OX 저장 버튼 가로 정렬) */
+.mcq-option-actions {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-left: 8px !important;
+  flex-shrink: 0 !important;
+  user-select: none !important;
 }
 
-/* OX 보조 저장 버튼 - 앞면(문제 풀이 중)에는 숨김 */
+/* 보기 소거(✕) 버튼 */
+.mcq-elim-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: var(--r-pill, 999px) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: var(--c-sec) !important;
+  background: var(--c-fill) !important;
+  border: 0.5px solid var(--c-sep) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  flex-shrink: 0 !important;
+}
+.mcq-elim-btn:hover {
+  background: rgba(255, 59, 48, 0.14) !important;
+  border-color: var(--c-red, #FF3B30) !important;
+  color: var(--c-red, #FF3B30) !important;
+}
+.mcq-option.eliminated .mcq-elim-btn {
+  color: var(--c-red, #FF3B30) !important;
+  background: rgba(255, 59, 48, 0.18) !important;
+  border-color: var(--c-red, #FF3B30) !important;
+}
+
+/* OX 보조 저장 버튼 - 앞면/뒷면 모두 상시 노출 */
 .mcq-ox-btn {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  height: 26px;
-  padding: 0 10px;
-  margin-left: 8px;
-  border-radius: var(--r-pill, 999px);
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--c-sec);
-  background: var(--c-fill);
-  border: 0.5px solid var(--c-sep);
-  cursor: pointer;
-  transition: all 0.15s ease;
-  white-space: nowrap;
-  flex-shrink: 0;
-  user-select: none;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 26px !important;
+  padding: 0 9px !important;
+  border-radius: var(--r-pill, 999px) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: var(--c-sec) !important;
+  background: var(--c-fill) !important;
+  border: 0.5px solid var(--c-sep) !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  user-select: none !important;
 }
-/* 정답 확인(뒷면/해설, #card.rev)일 때만 우측에 노출 */
-#card.rev .mcq-ox-btn {
-  display: inline-flex;
-  animation: fadeInOx 0.15s ease;
+.mcq-ox-btn:hover {
+  background: var(--c-acc-tint) !important;
+  border-color: var(--c-acc) !important;
+  color: var(--c-acc) !important;
 }
-@keyframes fadeInOx {
-  from { opacity: 0; transform: scale(0.92); }
-  to { opacity: 1; transform: scale(1); }
-}
-.mcq-ox-btn:hover, .mcq-ox-btn.saved {
-  background: var(--c-acc-tint);
-  color: var(--c-acc);
-  border-color: var(--c-acc);
+/* 저장(체크)된 상태: 선명한 블루 배경 + 흰색 텍스트 + 그림자 */
+.mcq-ox-btn.saved {
+  background: var(--c-acc, #007AFF) !important;
+  color: #ffffff !important;
+  border-color: var(--c-acc, #007AFF) !important;
+  box-shadow: 0 1px 5px rgba(0, 122, 255, 0.35) !important;
 }
 
 .mcq-help {
@@ -3199,14 +3208,16 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
 /* 오답 지문 (빨간색 계열) */
 .mcq-stmt-reason.is-incorrect {
   color: var(--c-red, #FF3B30) !important;
-  background: rgba(255, 59, 48, 0.12) !important;
-  border-left: 3.5px solid var(--c-red, #FF3B30) !important;
+  background: rgba(255, 59, 48, 0.15) !important;
+  border: 1px solid rgba(255, 59, 48, 0.25) !important;
+  border-left: 4px solid var(--c-red, #FF3B30) !important;
 }
 /* 옳은 지문 (초록색 계열) */
 .mcq-stmt-reason.is-correct {
   color: var(--c-green, #34C759) !important;
-  background: rgba(52, 199, 89, 0.12) !important;
-  border-left: 3.5px solid var(--c-green, #34C759) !important;
+  background: rgba(52, 199, 89, 0.15) !important;
+  border: 1px solid rgba(52, 199, 89, 0.25) !important;
+  border-left: 4px solid var(--c-green, #34C759) !important;
 }
 
 /* 정답 공개 시 상태 뱃지 O / X 전용 색상 */
@@ -8235,6 +8246,7 @@ async function loadData(){
     if(c){ try{ DATA=(JSON.parse(c).cards)||[]; toast('오프라인 — 캐시 카드로 진행'); }catch(e2){} }
   }
   applyCustomEditsToData();
+  restoreSavedOxCards();
   BYID={}; const tags=new Set(), typs=new Set(), subjs=new Set();
   DATA.forEach((c,i)=>{ c._i=i; BYID[c.id]=c; (c.tags||[]).forEach(t=>tags.add(t)); if(c.typ) typs.add(c.typ); if(c.subj) subjs.add(c.subj); });
   ALLTAGS=[...tags].sort(); ALLTYPS=[...typs].sort();
@@ -10117,9 +10129,13 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
       const idx = DATA.findIndex(x => x.id === oxId);
       if (idx !== -1) DATA.splice(idx, 1);
     }
+    if (typeof BYID !== 'undefined' && BYID[oxId]) {
+      delete BYID[oxId];
+    }
     if (btn) {
       btn.classList.remove('saved');
       btn.textContent = 'OX';
+      btn.title = '이 선지를 OX 카드로 저장';
     }
     toast('OX 저장을 해제했어요');
   } else {
@@ -10161,10 +10177,14 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
         DATA.push(oxCard);
       }
     }
+    if (typeof BYID !== 'undefined') {
+      BYID[oxId] = oxCard;
+    }
 
     if (btn) {
       btn.classList.add('saved');
-      btn.textContent = '저장됨';
+      btn.textContent = '✓ OX';
+      btn.title = '저장됨 (클릭하여 취소)';
     }
     toast('OX 카드로 저장했어요 (' + oxAnswer + ')');
   }
@@ -10408,21 +10428,6 @@ function runCardScripts(container) {
       btn.classList.remove('eliminated');
     }
 
-    // 모바일/터치용 소거 ✕ 버튼 주입
-    if (!btn.querySelector('.mcq-elim-btn')) {
-      const elimBtn = document.createElement('span');
-      elimBtn.className = 'mcq-elim-btn';
-      elimBtn.innerHTML = '✕';
-      elimBtn.title = '이 보기 흐리게 소거 (우클릭 또는 탭)';
-      elimBtn.onclick = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        if (revealed) return;
-        toggleEliminateOption(cardId, orig, btn);
-      };
-      btn.appendChild(elimBtn);
-    }
-
     // 마우스 우클릭 -> 소거 토글
     btn.oncontextmenu = (e) => {
       e.preventDefault();
@@ -10448,18 +10453,42 @@ function runCardScripts(container) {
     btn.ontouchmove = () => { if (touchTimer) clearTimeout(touchTimer); };
     btn.ontouchcancel = () => { if (touchTimer) clearTimeout(touchTimer); };
 
-    // 4. OX 저장 캡슐 버튼
+    // 3. 우측 액션 컨테이너: 소거(✕) 버튼 + OX 저장 버튼 가로 정렬
+    let actionsBox = btn.querySelector('.mcq-option-actions');
+    if (!actionsBox) {
+      actionsBox = document.createElement('div');
+      actionsBox.className = 'mcq-option-actions';
+      btn.appendChild(actionsBox);
+    }
+
+    // 3-1. 소거 ✕ 버튼
+    let elimBtn = actionsBox.querySelector('.mcq-elim-btn');
+    if (!elimBtn) {
+      elimBtn = document.createElement('span');
+      elimBtn.className = 'mcq-elim-btn';
+      elimBtn.innerHTML = '✕';
+      elimBtn.title = '이 보기 흐리게 소거 (우클릭 또는 탭)';
+      elimBtn.onclick = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        if (revealed) return;
+        toggleEliminateOption(cardId, orig, btn);
+      };
+      actionsBox.appendChild(elimBtn);
+    }
+
+    // 3-2. OX 저장 캡슐 버튼 (앞면/뒷면 모두 상시 노출)
     const qid = c.qid || (c.id && c.id.replace('mgmt_', '')) || '0000';
-    let oxBtn = btn.querySelector('.mcq-ox-btn');
+    let oxBtn = actionsBox.querySelector('.mcq-ox-btn');
     if (!oxBtn) {
       oxBtn = document.createElement('span');
       oxBtn.className = 'mcq-ox-btn';
-      btn.appendChild(oxBtn);
+      actionsBox.appendChild(oxBtn);
     }
     const alreadySaved = isOxSaved(qid, orig);
     oxBtn.className = 'mcq-ox-btn' + (alreadySaved ? ' saved' : '');
-    oxBtn.textContent = alreadySaved ? '저장됨' : 'OX';
-    oxBtn.title = '이 선지를 OX 카드로 저장';
+    oxBtn.textContent = alreadySaved ? '✓ OX' : 'OX';
+    oxBtn.title = alreadySaved ? '저장됨 (클릭하여 취소)' : '이 선지를 OX 카드로 저장';
     oxBtn.onclick = (e) => {
       e.stopPropagation();
       e.preventDefault();
@@ -11513,10 +11542,7 @@ function resetMcqAnswerHighlight(c) {
       }
     });
 
-    // 뒷면 전용 OX 저장 버튼 숨김
-    frontEl.querySelectorAll('.mcq-ox-btn').forEach(b => {
-      b.style.display = 'none';
-    });
+    // OX 저장 버튼은 앞면/뒷면 모두 상시 노출 유지
 
     // 2. 진술문 아이템 하이라이트 & 오답사유 완전 리셋 (원래 O/X 판단 상태 복원)
     frontEl.querySelectorAll('.mcq-statement-item').forEach(item => {
@@ -12673,7 +12699,23 @@ function renderSessRows(){
     };
     box.appendChild(aEl);
   }
-  if(!sessions.length && !againCards.length) box.innerHTML='<div class="empty-note" style="padding:20px">세션이 없어요 — 오른쪽 위 ＋로 만들어요</div>';
+
+  // ⭐ 내가 저장한 OX 선지 세션 카드 (모아보기 & 모아풀기)
+  const oxMap = getOxCardsMap();
+  const oxCards = Object.values(oxMap);
+  if (oxCards.length) {
+    const oxEl = document.createElement('button'); oxEl.className = 'sess2';
+    oxEl.innerHTML = `<span class="s2-dot" style="background:var(--c-acc, #007AFF)"></span>
+      <span class="s2-b"><span class="s2-n">⭐ 내가 저장한 OX 선지</span><span class="s2-s" style="color:var(--c-acc, #007AFF)">체크한 선지만 모아서 OX 풀기</span></span>
+      <span class="s2-r"><span class="s2-cnt"><b style="color:var(--c-acc, #007AFF)">${oxCards.length.toLocaleString()}</b><small>장</small></span><svg class="s2-chev" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m1.5 1.5 6 6-6 6"/></svg></span>`;
+    oxEl.onclick = () => {
+      sessions = sessions.filter(x => !x.temp || x.name !== '내가 저장한 OX 선지' || sessRemain(x) > 0);
+      startAdHoc(oxCards, '내가 저장한 OX 선지', `저장한 선지 ${oxCards.length}장 OX 풀기 시작`, true, true);
+    };
+    box.appendChild(oxEl);
+  }
+
+  if(!sessions.length && !againCards.length && !oxCards.length) box.innerHTML='<div class="empty-note" style="padding:20px">세션이 없어요 — 오른쪽 위 ＋로 만들어요</div>';
 }
 /* ═══════════════ 스터디 현황 (10-01 동하 · 친구가 쓰는 안키 애드온 「스터디 현황」과 같은 방) ═══════════════
    애드온 = 오늘 공부 시간·답한 수·목표·상태를 30초마다 방(Supabase)에 올리고, 방 사람들의 같은 값을 받아 보여 준다.
