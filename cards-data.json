@@ -2965,14 +2965,14 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0090\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0090</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업 집단화에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔(cartel)은 동종기업 간 경 쟁을 배제하고 시장을 통 제하는데 그 목적을 두고 있으며, 경제적, 법률적으로 봤</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업 집단화의 방법으로는 수직적 통합과 수평적 통합 이 있으며, 그 중 수평적 통합은 같은 산업에서 활동 단</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">자동차 제조 회사에서 자동차 판매에 필요한 금융리스 사를 인수한다면 이는 수직적 통합 중 전방통합에 속한</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업 집단화는 시장통제와 경영합리화라는 목적을 지니 고 있으며, 이는 시장의 과점적 지배와 규모의 경제 실현 과 같은 경제적 영향을 미치게 된다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0090\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 카르텔(ca貳e|)에 속한 기업들은 법률적꼉제적 독립성을 유지한다.</div>\n  </div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0090\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0090</span>\n    <span class=\"source-badge\">2021 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업 집단화에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">카르텔(cartel)은 동종기업 간 경쟁을 배제하고 시장을 통제하는데 그 목적을 두고 있으며, 경제적, 법률적으로 봤을 때 독립성을 유지하고 있지 않다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">기업 집단화의 방법으로는 수직적 통합과 수평적 통합이 있으며, 그 중 수평적 통합은 같은 산업에서 활동 단계가 비슷한 기업 간의 결합을 의미한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">자동차 제조 회사에서 자동차 판매에 필요한 금융리스사를 인수한다면 이는 수직적 통합 중 전방통합에 속한다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업 집단화는 시장통제와 경영합리화라는 목적을 지니고 있으며, 이는 시장의 과점적 지배와 규모의 경제 실현과 같은 경제적 영향을 미치게 된다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0090\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① 카르텔(cartel)에 속한 기업들은 법률적·경제적 독립성을 유지한다.</div>\n  </div>\n</div>",
       "stemText": "기업 집단화에 대한 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 카르텔(cartel)은 동종기업 간 경 쟁을 배제하고 시장을 통 제하는데 그 목적을 두고 있으며, 경제적, 법률적으로 봤",
-        "2번: 기업 집단화의 방법으로는 수직적 통합과 수평적 통합 이 있으며, 그 중 수평적 통합은 같은 산업에서 활동 단",
-        "3번: 자동차 제조 회사에서 자동차 판매에 필요한 금융리스 사를 인수한다면 이는 수직적 통합 중 전방통합에 속한",
-        "4번: 기업 집단화는 시장통제와 경영합리화라는 목적을 지니 고 있으며, 이는 시장의 과점적 지배와 규모의 경제 실현 과 같은 경제적 영향을 미치게 된다."
+        "1번: 카르텔(cartel)은 동종기업 간 경쟁을 배제하고 시장을 통제하는데 그 목적을 두고 있으며, 경제적, 법률적으로 봤을 때 독립성을 유지하고 있지 않다.",
+        "2번: 기업 집단화의 방법으로는 수직적 통합과 수평적 통합이 있으며, 그 중 수평적 통합은 같은 산업에서 활동 단계가 비슷한 기업 간의 결합을 의미한다.",
+        "3번: 자동차 제조 회사에서 자동차 판매에 필요한 금융리스사를 인수한다면 이는 수직적 통합 중 전방통합에 속한다.",
+        "4번: 기업 집단화는 시장통제와 경영합리화라는 목적을 지니고 있으며, 이는 시장의 과점적 지배와 규모의 경제 실현과 같은 경제적 영향을 미치게 된다."
       ],
       "note": "정답: 1번\n[지문] 기업 집단화에 대한 설명으로 가장 옳지 않은 것은?",
       "search": "문제 0090 | 1.01 경영학일반 |  | 기업 집단화에 대한 설명으로 가장 옳지 않은 것은? | 1번: 카르텔(cartel)은 동종기업 간 경 쟁을 배제하고 시장을 통 제하는데 그 목적을 두고 있으며, 경제적, 법률적으로 봤 | 2번: 기업 집단화의 방법으로는 수직적 통합과 수평적 통합 이 있으며, 그 중 수평적 통합은 같은 산업에서 활동 단 | 3번: 자동차 제조 회사에서 자동차 판매에 필요한 금융리스 사를 인수한다면 이는 수직적 통합 중 전방통합에 속한 | 4번: 기업 집단화는 시장통제와 경영합리화라는 목적을 지니 고 있으며, 이는 시장의 과점적 지배와 규모의 경제 실현 과 같은 경제적 영향을 미치게 된다.",
@@ -2980,7 +2980,7 @@
         "1.01 경영학일반",
         "문 0090"
       ],
-      "explanationText": "① 카르텔(ca貳e|)에 속한 기업들은 법률적꼉제적 독립성을 유지한다.",
+      "explanationText": "① 카르텔(cartel)에 속한 기업들은 법률적·경제적 독립성을 유지한다.",
       "probPage": 34,
       "ansPage": 9,
       "probPdf": "prob_01.pdf",
@@ -3638,14 +3638,14 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0111\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0111</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사회적 책임은 기업의 소유주뿐만 아니라 기업의 모든 이해관계 당사자들의 복리와 행복에 대한 기업의 관심</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">사회적 책임은 청럼, 공정，존중 등의 기본 원칙을 충실 히 이행하려는 책임감에서 비롯된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">미국 경제학자인 밀턴 프리드먼(Milton Friedman)은 시 장에서의 경쟁과 이윤 추구뿐만 아니라 기업의 사회적</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">자선 재단 운영, 사회적 약자 고용, 환경보호 등은 기업 의 사회적 책임 성과라고 할 수 있다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0111\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">①<br>① 기업의 사회적 책임을 강조하는 견해는 새유일슨(p.. Samuelson)이 주장한 사회경제적 관점이다. 반면 일든 프리드먼은 기업의 사회적 책임은 이윤을 극대화하는 것 이라고 본 전통적 관ä(classacal Vlew)을 주장했다.</div>\n  </div>\n</div>",
-      "stemText": "기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0111\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0111</span>\n    <span class=\"source-badge\">2022 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">다음 중 기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">사회적 책임은 기업의 소유주뿐만 아니라 기업의 모든 이해관계 당사자들의 복리와 행복에 대한 기업의 관심과 배려에 바탕을 두고 있다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">사회적 책임은 청렴, 공정, 존중 등의 기본 원칙을 충실히 이행하려는 책임감에서 비롯된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">미국 경제학자인 밀턴 프리드먼(Milton Friedman)은 시장에서의 경쟁과 이윤 추구뿐만 아니라 기업의 사회적 책임을 강조했다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">자선 재단 운영, 사회적 약자 고용, 환경보호 등은 기업의 사회적 책임 성과라고 할 수 있다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0111\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">③ 기업의 사회적 책임을 강조하는 견해는 새뮤얼슨(P. Samuelson)이 주장한 사회경제적 관점이다. 반면 밀턴 프리드먼은 기업의 사회적 책임은 이윤을 극대화하는 것이라고 본 전통적 관점(classical view)을 주장했다.</div>\n  </div>\n</div>",
+      "stemText": "다음 중 기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것은?",
       "choices": [
-        "1번: 사회적 책임은 기업의 소유주뿐만 아니라 기업의 모든 이해관계 당사자들의 복리와 행복에 대한 기업의 관심",
-        "2번: 사회적 책임은 청럼, 공정，존중 등의 기본 원칙을 충실 히 이행하려는 책임감에서 비롯된다.",
-        "3번: 미국 경제학자인 밀턴 프리드먼(Milton Friedman)은 시 장에서의 경쟁과 이윤 추구뿐만 아니라 기업의 사회적",
-        "4번: 자선 재단 운영, 사회적 약자 고용, 환경보호 등은 기업 의 사회적 책임 성과라고 할 수 있다."
+        "1번: 사회적 책임은 기업의 소유주뿐만 아니라 기업의 모든 이해관계 당사자들의 복리와 행복에 대한 기업의 관심과 배려에 바탕을 두고 있다.",
+        "2번: 사회적 책임은 청렴, 공정, 존중 등의 기본 원칙을 충실히 이행하려는 책임감에서 비롯된다.",
+        "3번: 미국 경제학자인 밀턴 프리드먼(Milton Friedman)은 시장에서의 경쟁과 이윤 추구뿐만 아니라 기업의 사회적 책임을 강조했다.",
+        "4번: 자선 재단 운영, 사회적 약자 고용, 환경보호 등은 기업의 사회적 책임 성과라고 할 수 있다."
       ],
       "note": "정답: 3번\n[지문] 다음 중 기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것 으2",
       "search": "문제 0111 | 1.01 경영학일반 |  | 기업의 사회적 책임에 대한 설명으로 가장 옳지 않은 것은? | 1번: 사회적 책임은 기업의 소유주뿐만 아니라 기업의 모든 이해관계 당사자들의 복리와 행복에 대한 기업의 관심 | 2번: 사회적 책임은 청럼, 공정，존중 등의 기본 원칙을 충실 히 이행하려는 책임감에서 비롯된다. | 3번: 미국 경제학자인 밀턴 프리드먼(Milton Friedman)은 시 장에서의 경쟁과 이윤 추구뿐만 아니라 기업의 사회적 | 4번: 자선 재단 운영, 사회적 약자 고용, 환경보호 등은 기업 의 사회적 책임 성과라고 할 수 있다.",
@@ -3653,7 +3653,7 @@
         "1.01 경영학일반",
         "문 0111"
       ],
-      "explanationText": "①\n① 기업의 사회적 책임을 강조하는 견해는 새유일슨(p.. Samuelson)이 주장한 사회경제적 관점이다. 반면 일든 프리드먼은 기업의 사회적 책임은 이윤을 극대화하는 것 이라고 본 전통적 관ä(classacal Vlew)을 주장했다.",
+      "explanationText": "③ 기업의 사회적 책임을 강조하는 견해는 새뮤얼슨(P. Samuelson)이 주장한 사회경제적 관점이다. 반면 밀턴 프리드먼은 기업의 사회적 책임은 이윤을 극대화하는 것이라고 본 전통적 관점(classical view)을 주장했다.",
       "probPage": 38,
       "ansPage": 11,
       "probPdf": "prob_01.pdf",
@@ -4057,15 +4057,15 @@
       "qid": "0124",
       "subj": "1.01 경영학일반",
       "typ": "객관식",
-      "correct": 1,
-      "front": "<div class=\"mcq-card\" data-qid=\"0124\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0124</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">다음 증 가장 적&#x27;』하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제에는 외부경제효과와 외부* 성제효과가 숀재하저 되는대 주로 외부항경세효과가 주는 사성서 성상 때본</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">현실적으로 시상의 많은 부분에서 普상성하 싱생이 이 루어지고 있기 때문이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사회률 구성하는 모든 요인듈의 상호 이손싱이 야화칙 고 있어 각 구성원들의 책임이 강조된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업의 영향력이 상대적으로 중대되고 있기 때문이다</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0124\" data-correct=\"1\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">①</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">정보통신기술과 물류체계의 발달, 전문성의 증대, 산업의 고도화 등은 사회를 구성하는 모든 요인들의 상호의존성을 더욱 심화시키고 있다. 이에 따라 사회의 각 요인 또는 구성원들에게 서로를 위한 협력의 필요성이 더욱 강조되고 있으며 사회에 재화와 용역을 제공하는 기능을 하는 기업에게도 이러한 측면에서 책임이 요구된다.</div>\n  </div>\n</div>",
-      "stemText": "다음 증 가장 적'』하지 않은 것은?",
+      "correct": 3,
+      "front": "<div class=\"mcq-card\" data-qid=\"0124\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0124</span>\n    <span class=\"source-badge\">2024 5급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">기업의 사회적 책임이 요구되는 배경으로 다음 중 가장 적절하지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">경제에는 외부경제효과와 외부불경제효과가 존재하게 되는데 주로 외부불경제효과가 주는 부정적 영향 때문이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">현실적으로 시장의 많은 부분에서 불공정한 경쟁이 이루어지고 있기 때문이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사회를 구성하는 모든 요인들의 상호 의존성이 약화되고 있어 각 구성원들의 책임이 강조된다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">기업의 영향력이 상대적으로 증대되고 있기 때문이다.</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0124\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">③ 정보통신기술과 물류체계의 발달, 전문성의 증대, 산업의 고도화 등은 사회를 구성하는 모든 요인들의 상호의존성을 더욱 심화시키고 있다. 이에 따라 사회의 각 요인 또는 구성원들에게 서로를 위한 협력의 필요성이 더욱 강조되고 있으며 사회에 재화와 용역을 제공하는 기능을 하는 기업에게도 이러한 측면에서 책임이 요구된다.</div>\n  </div>\n</div>",
+      "stemText": "기업의 사회적 책임이 요구되는 배경으로 다음 중 가장 적절하지 않은 것은?",
       "choices": [
-        "1번: 경제에는 외부경제효과와 외부* 성제효과가 숀재하저 되는대 주로 외부항경세효과가 주는 사성서 성상 때본",
-        "2번: 현실적으로 시상의 많은 부분에서 普상성하 싱생이 이 루어지고 있기 때문이다.",
-        "3번: 사회률 구성하는 모든 요인듈의 상호 이손싱이 야화칙 고 있어 각 구성원들의 책임이 강조된다.",
-        "4번: 기업의 영향력이 상대적으로 중대되고 있기 때문이다"
+        "1번: 경제에는 외부경제효과와 외부불경제효과가 존재하게 되는데 주로 외부불경제효과가 주는 부정적 영향 때문이다.",
+        "2번: 현실적으로 시장의 많은 부분에서 불공정한 경쟁이 이루어지고 있기 때문이다.",
+        "3번: 사회를 구성하는 모든 요인들의 상호 의존성이 약화되고 있어 각 구성원들의 책임이 강조된다.",
+        "4번: 기업의 영향력이 상대적으로 증대되고 있기 때문이다."
       ],
       "note": "정답: 1번\n[지문] 기업의 사회적 책임이 요구되는 배경으로 다음 중 가장 적'』하지 않은 것은?",
       "search": "문제 0124 | 1.01 경영학일반 |  | 다음 증 가장 적'』하지 않은 것은? | 1번: 경제에는 외부경제효과와 외부* 성제효과가 숀재하저 되는대 주로 외부항경세효과가 주는 사성서 성상 때본 | 2번: 현실적으로 시상의 많은 부분에서 普상성하 싱생이 이 루어지고 있기 때문이다. | 3번: 사회률 구성하는 모든 요인듈의 상호 이손싱이 야화칙 고 있어 각 구성원들의 책임이 강조된다. | 4번: 기업의 영향력이 상대적으로 중대되고 있기 때문이다",
@@ -4073,7 +4073,7 @@
         "1.01 경영학일반",
         "문 0124"
       ],
-      "explanationText": "정보통신기술과 물류체계의 발달, 전문성의 증대, 산업의 고도화 등은 사회를 구성하는 모든 요인들의 상호의존성을 더욱 심화시키고 있다. 이에 따라 사회의 각 요인 또는 구성원들에게 서로를 위한 협력의 필요성이 더욱 강조되고 있으며 사회에 재화와 용역을 제공하는 기능을 하는 기업에게도 이러한 측면에서 책임이 요구된다.",
+      "explanationText": "③ 정보통신기술과 물류체계의 발달, 전문성의 증대, 산업의 고도화 등은 사회를 구성하는 모든 요인들의 상호의존성을 더욱 심화시키고 있다. 이에 따라 사회의 각 요인 또는 구성원들에게 서로를 위한 협력의 필요성이 더욱 강조되고 있으며 사회에 재화와 용역을 제공하는 기능을 하는 기업에게도 이러한 측면에서 책임이 요구된다.",
       "probPage": 40,
       "ansPage": 12,
       "probPdf": "prob_01.pdf",
