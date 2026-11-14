@@ -10192,28 +10192,21 @@ function runCardScripts(container) {
   }
   const optsEl = container.querySelector('.mcq-options');
   if (optsEl && !optsEl.classList.contains('compact')) {
+    const isSplit = mcqCardEl ? mcqCardEl.classList.contains('split-layout') : false;
     const optBtns = [...optsEl.querySelectorAll('.mcq-option')];
     const maxLen = Math.max(...optBtns.map(b => {
       const t = b.querySelector('.mcq-choice-text');
       return t ? t.textContent.trim().length : 0;
     }), 0);
-    if (maxLen > 0 && maxLen <= 38) {
+    // split-layout에서는 1열 정렬로 글자 잘림 방지, 상하 모드 & 4지선다 이하 & 14자 이하 극단적 단어형일 때만 2열 허용
+    if (!isSplit && optBtns.length <= 4 && maxLen > 0 && maxLen <= 14) {
       optsEl.classList.add('grid-2col');
+    } else {
+      optsEl.classList.remove('grid-2col');
     }
   }
 
-  // 1. 앞면 문제 번호 옆 문제 PDF 이동 버튼 주입
-  const qNumEl = container.querySelector('.question-number');
-  if (qNumEl && !container.querySelector('.pdf-jump-btn.prob-btn') && pages.probPage) {
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'pdf-jump-btn prob-btn';
-    btn.innerHTML = `문제 PDF (p.${pages.probPage}) ↗`;
-    btn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
-    btn.onclick = (e) => openPdf('prob', pages, e);
-    qNumEl.parentNode.insertBefore(btn, qNumEl.nextSibling);
-  }
-
+  // (앞면 문제 PDF 이동 버튼은 상단 바 #btnPdfFront 로 일원화하여 헤더 중복 제거)
   // 2. 뒷면 정답 배지 옆 문제/답지 PDF 이동 버튼 주입
   const ansBadge = container.querySelector('.mcq-answer-badge');
   if (ansBadge && !container.querySelector('.pdf-btn-group')) {
@@ -10254,20 +10247,7 @@ function runCardScripts(container) {
       btn.classList.remove('eliminated');
     }
 
-    // 모바일/터치용 소거 버튼 주입
-    if (!btn.querySelector('.mcq-elim-btn')) {
-      const elimBtn = document.createElement('span');
-      elimBtn.className = 'mcq-elim-btn';
-      elimBtn.innerHTML = '✕';
-      elimBtn.title = '이 보기 흐리게 소거 (우클릭 또는 탭)';
-      elimBtn.onclick = (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        if (revealed) return;
-        toggleEliminateOption(cardId, orig, btn);
-      };
-      btn.appendChild(elimBtn);
-    }
+    // (DESIGN.md §7.4: 칸에 보조 버튼을 얹지 않음 -> 우클릭 및 길게 누르기(롱프레스), Shift+1~5로 소거 지원)
 
     // 마우스 우클릭 -> 소거 토글
     btn.oncontextmenu = (e) => {
@@ -10521,7 +10501,7 @@ function rebuildCardHtml(c) {
   let optLayoutClasses = [];
   if (!hasText) {
     optLayoutClasses.push('compact');
-  } else if (maxChoiceLen <= 38) {
+  } else if (!isSplitOn && choicesList.length <= 4 && maxChoiceLen <= 14) {
     optLayoutClasses.push('grid-2col');
   }
   const optClassStr = optLayoutClasses.join(' ');
@@ -11149,7 +11129,10 @@ function reveal(){
 function resetMcqAnswerHighlight(c) {
   const frontEl = $('cFront');
   if (frontEl) {
-    // 1. 객관식 보기 버튼 리셋
+    const cardId = c ? (c.id || ('mgmt_' + (c.qid || ''))) : null;
+    const elimList = cardId ? getCardEliminated(cardId) : [];
+
+    // 1. 객관식 보기 버튼 리셋 (정답 초록색/빨간색 표시 제거 및 소거/선택 복원)
     frontEl.querySelectorAll('.mcq-option').forEach(btn => {
       btn.classList.remove('correct', 'incorrect');
       const orig = Number(btn.dataset.original);
@@ -11158,6 +11141,16 @@ function resetMcqAnswerHighlight(c) {
       } else {
         btn.classList.remove('selected');
       }
+      if (elimList.includes(orig)) {
+        btn.classList.add('eliminated');
+      } else {
+        btn.classList.remove('eliminated');
+      }
+    });
+
+    // 뒷면 전용 OX 저장 버튼 숨김
+    frontEl.querySelectorAll('.mcq-ox-btn').forEach(b => {
+      b.style.display = 'none';
     });
 
     // 2. RemNote 진술문 아이템 하이라이트 & 오답사유 완전 리셋 (원래 선택 상태 복원)
@@ -11182,6 +11175,12 @@ function resetMcqAnswerHighlight(c) {
   // 3. 뒷면 요약 배너 리셋
   const summaryEl = document.querySelector('.mcq-stmt-summary');
   if (summaryEl) summaryEl.innerHTML = '';
+
+  // 4. 채점 버튼 가이드 링 리셋
+  const goodBtn = $('gGood');
+  const againBtn = $('gAgain');
+  if (goodBtn) goodBtn.style.boxShadow = '';
+  if (againBtn) againBtn.style.boxShadow = '';
 }
 
 function unreveal(){   // 뒷면 → 앞면. 항목 체크(itemMarks)와 응답 시간(shownAt)은 건드리지 않는다 —
@@ -11191,6 +11190,7 @@ function unreveal(){   // 뒷면 → 앞면. 항목 체크(itemMarks)와 응답 
   $('gradeBar').classList.remove('on');
   $('cMeta').classList.remove('on');
   $('card').classList.remove('rev');
+  resetMcqAnswerHighlight(c);                // 🔴 뒷면 숨길 때 선지 정답(초록색/빨간색) 하이라이트 완전 제거
   renderHintBox(c);                          // 앞면으로 돌아오면 칩도 돌아온다(연 것은 연 채로)
   showDiag(c,false);
   $('cardScroll').scrollTop=0;
