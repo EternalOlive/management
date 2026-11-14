@@ -10798,6 +10798,7 @@ function showCard(){
   try{ scRenderSolveBadge(); }catch(e){}
   renderLastActionChip();
   renderLineDots();
+  resetMcqAnswerHighlight(c);
   $('cardScroll').scrollTop=0;
   saveResume();                  // 회독본 갔다 돌아올 자리 (앞면 상태)
 }
@@ -10940,6 +10941,45 @@ function reveal(){
       bw.scrollIntoView({behavior:'smooth', block:'nearest'});
   }
 }
+
+function resetMcqAnswerHighlight(c) {
+  const frontEl = $('cFront');
+  if (frontEl) {
+    // 1. 객관식 보기 버튼 리셋
+    frontEl.querySelectorAll('.mcq-option').forEach(btn => {
+      btn.classList.remove('correct', 'incorrect');
+      const orig = Number(btn.dataset.original);
+      if (userSelectedChoice === orig) {
+        btn.classList.add('selected');
+      } else {
+        btn.classList.remove('selected');
+      }
+    });
+
+    // 2. RemNote 진술문 아이템 하이라이트 & 오답사유 완전 리셋 (원래 선택 상태 복원)
+    frontEl.querySelectorAll('.mcq-statement-item').forEach(item => {
+      const stmtKey = item.dataset.stmt;
+      item.classList.remove('result-hit', 'result-miss', 'result-missed', 'result-passed');
+      
+      // 주입된 오답 사유 제거
+      const rEl = item.querySelector('.mcq-stmt-reason');
+      if (rEl) rEl.remove();
+
+      // 원래 선택 상태로 복원
+      const isSelected = userSelectedStatements.includes(stmtKey);
+      item.classList.toggle('selected', isSelected);
+      const stBadge = item.querySelector('.mcq-stmt-status');
+      if (stBadge) {
+        stBadge.textContent = isSelected ? '선택됨' : '선택';
+      }
+    });
+  }
+
+  // 3. 뒷면 요약 배너 리셋
+  const summaryEl = document.querySelector('.mcq-stmt-summary');
+  if (summaryEl) summaryEl.innerHTML = '';
+}
+
 function unreveal(){   // 뒷면 → 앞면. 항목 체크(itemMarks)와 응답 시간(shownAt)은 건드리지 않는다 —
   const c=cur(); if(!c||!revealed)return;   // 답을 봤다는 사실은 그대로 남아야 한다
   revealed=false;
