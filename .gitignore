@@ -1,5 +1,10 @@
-# Large scanned PDF files
+# Large scanned PDF files (ignore root large PDFs, but track split PDFs in pdf/)
 *.pdf
+!pdf/*.pdf
+!pdf/**/*.pdf
+
+# Agents & temp
+.agents/
 
 # Backups & temp files
 *.bak

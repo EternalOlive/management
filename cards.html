@@ -9777,9 +9777,9 @@ function runCardScripts(container) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'pdf-jump-btn prob-btn';
-    btn.innerHTML = `문제 PDF (p.${pages.probPage})`;
+    btn.innerHTML = `문제 PDF (p.${pages.probPage}) ↗`;
     btn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
-    btn.onclick = (e) => openPdf('prob', pages.probPage, e);
+    btn.onclick = (e) => openPdf('prob', pages, e);
     qNumEl.parentNode.insertBefore(btn, qNumEl.nextSibling);
   }
 
@@ -9792,18 +9792,18 @@ function runCardScripts(container) {
       const pBtn = document.createElement('button');
       pBtn.type = 'button';
       pBtn.className = 'pdf-jump-btn prob-btn';
-      pBtn.innerHTML = `문제 PDF (p.${pages.probPage})`;
+      pBtn.innerHTML = `문제 PDF (p.${pages.probPage}) ↗`;
       pBtn.title = `문제 PDF ${pages.probPage}페이지로 이동`;
-      pBtn.onclick = (e) => openPdf('prob', pages.probPage, e);
+      pBtn.onclick = (e) => openPdf('prob', pages, e);
       grp.appendChild(pBtn);
     }
     if (pages.ansPage) {
       const aBtn = document.createElement('button');
       aBtn.type = 'button';
       aBtn.className = 'pdf-jump-btn ans-btn';
-      aBtn.innerHTML = `답지 PDF (p.${pages.ansPage})`;
+      aBtn.innerHTML = `답지 PDF (p.${pages.ansPage}) ↗`;
       aBtn.title = `답지 PDF ${pages.ansPage}페이지로 이동`;
-      aBtn.onclick = (e) => openPdf('ans', pages.ansPage, e);
+      aBtn.onclick = (e) => openPdf('ans', pages, e);
       grp.appendChild(aBtn);
     }
     if (grp.children.length > 0) {
@@ -10362,8 +10362,8 @@ function showCard(){
     if(pPages && pPages.probPage){
       pdfFront.style.display = 'inline-flex';
       pdfFront.textContent = `문제 PDF (p.${pPages.probPage}) ↗`;
-      pdfFront.href = getPdfUrl('prob', pPages.probPage);
-      pdfFront.onclick = (e) => openPdf('prob', pPages.probPage, e);
+      pdfFront.href = getPdfUrl('prob', pPages);
+      pdfFront.onclick = (e) => openPdf('prob', pPages, e);
     } else {
       pdfFront.style.display = 'none';
     }
@@ -14637,11 +14637,11 @@ function renderCardSheet(){
                 상세 시트에는 없어서 카드 목록에서 열면 갈 데가 없었다 (동하 2026-08-23). */
       const pages = getCardPdfPages(c);
       if (pages && pages.probPage) {
-        const probHref = getPdfUrl('prob', pages.probPage);
-        let h = `<div class="cs-hoedok"><a href="${probHref}" target="_blank" onclick="openPdf('prob', ${pages.probPage}, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
+        const probHref = getPdfUrl('prob', pages);
+        let h = `<div class="cs-hoedok"><a href="${probHref}" target="_blank" onclick="openPdf('prob', pages, event)">문제 PDF (p.${pages.probPage}) ↗</a>`;
         if (pages.ansPage) {
-          const ansHref = getPdfUrl('ans', pages.ansPage);
-          h += ` <a href="${ansHref}" target="_blank" onclick="openPdf('ans', ${pages.ansPage}, event)" style="margin-left:8px; color:var(--c-green, #34C759);">답지 PDF (p.${pages.ansPage}) ↗</a>`;
+          const ansHref = getPdfUrl('ans', pages);
+          h += ` <a href="${ansHref}" target="_blank" onclick="openPdf('ans', pages, event)" style="margin-left:8px; color:var(--c-green, #34C759);">답지 PDF (p.${pages.ansPage}) ↗</a>`;
         }
         h += `</div>`;
         return h;
@@ -16099,15 +16099,16 @@ function hdSaveSpot(){ if(!HD_BROWSE) return; try{ const w=$('hdFrame').contentW
   const f=hdFileOf(w.location.pathname); if(f && f!=='index.html'){ const m=hdSpots(); m[f]=v; lsSet(K_HD_SPOTS, JSON.stringify(m)); } }catch(e){} }   // 과목마다 따로(09-29 · 과목을 바꿔도 각자 보던 자리로)
 function hdLastSpot(){ try{ const j=JSON.parse(lsGet(K_HD_LAST)||'null'); return (j&&j.p&&/\/hoedok\//.test(j.p))?j:null; }catch(e){ return null; } }
 function hdBrowse(){
-  let page = 1;
   try {
     const c = (typeof cur === 'function') ? cur() : null;
     if (c) {
       const p = getCardPdfPages(c);
-      if (p && p.probPage) page = p.probPage;
+      if (p && p.probPage) {
+        return openPdf('prob', p);
+      }
     }
   } catch(_) {}
-  openPdf('prob', page);
+  openPdf('prob', 1);
 }
 function openHoedok(uri, title, qs, readKey, readN, ans){
   HD_BROWSE=false;
