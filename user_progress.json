@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:23:38.184Z",
+  "updated_at": "2026-11-15T21:26:48.933Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -44,7 +44,7 @@
       "id": "mgmt_0046",
       "grade": 4,
       "flag": false,
-      "retired": false,
+      "retired": true,
       "eliminated": [],
       "oxSaved": [],
       "isTypo": false,
