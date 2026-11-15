@@ -3235,29 +3235,31 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0099\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0099</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결 합된 다각적 결합공장 혹은 공장집단은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">트러스트＜trust》</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">콘체른(concern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">콤비 나트(kombinat)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">컨글로메 리트(conglomerate)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트벤처(joint venture) [ 기업의 사회적 책임 =</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0099\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">공비나트(kombinat)란 일정한 지역에서 기초 원료로부터 제품에 이르기까지 생산 단계가 다른 각종 생산 부문이 기 술적으로 결합되어 집약적인 계열을 형성한 기업의 지역적 결합체를 말한다</div>\n  </div>\n</div>",
-      "stemText": "울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결 합된 다각적 결합공장 혹은 공장집단은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0099\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0099</span>\n    <span class=\"source-badge\">2018 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결합된 다각적 결합공장 혹은 공장집단은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">트러스트(trust)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">콘체른(concern)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">콤비나트(kombinat)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">컨글로메리트(conglomerate)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">조인트벤처(joint venture)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0099\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">콤비나트(kombinat)란 일정한 지역에서 기초 원료로부터 제품에 이르기까지 생산 단계가 다른 각종 생산 부문이 기술적으로 결합되어 집약적인 계열을 형성한 기업의 지역적 결합체를 말한다.</div>\n  </div>\n</div>",
+      "stemText": "울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결합된 다각적 결합공장 혹은 공장집단은?",
       "choices": [
-        "1번: 트러스트＜trust》",
+        "1번: 트러스트(trust)",
         "2번: 콘체른(concern)",
-        "3번: 콤비 나트(kombinat)",
-        "4번: 컨글로메 리트(conglomerate)",
-        "5번: 조인트벤처(joint venture) [기업의 사회적 책임 ="
+        "3번: 콤비나트(kombinat)",
+        "4번: 컨글로메리트(conglomerate)",
+        "5번: 조인트벤처(joint venture)"
       ],
-      "note": "정답: 3번\n[지문] 울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결 합된 다각적 결합공장 홈은 공장집단은?",
-      "search": "문제 0099 | 1.01 경영학일반 |  | 울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결 합된 다각적 결합공장 혹은 공장집단은? | 1번: 트러스트＜trust》 | 2번: 콘체른(concern) | 3번: 콤비 나트(kombinat) | 4번: 컨글로메 리트(conglomerate) | 5번: 조인트벤처(joint venture) [ 기업의 사회적 책임 =",
+      "note": "정답: 3번",
+      "search": "문제 0099 | 1.01 경영학일반 | 2018 경영지도사 | 울산석유화학단지와 같이 여러 개의 생산부문이 유기적으로 결합된 다각적 결합공장 혹은 공장집단은? | 1번: 트러스트(trust) | 2번: 콘체른(concern) | 3번: 콤비나트(kombinat) | 4번: 컨글로메리트(conglomerate) | 5번: 조인트벤처(joint venture)",
       "tags": [
         "1.01 경영학일반",
-        "문 0099"
+        "문 0099",
+        "2018 경영지도사"
       ],
-      "explanationText": "공비나트(kombinat)란 일정한 지역에서 기초 원료로부터 제품에 이르기까지 생산 단계가 다른 각종 생산 부문이 기 술적으로 결합되어 집약적인 계열을 형성한 기업의 지역적 결합체를 말한다",
+      "explanationText": "콤비나트(kombinat)란 일정한 지역에서 기초 원료로부터 제품에 이르기까지 생산 단계가 다른 각종 생산 부문이 기술적으로 결합되어 집약적인 계열을 형성한 기업의 지역적 결합체를 말한다.",
       "probPage": 36,
       "ansPage": 10,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 19,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 9
+      "ansPdfPage": 9,
+      "sourceTag": "2018 경영지도사"
     },
     {
       "id": "mgmt_0100",
@@ -6133,21 +6135,22 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 4,
-      "front": "<div class=\"mcq-card\" data-qid=\"0192\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0192</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">상황이론(contingency theory)의 다징으로 S시 않온 것은?</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">객판적 결과의 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조직의 환경적웅 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">조직을 분석단위로 하는 분석</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">계량적 분석 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">중범위이론지향</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "front": "<div class=\"mcq-card\" data-qid=\"0192\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0192</span>\n    <span class=\"source-badge\">2017 경영지도사</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">상황이론(contingency theory)의 특징으로 옳지 않은 것은?</div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">객관적 결과의 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">조직의 환경적응 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">조직을 분석단위로 하는 분석</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">계량적 분석 중시</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">중범위이론 지향</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
       "back": "<div class=\"mcq-result\" data-qid=\"0192\" data-correct=\"4\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">④</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">계량적 분석 중시는 1950년대 등장한 계량 경영학의 특징이다.</div>\n  </div>\n</div>",
-      "stemText": "상황이론(contingency theory)의 다징으로 S시 않온 것은?",
+      "stemText": "상황이론(contingency theory)의 특징으로 옳지 않은 것은?",
       "choices": [
-        "1번: 객판적 결과의 중시",
-        "2번: 조직의 환경적웅 중시",
+        "1번: 객관적 결과의 중시",
+        "2번: 조직의 환경적응 중시",
         "3번: 조직을 분석단위로 하는 분석",
         "4번: 계량적 분석 중시",
-        "5번: 중범위이론지향"
+        "5번: 중범위이론 지향"
       ],
       "note": "정답: 4번",
-      "search": "문제 0192 | 1.01 경영학일반 |  | 경영지도사 상황이€(contingency theory)의 특징으로 옳지 않은 것은? | ",
+      "search": "문제 0192 | 1.01 경영학일반 | 2017 경영지도사 | 상황이론(contingency theory)의 특징으로 옳지 않은 것은? | 1번: 객관적 결과의 중시 | 2번: 조직의 환경적응 중시 | 3번: 조직을 분석단위로 하는 분석 | 4번: 계량적 분석 중시 | 5번: 중범위이론 지향",
       "tags": [
         "1.01 경영학일반",
-        "문 0192"
+        "문 0192",
+        "2017 경영지도사"
       ],
       "explanationText": "계량적 분석 중시는 1950년대 등장한 계량 경영학의 특징이다.",
       "probPage": 52,
@@ -6155,7 +6158,8 @@
       "probPdf": "prob_01.pdf",
       "probPdfPage": 35,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 16
+      "ansPdfPage": 16,
+      "sourceTag": "2017 경영지도사"
     },
     {
       "id": "mgmt_0193",
@@ -6223,25 +6227,24 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0195\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0195</span>\n    <span class=\"source-badge\">) 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">XWJ M，대식 자원기반판점의 VRIO 모형에서 （가） - （라）에 營어갈 내용으로 «지 않은 것은? 가치가 있빠 ■1 소성이 있는가? 2 방하기 어려운가? 조직에 외해 실현되는가? 경쟁역 상태 아니오 角，， 아니오 （가》 예 아니오 • ♦ （나》 예 예 아니오 （다》 예 예 예 예 （라》</div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">페율（H. Fayol）온 경영의 본집적 기농으로 기술석 기농, 영업적 기능，재부적 기능, 보전적 기능，회계적 기농, 관 리적 기눙의6가지륨제시하였다. '</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">사이먼（H. Simon》은 합리적 경제인 가설 대신에 관리인 가설율 바탕으로 하여 인간행동울 분석하였다,</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">버나드《C. Barnard）는 조직 의사결정은 제약된 합리성에 기초하게 된다고 주장하였다, 한</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">상황이론（contingency theory）은 여러 가지 환경 변화에 효율적으로 대응하기 위하여 조직이 어떠한 톡성율 갖 추어야 하는지률 규명하고자 하는 이론이다.</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"5\"><span class=\"mcq-label\">⑤</span><span class=\"mcq-choice-text\">인간관계론과 행동과학이론 둥은 행동주의 경영이론에 속한다.</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0195\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">① H5 VRIO는 Value, Ranty, lmltability, Organization의 약자를 의미하며. 이들의 조합에 따라 발생하는 경쟁력 상대는 다 음 표와 같다 가치가 희소성이: 모방하기é 조직에의해 있는가? 있는가7箋 어려운가? 실현되는가? 아니오 예 예 예 예 아니오 예 예 예 아니오 예 예 아니오 예 경쟁력 상태 경쟁열위 경쟁등위 일시적 경쟁우위 비활용 경쟁우위 지속적 경쟁우위</div>\n  </div>\n</div>",
-      "stemText": "XWJ M，대식 자원기반판점의 VRIO 모형에서 （가） - （라）에 營어갈 내용으로 «지 않은 것은? 가치가 있빠 ■1 소성이 있는가? 2 방하기 어려운가? 조직에 외해 실현되는가? 경쟁역 상태 아니오 角，， 아니오 （가》 예 아니오 • ♦ （나》 예 예 아니오 （다》 예 예 예 예 （라》",
+      "front": "<div class=\"mcq-card\" data-qid=\"0195\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0195</span>\n    <span class=\"source-badge\">2023 7급 국가직</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">자원기반관점의 VRIO 모형에서 (가) ~ (라)에 들어갈 내용으로 옳지 않은 것은?</div>\n    <div class=\"mcq-box\" style=\"margin-top:12px; padding:12px 14px; border:1px solid var(--c-sep); border-radius:8px; background:var(--c-fill); line-height:1.6;\">\n      <table style=\"width:100%; border-collapse:collapse; text-align:center; font-size:0.92em;\">\n        <thead>\n          <tr style=\"border-bottom:1px solid var(--c-sep); font-weight:bold;\">\n            <th style=\"padding:6px 4px;\">가치가 있는가?</th>\n            <th style=\"padding:6px 4px;\">희소성이 있는가?</th>\n            <th style=\"padding:6px 4px;\">모방하기 어려운가?</th>\n            <th style=\"padding:6px 4px;\">조직에 의해 실현되는가?</th>\n            <th style=\"padding:6px 4px;\">경쟁력 상태</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">(가)</td></tr>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\" rowspan=\"2\">↕</td><td style=\"padding:6px 4px;\">(나)</td></tr>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">(다)</td></tr>\n          <tr><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">(라)</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n  <div class=\"mcq-options\">\n    <button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">(가) - 경쟁열위</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">(나) - 경쟁등위</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">(다) - 허위적 경쟁우위</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">(라) - 지속적 경쟁우위</span></button>\n  </div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0195\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">VRIO는 Value, Rarity, Imitability, Organization의 약자를 의미하며, 이들의 조합에 따라 발생하는 경쟁력 상태는 다음 표와 같다. 따라서 (다)에 들어갈 알맞은 내용은 '일시적 경쟁우위'이다.</div>\n    <div class=\"mcq-box\" style=\"margin-top:12px; padding:12px 14px; border:1px solid var(--c-sep); border-radius:8px; background:var(--c-fill); line-height:1.6;\">\n      <table style=\"width:100%; border-collapse:collapse; text-align:center; font-size:0.92em;\">\n        <thead>\n          <tr style=\"border-bottom:1px solid var(--c-sep); font-weight:bold;\">\n            <th style=\"padding:6px 4px;\">가치가 있는가?</th>\n            <th style=\"padding:6px 4px;\">희소성이 있는가?</th>\n            <th style=\"padding:6px 4px;\">모방하기 어려운가?</th>\n            <th style=\"padding:6px 4px;\">조직에 의해 실현되는가?</th>\n            <th style=\"padding:6px 4px;\">경쟁력 상태</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">경쟁열위</td></tr>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">경쟁등위</td></tr>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">-</td><td style=\"padding:6px 4px;\">일시적 경쟁우위</td></tr>\n          <tr style=\"border-bottom:1px solid var(--c-sep);\"><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">아니오</td><td style=\"padding:6px 4px;\">비활용 경쟁우위</td></tr>\n          <tr><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">예</td><td style=\"padding:6px 4px;\">지속적 경쟁우위</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>",
+      "stemText": "자원기반관점의 VRIO 모형에서 (가) ~ (라)에 들어갈 내용으로 옳지 않은 것은?",
       "choices": [
-        "1번: 페율（H. Fayol）온 경영의 본집적 기농으로 기술석 기농, 영업적 기능，재부적 기능, 보전적 기능，회계적 기농, 관 리적 기눙의6가지륨제시하였다. '",
-        "2번: 사이먼（H. Simon》은 합리적 경제인 가설 대신에 관리인 가설율 바탕으로 하여 인간행동울 분석하였다,",
-        "3번: 버나드《C. Barnard）는 조직 의사결정은 제약된 합리성에 기초하게 된다고 주장하였다, 한",
-        "4번: 상황이론（contingency theory）은 여러 가지 환경 변화에 효율적으로 대응하기 위하여 조직이 어떠한 톡성율 갖 추어야 하는지률 규명하고자 하는 이론이다.",
-        "5번: 인간관계론과 행동과학이론 둥은 행동주의 경영이론에 속한다."
+        "1번: (가) - 경쟁열위",
+        "2번: (나) - 경쟁등위",
+        "3번: (다) - 허위적 경쟁우위",
+        "4번: (라) - 지속적 경쟁우위"
       ],
       "note": "정답: 3번",
-      "search": "문제 0195 | 1.01 경영학일반 | ) 국가직 | 자원기반관정의 VRIO 모험에서 (가) ~ (라)에 듬어갈 내용으로 옳지 않은 것은? | ",
+      "search": "문제 0195 | 1.01 경영학일반 | 2023 7급 국가직 | 자원기반관점의 VRIO 모형에서 (가) ~ (라)에 들어갈 내용으로 옳지 않은 것은? | ",
       "tags": [
         "1.01 경영학일반",
         "문 0195",
-        ") 국가직"
+        "2023 7급 국가직"
       ],
-      "sourceTag": ") 국가직",
-      "explanationText": "① H5 VRIO는 Value, Ranty, lmltability, Organization의 약자를 의미하며. 이들의 조합에 따라 발생하는 경쟁력 상대는 다 음 표와 같다 가치가 희소성이: 모방하기é 조직에의해 있는가? 있는가7箋 어려운가? 실현되는가? 아니오 예 예 예 예 아니오 예 예 예 아니오 예 예 아니오 예 경쟁력 상태 경쟁열위 경쟁등위 일시적 경쟁우위 비활용 경쟁우위 지속적 경쟁우위",
+      "sourceTag": "2023 7급 국가직",
+      "explanationText": "VRIO는 Value, Rarity, Imitability, Organization의 약자를 의미하며, 이들의 조합에 따라 발생하는 경쟁력 상태는 다음과 같다: 가치가 없으면 경쟁열위, 희소성이 없으면 경쟁등위, 모방이 가능하면 일시적 경쟁우위, 조직화가 안 되면 비활용 경쟁우위, 모두 갖추면 지속적 경쟁우위가 된다. 따라서 (다)에 들어갈 내용은 '일시적 경쟁우위'이다.",
       "probPage": 53,
       "ansPage": 18,
       "probPdf": "prob_01.pdf",
