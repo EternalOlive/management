@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:28:03.783Z",
+  "updated_at": "2026-11-15T21:33:47.942Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -375,7 +375,7 @@
       "id": "mgmt_0054",
       "grade": 3,
       "flag": false,
-      "retired": false,
+      "retired": true,
       "eliminated": [],
       "oxSaved": [],
       "isTypo": false,
@@ -471,8 +471,11 @@
       "id": "mgmt_0057",
       "grade": 4,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
+      "retired": true,
+      "eliminated": [
+        3,
+        1
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
@@ -512,8 +515,25 @@
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-15",
+        "interval": 0,
+        "lastReview": "2026-11-15T21:28:46.957Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1794778126957,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0078",
@@ -731,19 +751,44 @@
       "grade": 3,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        4,
+        2
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-17",
+        "interval": 2,
+        "lastReview": "2026-11-15T21:29:57.924Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1794778197924,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
     },
     {
       "id": "mgmt_0058",
       "grade": 3,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
+      "retired": true,
+      "eliminated": [
+        2,
+        1,
+        5,
+        3
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
@@ -2504,8 +2549,12 @@
       "id": "mgmt_0053",
       "grade": 0,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
+      "retired": true,
+      "eliminated": [
+        4,
+        3,
+        2
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
