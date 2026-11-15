@@ -6928,28 +6928,30 @@
       "subj": "1.01 경영학일반",
       "typ": "객관식",
       "correct": 3,
-      "front": "<div class=\"mcq-card\" data-qid=\"0218\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0218</span>\n    \n  </div>\n  <div class=\"mcq-stem\">\n    \n    <div class=\"stem-ocr-text\">노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식 변환과정을 가장 적절하게 표시하고 있는 것은?</div>\n  </div>\n  <div class=\"mcq-options \"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">종합화^combination》- 사회화^socialization》- 외재화 (externalization) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">종합화(combination) - 외재화(externalization) - 사회화 (socialization) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사•회화《socialization) - 외재화＜externalization》- 종합화 (combination) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">사회화^socialization) - 외재호hexternalization) - 내재화 (internalization) - 종합화｛combination)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
-      "back": "<div class=\"mcq-result\" data-qid=\"0218\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">지식변환과정(knowledge conversion process) = sociahzation - articualüon(externahzation) -+<br>③ ombinatlon internalizaüon의 순서로 이루어진다.</div>\n  </div>\n</div>",
-      "stemText": "노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식 변환과정을 가장 적절하게 표시하고 있는 것은?",
+      "front": "<div class=\"mcq-card\" data-qid=\"0218\" data-shuffle=\"false\">\n  <div class=\"question-header-row\">\n    <span class=\"question-number\">문제 0218</span>\n    <span class=\"source-badge\">2023 7급 군무원</span>\n  </div>\n  <div class=\"mcq-stem\">\n    <div class=\"stem-ocr-text\">노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식변환과정(knowledge conversion process)인 ㉠ - ㉡ - ㉢ - ㉣을 가장 적절하게 표시하고 있는 것은?</div>\n    <div class=\"image-frame\" style=\"text-align:center; margin-top:14px; margin-bottom:8px;\">\n      <img src=\"images/_jh_diag_0218.webp\" alt=\"문제 0218 도표\" style=\"max-width:380px; width:100%; height:auto; border-radius:6px;\" onerror=\"this.style.display='none'\">\n    </div>\n  </div>\n  <div class=\"mcq-options\"><button type=\"button\" class=\"mcq-option text-option\" data-original=\"1\"><span class=\"mcq-label\">①</span><span class=\"mcq-choice-text\">종합화(combination) - 사회화(socialization) - 외재화(externalization) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"2\"><span class=\"mcq-label\">②</span><span class=\"mcq-choice-text\">종합화(combination) - 외재화(externalization) - 사회화(socialization) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"3\"><span class=\"mcq-label\">③</span><span class=\"mcq-choice-text\">사회화(socialization) - 외재화(externalization) - 종합화(combination) - 내재화(internalization)</span></button><button type=\"button\" class=\"mcq-option text-option\" data-original=\"4\"><span class=\"mcq-label\">④</span><span class=\"mcq-choice-text\">사회화(socialization) - 외재화(externalization) - 내재화(internalization) - 종합화(combination)</span></button></div>\n  <div class=\"mcq-help\">1~5번 키 또는 보기를 눌러 답을 선택하세요.</div>\n</div>",
+      "back": "<div class=\"mcq-result\" data-qid=\"0218\" data-correct=\"3\">\n  <div class=\"mcq-answer-badge\">정답: <span class=\"mcq-current-answer\">③</span></div>\n  <div class=\"mcq-explanation\">\n    <div class=\"mcq-exp-title\">해설</div>\n    <div class=\"mcq-exp-text\">지식변환과정(knowledge conversion process)은 ㉠ 사회화(socialization) → ㉡ 외재화(externalization, articulation) → ㉢ 종합화(combination) → ㉣ 내재화(internalization)의 순서(SECI 모형)로 이루어진다.</div>\n  </div>\n</div>",
+      "stemText": "노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식변환과정(knowledge conversion process)인 ㉠ - ㉡ - ㉢ - ㉣을 가장 적절하게 표시하고 있는 것은?",
       "choices": [
-        "1번: 종합화^combination》- 사회화^socialization》- 외재화 (externalization) - 내재화(internalization)",
-        "2번: 종합화(combination) - 외재화(externalization) - 사회화 (socialization) - 내재화(internalization)",
-        "3번: 사•회화《socialization) - 외재화＜externalization》- 종합화 (combination) - 내재화(internalization)",
-        "4번: 사회화^socialization) - 외재호hexternalization) - 내재화 (internalization) - 종합화｛combination)"
+        "1번: 종합화(combination) - 사회화(socialization) - 외재화(externalization) - 내재화(internalization)",
+        "2번: 종합화(combination) - 외재화(externalization) - 사회화(socialization) - 내재화(internalization)",
+        "3번: 사회화(socialization) - 외재화(externalization) - 종합화(combination) - 내재화(internalization)",
+        "4번: 사회화(socialization) - 외재화(externalization) - 내재화(internalization) - 종합화(combination)"
       ],
-      "note": "정답: 3번\n[지문] 노나카(lkujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(expllCit knowledge) 간의 상호작용을 통한 4개의 지식 변환과정(knowledge conversion 한0쏘ss)인 ㉠ - ㉡ - ㉢ - ㉣ 을 가장 적절하게 표시하고 있는 것은? 암 암묵지 (리 형식지 암묵지 (리 형식지 식",
-      "search": "문제 0218 | 1.01 경영학일반 |  | 노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식 변환과정을 가장 적절하게 표시하고 있는 것은? | 1번: 종합화^combination》- 사회화^socialization》- 외재화 (externalization) - 내재화(internalization) | 2번: 종합화(combination) - 외재화(externalization) - 사회화 (socialization) - 내재화(internalization) | 3번: 사•회화《socialization) - 외재화＜externalization》- 종합화 (combination) - 내재화(internalization) | 4번: 사회화^socialization) - 외재호hexternalization) - 내재화 (internalization) - 종합화｛combination)",
+      "note": "정답: 3번",
+      "search": "문제 0218 | 1.01 경영학일반 | 2023 7급 군무원 | 노나카(Ikujiro Nonaka)가 제시한 암묵지(tacit knowledge)와 형식지(explicit knowledge) 간의 상호작용을 통한 4개의 지식변환과정(knowledge conversion process)인 ㉠ - ㉡ - ㉢ - ㉣을 가장 적절하게 표시하고 있는 것은? | 1번: 종합화(combination) - 사회화(socialization) - 외재화(externalization) - 내재화(internalization) | 2번: 종합화(combination) - 외재화(externalization) - 사회화(socialization) - 내재화(internalization) | 3번: 사회화(socialization) - 외재화(externalization) - 종합화(combination) - 내재화(internalization) | 4번: 사회화(socialization) - 외재화(externalization) - 내재화(internalization) - 종합화(combination)",
       "tags": [
         "1.01 경영학일반",
-        "문 0218"
+        "문 0218",
+        "2023 7급 군무원"
       ],
-      "explanationText": "지식변환과정(knowledge conversion process) = sociahzation - articualüon(externahzation) -+\n③ ombinatlon internalizaüon의 순서로 이루어진다.",
+      "explanationText": "지식변환과정(knowledge conversion process)은 ㉠ 사회화(socialization) → ㉡ 외재화(externalization, articulation) → ㉢ 종합화(combination) → ㉣ 내재화(internalization)의 순서(SECI 모형)로 이루어진다.",
       "probPage": 57,
       "ansPage": 19,
       "probPdf": "prob_01.pdf",
       "probPdfPage": 40,
       "ansPdf": "ans_01.pdf",
-      "ansPdfPage": 18
+      "ansPdfPage": 18,
+      "sourceTag": "2023 7급 군무원"
     },
     {
       "id": "mgmt_0219",
