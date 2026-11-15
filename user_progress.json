@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:16:13.848Z",
+  "updated_at": "2026-11-15T21:17:56.291Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -2562,6 +2562,69 @@
       "flag": true,
       "retired": false,
       "eliminated": [],
+      "oxSaved": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0277",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [
+        3,
+        2,
+        1
+      ],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-17",
+        "interval": 2,
+        "lastReview": "2026-11-15T21:16:59.523Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1794777419523,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_0278",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0279",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
