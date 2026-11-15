@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:33:47.942Z",
+  "updated_at": "2026-11-15T21:35:13.472Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -496,15 +496,32 @@
     },
     {
       "id": "mgmt_0069",
-      "grade": 1,
+      "grade": 3,
       "flag": false,
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-17",
+        "interval": 2,
+        "lastReview": "2026-11-15T21:34:32.038Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1794778472038,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
     },
     {
       "id": "mgmt_0050",
@@ -697,8 +714,13 @@
       "id": "mgmt_0066",
       "grade": 4,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
+      "retired": true,
+      "eliminated": [
+        1,
+        4,
+        5,
+        3
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
@@ -710,7 +732,10 @@
       "grade": 4,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1,
+        5
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
@@ -2587,15 +2612,35 @@
     },
     {
       "id": "mgmt_0071",
-      "grade": 0,
+      "grade": 3,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        3,
+        2
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-17",
+        "interval": 2,
+        "lastReview": "2026-11-15T21:34:51.631Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1794778491631,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
     },
     {
       "id": "mgmt_0052",
