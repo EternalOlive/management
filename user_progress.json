@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-11-16T04:03:20.586109",
-  "device": "Web Backup Import",
-  "retiredCount": 48,
+  "updated_at": "2026-11-15T20:46:39.384Z",
+  "device": "Onyx Boox Note",
+  "typoCount": 0,
+  "typos": [],
   "cards": [
     {
       "id": "mgmt_0001",
@@ -10,8 +11,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:02:06"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0040",
@@ -20,8 +23,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:02:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0004",
@@ -30,8 +35,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:02:56"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0046",
@@ -40,8 +47,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:22:00"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0012",
@@ -50,8 +59,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:32:45"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0003",
@@ -60,8 +71,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:28:10"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0030",
@@ -70,8 +83,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:19:44"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0013",
@@ -80,8 +95,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:33:18"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0007",
@@ -90,8 +107,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:21:47"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0048",
@@ -100,8 +119,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:36:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0031",
@@ -110,8 +131,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:12:53"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0014",
@@ -120,8 +143,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:41:19"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0017",
@@ -130,8 +155,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-13T21:41:56"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0021",
@@ -140,8 +167,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:32:29"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0039",
@@ -150,8 +179,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:49:05"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0008",
@@ -160,8 +191,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:31:59"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0044",
@@ -170,8 +203,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T00:33:37"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0037",
@@ -180,8 +215,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T00:35:40"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0049",
@@ -190,8 +227,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:22:19"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0016",
@@ -200,8 +239,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:22:12"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0022",
@@ -210,8 +251,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T00:38:30"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0005",
@@ -220,8 +263,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:22:07"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0032",
@@ -230,8 +275,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T00:40:19"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0025",
@@ -240,8 +287,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T00:41:23"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0019",
@@ -250,8 +299,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:52:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0054",
@@ -260,8 +311,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T08:36:18"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0015",
@@ -270,8 +323,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:23:28"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0045",
@@ -280,8 +335,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:06:16"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0067",
@@ -290,8 +347,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:09:21"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0010",
@@ -300,8 +359,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-16T02:09:57.679000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0020",
@@ -310,8 +371,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:23:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0057",
@@ -320,8 +383,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:30:49"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0002",
@@ -330,8 +395,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:38:35"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0069",
@@ -340,8 +407,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:40:02"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0050",
@@ -350,8 +419,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:40:47"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0078",
@@ -360,8 +431,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:41:05"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0041",
@@ -370,8 +443,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:04:03"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0034",
@@ -380,8 +455,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T10:57:08"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0063",
@@ -390,8 +467,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T11:08:06"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0029",
@@ -400,8 +479,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:37:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0062",
@@ -410,8 +491,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:01:34"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0036",
@@ -420,8 +503,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:29:50"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0011",
@@ -430,8 +515,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:29:52"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0059",
@@ -440,8 +527,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:50:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0066",
@@ -450,8 +539,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:51:01"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0073",
@@ -460,8 +551,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:53:04"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0033",
@@ -470,8 +563,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:40:29"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0055",
@@ -480,8 +575,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-16T02:09:40"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0058",
@@ -490,18 +587,43 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:49:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0283",
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1,
+        3,
+        5
+      ],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:17:48"
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-15",
+        "interval": 0,
+        "lastReview": "2026-11-15T20:46:32.062Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1794775592062,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0322",
@@ -510,8 +632,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:17:51"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0027",
@@ -520,8 +644,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:02:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0035",
@@ -530,8 +656,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:46:09"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0024",
@@ -540,8 +668,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:03:38"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0018",
@@ -550,8 +680,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:06:05"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0077",
@@ -560,8 +692,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:23:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0309",
@@ -570,8 +704,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:15:51"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0312",
@@ -580,8 +716,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:14:00"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0286",
@@ -590,8 +728,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:15:57"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0108",
@@ -600,8 +740,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:51:12"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0093",
@@ -610,8 +752,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:45:53"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0094",
@@ -620,8 +764,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:46:11"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0113",
@@ -630,8 +776,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:58:48"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0087",
@@ -640,8 +788,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:46:44"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0109",
@@ -650,8 +800,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:46:56"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0091",
@@ -660,8 +812,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:48:47"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0081",
@@ -670,8 +824,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:02:11"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0121",
@@ -680,8 +836,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:49:33"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0517",
@@ -690,8 +848,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:04:11"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0316",
@@ -700,8 +860,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:17:29"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0325",
@@ -710,8 +872,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:17:54"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0127",
@@ -720,8 +884,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:49:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0119",
@@ -730,8 +896,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:37:54"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0092",
@@ -740,8 +908,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:50:06"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0086",
@@ -750,8 +920,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:38:24"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0088",
@@ -760,8 +932,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:50:14"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0118",
@@ -770,8 +944,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:39:10"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0104",
@@ -780,8 +956,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:30:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0120",
@@ -790,8 +968,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:38:31"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0096",
@@ -800,8 +980,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:40:43"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0095",
@@ -810,8 +992,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:53:38"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0110",
@@ -820,8 +1004,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:42:51"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0123",
@@ -830,8 +1016,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:10:55"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0111",
@@ -840,8 +1028,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:54:22"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0079",
@@ -850,8 +1040,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:54:56"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0106",
@@ -860,8 +1052,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:46:32"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0083",
@@ -870,8 +1064,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:50:33"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0117",
@@ -880,8 +1076,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:53:54"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0089",
@@ -890,8 +1088,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:31:04"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0100",
@@ -900,8 +1100,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:58:26"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0085",
@@ -910,8 +1112,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:59:20"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0097",
@@ -920,8 +1124,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T22:11:36"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0098",
@@ -930,8 +1136,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:59:52"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0105",
@@ -940,8 +1148,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:12:21"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0122",
@@ -950,8 +1160,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:12:32"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0084",
@@ -960,8 +1172,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:04:21"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0099",
@@ -970,8 +1184,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:27:42"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0107",
@@ -980,8 +1196,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:38:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0125",
@@ -990,8 +1208,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:16:28"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0554",
@@ -1000,8 +1220,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:45:12"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0548",
@@ -1010,8 +1232,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:46:21"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0553",
@@ -1020,8 +1244,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:46:34"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0200",
@@ -1030,8 +1256,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T23:38:32"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0189",
@@ -1040,8 +1268,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T23:43:12"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0187",
@@ -1050,8 +1280,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T23:56:29"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0205",
@@ -1060,8 +1292,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:10:53"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0184",
@@ -1070,8 +1304,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:12:40"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0218",
@@ -1080,8 +1316,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:13:43"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0198",
@@ -1090,8 +1328,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:26:09"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0219",
@@ -1100,8 +1340,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T22:11:24"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0227",
@@ -1110,8 +1352,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:27:21"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0211",
@@ -1120,8 +1364,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:33:42"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0222",
@@ -1130,8 +1376,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:31:26"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0209",
@@ -1140,8 +1388,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:31:50"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0220",
@@ -1150,8 +1400,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:40:18"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0179",
@@ -1160,8 +1412,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:35:49"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0217",
@@ -1170,8 +1424,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:37:03"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0224",
@@ -1180,8 +1436,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:37:34.684000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0196",
@@ -1190,8 +1448,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:47:05"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0195",
@@ -1200,8 +1460,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:03:02"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0226",
@@ -1210,8 +1472,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:47:40"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0228",
@@ -1220,10 +1484,12 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [
         "일시정지"
       ],
-      "last_reviewed": "2026-11-15T00:48:24"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0191",
@@ -1232,8 +1498,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:48:46"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0193",
@@ -1242,8 +1510,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:48:49"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0216",
@@ -1252,8 +1522,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:49:13"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0204",
@@ -1262,8 +1534,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:49:34"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0214",
@@ -1272,8 +1546,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:49:58"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0182",
@@ -1282,8 +1558,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:50:34"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0215",
@@ -1292,8 +1570,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:50:58"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0203",
@@ -1302,8 +1582,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:52:06"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0186",
@@ -1312,8 +1594,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:53:07"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0199",
@@ -1322,8 +1606,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:53:11"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0185",
@@ -1332,8 +1618,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:53:57"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0194",
@@ -1342,8 +1630,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:54:07"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0201",
@@ -1352,8 +1642,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T21:01:16"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0206",
@@ -1362,8 +1654,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:23:07"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0183",
@@ -1372,8 +1666,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:56:35"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0212",
@@ -1382,10 +1678,12 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [
         "일시정지"
       ],
-      "last_reviewed": "2026-11-15T00:56:45"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0225",
@@ -1394,8 +1692,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:56:57"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0190",
@@ -1404,8 +1704,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:30:32"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0197",
@@ -1414,8 +1716,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T20:03:52"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0863",
@@ -1424,8 +1728,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T02:32:51"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0207",
@@ -1434,8 +1740,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:44:02"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0168",
@@ -1444,8 +1752,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:44:41"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0144",
@@ -1454,8 +1764,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:44:57"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0135",
@@ -1464,8 +1776,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:45:17"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0165",
@@ -1474,8 +1788,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:45:35"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0170",
@@ -1484,8 +1800,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:45:45"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0130",
@@ -1494,8 +1812,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:46:18"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0175",
@@ -1504,8 +1824,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:46:44"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0169",
@@ -1514,8 +1836,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:46:50"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0176",
@@ -1524,8 +1848,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:47:09"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0158",
@@ -1534,8 +1860,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:47:18"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0177",
@@ -1544,8 +1872,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T05:47:30"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0043",
@@ -1554,8 +1884,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:28:47.648000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0006",
@@ -1564,8 +1896,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:50:14.332000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0056",
@@ -1574,8 +1908,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:51:16.697000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0038",
@@ -1584,8 +1920,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T17:53:58.602000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0074",
@@ -1594,8 +1932,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:02:45.609000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0060",
@@ -1604,8 +1944,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:05:57.114000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0076",
@@ -1614,8 +1956,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:06:50.714000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0075",
@@ -1624,8 +1968,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:40:17.843000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0128",
@@ -1634,8 +1980,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:52:45.016000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0103",
@@ -1644,8 +1992,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T18:58:55.102000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0080",
@@ -1654,8 +2004,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T19:43:14.012000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0101",
@@ -1664,8 +2016,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T20:49:50.068000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0082",
@@ -1674,8 +2028,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:10:59.332000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0102",
@@ -1684,8 +2040,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:13:05.340000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0126",
@@ -1694,8 +2052,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:14:42.028000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0116",
@@ -1704,8 +2064,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:15:08.476000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0112",
@@ -1714,8 +2076,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:15:22.925000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0115",
@@ -1724,8 +2088,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:16:20.097000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0114",
@@ -1734,8 +2100,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-14T21:16:32.793000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0188",
@@ -1744,8 +2112,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:26:18.256000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0223",
@@ -1754,8 +2124,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:40:14.110000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0210",
@@ -1764,8 +2136,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:40:33.301000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0221",
@@ -1774,8 +2148,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:52:39.090000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0181",
@@ -1784,8 +2160,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:53:31.584000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0213",
@@ -1794,8 +2172,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:53:47.284000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0180",
@@ -1804,8 +2184,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
+      "isTypo": false,
       "tags": [],
-      "last_reviewed": "2026-11-15T00:54:40.709000"
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0026",
@@ -1814,7 +2196,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0064",
@@ -1823,7 +2208,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0072",
@@ -1832,7 +2220,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0023",
@@ -1841,7 +2232,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0042",
@@ -1850,7 +2244,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0053",
@@ -1859,7 +2256,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0068",
@@ -1868,7 +2268,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0047",
@@ -1877,7 +2280,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0071",
@@ -1886,7 +2292,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0052",
@@ -1895,7 +2304,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0009",
@@ -1904,7 +2316,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0070",
@@ -1913,7 +2328,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0065",
@@ -1922,7 +2340,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0051",
@@ -1931,7 +2352,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0061",
@@ -1940,7 +2364,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0028",
@@ -1949,7 +2376,10 @@
       "retired": true,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0124",
@@ -1958,7 +2388,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0090",
@@ -1967,7 +2400,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0192",
@@ -1976,7 +2412,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0208",
@@ -1985,7 +2424,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     },
     {
       "id": "mgmt_0202",
@@ -1994,7 +2436,10 @@
       "retired": false,
       "eliminated": [],
       "oxSaved": [],
-      "tags": []
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
     }
   ]
 }
