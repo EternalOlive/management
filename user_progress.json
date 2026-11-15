@@ -1,0 +1,2000 @@
+{
+  "updated_at": "2026-11-16T04:03:20.586109",
+  "device": "Web Backup Import",
+  "retiredCount": 48,
+  "cards": [
+    {
+      "id": "mgmt_0001",
+      "grade": 4,
+      "flag": true,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:02:06"
+    },
+    {
+      "id": "mgmt_0040",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:02:41"
+    },
+    {
+      "id": "mgmt_0004",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:02:56"
+    },
+    {
+      "id": "mgmt_0046",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:22:00"
+    },
+    {
+      "id": "mgmt_0012",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:32:45"
+    },
+    {
+      "id": "mgmt_0003",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:28:10"
+    },
+    {
+      "id": "mgmt_0030",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:19:44"
+    },
+    {
+      "id": "mgmt_0013",
+      "grade": 3,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:33:18"
+    },
+    {
+      "id": "mgmt_0007",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:21:47"
+    },
+    {
+      "id": "mgmt_0048",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:36:41"
+    },
+    {
+      "id": "mgmt_0031",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:12:53"
+    },
+    {
+      "id": "mgmt_0014",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:41:19"
+    },
+    {
+      "id": "mgmt_0017",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-13T21:41:56"
+    },
+    {
+      "id": "mgmt_0021",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:32:29"
+    },
+    {
+      "id": "mgmt_0039",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:49:05"
+    },
+    {
+      "id": "mgmt_0008",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:31:59"
+    },
+    {
+      "id": "mgmt_0044",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T00:33:37"
+    },
+    {
+      "id": "mgmt_0037",
+      "grade": 2,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T00:35:40"
+    },
+    {
+      "id": "mgmt_0049",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:22:19"
+    },
+    {
+      "id": "mgmt_0016",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:22:12"
+    },
+    {
+      "id": "mgmt_0022",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T00:38:30"
+    },
+    {
+      "id": "mgmt_0005",
+      "grade": 2,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:22:07"
+    },
+    {
+      "id": "mgmt_0032",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T00:40:19"
+    },
+    {
+      "id": "mgmt_0025",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T00:41:23"
+    },
+    {
+      "id": "mgmt_0019",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:52:22"
+    },
+    {
+      "id": "mgmt_0054",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T08:36:18"
+    },
+    {
+      "id": "mgmt_0015",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:23:28"
+    },
+    {
+      "id": "mgmt_0045",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:06:16"
+    },
+    {
+      "id": "mgmt_0067",
+      "grade": 4,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:09:21"
+    },
+    {
+      "id": "mgmt_0010",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-16T02:09:57.679000"
+    },
+    {
+      "id": "mgmt_0020",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:23:22"
+    },
+    {
+      "id": "mgmt_0057",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:30:49"
+    },
+    {
+      "id": "mgmt_0002",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:38:35"
+    },
+    {
+      "id": "mgmt_0069",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:40:02"
+    },
+    {
+      "id": "mgmt_0050",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:40:47"
+    },
+    {
+      "id": "mgmt_0078",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:41:05"
+    },
+    {
+      "id": "mgmt_0041",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:04:03"
+    },
+    {
+      "id": "mgmt_0034",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T10:57:08"
+    },
+    {
+      "id": "mgmt_0063",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T11:08:06"
+    },
+    {
+      "id": "mgmt_0029",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:37:41"
+    },
+    {
+      "id": "mgmt_0062",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:01:34"
+    },
+    {
+      "id": "mgmt_0036",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:29:50"
+    },
+    {
+      "id": "mgmt_0011",
+      "grade": 2,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:29:52"
+    },
+    {
+      "id": "mgmt_0059",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:50:41"
+    },
+    {
+      "id": "mgmt_0066",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:51:01"
+    },
+    {
+      "id": "mgmt_0073",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:53:04"
+    },
+    {
+      "id": "mgmt_0033",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:40:29"
+    },
+    {
+      "id": "mgmt_0055",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-16T02:09:40"
+    },
+    {
+      "id": "mgmt_0058",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:49:41"
+    },
+    {
+      "id": "mgmt_0283",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:17:48"
+    },
+    {
+      "id": "mgmt_0322",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:17:51"
+    },
+    {
+      "id": "mgmt_0027",
+      "grade": 4,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:02:22"
+    },
+    {
+      "id": "mgmt_0035",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:46:09"
+    },
+    {
+      "id": "mgmt_0024",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:03:38"
+    },
+    {
+      "id": "mgmt_0018",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:06:05"
+    },
+    {
+      "id": "mgmt_0077",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:23:22"
+    },
+    {
+      "id": "mgmt_0309",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:15:51"
+    },
+    {
+      "id": "mgmt_0312",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:14:00"
+    },
+    {
+      "id": "mgmt_0286",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:15:57"
+    },
+    {
+      "id": "mgmt_0108",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:51:12"
+    },
+    {
+      "id": "mgmt_0093",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:45:53"
+    },
+    {
+      "id": "mgmt_0094",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:46:11"
+    },
+    {
+      "id": "mgmt_0113",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:58:48"
+    },
+    {
+      "id": "mgmt_0087",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:46:44"
+    },
+    {
+      "id": "mgmt_0109",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:46:56"
+    },
+    {
+      "id": "mgmt_0091",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:48:47"
+    },
+    {
+      "id": "mgmt_0081",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:02:11"
+    },
+    {
+      "id": "mgmt_0121",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:49:33"
+    },
+    {
+      "id": "mgmt_0517",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:04:11"
+    },
+    {
+      "id": "mgmt_0316",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:17:29"
+    },
+    {
+      "id": "mgmt_0325",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:17:54"
+    },
+    {
+      "id": "mgmt_0127",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:49:41"
+    },
+    {
+      "id": "mgmt_0119",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:37:54"
+    },
+    {
+      "id": "mgmt_0092",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:50:06"
+    },
+    {
+      "id": "mgmt_0086",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:38:24"
+    },
+    {
+      "id": "mgmt_0088",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:50:14"
+    },
+    {
+      "id": "mgmt_0118",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:39:10"
+    },
+    {
+      "id": "mgmt_0104",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:30:22"
+    },
+    {
+      "id": "mgmt_0120",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:38:31"
+    },
+    {
+      "id": "mgmt_0096",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:40:43"
+    },
+    {
+      "id": "mgmt_0095",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:53:38"
+    },
+    {
+      "id": "mgmt_0110",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:42:51"
+    },
+    {
+      "id": "mgmt_0123",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:10:55"
+    },
+    {
+      "id": "mgmt_0111",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:54:22"
+    },
+    {
+      "id": "mgmt_0079",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:54:56"
+    },
+    {
+      "id": "mgmt_0106",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:46:32"
+    },
+    {
+      "id": "mgmt_0083",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:50:33"
+    },
+    {
+      "id": "mgmt_0117",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:53:54"
+    },
+    {
+      "id": "mgmt_0089",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:31:04"
+    },
+    {
+      "id": "mgmt_0100",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:58:26"
+    },
+    {
+      "id": "mgmt_0085",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:59:20"
+    },
+    {
+      "id": "mgmt_0097",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T22:11:36"
+    },
+    {
+      "id": "mgmt_0098",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:59:52"
+    },
+    {
+      "id": "mgmt_0105",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:12:21"
+    },
+    {
+      "id": "mgmt_0122",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:12:32"
+    },
+    {
+      "id": "mgmt_0084",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:04:21"
+    },
+    {
+      "id": "mgmt_0099",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:27:42"
+    },
+    {
+      "id": "mgmt_0107",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:38:41"
+    },
+    {
+      "id": "mgmt_0125",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:16:28"
+    },
+    {
+      "id": "mgmt_0554",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:45:12"
+    },
+    {
+      "id": "mgmt_0548",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:46:21"
+    },
+    {
+      "id": "mgmt_0553",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:46:34"
+    },
+    {
+      "id": "mgmt_0200",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T23:38:32"
+    },
+    {
+      "id": "mgmt_0189",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T23:43:12"
+    },
+    {
+      "id": "mgmt_0187",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T23:56:29"
+    },
+    {
+      "id": "mgmt_0205",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:10:53"
+    },
+    {
+      "id": "mgmt_0184",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:12:40"
+    },
+    {
+      "id": "mgmt_0218",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:13:43"
+    },
+    {
+      "id": "mgmt_0198",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:26:09"
+    },
+    {
+      "id": "mgmt_0219",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T22:11:24"
+    },
+    {
+      "id": "mgmt_0227",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:27:21"
+    },
+    {
+      "id": "mgmt_0211",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:33:42"
+    },
+    {
+      "id": "mgmt_0222",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:31:26"
+    },
+    {
+      "id": "mgmt_0209",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:31:50"
+    },
+    {
+      "id": "mgmt_0220",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:40:18"
+    },
+    {
+      "id": "mgmt_0179",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:35:49"
+    },
+    {
+      "id": "mgmt_0217",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:37:03"
+    },
+    {
+      "id": "mgmt_0224",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:37:34.684000"
+    },
+    {
+      "id": "mgmt_0196",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:47:05"
+    },
+    {
+      "id": "mgmt_0195",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:03:02"
+    },
+    {
+      "id": "mgmt_0226",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:47:40"
+    },
+    {
+      "id": "mgmt_0228",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [
+        "일시정지"
+      ],
+      "last_reviewed": "2026-11-15T00:48:24"
+    },
+    {
+      "id": "mgmt_0191",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:48:46"
+    },
+    {
+      "id": "mgmt_0193",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:48:49"
+    },
+    {
+      "id": "mgmt_0216",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:49:13"
+    },
+    {
+      "id": "mgmt_0204",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:49:34"
+    },
+    {
+      "id": "mgmt_0214",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:49:58"
+    },
+    {
+      "id": "mgmt_0182",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:50:34"
+    },
+    {
+      "id": "mgmt_0215",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:50:58"
+    },
+    {
+      "id": "mgmt_0203",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:52:06"
+    },
+    {
+      "id": "mgmt_0186",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:53:07"
+    },
+    {
+      "id": "mgmt_0199",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:53:11"
+    },
+    {
+      "id": "mgmt_0185",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:53:57"
+    },
+    {
+      "id": "mgmt_0194",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:54:07"
+    },
+    {
+      "id": "mgmt_0201",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T21:01:16"
+    },
+    {
+      "id": "mgmt_0206",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:23:07"
+    },
+    {
+      "id": "mgmt_0183",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:56:35"
+    },
+    {
+      "id": "mgmt_0212",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [
+        "일시정지"
+      ],
+      "last_reviewed": "2026-11-15T00:56:45"
+    },
+    {
+      "id": "mgmt_0225",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:56:57"
+    },
+    {
+      "id": "mgmt_0190",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:30:32"
+    },
+    {
+      "id": "mgmt_0197",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T20:03:52"
+    },
+    {
+      "id": "mgmt_0863",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T02:32:51"
+    },
+    {
+      "id": "mgmt_0207",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:44:02"
+    },
+    {
+      "id": "mgmt_0168",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:44:41"
+    },
+    {
+      "id": "mgmt_0144",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:44:57"
+    },
+    {
+      "id": "mgmt_0135",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:45:17"
+    },
+    {
+      "id": "mgmt_0165",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:45:35"
+    },
+    {
+      "id": "mgmt_0170",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:45:45"
+    },
+    {
+      "id": "mgmt_0130",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:46:18"
+    },
+    {
+      "id": "mgmt_0175",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:46:44"
+    },
+    {
+      "id": "mgmt_0169",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:46:50"
+    },
+    {
+      "id": "mgmt_0176",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:47:09"
+    },
+    {
+      "id": "mgmt_0158",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:47:18"
+    },
+    {
+      "id": "mgmt_0177",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T05:47:30"
+    },
+    {
+      "id": "mgmt_0043",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:28:47.648000"
+    },
+    {
+      "id": "mgmt_0006",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:50:14.332000"
+    },
+    {
+      "id": "mgmt_0056",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:51:16.697000"
+    },
+    {
+      "id": "mgmt_0038",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T17:53:58.602000"
+    },
+    {
+      "id": "mgmt_0074",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:02:45.609000"
+    },
+    {
+      "id": "mgmt_0060",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:05:57.114000"
+    },
+    {
+      "id": "mgmt_0076",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:06:50.714000"
+    },
+    {
+      "id": "mgmt_0075",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:40:17.843000"
+    },
+    {
+      "id": "mgmt_0128",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:52:45.016000"
+    },
+    {
+      "id": "mgmt_0103",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T18:58:55.102000"
+    },
+    {
+      "id": "mgmt_0080",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T19:43:14.012000"
+    },
+    {
+      "id": "mgmt_0101",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T20:49:50.068000"
+    },
+    {
+      "id": "mgmt_0082",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:10:59.332000"
+    },
+    {
+      "id": "mgmt_0102",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:13:05.340000"
+    },
+    {
+      "id": "mgmt_0126",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:14:42.028000"
+    },
+    {
+      "id": "mgmt_0116",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:15:08.476000"
+    },
+    {
+      "id": "mgmt_0112",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:15:22.925000"
+    },
+    {
+      "id": "mgmt_0115",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:16:20.097000"
+    },
+    {
+      "id": "mgmt_0114",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-14T21:16:32.793000"
+    },
+    {
+      "id": "mgmt_0188",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:26:18.256000"
+    },
+    {
+      "id": "mgmt_0223",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:40:14.110000"
+    },
+    {
+      "id": "mgmt_0210",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:40:33.301000"
+    },
+    {
+      "id": "mgmt_0221",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:52:39.090000"
+    },
+    {
+      "id": "mgmt_0181",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:53:31.584000"
+    },
+    {
+      "id": "mgmt_0213",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:53:47.284000"
+    },
+    {
+      "id": "mgmt_0180",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": [],
+      "last_reviewed": "2026-11-15T00:54:40.709000"
+    },
+    {
+      "id": "mgmt_0026",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0064",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0072",
+      "grade": 0,
+      "flag": true,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0023",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0042",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0053",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0068",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0047",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0071",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0052",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0009",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0070",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0065",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0051",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0061",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0028",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0124",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0090",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0192",
+      "grade": 0,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0208",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    },
+    {
+      "id": "mgmt_0202",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "tags": []
+    }
+  ]
+}
