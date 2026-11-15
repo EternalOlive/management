@@ -1336,6 +1336,20 @@ details.ym-subj>summary small{font-weight:600;color:var(--mute);font-size:12.5px
 .last-action-chip .lac-lbl b{font-weight:700;}
 .last-action-chip .lac-btn{background:var(--c-card);padding:1px 4px;border-radius:4px;font-size:10px;font-weight:700;color:var(--c-sec);box-shadow:0 0.5px 1.5px rgba(0,0,0,.15);line-height:1;}
 .last-action-chip .lac-undo{color:var(--c-sec);font-size:10px;margin-left:1px;}
+.c-tag-pause-btn{display:inline-flex;align-items:center;gap:4px;height:28px;padding:0 10px;border-radius:999px;font-size:12px;font-weight:600;color:var(--c-orange,#FF9500);background:rgba(255,149,0,0.12);border:1px solid rgba(255,149,0,0.28);cursor:pointer;transition:all .15s ease;user-select:none;-webkit-user-select:none;flex:0 0 auto;}
+.c-tag-pause-btn:hover{background:rgba(255,149,0,0.22);border-color:var(--c-orange,#FF9500);}
+.c-tag-pause-btn:active{transform:scale(0.96);}
+.c-tag-pause-btn.active{background:var(--c-orange,#FF9500);color:#fff;border-color:var(--c-orange,#FF9500);box-shadow:0 2px 8px rgba(255,149,0,0.35);}
+.c-tag-pause-btn .ic-pause{width:11px;height:11px;}
+.c-head-tags{display:inline-flex;align-items:center;gap:5px;flex-wrap:wrap;}
+.c-head-tags .head-utag{display:inline-flex;align-items:center;gap:3px;height:24px;padding:0 8px;border-radius:999px;font-size:11.5px;font-weight:600;background:var(--c-fill);color:var(--c-label);cursor:pointer;transition:all .15s ease;border:0.5px solid var(--c-sep);}
+.c-head-tags .head-utag:hover{background:rgba(255,59,48,0.12);color:var(--c-red,#FF3B30);border-color:var(--c-red,#FF3B30);}
+.c-head-tags .head-utag .utag-del{font-size:10px;opacity:.65;}
+.c-head-tag-add{display:inline-flex;align-items:center;height:24px;padding:0 7px;border-radius:999px;font-size:11.5px;font-weight:500;color:var(--c-sec);background:transparent;border:1px dashed var(--c-sep);cursor:pointer;transition:all .15s ease;}
+.c-head-tag-add:hover{border-color:var(--c-acc);color:var(--c-acc);}
+.c-head-tag-input{height:24px;padding:0 8px;font-size:12px;border-radius:999px;border:1px solid var(--c-acc);background:var(--c-card);color:var(--c-label);outline:none;width:84px;}
+#rPauseTag svg{color:var(--c-orange,#FF9500);}
+#rPauseTag.on{background:rgba(255,149,0,0.12);color:var(--c-orange,#FF9500);}
 #cFront{font-family:var(--font);font-size:var(--t-q);font-weight:500;line-height:1.55;letter-spacing:-.012em;color:var(--c-label);}
 #cFront.is-long{font-size:var(--t-q-long);letter-spacing:0;max-width:72ch;hyphens:auto;}
 .c-line-wrap{position:relative;flex:0 0 auto;display:flex;align-items:center;justify-content:center;margin-bottom:8px;}
@@ -3456,7 +3470,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
         <!-- 🔴 디자인 이식 09-24: 카드 = 위아래 반반. 답면 내용은 **앞면에서도 미리 채워 visibility:hidden**으로 깔고 가림 면으로 덮는다 →
              앞면↔답면에서 질문·선·버튼이 1px도 안 움직인다(디자인_언어 §1-1 · §7.1). 가림은 visibility라 글자가 선택·낭독되지 않는다. -->
         <div id="card">
-          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><div class="c-upper-act"><a id="btnPdfFront" class="c-pdf-btn" href="#" target="_blank" title="문제 PDF 열기" style="display:none;">문제 PDF ↗</a><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="c-copy-btn" id="btnEditCard" title="카드 내용 수정 (e)" aria-label="카드 내용 수정" onclick="openCardEditor()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button><button type="button" class="c-copy-btn" id="btnToggleSplit" title="좌우 분할 / 상하 배치 전환" aria-label="레이아웃 전환"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18"/></svg></button></div></div></div>
+          <div id="cHead"><div class="c-head-top"><div id="cScope"></div><div id="phaseLine"></div></div><div class="c-head-sub" id="cHeadSub"><span id="lastActionChip" class="last-action-chip" style="display:none;" title="직전 채점 (탭하면 되돌리기)"></span><span id="solveStudyChip" class="sc-badge"></span><button type="button" id="btnPauseTagChip" class="c-tag-pause-btn" title="일시정지 태그 달고 넘어가기 (단축키: Shift+P)"><svg viewBox="0 0 24 24" fill="currentColor" class="ic-pause"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg><span class="btn-text">일시정지</span></button><div id="cHeadTags" class="c-head-tags"></div><button type="button" id="btnHeadTagAdd" class="c-head-tag-add" title="태그 추가">＋태그</button><input type="text" id="headTagInput" class="c-head-tag-input" maxlength="16" placeholder="태그 입력" style="display:none;"><div class="c-upper-act"><a id="btnPdfFront" class="c-pdf-btn" href="#" target="_blank" title="문제 PDF 열기" style="display:none;">문제 PDF ↗</a><button type="button" class="c-copy-btn c-gpt-btn" id="btnGptFront" title="ChatGPT 앱 열기" aria-label="ChatGPT 앱 열기"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.0729zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1683a.071.071 0 0 1 .038.052v5.5826a4.5045 4.5045 0 0 1-4.4945 4.4947zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4998 4.4998 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1683a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.0993 3.8558L12.5973 8.3829l2.02-1.1636a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.402-.6862zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L8.909 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4998 4.4998 0 0 1 6.6802 4.6604v.0001zm-4.4664 4.3713L10.1504 9.7348 12.0142 8.66l5.834 3.3685-1.8638 1.0709zm-2.006 1.1541L12 15.3401l-5.834-3.3685 1.8638-1.0709 3.834 2.2132v2.1378z"/></svg></button><button type="button" class="c-copy-btn" id="btnCopyFront" title="카드 내용 복사" aria-label="카드 내용 복사"><svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;"><path d="M20 6 9 17l-5-5"/></svg></button><button type="button" class="c-copy-btn" id="btnEditCard" title="카드 내용 수정 (e)" aria-label="카드 내용 수정" onclick="openCardEditor()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:16px;height:16px;"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg></button><button type="button" class="c-copy-btn" id="btnToggleSplit" title="좌우 분할 / 상하 배치 전환" aria-label="레이아웃 전환"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:15px;height:15px;"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 3v18"/></svg></button></div></div></div>
           <div id="cardScroll"><div id="cSplit">
             <div id="cUpper">
               <div class="c-imgs front" id="cImgF"></div>
@@ -3996,6 +4010,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
     <div id="flagMemoRow"><input id="flagMemo" type="text" placeholder="메모 (선택)" maxlength="120"></div>
     <div class="rail-sep"></div>
     <div class="rail-grp">이 카드</div>
+    <button class="rbtn" id="rPauseTag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="color:var(--c-orange,#FF9500);"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>일시정지 태그</button>
     <button class="rbtn" id="rBury"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2"/></svg>내일로</button>
     <button class="rbtn" id="rInfo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4.5 6h.01M4.5 12h.01M4.5 18h.01"/></svg>카드 정보</button>
     <button class="rbtn" id="rCopy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>카드 내용 복사</button>
@@ -4154,6 +4169,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   <p class="desc">카드는 가려뒀고 응답 시간도 멈췄어요. 돌아오면 이어서 풀면 됩니다.</p>
   <div class="pz-time" id="pzTime">0:00</div>
   <button class="btn-primary" id="pzResume">계속 풀기</button>
+  <button class="btn-ghost" id="pzTagAndSkip" style="margin-top:10px;border:1px solid rgba(255,149,0,0.4);color:var(--c-orange,#FF9500);font-weight:700;">🏷️ '일시정지' 태그 달고 넘어가기</button>
   <button class="btn-ghost" id="pzHome">홈으로</button>
 </div></div>
 
@@ -11365,6 +11381,7 @@ function showCard(){
   syncRail(); counts();
   try{ scRenderSolveBadge(); }catch(e){}
   renderLastActionChip();
+  syncHeadTags(c);
   renderLineDots();
   resetMcqAnswerHighlight(c);
   $('cardScroll').scrollTop=0;
@@ -11604,10 +11621,11 @@ function renderCardTags(c){ // 임의 태그 (사용자 부착 축) — 탭하�
   for(const t of userTags(c.id)){
     const b=document.createElement('button'); b.className='utag'; b.textContent='#'+t;
     b.onclick=(ev)=>{ ev.stopPropagation(); const s=st(c.id);
-      s.t=(s.t||[]).filter(x=>x!==t); touch(s); cacheState(); setDirty(true); renderCardTags(c); };
+      s.t=(s.t||[]).filter(x=>x!==t); touch(s); cacheState(); setDirty(true); renderCardTags(c); syncHeadTags(c); };
     box.appendChild(b);
   }
   $('cTagInput').classList.remove('on'); $('cTagInput').value='';
+  syncHeadTags(c);
 }
 function esc(s){ // 속성 자리(data-*="…"·value="…")에도 쓰이므로 따옴표까지 막는다 — textContent 방식은 "를 안 막았다
   return s==null?'':String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
@@ -11718,6 +11736,10 @@ function rate(num){
   else if(num===2) lastAction = { label: reN ? '통과' : '어려움', btn: 'B', color: reN ? 'var(--c-acc, #30d158)' : 'var(--c-orange, #ff9f0a)', num: 2 };
   else if(num===3) lastAction = { label: reN ? '통과' : '알맞음', btn: 'Y', color: 'var(--c-green, #30d158)', num: 3 };
   else if(num===4) lastAction = { label: reN ? '통과' : '쉬움', btn: 'X', color: reN ? 'var(--c-acc, #30d158)' : 'var(--c-teal, #64d2ff)', num: 4 };
+  if(num >= 3 && s && Array.isArray(s.t) && s.t.includes('일시정지')){
+    s.t = s.t.filter(x => x !== '일시정지');
+    touch(s); cacheState(); setDirty(true);
+  }
   /* 🔴 **저장이 먼저다** (전층 감사 F4-7 · 2026-09-06). `showCard()`는 큐가 소진되면 `finishSess()`를 부르는데,
      `curSess`가 고아(병합으로 `sessions` 배열이 통째로 갈린 뒤)면 그 기록이 **허공으로 간다**
      (실측: 고아 done 5,727 · 살아 있는 세션 done 5,725). `syncSessQueue`는 첫 줄에서 id로 산 객체를
@@ -11969,6 +11991,108 @@ $('cTagInput').addEventListener('change',()=>{
 function removeCurFromQueue(sn){ // sn을 주면 되돌리기 스택에 쌓는다 (내일로·은퇴·끄기)
   queue.splice(qPos,1); undoSnap=null; if(sn)undoPush(sn);
   updateUndo(); showCard(); syncSessQueue(); }
+function syncHeadTags(c){
+  if(!c) c=cur();
+  if(!c) return;
+  const s=st(c.id);
+  const tags=(s&&Array.isArray(s.t))?s.t:[];
+  const isPaused=tags.includes('일시정지');
+  const btn=$('btnPauseTagChip');
+  if(btn){
+    btn.classList.toggle('active', isPaused);
+    btn.title=isPaused?"일시정지 태그 해제":"일시정지 태그 달고 넘어가기 (단축키: Shift+P)";
+    const txt=btn.querySelector('.btn-text');
+    if(txt) txt.textContent=isPaused?"일시정지됨":"일시정지";
+  }
+  const rBtn=$('rPauseTag');
+  if(rBtn){
+    rBtn.classList.toggle('on', isPaused);
+  }
+  const tagBox=$('cHeadTags');
+  if(tagBox){
+    tagBox.innerHTML='';
+    tags.filter(t=>t!=='일시정지').forEach(t=>{
+      const b=document.createElement('button');
+      b.type='button';
+      b.className='head-utag';
+      b.innerHTML=`#${esc(t)} <span class="utag-del">&times;</span>`;
+      b.title=`'#${t}' 태그 삭제`;
+      b.onclick=(e)=>{
+        e.stopPropagation();
+        s.t=(s.t||[]).filter(x=>x!==t);
+        touch(s); cacheState(); setDirty(true);
+        syncHeadTags(c);
+        renderCardTags(c);
+        toast(`'#${t}' 태그를 삭제했어요`);
+      };
+      tagBox.appendChild(b);
+    });
+  }
+}
+function pauseAndSkipCurCard(){
+  if(tooSoon()) return;
+  const c=cur(); if(!c) return;
+  const s=st(c.id);
+  s.t=s.t||[];
+  const isPaused=s.t.includes('일시정지');
+  if(isPaused){
+    s.t=s.t.filter(x=>x!=='일시정지');
+    touch(s); cacheState(); setDirty(true);
+    syncHeadTags(c);
+    renderCardTags(c);
+    toast("'일시정지' 태그를 해제했어요");
+    return;
+  }
+  const act={label:'일시정지', btn:'PauseTag', color:'var(--c-orange, #FF9500)', num:null};
+  const sn=dropSnap(c, act);
+  lastAction=act;
+  if(!s.t.includes('일시정지')) s.t.push('일시정지');
+  touch(s); cacheState(); setDirty(true);
+  buryCard(c);
+  dropFromQueue(c.id);
+  removeCurFromQueue(sn);
+  toast("⏸️ '일시정지' 태그 부착 — 건너뛰었어요 (홈에서 모아풀기)");
+}
+if($('btnPauseTagChip')) $('btnPauseTagChip').onclick=(e)=>{ e.stopPropagation(); pauseAndSkipCurCard(); };
+if($('btnHeadTagAdd')) $('btnHeadTagAdd').onclick=(e)=>{
+  e.stopPropagation();
+  const inp=$('headTagInput');
+  if(inp){ inp.style.display='inline-block'; inp.focus(); }
+};
+if($('headTagInput')){
+  $('headTagInput').onclick=(e)=>e.stopPropagation();
+  $('headTagInput').addEventListener('keydown',(e)=>{
+    if(e.key==='Enter'){
+      e.preventDefault();
+      const v=$('headTagInput').value.trim().replace(/^#/,'');
+      if(v){
+        const c=cur();
+        if(c){
+          const s=st(c.id);
+          s.t=s.t||[];
+          if(!s.t.includes(v)) s.t.push(v);
+          touch(s); cacheState(); setDirty(true);
+          syncHeadTags(c);
+          renderCardTags(c);
+          $('headTagInput').value='';
+          $('headTagInput').style.display='none';
+          if(v==='일시정지'){
+            pauseAndSkipCurCard();
+          } else {
+            toast(`'#${v}' 태그를 추가했어요`);
+          }
+        }
+      }
+    } else if(e.key==='Escape'){
+      $('headTagInput').style.display='none';
+    }
+  });
+  $('headTagInput').addEventListener('blur',()=>{
+    setTimeout(()=>{ if($('headTagInput')) $('headTagInput').style.display='none'; }, 200);
+  });
+}
+if($('pzTagAndSkip')) $('pzTagAndSkip').onclick=()=>{ resumeSession(); pauseAndSkipCurCard(); };
+if($('rPauseTag')) $('rPauseTag').onclick=()=>{ $('rail').classList.remove('open'); $('railScrim').classList.remove('show'); pauseAndSkipCurCard(); };
 function openRailDrawer(){ $('rail').classList.add('open'); $('railScrim').classList.add('show'); }
 $('railFab').onclick=openRailDrawer; $('btnMore').onclick=openRailDrawer; $('ohMore').onclick=openRailDrawer;
 $('ohPause').onclick=()=>pauseSession();
@@ -12715,7 +12839,25 @@ function renderSessRows(){
     box.appendChild(oxEl);
   }
 
-  if(!sessions.length && !againCards.length && !oxCards.length) box.innerHTML='<div class="empty-note" style="padding:20px">세션이 없어요 — 오른쪽 위 ＋로 만들어요</div>';
+  // ⏸️ 일시정지한 문제 (모아보기 & 모아풀기)
+  const pausedCards = (typeof DATA !== 'undefined' && Array.isArray(DATA)) ? DATA.filter(c => {
+    const s = state.cards[c.id];
+    return s && Array.isArray(s.t) && s.t.includes('일시정지') && !retired(c) && !offed(c);
+  }) : [];
+  if (pausedCards.length) {
+    const pEl = document.createElement('button'); pEl.className = 'sess2';
+    pEl.innerHTML = `<span class="s2-dot" style="background:var(--c-orange, #FF9500)"></span>
+      <span class="s2-b"><span class="s2-n">⏸️ 일시정지한 문제</span><span class="s2-s" style="color:var(--c-orange, #FF9500)">태그 달고 보류해둔 문제 모아풀기</span></span>
+      <span class="s2-r"><span class="s2-cnt"><b style="color:var(--c-orange, #FF9500)">${pausedCards.length.toLocaleString()}</b><small>장</small></span><svg class="s2-chev" viewBox="0 0 9 15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m1.5 1.5 6 6-6 6"/></svg></span>`;
+    pEl.onclick = () => {
+      sessions = sessions.filter(x => !x.temp || x.name !== '일시정지 문제' || sessRemain(x) > 0);
+      pausedCards.forEach(c => unburyCard(c));
+      startAdHoc(pausedCards, '일시정지 문제', `일시정지했던 문제 ${pausedCards.length}장 모아풀기 시작`, true, true);
+    };
+    box.appendChild(pEl);
+  }
+
+  if(!sessions.length && !againCards.length && !oxCards.length && !pausedCards.length) box.innerHTML='<div class="empty-note" style="padding:20px">세션이 없어요 — 오른쪽 위 ＋로 만들어요</div>';
 }
 /* ═══════════════ 스터디 현황 (10-01 동하 · 친구가 쓰는 안키 애드온 「스터디 현황」과 같은 방) ═══════════════
    애드온 = 오늘 공부 시간·답한 수·목표·상태를 30초마다 방(Supabase)에 올리고, 방 사람들의 같은 값을 받아 보여 준다.
@@ -15312,6 +15454,11 @@ document.addEventListener('keydown',e=>{
   if(RATE_KEY[k]){ e.preventDefault(); if(!revealed) reveal(); else rate((isRe && (RATE_KEY[k]===2 || RATE_KEY[k]===4)) ? 3 : RATE_KEY[k]); return; }   // 1~4 / zxcv 등 채점 (앞면에선 공개)
   /* 🔴 **왼손 키** (동하 09-25 「zxcv 기본 · 다른 버튼도 왼손 자리 + 직관적으로(되돌리기 → revert니까 r)」)
      R 되돌리기(Revert) · Q 끄기(Quit · 이 카드 그만) · S 일시정지(Stop) · Esc 홈(나가기) · F 플래그 · T 힌트. */
+  if(e.shiftKey && (k==='p'||e.key==='P'||k==='s'||e.key==='S')){
+    e.preventDefault();
+    pauseAndSkipCurCard();
+    return;
+  }
   if(k==='r') k='u'; else if(k==='q') k='o'; else if(k==='s') k='p';
   if(k==='u'||k==='o'){ if(tooSoon()) return; }   // 카드 바뀐 직후 연타 — tooSoon 주석
   if(k==='u'){ doUndo(); return; }
