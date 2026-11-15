@@ -3690,7 +3690,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
           <p style="margin:10px 0 6px;font-size:12px;color:var(--ink);font-weight:700">기타 기능</p>
           <kbd>R</kbd> 되돌리기 · <kbd>Shift+B</kbd> 내일로 · <kbd>Q</kbd> 카드 끄기 · <kbd>F</kbd> 플래그 ·
           <kbd>S</kbd> 일시정지 · <kbd>T</kbd> 초성 힌트 · <kbd>Esc</kbd> 닫기 → 홈 · <kbd>/</kbd> 목록 검색<br>
-          <kbd>Ctrl</kbd>+<kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd> 플래그 사유(단서 과다 · 문면 분리 · 문장 어색 · 사례 추가 · 개념학습)<br>
+          <kbd>Ctrl</kbd>+<kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>5</kbd><kbd>6</kbd> 플래그 사유(단서 과다 · 문면 분리 · 문장 어색 · 사례 추가 · 개념학습 · 일시정지)<br>
           <small style="color:var(--mute)">* 한글 입력 상태에서도 자판 자리로 정상 인식됩니다.</small>
         </div>
       </div></div>
@@ -3841,9 +3841,9 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
             <p>풀이 화면 오른쪽 사이드바(좁은 화면에선 <b>☰</b>)에 있어요.</p>
             <table class="hp-t">
               <tr><th>⚑플래그</th><td>「이 카드가 이상하다 — <b>고쳐 달라</b>」 신고. 카드는 그대로 나와요.
-                사유 칩 다섯 중 골라 주세요(칩만 눌러도 플래그가 켜져요) —
+                사유 칩 여섯 중 골라 주세요(칩만 눌러도 플래그가 켜져요) —
                 <b>단서 과다</b>=앞면이 너무 많이 알려줘요 · <b>사례 추가</b>=<b>사례를 단서로 주세요</b>(앞면에 예를 보이고 이름을 묻게) ·
-                <b>문면 분리</b>=한 장에 묶인 걸 낱장으로 · <b>문장 어색</b>=말이 이상해요 · <b>개념학습</b>=기초 개념 정리 필요.
+                <b>문면 분리</b>=한 장에 묶인 걸 낱장으로 · <b>문장 어색</b>=말이 이상해요 · <b>개념학습</b>=기초 개념 정리 필요 · <b>일시정지</b>=나중에 풀기 위해 보류.
                 그 밖의 이유는 <b>메모</b>에 적어 주세요 — 저녁 루틴이 읽고 고쳐요</td></tr>
               <tr><th>지도·사례<br>정의·이름</th><td>「이 성분을 교재에서 끌어와 <b>채워 달라</b>」는 신청이에요. 카드는 그대로 나와요.
                 지도=수업 적용, 사례=예시, 정의=내용, 이름=개념어. 저녁 루틴이 교재에서 찾아 <b>줄을 더해요</b> → <b>카드가 늘어요</b>.
@@ -3948,7 +3948,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
               <tr><td>1 2 3 4 / Z X C V</td><td>다시 / 어려움 / 알맞음 / 쉬움</td></tr>
               <tr><td>R · Shift+B · Q</td><td>되돌리기(Revert) · 내일로(Shift+B) · <b>끄기</b>(Quit)</td></tr>
               <tr><td>F · S · T</td><td>플래그(Flag) · 일시정지(Stop) · 초성 힌트(Tip)</td></tr>
-              <tr><td><b>Ctrl + 1 2 3 4 5</b></td><td><b>플래그 사유 칩</b> — 단서 과다 / 문면 분리 / 문장 어색 / 사례 추가 / 개념학습.
+              <tr><td><b>Ctrl + 1 2 3 4 5 6</b></td><td><b>플래그 사유 칩</b> — 단서 과다 / 문면 분리 / 문장 어색 / 사례 추가 / 개념학습 / 일시정지.
                 레일을 안 열어도 붙고, 칩을 붙이면 플래그도 켜져요. 같은 키를 다시 누르면 해제</td></tr>
               <tr><td>Esc · /</td><td>닫기(열린 것이 없으면 홈) · 목록 검색 — 옛 키 U·O·P·H도 그대로 먹어요</td></tr>
             </table>
@@ -6736,7 +6736,7 @@ function setFlag(c,v){ const s=st(c.id); s.flag=v; if(v==null)s.ft=[]; touchFb(s
    🔴 **그래서 「추가」 계열의 `ann:["사례"]`와 이름이 겹친다** — 뜻은 정반대다(이쪽은 **구조를 바꿔라**,
    저쪽은 **줄을 더해라**). 도움말 `hp6`에 갈림을 적어 뒀다. **둘 중 하나를 또 고칠 때 같이 봐라.**
    `답면 오류` 제거 = 동하 「어차피 답면 오류면 내가 설명을 붙여야 한다」 → 메모 칸이 그 자리다. */
-const FLAG_TYPES=['단서 과다','문면 분리','문장 어색','사례 추가','개념학습'];
+const FLAG_TYPES=['단서 과다','문면 분리','문장 어색','사례 추가','개념학습','일시정지'];
 function flagTypes(s){ return (s&&Array.isArray(s.ft))?s.ft:[]; }
 function toggleFlagType(c,name){
   const s=st(c.id);
@@ -15063,7 +15063,7 @@ const PAD_ACTS=[   // [id, 라벨, 합성할 키] — 순서 = 화면 순서
   ['poke','친구 찌르기 (R · 하트 ♥)',{code:'KeyJ',key:'j'}],
   ['reveal','답 보기 (Space)',{code:'Space',key:' '}], ['undo','되돌리기 (R2)',{code:'KeyU',key:'u'}],
   ['bury','내일로 (Shift+B)',{code:'KeyB',key:'b',shiftKey:true}], ['off','끄기 (Q)',{code:'KeyO',key:'o'}], ['hint','첫 글자 힌트 (T)',{code:'KeyT',key:'t'}],
-  ['home','홈 (Esc)',{code:'KeyH',key:'h'}], ['pause','일시정지 (P)',{code:'KeyP',key:'p'}], ['mod','사유 칩 보조키 — 누른 채 채점 버튼 (Ctrl+1~5)',null],
+  ['home','홈 (Esc)',{code:'KeyH',key:'h'}], ['pause','일시정지 (P)',{code:'KeyP',key:'p'}], ['mod','사유 칩 보조키 — 누른 채 채점 버튼 (Ctrl+1~6)',null],
   ['up','위로 스크롤 (↑)',{code:'ArrowUp',key:'ArrowUp'}], ['down','아래로 스크롤 (↓)',{code:'ArrowDown',key:'ArrowDown'}],
   ['left','회독본 이전 절 (←)',{code:'ArrowLeft',key:'ArrowLeft'}], ['right','회독본 다음 절 (→)',{code:'ArrowRight',key:'ArrowRight'}]];
 /* 표준 매핑 버튼 번호: 0 A(다시) · 1 B(통과/어려움) · 2 X(통과/쉬움) · 3 Y(알맞음) · 4 L · 5 R(찌르기) · 6 L2 · 7 R2(되돌리기) · 8 Back · 9 Start · 12↑ 13↓ 14← 15→ · 16 홈/하트(찌르기) */
@@ -15205,7 +15205,7 @@ document.addEventListener('keydown',e=>{
   if((!kbdOn && !_padEv) || e.metaKey || e.altKey)return;
   { const tg=e.target&&e.target.tagName; if(!(tg==='INPUT'||tg==='TEXTAREA'||tg==='SELECT')) document.documentElement.dataset.keys='on'; }   // 키 표시(09-24)
   if(!e.ctrlKey && !(e.target&&/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) && typeof ymTodayKey==='function' && (!e.repeat||/^Arrow/.test(e.key)) && ymTodayKey(e)){ e.preventDefault(); return; }
-  if(e.ctrlKey && !/^[1-5abyxzcv]$/.test(keyOf(e)))return;   // 🔴 Ctrl+숫자/키(사유 칩)
+  if(e.ctrlKey && !/^[1-6abyxzcv]$/.test(keyOf(e)))return;   // 🔴 Ctrl+숫자/키(사유 칩)
   /* 🔴 **화살표 = 지금 보이는 것의 스크롤** (동하 09-10 실기: 게임패드 D패드로 표 카드를 못 굴렸다).
      카드 본문은 문서가 아니라 `#cardScroll` 안에서 구른다 — 초점이 아무 데도 없으면 브라우저는
      문서를 굴리려 하고 문서는 넘치지 않으니 **아무 일도 안 일어난다.** 그래서 우리가 직접 굴린다.
@@ -15299,7 +15299,7 @@ document.addEventListener('keydown',e=>{
   /* 🔴 Ctrl+1~5 = 사유 칩 — 채점(1~4)보다 **먼저** 본다. 레일이 닫혀 있어도 먹는다(칩은 레일 안이지만
      `toggleFlagType`은 화면과 무관하다) — 그래서 무엇이 켜졌는지 토스트로 말해 준다. */
   if(e.ctrlKey){
-    const idx = (k>='1' && k<='5') ? (parseInt(k, 10)-1) : (RATE_KEY[k] ? RATE_KEY[k]-1 : -1);
+    const idx = (k>='1' && k<='6') ? (parseInt(k, 10)-1) : (RATE_KEY[k] ? RATE_KEY[k]-1 : -1);
     if(idx >= 0 && idx < FLAG_TYPES.length){
       e.preventDefault();
       const c=cur(); if(!c)return;
