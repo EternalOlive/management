@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T21:10:25.205Z",
+  "updated_at": "2026-11-15T21:12:50.062Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -149,19 +149,21 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
+        "stability": 0.15,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
         "due": "2026-11-15",
         "interval": 0,
-        "lastReview": "2026-11-15T21:10:20.138Z"
+        "lastReview": "2026-11-15T21:12:39.644Z"
       },
       "history": [
         {
@@ -170,6 +172,20 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1794777140130,
+          "interval": 0,
+          "stability": 0.24,
+          "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1794777159644,
+          "interval": 0,
+          "stability": 0.15,
+          "difficulty": 10
         }
       ]
     },
@@ -403,7 +419,7 @@
     },
     {
       "id": "mgmt_0020",
-      "grade": 1,
+      "grade": 3,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -411,14 +427,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
+        "state": 2,
         "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "difficulty": 6.79,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-15",
-        "interval": 0,
-        "lastReview": "2026-11-15T21:09:45.734Z"
+        "due": "2026-11-16",
+        "interval": 1,
+        "lastReview": "2026-11-15T21:12:01.509Z"
       },
       "history": [
         {
@@ -427,6 +443,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 3,
+          "timestamp": 1794777121509,
+          "interval": 1,
+          "stability": 0.4,
+          "difficulty": 6.79
         }
       ]
     },
@@ -507,7 +530,9 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        3
+      ],
       "oxSaved": [],
       "isTypo": false,
       "tags": [],
@@ -528,7 +553,7 @@
     },
     {
       "id": "mgmt_0029",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -536,14 +561,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 0.41,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-15",
-        "interval": 0,
-        "lastReview": "2026-11-15T21:09:56.688Z"
+        "due": "2026-11-17",
+        "interval": 2,
+        "lastReview": "2026-11-15T21:12:09.439Z"
       },
       "history": [
         {
@@ -552,6 +577,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1794777129439,
+          "interval": 2,
+          "stability": 0.41,
+          "difficulty": 5.94
         }
       ]
     },
@@ -755,13 +787,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
+        "stability": 0.24,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
         "due": "2026-11-15",
         "interval": 0,
-        "lastReview": "2026-11-15T21:09:34.885Z"
+        "lastReview": "2026-11-15T21:11:08.456Z"
       },
       "history": [
         {
@@ -770,6 +802,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1794777068457,
+          "interval": 0,
+          "stability": 0.24,
+          "difficulty": 8.49
         }
       ]
     },
