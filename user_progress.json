@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:50:37.357Z",
+  "updated_at": "2026-11-16T14:11:58.311Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -1249,13 +1249,34 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        3,
+        4,
+        5
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-16",
+        "interval": 0,
+        "lastReview": "2026-11-16T14:11:44.078Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1794838304078,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0312",
