@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T13:33:02.114Z",
+  "updated_at": "2026-11-16T13:47:40.076Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -657,7 +657,9 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        4
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
@@ -814,7 +816,7 @@
     },
     {
       "id": "mgmt_0036",
-      "grade": 1,
+      "grade": 3,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -822,8 +824,25 @@
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-18",
+        "interval": 2,
+        "lastReview": "2026-11-16T13:34:09.593Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1794836049593,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
     },
     {
       "id": "mgmt_0011",
