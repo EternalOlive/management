@@ -6196,7 +6196,8 @@ const DATA_PATH='cards-data.json';
    cards-sessions.json 앱 소유, 기기 간 병합 (세션·회독 읽음·권장량) */
 const PLAN_PATH='cards-plan.json',
       MARKS_PATH='cards-marks.json',
-      FB_PATH='cards-feedback.json', SESS_PATH='cards-sessions.json';
+      FB_PATH='cards-feedback.json', SESS_PATH='cards-sessions.json',
+      PROG_PATH='user_progress.json', STATS_PATH='study_stats.json';
 const LOG_FIRST_MON='2026-08-17';   // 로그가 시작된 주의 월요일 (첫 채점 2026-08-19)
                                     // — 전량 재계산이 훑을 범위의 시작. 앞당기면 없는 주를 매번 404로 받는다.
 function logPath(wk){ return `cards-log-${wk}.json`; }
@@ -6215,7 +6216,7 @@ function logPath(wk){ return `cards-log-${wk}.json`; }
    ⚠ Pages 상대경로로 읽는 것(`cards-data.json`·`cards-plan.json`·`hoedok/`)은 **그대로 main**이다. */
 const DATA_BRANCH_DEF='';
 function dataBr(){ const b=(cfg&&cfg.dataBranch!==undefined)?cfg.dataBranch:DATA_BRANCH_DEF; return b||''; }
-function onData(path){ return path===MARKS_PATH || path===SESS_PATH || path===YM_PATH || path===FB_PATH || path==='cards-snapshot.json' || /^cards-log-/.test(path); }   // 피드백도 data(09-30 QC · 동하 「채점이랑 비슷하게」 — main 커밋이 몇 분마다 Pages 배포를 취소시켰다)   // 스냅숏 = 세션이 읽는 앱 현황(09-28)   // YM_PATH = 연문 상태(data 브랜치)
+function onData(path){ return path===MARKS_PATH || path===SESS_PATH || path===YM_PATH || path===FB_PATH || path===PROG_PATH || path===STATS_PATH || path==='cards-snapshot.json' || /^cards-log-/.test(path); }   // 피드백도 data(09-30 QC · 동하 「채점이랑 비슷하게」 — main 커밋이 몇 분마다 Pages 배포를 취소시켰다)   // 스냅숏 = 세션이 읽는 앱 현황(09-28)   // YM_PATH = 연문 상태(data 브랜치)
 function refFor(path){ return onData(path) ? dataBr() : ''; }   // '' = 기본 브랜치(main)
 /* 🔴 1단계 = **양쪽 읽기 · 한쪽 쓰기.** 옛 앱을 물고 있는 기기가 `main`에 쓴 것을 여기서 건진다.
    🔴 **2단계(2026-09-05 동하 확인 · 「다 보여」)** — 09-02 이후 `main`에 앱 커밋 0 · 아이패드·PC 모두 새 앱으로 `data`에 저장하는 것을
@@ -6979,6 +6980,134 @@ function splitState(){               // 메모리 state → 파일 두 벌 (마�
   }
   return {marks:{v:1, cards:marks}, fb:{v:1, cards:fb}};
 }
+
+/* ═══════════════ Xteink / Onyx Boox 통합 동기화 계층 (user_progress.json & study_stats.json) ═══════════════ */
+let remoteStudyStats = null;
+let remoteProgressData = null;
+
+function mergeProgressInto(prog) {
+  if (!prog || !Array.isArray(prog.cards)) return;
+  remoteProgressData = prog;
+  let cnt = 0;
+  const tk = todayKey();
+  const existingTodayIds = new Set(
+    (state.log || []).filter(e => dayKey(logDate(e)) === tk).map(e => e[0])
+  );
+
+  for (const c of prog.cards) {
+    if (!c || !c.id) continue;
+    const s = state.cards[c.id] || (state.cards[c.id] = { fsrs: null, miss: 0, retired: false, flag: null, ann: [], u: '', d: '', mu: '' });
+
+    if (c.retired !== undefined) s.retired = Boolean(c.retired);
+    if (c.flag !== undefined) s.flag = c.flag ? true : null;
+    if (c.eliminated && Array.isArray(c.eliminated)) s.eliminated = c.eliminated.slice();
+    if (c.oxSaved && Array.isArray(c.oxSaved)) s.oxSaved = c.oxSaved.slice();
+    if (c.isTypo) {
+      s.isTypo = true;
+      s.tags = s.tags || [];
+      if (!s.tags.includes('오탈자')) s.tags.push('오탈자');
+    }
+    if (c.tags && Array.isArray(c.tags)) {
+      s.tags = s.tags || [];
+      for (const t of c.tags) {
+        if (!s.tags.includes(t)) s.tags.push(t);
+      }
+    }
+
+    if (c.fsrs) {
+      if (!s.fsrs || (c.fsrs.reps && (!s.fsrs.reps || c.fsrs.reps >= s.fsrs.reps))) {
+        s.fsrs = Object.assign({}, c.fsrs);
+        if (c.fsrs.due) s.due = c.fsrs.due;
+      }
+    }
+
+    if (c.grade) s.lastGrade = c.grade;
+
+    // 오늘 풀이한 문항 로그 보충
+    if (c.grade && !existingTodayIds.has(c.id)) {
+      const ts = (c.fsrs && c.fsrs.lastReview) ? c.fsrs.lastReview : (prog.updated_at || new Date().toISOString());
+      if (dayKey(new Date(ts)) === tk || (prog.updated_at && dayKey(new Date(prog.updated_at)) === tk)) {
+        const entry = [c.id, ts, c.grade, { src: prog.device || 'Onyx Boox' }];
+        state.log.push(entry);
+        existingTodayIds.add(c.id);
+        cnt++;
+      }
+    }
+  }
+  console.log(`[통합 동기화] user_progress.json (${prog.device || '기기'}) ${prog.cards.length}제 상태 병합 (오늘 푼 문제 +${cnt}건)`);
+}
+
+function mergeStudyStatsInto(stats) {
+  if (!stats) return;
+  remoteStudyStats = stats;
+  console.log(`[통합 동기화] study_stats.json 연동 완료: 스트릭 ${stats.streak || 0}일, 총 ${stats.total_reviewed || 0}제`);
+}
+
+async function pushProgressToGitHub() {
+  if (!cfg || !cfg.token) return;
+  try {
+    const typoList = [];
+    const cardsList = Object.keys(state.cards).map(id => {
+      const r = state.cards[id];
+      const isTypo = Boolean(r.isTypo || (r.tags && r.tags.includes('오탈자')));
+      if (isTypo) typoList.push(id);
+      return {
+        id: id,
+        grade: r.lastGrade || (r.fsrs ? 3 : 0),
+        flag: Boolean(r.flag),
+        retired: Boolean(r.retired),
+        eliminated: r.eliminated || [],
+        oxSaved: r.oxSaved || [],
+        isTypo: isTypo,
+        tags: r.tags || (isTypo ? ['오탈자'] : []),
+        fsrs: r.fsrs || null,
+        history: r.history || []
+      };
+    });
+
+    const progressPayload = {
+      updated_at: new Date().toISOString(),
+      device: "cards.html (Web)",
+      typoCount: typoList.length,
+      typos: typoList,
+      cards: cardsList
+    };
+
+    const ds = dailyStats();
+    const dailyMap = {};
+    for (const [k, v] of Object.entries(ds)) {
+      dailyMap[k] = {
+        total: v.n || 0,
+        again: (v.r && v.r[1]) || 0,
+        hard: (v.r && v.r[2]) || 0,
+        good: (v.r && v.r[3]) || 0,
+        easy: (v.r && v.r[4]) || 0
+      };
+    }
+    if (remoteStudyStats && remoteStudyStats.daily) {
+      for (const [k, v] of Object.entries(remoteStudyStats.daily)) {
+        if (!dailyMap[k] || (v.total || 0) > (dailyMap[k].total || 0)) {
+          dailyMap[k] = v;
+        }
+      }
+    }
+
+    const totalRev = Object.values(dailyMap).reduce((acc, cur) => acc + (cur.total || 0), 0);
+    const statsPayload = {
+      streak: (remoteStudyStats && remoteStudyStats.streak) ? remoteStudyStats.streak : 1,
+      last_study_date: todayKey(),
+      total_reviewed: totalRev,
+      daily: dailyMap
+    };
+
+    await ghPut(PROG_PATH, () => progressPayload, (rm) => mergeProgressInto(rm));
+    await ghPut(STATS_PATH, () => statsPayload, (rm) => mergeStudyStatsInto(rm));
+    console.log('[통합 동기화] user_progress.json & study_stats.json GitHub 업로드 완료');
+  } catch (e) {
+    console.warn('[통합 동기화] 업로드 실패:', e);
+  }
+}
+
 function applyFiles(marksFile, fbFile){   // 파일 두 벌 → 메모리 state.cards (일정은 뒤에서 재계산)
   const cards={};
   const sc=(marksFile&&marksFile.cards)||{};
@@ -7503,6 +7632,7 @@ async function pushAll(force){        // 바뀐 파일만 올린다 (로그 우�
     await ghPut(SESS_PATH, sessFile, mergeSessInto);
     if(gen('sess')===g) dirtyFiles.delete('sess');
   }
+  await pushProgressToGitHub();
 }
 function hasPending(){ return dirty || dirtyFiles.size>0 || dirtyLogs.size>0; }
 /* ═══════════════ 앱 현황 스냅숏 (09-28 메타 발주 = 동하 「앱 쪽 현황을 세션이 읽어 들일 쪽으로 · 연문 등도」) ═══════════════
@@ -8347,11 +8477,12 @@ async function rawGet(path, ref){
 }
 async function loadAll(){         // 스케줄·피드백·세션·이번 주 로그를 병렬로
   const wk=thisWeek();
-  let sc=null, fb=null, sess=null, lg=null, legacy=null, migrated=false, netFail=false;
+  let sc=null, fb=null, sess=null, lg=null, prog=null, stats=null, legacy=null, migrated=false, netFail=false;
   if(cfg&&cfg.token){
     try{
-      [sc, fb, sess, lg] = await Promise.all([
-        ghGet(MARKS_PATH), ghGet(FB_PATH), ghGet(SESS_PATH), ghGet(logPath(wk))]);
+      [sc, fb, sess, lg, prog, stats] = await Promise.all([
+        ghGet(MARKS_PATH), ghGet(FB_PATH), ghGet(SESS_PATH), ghGet(logPath(wk)),
+        ghGet(PROG_PATH), ghGet(STATS_PATH)]);
       /* 🔴 옛 스냅샷(`cards-sched.json` 08-21) · 옛 단일 파일(`cards-state.json`) 폴백은 뗐다(전층 감사 F0-4 · 이관은 끝났다).
          남아 있으면 marks를 「못 받은」 부팅이 08-21 스냅샷을 마크로 읽어 해제된 은퇴 1장을 되살리고 기본 세션을 새로 만들었다. */
     }catch(e){
@@ -8361,8 +8492,9 @@ async function loadAll(){         // 스케줄·피드백·세션·이번 주 �
         :'상태 불러오기 실패 — 로컬 캐시로 진행', e&&e.code==='auth', e&&(e.code==='auth'||e.code==='perm')?'save':'boot');
     }
   } else {                        // 토큰 전: 읽기 전용으로라도 최신 상태를 보여준다
-    [sc, fb, sess, lg] = await Promise.all([
-      rawGet(MARKS_PATH,refFor(MARKS_PATH)), rawGet(FB_PATH,refFor(FB_PATH)), rawGet(SESS_PATH,refFor(SESS_PATH)), rawGet(logPath(wk),refFor(logPath(wk)))]);
+    [sc, fb, sess, lg, prog, stats] = await Promise.all([
+      rawGet(MARKS_PATH,refFor(MARKS_PATH)), rawGet(FB_PATH,refFor(FB_PATH)), rawGet(SESS_PATH,refFor(SESS_PATH)), rawGet(logPath(wk),refFor(logPath(wk))),
+      rawGet(PROG_PATH,refFor(PROG_PATH)), rawGet(STATS_PATH,refFor(STATS_PATH))]);
     if(rawNetFail){ netFail=true; showBanner('상태 불러오기 실패 — 로컬 캐시로 진행', false, 'boot'); }   // 「못 받았다」를 「없다」로 읽지 않는다(F0-4)
   }
   await fbSentConfirm();           // 🔴 앱을 닫으며 보낸 push가 도착했는지 먼저 확인 → 기준선을 올린다(메타 09-29 · 44건 부활)
@@ -8467,6 +8599,8 @@ async function loadAll(){         // 스케줄·피드백·세션·이번 주 �
     const n=replayLog();
     console.log('로그 재계산', n, '건 ·', Math.round(performance.now()-t0), 'ms');
   }
+  if(prog) mergeProgressInto(prog);
+  if(stats) mergeStudyStatsInto(stats);
   cleanupTempSessions();
   /* 🔴 세션 목록을 **못 받은 것**과 **없는 것**은 다르다 (동하 2026-08-24 「누복 세션이 두 개가 됐어」)
      실측 — 08-23 13:09 세션 3개 → 15:34 파일이 **「일일 복습」 새것 하나로 통째로 덮임** →
@@ -16124,6 +16258,16 @@ function dailyStats(){
     if(!firstSeen.has(e[0])){ firstSeen.add(e[0]); d.nw++; }
     const ex=e[3];
     if(ex&&typeof ex.ms==='number'){ d.ms+=ex.ms; d.msN++; }
+  }
+  if (remoteStudyStats && remoteStudyStats.daily) {
+    for (const [k, v] of Object.entries(remoteStudyStats.daily)) {
+      const d = by[k] || (by[k] = emptyDay());
+      if ((v.total || 0) > d.n) {
+        d.n = v.total;
+        d.cards = Math.max(d.cards, v.total);
+        d.r = [0, v.again || 0, v.hard || 0, v.good || 0, v.easy || 0];
+      }
+    }
   }
   return by;
 }
