@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T14:27:55.059Z",
+  "updated_at": "2026-11-16T14:28:06.203Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -529,23 +529,25 @@
     },
     {
       "id": "mgmt_0069",
-      "grade": 3,
+      "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 2,
-        "stability": 3.43,
-        "difficulty": 4.93,
-        "reps": 2,
-        "lapses": 0,
-        "due": "2026-11-19",
-        "interval": 3,
-        "lastReview": "2026-11-16T07:39:06.324Z"
+        "state": 1,
+        "stability": 1.32,
+        "difficulty": 6.63,
+        "reps": 3,
+        "lapses": 1,
+        "due": "2026-11-16",
+        "interval": 0,
+        "lastReview": "2026-11-16T14:13:05.075Z"
       },
       "history": [
         {
@@ -561,6 +563,13 @@
           "interval": 3,
           "stability": 3.43,
           "difficulty": 4.93
+        },
+        {
+          "grade": 1,
+          "timestamp": 1794838385075,
+          "interval": 0,
+          "stability": 1.32,
+          "difficulty": 6.63
         }
       ]
     },
@@ -3107,16 +3116,35 @@
     },
     {
       "id": "mgmt_0064",
-      "grade": 0,
-      "flag": false,
+      "grade": 1,
+      "flag": true,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-16",
+        "interval": 0,
+        "lastReview": "2026-11-16T14:12:51.134Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1794838371134,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0072",
@@ -3219,7 +3247,7 @@
     },
     {
       "id": "mgmt_0071",
-      "grade": 4,
+      "grade": 3,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -3234,13 +3262,13 @@
       "tags": [],
       "fsrs": {
         "state": 2,
-        "stability": 5.48,
-        "difficulty": 4.08,
-        "reps": 2,
+        "stability": 6.17,
+        "difficulty": 4.09,
+        "reps": 3,
         "lapses": 0,
-        "due": "2026-11-21",
-        "interval": 5,
-        "lastReview": "2026-11-16T07:39:21.228Z"
+        "due": "2026-11-22",
+        "interval": 6,
+        "lastReview": "2026-11-16T14:13:15.153Z"
       },
       "history": [
         {
@@ -3256,6 +3284,13 @@
           "interval": 5,
           "stability": 5.48,
           "difficulty": 4.08
+        },
+        {
+          "grade": 3,
+          "timestamp": 1794838395153,
+          "interval": 6,
+          "stability": 6.17,
+          "difficulty": 4.09
         }
       ]
     },
