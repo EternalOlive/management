@@ -1,7 +1,7 @@
 {
-  "streak": 4,
-  "last_study_date": "2026-11-16",
-  "total_reviewed": 7571,
+  "streak": 5,
+  "last_study_date": "2026-11-17",
+  "total_reviewed": 7720,
   "daily": {
     "2026-09-30": {
       "total": 64,
@@ -235,11 +235,18 @@
       "easy": 11
     },
     "2026-11-16": {
-      "total": 56,
-      "again": 21,
+      "total": 73,
+      "again": 31,
       "hard": 1,
-      "good": 27,
-      "easy": 7
+      "good": 31,
+      "easy": 10
+    },
+    "2026-11-17": {
+      "total": 132,
+      "again": 87,
+      "hard": 4,
+      "good": 21,
+      "easy": 20
     }
   }
 }
