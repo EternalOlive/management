@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:59:19.777Z",
+  "updated_at": "2026-11-20T16:09:41.931Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -667,8 +667,8 @@
       "flag": false,
       "retired": false,
       "eliminated": [
-        4,
-        1
+        1,
+        4
       ],
       "oxSaved": [],
       "highlights": [],
@@ -11356,6 +11356,57 @@
         {
           "grade": 4,
           "timestamp": 1795188476229,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1226",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1227",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T15:57:33.173Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795190253174,
           "interval": 6,
           "stability": 5.8,
           "difficulty": 3.99
