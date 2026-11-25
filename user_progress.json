@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:24:39.513Z",
+  "updated_at": "2026-11-25T04:08:43.583Z",
   "device": "Onyx Boox Note",
   "typoCount": 0,
   "typos": [],
@@ -1065,7 +1065,7 @@
     },
     {
       "id": "mgmt_0283",
-      "grade": 3,
+      "grade": 1,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -1078,14 +1078,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 2,
-        "stability": 0.45,
-        "difficulty": 6.79,
-        "reps": 2,
-        "lapses": 0,
-        "due": "2026-11-16",
-        "interval": 1,
-        "lastReview": "2026-11-15T21:20:11.431Z"
+        "state": 1,
+        "stability": 0.56,
+        "difficulty": 8.47,
+        "reps": 3,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:07:48.072Z"
       },
       "history": [
         {
@@ -1101,6 +1101,13 @@
           "interval": 1,
           "stability": 0.45,
           "difficulty": 6.79
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795288068072,
+          "interval": 0,
+          "stability": 0.56,
+          "difficulty": 8.47
         }
       ]
     },
@@ -1114,8 +1121,25 @@
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:15:36.511Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288536511,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0027",
@@ -1287,13 +1311,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-16",
+        "stability": 0.5,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-16T14:11:44.078Z"
+        "lastReview": "2026-11-21T19:08:56.073Z"
       },
       "history": [
         {
@@ -1302,6 +1326,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795288136074,
+          "interval": 0,
+          "stability": 0.5,
+          "difficulty": 8.49
         }
       ]
     },
@@ -1556,8 +1587,25 @@
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:15:02.076Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288502077,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0325",
@@ -1569,8 +1617,25 @@
       "highlights": [],
       "isTypo": false,
       "tags": [],
-      "fsrs": null,
-      "history": []
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:16:49.768Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288609768,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
     },
     {
       "id": "mgmt_0127",
@@ -3593,29 +3658,29 @@
     },
     {
       "id": "mgmt_0277",
-      "grade": 3,
+      "grade": 1,
       "flag": false,
       "retired": false,
       "eliminated": [
         5
       ],
       "oxSaved": [
-        3,
+        1,
         2,
-        1
+        3
       ],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 2,
-        "stability": 2.4,
-        "difficulty": 4.93,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 2,
-        "lastReview": "2026-11-15T21:16:59.523Z"
+        "state": 1,
+        "stability": 1.34,
+        "difficulty": 6.63,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:10:56.237Z"
       },
       "history": [
         {
@@ -3624,6 +3689,13 @@
           "interval": 2,
           "stability": 2.4,
           "difficulty": 4.93
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795288256237,
+          "interval": 0,
+          "stability": 1.34,
+          "difficulty": 6.63
         }
       ]
     },
@@ -3661,9 +3733,14 @@
       "id": "mgmt_0280",
       "grade": 3,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
-      "oxSaved": [],
+      "retired": true,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [
+        2,
+        3
+      ],
       "highlights": [],
       "isTypo": false,
       "tags": [],
@@ -3699,13 +3776,13 @@
       "tags": [],
       "fsrs": {
         "state": 2,
-        "stability": 5.8,
-        "difficulty": 3.99,
-        "reps": 1,
+        "stability": 47.18,
+        "difficulty": 3.15,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-21",
-        "interval": 6,
-        "lastReview": "2026-11-15T21:19:24.503Z"
+        "due": "2027-01-08",
+        "interval": 47,
+        "lastReview": "2026-11-21T19:12:20.370Z"
       },
       "history": [
         {
@@ -3714,6 +3791,13 @@
           "interval": 6,
           "stability": 5.8,
           "difficulty": 3.99
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795288340370,
+          "interval": 47,
+          "stability": 47.18,
+          "difficulty": 3.15
         }
       ]
     },
@@ -3731,13 +3815,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-15",
+        "stability": 0.52,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-15T21:19:55.469Z"
+        "lastReview": "2026-11-21T19:07:31.798Z"
       },
       "history": [
         {
@@ -3746,6 +3830,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795288051798,
+          "interval": 0,
+          "stability": 0.52,
+          "difficulty": 8.49
         }
       ]
     },
@@ -3766,10 +3857,11 @@
       "id": "mgmt_0509",
       "grade": 3,
       "flag": false,
-      "retired": false,
+      "retired": true,
       "eliminated": [
-        4,
-        3
+        1,
+        3,
+        4
       ],
       "oxSaved": [],
       "highlights": [],
@@ -3836,7 +3928,7 @@
     },
     {
       "id": "mgmt_0513",
-      "grade": 2,
+      "grade": 1,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -3848,14 +3940,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 2,
-        "stability": 0.6,
-        "difficulty": 5.87,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 1,
-        "lastReview": "2026-11-16T07:56:10.089Z"
+        "state": 1,
+        "stability": 0.61,
+        "difficulty": 7.56,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-20T19:48:24.012Z"
       },
       "history": [
         {
@@ -3864,6 +3956,13 @@
           "interval": 1,
           "stability": 0.6,
           "difficulty": 5.87
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795204104012,
+          "interval": 0,
+          "stability": 0.61,
+          "difficulty": 7.56
         }
       ]
     },
@@ -3879,13 +3978,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-16",
+        "stability": 0.48,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-21",
         "interval": 0,
-        "lastReview": "2026-11-16T07:56:21.039Z"
+        "lastReview": "2026-11-20T19:45:52.359Z"
       },
       "history": [
         {
@@ -3894,6 +3993,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795203952359,
+          "interval": 0,
+          "stability": 0.48,
+          "difficulty": 8.49
         }
       ]
     },
@@ -3964,7 +4070,7 @@
     },
     {
       "id": "mgmt_0518",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -3976,14 +4082,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 18.66,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-16",
-        "interval": 0,
-        "lastReview": "2026-11-16T07:58:24.154Z"
+        "due": "2026-12-10",
+        "interval": 19,
+        "lastReview": "2026-11-20T19:46:02.610Z"
       },
       "history": [
         {
@@ -3992,6 +4098,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795203962610,
+          "interval": 19,
+          "stability": 18.66,
+          "difficulty": 5.94
         }
       ]
     },
@@ -4107,13 +4220,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-16",
+        "stability": 0.48,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-21",
         "interval": 0,
-        "lastReview": "2026-11-16T08:00:13.869Z"
+        "lastReview": "2026-11-20T19:46:07.845Z"
       },
       "history": [
         {
@@ -4122,6 +4235,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795203967845,
+          "interval": 0,
+          "stability": 0.48,
+          "difficulty": 8.49
         }
       ]
     },
@@ -4137,13 +4257,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-16",
+        "stability": 0.48,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-21",
         "interval": 0,
-        "lastReview": "2026-11-16T08:00:35.423Z"
+        "lastReview": "2026-11-20T19:46:12.597Z"
       },
       "history": [
         {
@@ -4152,6 +4272,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795203972597,
+          "interval": 0,
+          "stability": 0.48,
+          "difficulty": 8.49
         }
       ]
     },
@@ -10161,13 +10288,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
+        "stability": 0.33,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-17T13:46:16.129Z"
+        "lastReview": "2026-11-21T17:11:22.944Z"
       },
       "history": [
         {
@@ -10176,12 +10303,26 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795192162625,
+          "interval": 0,
+          "stability": 0.43,
+          "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795281082945,
+          "interval": 0,
+          "stability": 0.33,
+          "difficulty": 10
         }
       ]
     },
     {
       "id": "mgmt_1177",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -10190,14 +10331,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.43,
-        "difficulty": 8.49,
-        "reps": 2,
+        "state": 2,
+        "stability": 4.58,
+        "difficulty": 7.6,
+        "reps": 3,
         "lapses": 1,
-        "due": "2026-11-21",
-        "interval": 0,
-        "lastReview": "2026-11-20T16:21:59.504Z"
+        "due": "2026-11-27",
+        "interval": 5,
+        "lastReview": "2026-11-21T17:02:27.358Z"
       },
       "history": [
         {
@@ -10213,6 +10354,13 @@
           "interval": 0,
           "stability": 0.43,
           "difficulty": 8.49
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795280547358,
+          "interval": 5,
+          "stability": 4.58,
+          "difficulty": 7.6
         }
       ]
     },
@@ -10228,13 +10376,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.43,
-        "difficulty": 8.49,
-        "reps": 2,
-        "lapses": 1,
-        "due": "2026-11-21",
+        "stability": 0.33,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-20T16:22:05.245Z"
+        "lastReview": "2026-11-21T17:02:40.586Z"
       },
       "history": [
         {
@@ -10250,6 +10398,13 @@
           "interval": 0,
           "stability": 0.43,
           "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280560586,
+          "interval": 0,
+          "stability": 0.33,
+          "difficulty": 10
         }
       ]
     },
@@ -10275,7 +10430,7 @@
     },
     {
       "id": "mgmt_1184",
-      "grade": 3,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -10289,13 +10444,13 @@
       "tags": [],
       "fsrs": {
         "state": 2,
-        "stability": 2.4,
-        "difficulty": 4.93,
-        "reps": 1,
+        "stability": 24.3,
+        "difficulty": 4.08,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-19",
-        "interval": 2,
-        "lastReview": "2026-11-17T12:53:24.685Z"
+        "due": "2026-12-15",
+        "interval": 24,
+        "lastReview": "2026-11-20T17:31:11.743Z"
       },
       "history": [
         {
@@ -10304,6 +10459,13 @@
           "interval": 2,
           "stability": 2.4,
           "difficulty": 4.93
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795195871743,
+          "interval": 24,
+          "stability": 24.3,
+          "difficulty": 4.08
         }
       ]
     },
@@ -10319,13 +10481,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.43,
-        "difficulty": 8.49,
-        "reps": 2,
-        "lapses": 1,
-        "due": "2026-11-21",
+        "stability": 0.33,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-20T16:22:13.431Z"
+        "lastReview": "2026-11-21T17:03:07.848Z"
       },
       "history": [
         {
@@ -10341,6 +10503,13 @@
           "interval": 0,
           "stability": 0.43,
           "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280587849,
+          "interval": 0,
+          "stability": 0.33,
+          "difficulty": 10
         }
       ]
     },
@@ -10513,7 +10682,7 @@
     },
     {
       "id": "mgmt_1195",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [
@@ -10525,14 +10694,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.43,
-        "difficulty": 8.49,
-        "reps": 2,
+        "state": 2,
+        "stability": 4.58,
+        "difficulty": 7.6,
+        "reps": 3,
         "lapses": 1,
-        "due": "2026-11-21",
-        "interval": 0,
-        "lastReview": "2026-11-20T16:22:34.892Z"
+        "due": "2026-11-27",
+        "interval": 5,
+        "lastReview": "2026-11-21T17:03:31.944Z"
       },
       "history": [
         {
@@ -10548,6 +10717,13 @@
           "interval": 0,
           "stability": 0.43,
           "difficulty": 8.49
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795280611944,
+          "interval": 5,
+          "stability": 4.58,
+          "difficulty": 7.6
         }
       ]
     },
@@ -10602,7 +10778,7 @@
     },
     {
       "id": "mgmt_1199",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -10611,14 +10787,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 15.01,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 0,
-        "lastReview": "2026-11-17T13:22:17.071Z"
+        "due": "2026-12-06",
+        "interval": 15,
+        "lastReview": "2026-11-20T16:28:10.756Z"
       },
       "history": [
         {
@@ -10627,6 +10803,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795192090757,
+          "interval": 15,
+          "stability": 15.01,
+          "difficulty": 5.94
         }
       ]
     },
@@ -10666,20 +10849,23 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1,
+        3
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
+        "stability": 0.33,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-17T13:47:17.908Z"
+        "lastReview": "2026-11-21T17:03:44.343Z"
       },
       "history": [
         {
@@ -10688,6 +10874,20 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795193137774,
+          "interval": 0,
+          "stability": 0.43,
+          "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280624343,
+          "interval": 0,
+          "stability": 0.33,
+          "difficulty": 10
         }
       ]
     },
@@ -10697,19 +10897,22 @@
       "flag": false,
       "retired": false,
       "eliminated": [],
-      "oxSaved": [],
+      "oxSaved": [
+        3,
+        4
+      ],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
+        "stability": 0.77,
+        "difficulty": 9.32,
+        "reps": 3,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-17T13:49:22.125Z"
+        "lastReview": "2026-11-21T18:05:52.523Z"
       },
       "history": [
         {
@@ -10718,6 +10921,20 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 2,
+          "timestamp": 1795194954373,
+          "interval": 1,
+          "stability": 1.48,
+          "difficulty": 7.64
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795284352523,
+          "interval": 0,
+          "stability": 0.77,
+          "difficulty": 9.32
         }
       ]
     },
@@ -10793,7 +11010,7 @@
     },
     {
       "id": "mgmt_1203",
-      "grade": 1,
+      "grade": 3,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -10802,14 +11019,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 0,
-        "lastReview": "2026-11-17T13:51:33.077Z"
+        "state": 2,
+        "stability": 1.59,
+        "difficulty": 8.45,
+        "reps": 3,
+        "lapses": 1,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T17:04:50.780Z"
       },
       "history": [
         {
@@ -10818,6 +11035,20 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795194994202,
+          "interval": 0,
+          "stability": 0.43,
+          "difficulty": 8.49
+        },
+        {
+          "grade": 3,
+          "timestamp": 1795280690780,
+          "interval": 2,
+          "stability": 1.59,
+          "difficulty": 8.45
         }
       ]
     },
@@ -10826,20 +11057,22 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        2
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-17",
+        "stability": 0.32,
+        "difficulty": 10,
+        "reps": 3,
+        "lapses": 2,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-17T13:52:03.132Z"
+        "lastReview": "2026-11-21T17:09:35.107Z"
       },
       "history": [
         {
@@ -10848,6 +11081,20 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795195367098,
+          "interval": 0,
+          "stability": 0.43,
+          "difficulty": 8.49
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280975107,
+          "interval": 0,
+          "stability": 0.32,
+          "difficulty": 10
         }
       ]
     },
@@ -10885,7 +11132,7 @@
     },
     {
       "id": "mgmt_1206",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -10894,14 +11141,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 15.06,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 0,
-        "lastReview": "2026-11-17T13:53:11.820Z"
+        "due": "2026-12-06",
+        "interval": 15,
+        "lastReview": "2026-11-20T17:22:53.365Z"
       },
       "history": [
         {
@@ -10910,6 +11157,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795195373365,
+          "interval": 15,
+          "stability": 15.06,
+          "difficulty": 5.94
         }
       ]
     },
@@ -10947,7 +11201,7 @@
     },
     {
       "id": "mgmt_1208",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -10956,14 +11210,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 15.06,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-17",
-        "interval": 0,
-        "lastReview": "2026-11-17T13:54:08.671Z"
+        "due": "2026-12-06",
+        "interval": 15,
+        "lastReview": "2026-11-20T17:25:14.310Z"
       },
       "history": [
         {
@@ -10972,6 +11226,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795195514311,
+          "interval": 15,
+          "stability": 15.06,
+          "difficulty": 5.94
         }
       ]
     },
@@ -11120,20 +11381,23 @@
       "grade": 1,
       "flag": false,
       "retired": false,
-      "eliminated": [],
+      "eliminated": [
+        1,
+        4
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-21",
+        "stability": 0.32,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-20T15:17:50.077Z"
+        "lastReview": "2026-11-21T16:55:17.323Z"
       },
       "history": [
         {
@@ -11142,6 +11406,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280117324,
+          "interval": 0,
+          "stability": 0.32,
+          "difficulty": 8.49
         }
       ]
     },
@@ -11195,13 +11466,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-21",
+        "stability": 0.32,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-20T15:21:37.074Z"
+        "lastReview": "2026-11-21T16:58:53.533Z"
       },
       "history": [
         {
@@ -11210,6 +11481,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280333533,
+          "interval": 0,
+          "stability": 0.32,
+          "difficulty": 8.49
         }
       ]
     },
@@ -11253,19 +11531,22 @@
       "eliminated": [
         4
       ],
-      "oxSaved": [],
+      "oxSaved": [
+        2,
+        3
+      ],
       "highlights": [],
       "isTypo": false,
       "tags": [],
       "fsrs": {
         "state": 2,
-        "stability": 0.6,
-        "difficulty": 5.87,
-        "reps": 1,
+        "stability": 1.22,
+        "difficulty": 6.71,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-22",
+        "due": "2026-11-23",
         "interval": 1,
-        "lastReview": "2026-11-20T15:25:18.721Z"
+        "lastReview": "2026-11-21T17:56:10.038Z"
       },
       "history": [
         {
@@ -11274,6 +11555,13 @@
           "interval": 1,
           "stability": 0.6,
           "difficulty": 5.87
+        },
+        {
+          "grade": 2,
+          "timestamp": 1795283770038,
+          "interval": 1,
+          "stability": 1.22,
+          "difficulty": 6.71
         }
       ]
     },
@@ -11341,8 +11629,11 @@
       "id": "mgmt_1222",
       "grade": 1,
       "flag": false,
-      "retired": false,
-      "eliminated": [],
+      "retired": true,
+      "eliminated": [
+        4,
+        5
+      ],
       "oxSaved": [],
       "highlights": [],
       "isTypo": false,
@@ -11467,7 +11758,7 @@
     },
     {
       "id": "mgmt_1229",
-      "grade": 1,
+      "grade": 4,
       "flag": false,
       "retired": false,
       "eliminated": [],
@@ -11476,14 +11767,14 @@
       "isTypo": false,
       "tags": [],
       "fsrs": {
-        "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
+        "state": 2,
+        "stability": 6.61,
+        "difficulty": 5.94,
+        "reps": 2,
         "lapses": 0,
-        "due": "2026-11-21",
-        "interval": 0,
-        "lastReview": "2026-11-20T16:13:24.529Z"
+        "due": "2026-11-29",
+        "interval": 7,
+        "lastReview": "2026-11-21T16:59:19.075Z"
       },
       "history": [
         {
@@ -11492,6 +11783,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795280359076,
+          "interval": 7,
+          "stability": 6.61,
+          "difficulty": 5.94
         }
       ]
     },
@@ -11554,13 +11852,13 @@
       "tags": [],
       "fsrs": {
         "state": 1,
-        "stability": 0.4,
-        "difficulty": 6.81,
-        "reps": 1,
-        "lapses": 0,
-        "due": "2026-11-21",
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
         "interval": 0,
-        "lastReview": "2026-11-20T16:17:38.487Z"
+        "lastReview": "2026-11-21T17:02:13.914Z"
       },
       "history": [
         {
@@ -11569,6 +11867,13 @@
           "interval": 0,
           "stability": 0.4,
           "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280533914,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
         }
       ]
     },
@@ -11603,6 +11908,4791 @@
           "interval": 6,
           "stability": 5.8,
           "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1225",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [
+        4,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:02:20.417Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795195932072,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280540417,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1228",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T17:33:32.410Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795196012411,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1233",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1234",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1235",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.2,
+        "difficulty": 6.79,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T17:04:31.501Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795200829072,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 3,
+          "timestamp": 1795280671502,
+          "interval": 2,
+          "stability": 2.2,
+          "difficulty": 6.79
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1236",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1237",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1240",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1241",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1242",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T19:15:22.664Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795202122664,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1243",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T19:15:31.480Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795202131480,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1238",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        4
+      ],
+      "oxSaved": [
+        3
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1239",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1244",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:09:44.484Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202574472,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280984484,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1245",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:09:51.944Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202588022,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795280991944,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1246",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.41,
+        "difficulty": 7.56,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:56:19.297Z"
+      },
+      "history": [
+        {
+          "grade": 2,
+          "timestamp": 1795202616107,
+          "interval": 1,
+          "stability": 0.6,
+          "difficulty": 5.87
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795283779298,
+          "interval": 0,
+          "stability": 0.41,
+          "difficulty": 7.56
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1247",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.17,
+        "difficulty": 6.79,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T17:09:59.456Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202625152,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 3,
+          "timestamp": 1795280999456,
+          "interval": 2,
+          "stability": 2.17,
+          "difficulty": 6.79
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1248",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-20T19:24:01.419Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795202641419,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1249",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:11:00.798Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202654314,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795281060799,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1250",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-20T19:25:31.070Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795202731071,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1251",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:11:14.347Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202742037,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795281074347,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1252",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:12:20.725Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795202823284,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795281140725,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1253",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-20T19:30:08.376Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795203008376,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1256",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:31:49.331Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795203848515,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795282309332,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1257",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:31:57.476Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795203854333,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795282317476,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1258",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-20T19:44:24.693Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795203864693,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1259",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-20T19:44:43.368Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795203883369,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1260",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T19:44:54.662Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795203894662,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1261",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1254",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:45:26.096Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795204129474,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795283126097,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1255",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.31,
+        "difficulty": 8.49,
+        "reps": 2,
+        "lapses": 1,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T17:49:55.072Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795204813800,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 1,
+          "timestamp": 1795283395072,
+          "interval": 0,
+          "stability": 0.31,
+          "difficulty": 8.49
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1262",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.66,
+        "difficulty": 5.94,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-28",
+        "interval": 6,
+        "lastReview": "2026-11-21T17:50:09.513Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795209713653,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795283409513,
+          "interval": 6,
+          "stability": 5.66,
+          "difficulty": 5.94
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1263",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T21:22:01.384Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795209721384,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1264",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1265",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        5
+      ],
+      "oxSaved": [
+        2,
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.64,
+        "difficulty": 5.94,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-28",
+        "interval": 6,
+        "lastReview": "2026-11-21T17:50:28.707Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795210014627,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795283428707,
+          "interval": 6,
+          "stability": 5.64,
+          "difficulty": 5.94
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1266",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        4,
+        5
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1267",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        2,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T21:27:37.668Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795210057668,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1268",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1269",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1270",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-20T21:28:20.072Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795210100072,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1271",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1272",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1273",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3,
+        4
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1274",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.07,
+        "difficulty": 6.79,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T17:54:38.028Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795210178071,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 3,
+          "timestamp": 1795283678028,
+          "interval": 2,
+          "stability": 2.07,
+          "difficulty": 6.79
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1275",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [
+        1,
+        2
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.63,
+        "difficulty": 5.94,
+        "reps": 2,
+        "lapses": 0,
+        "due": "2026-11-28",
+        "interval": 6,
+        "lastReview": "2026-11-21T17:55:06.497Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795210381075,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        },
+        {
+          "grade": 4,
+          "timestamp": 1795283706497,
+          "interval": 6,
+          "stability": 5.63,
+          "difficulty": 5.94
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1276",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [
+        4,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1277",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        4
+      ],
+      "oxSaved": [
+        2,
+        3
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1279",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [
+        2,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1278",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1280",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1282",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1283",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1284",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1285",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1288",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1289",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1292",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-21T00:26:13.968Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795220773968,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1293",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:11:07.653Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795223467653,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1294",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-21T01:11:21.313Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795223481313,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1295",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:13:13.074Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795223593074,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1296",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1297",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [
+        3
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:13:41.707Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795223621707,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1281",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1287",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:18:16.072Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795223896072,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1290",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [
+        3
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:19:08.979Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795223948979,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1291",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        4,
+        5
+      ],
+      "oxSaved": [
+        2
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1299",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:43:07.226Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795225387226,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1300",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-27",
+        "interval": 6,
+        "lastReview": "2026-11-21T01:43:19.950Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795225399950,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1301",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:43:47.072Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795225427072,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1302",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-21T01:44:17.297Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795225457298,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1303",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-21T01:48:32.071Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795225712071,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1304",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3,
+        5
+      ],
+      "oxSaved": [
+        1,
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 2,
+        "lastReview": "2026-11-21T01:50:16.067Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795225816068,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1305",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [
+        "expl:0:0:산업의",
+        "expl:0:1:수익률은",
+        "expl:0:4:대체재에",
+        "expl:0:6:영향을"
+      ],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1306",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1307",
+      "grade": 1,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T02:42:33.243Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795228953243,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1309",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T01:56:27.073Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795226187073,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1310",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T02:19:33.075Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795227573075,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1286",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1298",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1314",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1315",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T19:48:33.830Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795290513830,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1316",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [
+        "expl:0:5:본원적",
+        "expl:0:17:기획과",
+        "expl:0:18:구매는",
+        "expl:0:19:지원활동에"
+      ],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1317",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        5
+      ],
+      "oxSaved": [
+        2
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T04:08:43.074Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795234123074,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1318",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        4
+      ],
+      "oxSaved": [
+        3
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-21",
+        "interval": 0,
+        "lastReview": "2026-11-21T04:09:51.730Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795234191730,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1320",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [
+        2
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T15:15:04.488Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795274104488,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1308",
+      "grade": 2,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3,
+        4
+      ],
+      "oxSaved": [
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 0.6,
+        "difficulty": 5.87,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 1,
+        "lastReview": "2026-11-21T18:44:23.999Z"
+      },
+      "history": [
+        {
+          "grade": 2,
+          "timestamp": 1795286663999,
+          "interval": 1,
+          "stability": 0.6,
+          "difficulty": 5.87
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1311",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        4,
+        5
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0284",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T19:17:01.459Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795288621459,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_0285",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0287",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:18:00.335Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288680335,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_0288",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0289",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:19:00.179Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288740180,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_0290",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0291",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_0292",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:23:02.964Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795288982964,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_0293",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1312",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        4
+      ],
+      "oxSaved": [
+        2,
+        3,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1313",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        4,
+        5
+      ],
+      "oxSaved": [
+        2
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1322",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:34:05.074Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795289645074,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1323",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:35:46.708Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795289746708,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1324",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:37:59.672Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795289879673,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1325",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3
+      ],
+      "oxSaved": [
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:39:07.192Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795289947192,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1326",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1327",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:40:13.927Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290013927,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1328",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:41:18.221Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290078221,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1329",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:42:24.343Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290144343,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1330",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:42:58.100Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290178101,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1331",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:44:00.101Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290240101,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1332",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1333",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1334",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:46:21.343Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290381343,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1335",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1319",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [
+        1,
+        4,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T19:50:11.073Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795290611073,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1321",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1336",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:11:41.041Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291901041,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1337",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1338",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1339",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:54:04.034Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290844034,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1340",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:54:23.080Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795290863080,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1341",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1342",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1343",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T19:56:53.561Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291013561,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1344",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-28",
+        "interval": 6,
+        "lastReview": "2026-11-21T19:58:26.827Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795291106827,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1345",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T20:00:01.075Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795291201075,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1346",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:02:59.115Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291379115,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1347",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 2,
+        "lastReview": "2026-11-21T20:03:39.070Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795291419070,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1348",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1349",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1,
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:07:07.736Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291627737,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1350",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1351",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:08:23.325Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291703325,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1352",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:12:51.604Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795291971604,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1353",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:13:37.469Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292017469,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1354",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        1,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1355",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:14:04.923Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292044923,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1356",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:15:22.398Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292122398,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1357",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:15:43.322Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292143322,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1358",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:16:39.774Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292199774,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1359",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:17:46.074Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292266074,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1360",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:17:56.800Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292276800,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1361",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-28",
+        "interval": 6,
+        "lastReview": "2026-11-21T20:19:51.672Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795292391672,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1362",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1363",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:25:25.298Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292725298,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1364",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-22",
+        "interval": 0,
+        "lastReview": "2026-11-21T20:27:04.969Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795292824969,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1365",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:42:02.641Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795372922641,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1366",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        3,
+        5
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1367",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-29",
+        "interval": 6,
+        "lastReview": "2026-11-22T18:42:36.934Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795372956934,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1369",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1370",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:49:57.043Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373397043,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1371",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:50:11.027Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373411027,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1372",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [
+        1,
+        2,
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1373",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:51:08.708Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373468708,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1374",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-29",
+        "interval": 6,
+        "lastReview": "2026-11-22T18:51:13.986Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795373473987,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1375",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1376",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:51:29.738Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373489738,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1380",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [
+        1,
+        3,
+        4
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:57:46.080Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373866080,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1381",
+      "grade": 4,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 5.8,
+        "difficulty": 3.99,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-29",
+        "interval": 6,
+        "lastReview": "2026-11-22T18:57:55.735Z"
+      },
+      "history": [
+        {
+          "grade": 4,
+          "timestamp": 1795373875735,
+          "interval": 6,
+          "stability": 5.8,
+          "difficulty": 3.99
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1382",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:58:04.189Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373884189,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1383",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        3,
+        4,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-25",
+        "interval": 2,
+        "lastReview": "2026-11-22T18:58:19.058Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795373899058,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1384",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T18:58:39.077Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795373919077,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1368",
+      "grade": 3,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        3,
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 2.4,
+        "difficulty": 4.93,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-25",
+        "interval": 2,
+        "lastReview": "2026-11-22T19:00:58.586Z"
+      },
+      "history": [
+        {
+          "grade": 3,
+          "timestamp": 1795374058586,
+          "interval": 2,
+          "stability": 2.4,
+          "difficulty": 4.93
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1377",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:01:26.073Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374086073,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1378",
+      "grade": 0,
+      "flag": true,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1379",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:05:27.418Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374327419,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1385",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1386",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:05:44.204Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374344204,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1387",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1388",
+      "grade": 2,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 2,
+        "stability": 0.6,
+        "difficulty": 5.87,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-24",
+        "interval": 1,
+        "lastReview": "2026-11-22T19:07:16.073Z"
+      },
+      "history": [
+        {
+          "grade": 2,
+          "timestamp": 1795374436073,
+          "interval": 1,
+          "stability": 0.6,
+          "difficulty": 5.87
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1389",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        2,
+        4
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:07:46.251Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374466251,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1390",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        1
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:08:48.944Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374528944,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1393",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [
+        2,
+        3,
+        4
+      ],
+      "oxSaved": [
+        1
+      ],
+      "highlights": [
+        "expl:0:0:표적집단면접(FGI",
+        "expl:0:6:소비자를",
+        "expl:0:10:6~12명",
+        "expl:0:14:장소에",
+        "expl:0:13:한",
+        "expl:0:12:선발하여",
+        "expl:0:15:모이게",
+        "expl:0:23:토론을",
+        "expl:0:29:초점집단면접이라고도"
+      ],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1394",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:10:28.075Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374628075,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1395",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [
+        5
+      ],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:10:41.116Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374641116,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1396",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:16:37.073Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795374997073,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1397",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:17:06.549Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795375026549,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1398",
+      "grade": 0,
+      "flag": false,
+      "retired": true,
+      "eliminated": [],
+      "oxSaved": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": null,
+      "history": []
+    },
+    {
+      "id": "mgmt_1399",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:20:02.090Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795375202090,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1400",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:20:18.143Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795375218143,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1391",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:21:14.073Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795375274073,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
+        }
+      ]
+    },
+    {
+      "id": "mgmt_1392",
+      "grade": 1,
+      "flag": false,
+      "retired": false,
+      "eliminated": [],
+      "oxSaved": [],
+      "highlights": [],
+      "isTypo": false,
+      "tags": [],
+      "fsrs": {
+        "state": 1,
+        "stability": 0.4,
+        "difficulty": 6.81,
+        "reps": 1,
+        "lapses": 0,
+        "due": "2026-11-23",
+        "interval": 0,
+        "lastReview": "2026-11-22T19:22:36.395Z"
+      },
+      "history": [
+        {
+          "grade": 1,
+          "timestamp": 1795375356395,
+          "interval": 0,
+          "stability": 0.4,
+          "difficulty": 6.81
         }
       ]
     }
