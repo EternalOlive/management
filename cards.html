@@ -2509,7 +2509,7 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   border-color: var(--c-red, #FF3B30) !important;
 }
 
-/* OX 보조 저장 버튼 - 앞면/뒷면 모두 상시 노출 */
+/* OX 보조 저장 버튼 - 정답/해설 공개(#card.rev) 후에만 노출 */
 .mcq-ox-btn {
   display: inline-flex !important;
   align-items: center !important;
@@ -2527,6 +2527,9 @@ details.gr-fold[open]>summary .s2-chev{transform:rotate(90deg);}
   white-space: nowrap !important;
   flex-shrink: 0 !important;
   user-select: none !important;
+}
+#card:not(.rev) .mcq-ox-btn {
+  display: none !important;
 }
 .mcq-ox-btn:hover {
   background: var(--c-acc-tint) !important;
