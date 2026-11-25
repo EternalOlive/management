@@ -7166,6 +7166,80 @@ function mergeProgressInto(prog) {
     todayRateIdx = null;
   }
   console.log(`[통합 동기화] user_progress.json (${prog.device || '기기'}) ${prog.cards.length}제 상태 병합 (이력 +${cnt}건)`);
+
+  // ── Boox→웹 localStorage 반영: oxSaved / eliminated ──────────────────────
+  // state.cards에 올라온 Boox 데이터를 localStorage의 mgmt_ox_cards_v1 /
+  // mgmt_eliminated_v1에도 써 줘야 UI가 ✓ OX / 소거 표시를 올바르게 렌더링한다.
+  _syncBooxOxToLocalStorage();
+}
+
+/** Boox user_progress.json에서 불러온 oxSaved / eliminated 를
+ *  localStorage (mgmt_ox_cards_v1 / mgmt_eliminated_v1) 에 반영한다.
+ *  웹에서 OX 저장·소거를 하면 그 즉시 state.cards도 업데이트되므로
+ *  항상 state.cards가 단일 진실 소스(source of truth)가 된다. */
+function _syncBooxOxToLocalStorage() {
+  try {
+    // ① oxSaved: state.cards[id].oxSaved (origNum 배열) → 카드 객체를 재구성해
+    //    mgmt_ox_cards_v1 맵에 넣는다. 카드 메타(front/back 등)는 BYID에서 가져온다.
+    const oxMap = getOxCardsMap();
+    let oxChanged = false;
+    for (const id in state.cards) {
+      const s = state.cards[id];
+      if (!Array.isArray(s.oxSaved) || s.oxSaved.length === 0) continue;
+      const baseCard = (typeof BYID !== 'undefined' && BYID[id]) || null;
+      for (const origNum of s.oxSaved) {
+        const qid = id.replace(/^mgmt_/, '');
+        const oxId = 'mgmt_ox_' + qid + '_' + origNum;
+        if (oxMap[oxId]) continue; // 이미 있음
+        // 카드 본문이 로딩돼 있으면 풍부한 형태로 저장, 없으면 최소 형태
+        const c = baseCard;
+        const choiceText = c && Array.isArray(c.choices) ? (c.choices[origNum - 1] || ('보기 ' + origNum)) : ('보기 ' + origNum);
+        const stem = c ? (c.stemText || c.front || '') : '';
+        const isNegative = /(옳지\s*않|틀린|틀리게|아닌|적절하지\s*않|부적절|거리.*먼|잘못)/.test(stem);
+        const correct = c && c.correct;
+        let isO = true;
+        if (correct) {
+          isO = isNegative ? (Number(origNum) !== Number(correct)) : (Number(origNum) === Number(correct));
+        }
+        const exp = c ? (c.explanationText || c.note || '') : '';
+        oxMap[oxId] = {
+          id: oxId,
+          qid: qid + '_' + origNum,
+          subj: (c ? (c.subj || '경영학') : '경영학') + ' [OX]',
+          typ: 'OX',
+          front: '〔문 ' + qid + ' · 보기 ' + origNum + '〕\n' + choiceText,
+          back: '정답: ' + (isO ? 'O' : 'X') + (exp ? '\n\n해설: ' + exp : ''),
+          note: exp,
+          tags: [(c ? (c.subj || '경영학') : '경영학') + ' [OX]', 'OX선지', '문 ' + qid],
+          probPage: c && c.probPage, ansPage: c && c.ansPage,
+          sourceTag: c && c.sourceTag || ''
+        };
+        oxChanged = true;
+      }
+    }
+    if (oxChanged) {
+      try { localStorage.setItem(MCQ_OX_KEY, JSON.stringify(oxMap)); } catch (_) {}
+    }
+
+    // ② eliminated: state.cards[id].eliminated → mgmt_eliminated_v1 에 반영
+    const elimMap = getEliminatedMap();
+    let elimChanged = false;
+    for (const id in state.cards) {
+      const s = state.cards[id];
+      if (!Array.isArray(s.eliminated) || s.eliminated.length === 0) continue;
+      const cur = elimMap[id];
+      // 길이·내용이 다를 때만 덮어씀
+      if (!cur || JSON.stringify(cur.slice().sort()) !== JSON.stringify(s.eliminated.slice().sort())) {
+        elimMap[id] = Array.from(new Set(s.eliminated));
+        elimChanged = true;
+      }
+    }
+    if (elimChanged) {
+      try { localStorage.setItem(MCQ_ELIM_KEY, JSON.stringify(elimMap)); } catch (_) {}
+    }
+  } catch (e) {
+    console.warn('[_syncBooxOxToLocalStorage] 오류', e);
+  }
 }
 
 function mergeStudyStatsInto(stats) {
@@ -10444,6 +10518,12 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
   if (map[oxId]) {
     delete map[oxId];
     try { localStorage.setItem(MCQ_OX_KEY, JSON.stringify(map)); } catch (_) {}
+    // ── state.cards 동기화 (웹→GitHub push에 반영) ──
+    const baseId = 'mgmt_' + qid;
+    if (state && state.cards && state.cards[baseId]) {
+      const sc = state.cards[baseId];
+      sc.oxSaved = (sc.oxSaved || []).filter(n => Number(n) !== Number(origNum));
+    }
     if (typeof DATA !== 'undefined' && Array.isArray(DATA)) {
       const idx = DATA.findIndex(x => x.id === oxId);
       if (idx !== -1) DATA.splice(idx, 1);
@@ -10457,6 +10537,7 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
       btn.title = '이 선지를 OX 카드로 저장';
     }
     toast('OX 저장을 해제했어요');
+    if (typeof pushProgressToGitHub === 'function') pushProgressToGitHub().catch(() => {});
   } else {
     const correct = c.correct || Number(document.querySelector('.mcq-result')?.dataset?.correct);
     const stem = (c.stemText || c.front || '');
@@ -10491,6 +10572,17 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
     map[oxId] = oxCard;
     try { localStorage.setItem(MCQ_OX_KEY, JSON.stringify(map)); } catch (_) {}
 
+    // ── state.cards 동기화 (웹→GitHub push에 반영) ──
+    const baseId = 'mgmt_' + qid;
+    if (state && state.cards) {
+      if (!state.cards[baseId]) {
+        state.cards[baseId] = { fsrs: null, miss: 0, retired: false, flag: null, ann: [], u: '', d: '', mu: '' };
+      }
+      const sc = state.cards[baseId];
+      sc.oxSaved = sc.oxSaved || [];
+      if (!sc.oxSaved.includes(Number(origNum))) sc.oxSaved.push(Number(origNum));
+    }
+
     if (typeof DATA !== 'undefined' && Array.isArray(DATA)) {
       if (!DATA.some(x => x.id === oxId)) {
         DATA.push(oxCard);
@@ -10506,6 +10598,7 @@ function toggleSaveOxCard(c, origNum, choiceText, btn) {
       btn.title = '저장됨 (클릭하여 취소)';
     }
     toast('OX 카드로 저장했어요 (' + oxAnswer + ')');
+    if (typeof pushProgressToGitHub === 'function') pushProgressToGitHub().catch(() => {});
   }
 }
 
@@ -10567,6 +10660,10 @@ function toggleEliminateOption(cardId, origNum, btn) {
     }
   }
   setCardEliminated(cardId, list);
+  // ── state.cards 동기화 (웹→GitHub push에 반영) ──
+  if (state && state.cards && state.cards[cardId]) {
+    state.cards[cardId].eliminated = list.slice();
+  }
 }
 
 function getCardPdfPages(c) {
