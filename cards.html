@@ -6198,7 +6198,7 @@ const PLAN_PATH='cards-plan.json',
       MARKS_PATH='cards-marks.json',
       FB_PATH='cards-feedback.json', SESS_PATH='cards-sessions.json',
       PROG_PATH='user_progress.json', STATS_PATH='study_stats.json';
-const LOG_FIRST_MON='2026-08-17';   // 로그가 시작된 주의 월요일 (첫 채점 2026-08-19)
+const LOG_FIRST_MON='2026-11-09';   // 로그가 시작된 주의 월요일 (저장소 생성 주간 2026-11-11 기준)
                                     // — 전량 재계산이 훑을 범위의 시작. 앞당기면 없는 주를 매번 404로 받는다.
 function logPath(wk){ return `cards-log-${wk}.json`; }
 
@@ -6397,7 +6397,7 @@ async function loadFsrsParams(){
     if(j && Array.isArray(j.w) && j.w.length && j.at) FSRSP=j;
   }catch(e){ /* 없거나 깨졌으면 표준값 그대로 */ }
 }
-const EXAM_END = new Date(EXAM_DAY+'T12:00:00+09:00');
+const EXAM_END = EXAM_DAY ? new Date(EXAM_DAY+'T12:00:00+09:00') : null;
 /* 🔴 시험일 클램프 — 시험 뒤로 잡힌 due는 시험 **전 창(D-7~D-1)**의 하루로 (동하 결정 2026-09-06 · 전층 감사 F1-2).
    예전엔 시험 당일(11-07)로 모아서 클램프 = 「시험 전엔 안 본다」였다(시뮬: 4,980장이 11-07 하루에 · 직전 2주 하루 10~24장).
    자리는 카드 ID 해시로 결정적 — 로그가 정본이라 어느 기기가 재계산해도 같다. 로그·등급은 무변, 파생 due만 바뀐다. */
@@ -6985,56 +6985,180 @@ function splitState(){               // 메모리 state → 파일 두 벌 (마�
 let remoteStudyStats = null;
 let remoteProgressData = null;
 
+function normalizeFsrs(f) {
+  if (!f || typeof f !== 'object') return null;
+  const ivl = f.scheduled_days !== undefined ? f.scheduled_days : (f.interval || 0);
+  const lr = f.last_review || f.lastReview || undefined;
+  return {
+    state: f.state || 0,
+    stability: f.stability || 0,
+    difficulty: f.difficulty || 0,
+    elapsed_days: f.elapsed_days || 0,
+    scheduled_days: ivl,
+    interval: ivl,
+    learning_steps: f.learning_steps || 0,
+    reps: f.reps || 0,
+    lapses: f.lapses || 0,
+    due: f.due,
+    last_review: lr,
+    lastReview: lr
+  };
+}
+
+function booxSerializeFsrs(f) {
+  if (!f || typeof f !== 'object') return null;
+  const ivl = f.scheduled_days !== undefined ? f.scheduled_days : (f.interval || 0);
+  const lr = f.last_review || f.lastReview || null;
+  let dueStr = f.due || '';
+  if (dueStr) {
+    try {
+      const dt = new Date(dueStr);
+      if (!isNaN(dt.getTime())) dueStr = dayKey(dt);
+    } catch (e) {}
+  }
+  return {
+    state: f.state || 0,
+    stability: f.stability || 0,
+    difficulty: f.difficulty || 0,
+    reps: f.reps || 0,
+    lapses: f.lapses || 0,
+    due: dueStr,
+    interval: ivl,
+    lastReview: lr
+  };
+}
+
 function mergeProgressInto(prog) {
   if (!prog || !Array.isArray(prog.cards)) return;
   remoteProgressData = prog;
+  const progAt = prog.updated_at || '';
   let cnt = 0;
-  const tk = todayKey();
-  const existingTodayIds = new Set(
-    (state.log || []).filter(e => dayKey(logDate(e)) === tk).map(e => e[0])
-  );
+
+  // 초 단위(또는 기존 로그 타임스탬프) 중복 방지 인덱스
+  const seenSec = new Set();
+  for (const e of (state.log || [])) {
+    if (!e || !e[0]) continue;
+    const ms = logTs(e);
+    if (isFinite(ms)) seenSec.add(e[0] + '|' + Math.round(ms / 1000));
+  }
 
   for (const c of prog.cards) {
     if (!c || !c.id) continue;
     const s = state.cards[c.id] || (state.cards[c.id] = { fsrs: null, miss: 0, retired: false, flag: null, ann: [], u: '', d: '', mu: '' });
 
-    if (c.retired !== undefined) s.retired = Boolean(c.retired);
-    if (c.flag !== undefined) s.flag = c.flag ? true : null;
-    if (c.eliminated && Array.isArray(c.eliminated)) s.eliminated = c.eliminated.slice();
-    if (c.oxSaved && Array.isArray(c.oxSaved)) s.oxSaved = c.oxSaved.slice();
+    // 1) 끈카드(retired) · 마크 양방향 타임스탬프 비교 병합 (reapMarks 소거 방지 포함)
+    if (c.retired !== undefined && (!muOf(s) || progAt >= muOf(s))) {
+      const nextRet = Boolean(c.retired);
+      if (nextRet !== Boolean(s.retired) || (nextRet && !muOf(s))) {
+        s.retired = nextRet;
+        if (progAt) {
+          s.mu = progAt;
+          if ((s.u || '') < progAt) s.u = progAt;
+        }
+      }
+      if (!nextRet && Array.isArray(s.ann) && s.ann.includes('끄기') && (!fuOf(s) || progAt > fuOf(s))) {
+        s.ann = s.ann.filter(x => x !== '끄기');
+      }
+    }
+
+    // 2) 플래그 (웹 자유 메모 문자열 보존)
+    if (c.flag !== undefined) {
+      if (c.flag) {
+        if (!s.flag) s.flag = true;
+      } else if (!fuOf(s) || progAt >= fuOf(s)) {
+        s.flag = null;
+      }
+    }
+
+    if (Array.isArray(c.eliminated) && (!muOf(s) || progAt >= muOf(s) || !s.eliminated)) {
+      s.eliminated = c.eliminated.slice();
+    }
+    if (Array.isArray(c.oxSaved) && (!muOf(s) || progAt >= muOf(s) || !s.oxSaved)) {
+      s.oxSaved = c.oxSaved.slice();
+    }
+    if (Array.isArray(c.highlights) && (!muOf(s) || progAt >= muOf(s) || !s.highlights)) {
+      s.highlights = c.highlights.slice();
+    }
+
     if (c.isTypo) {
       s.isTypo = true;
       s.tags = s.tags || [];
       if (!s.tags.includes('오탈자')) s.tags.push('오탈자');
     }
-    if (c.tags && Array.isArray(c.tags)) {
+    if (Array.isArray(c.tags)) {
       s.tags = s.tags || [];
       for (const t of c.tags) {
         if (!s.tags.includes(t)) s.tags.push(t);
       }
     }
 
+    // 3) FSRS 상태 병합 (interval/lastReview <-> scheduled_days/last_review 정규화)
+    let nf = null;
     if (c.fsrs) {
-      if (!s.fsrs || (c.fsrs.reps && (!s.fsrs.reps || c.fsrs.reps >= s.fsrs.reps))) {
-        s.fsrs = Object.assign({}, c.fsrs);
-        if (c.fsrs.due) s.due = c.fsrs.due;
+      nf = normalizeFsrs(c.fsrs);
+      const nfLastMs = nf.last_review ? Date.parse(nf.last_review) : 0;
+      const curLastMs = (s.fsrs && (s.fsrs.last_review || s.fsrs.lastReview)) ? Date.parse(s.fsrs.last_review || s.fsrs.lastReview) : 0;
+      if (!s.fsrs || (isFinite(nfLastMs) && nfLastMs > curLastMs) || ((nfLastMs === curLastMs || !curLastMs) && (nf.reps || 0) >= (s.fsrs.reps || 0))) {
+        s.fsrs = nf;
+        if (nf.due) s.due = nf.due;
       }
     }
 
     if (c.grade) s.lastGrade = c.grade;
 
-    // 오늘 풀이한 문항 로그 보충
-    if (c.grade && !existingTodayIds.has(c.id)) {
-      const ts = (c.fsrs && c.fsrs.lastReview) ? c.fsrs.lastReview : (prog.updated_at || new Date().toISOString());
-      if (dayKey(new Date(ts)) === tk || (prog.updated_at && dayKey(new Date(prog.updated_at)) === tk)) {
-        const entry = [c.id, ts, c.grade, { src: prog.device || 'Onyx Boox' }];
-        state.log.push(entry);
-        existingTodayIds.add(c.id);
-        cnt++;
+    // 4) history 전체를 state.log 및 s.history로 병합 (prog.updated_at 오인 방지)
+    let maxHistSec = (nf && nf.last_review && isFinite(Date.parse(nf.last_review))) ? Math.round(Date.parse(nf.last_review) / 1000) : 0;
+    const histMap = new Map();
+    if (Array.isArray(s.history)) {
+      for (const h of s.history) {
+        if (h && isFinite(h.timestamp)) histMap.set(Math.round(h.timestamp / 1000), h);
+      }
+    }
+    if (Array.isArray(c.history) && c.history.length) {
+      for (const h of c.history) {
+        if (!h || !isFinite(h.timestamp) || !RATING[h.grade]) continue;
+        const sec = Math.round(h.timestamp / 1000);
+        if (sec > maxHistSec) maxHistSec = sec;
+        if (!histMap.has(sec)) histMap.set(sec, Object.assign({}, h));
+        const key = c.id + '|' + sec;
+        if (!seenSec.has(key)) {
+          state.log.push([c.id, sec, h.grade, { src: prog.device || 'Onyx Boox', ext: true }]);
+          seenSec.add(key);
+          cnt++;
+        }
+      }
+    } else if (nf && nf.last_review && RATING[c.grade]) {
+      const ms = Date.parse(nf.last_review);
+      if (isFinite(ms)) {
+        const sec = Math.round(ms / 1000);
+        if (sec > maxHistSec) maxHistSec = sec;
+        const key = c.id + '|' + sec;
+        if (!seenSec.has(key)) {
+          state.log.push([c.id, sec, c.grade, { src: prog.device || 'Onyx Boox', ext: true }]);
+          seenSec.add(key);
+          cnt++;
+        }
+      }
+    }
+    if (histMap.size) {
+      s.history = [...histMap.values()].sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+    }
+
+    // 5) replayLog()가 외부 FSRS를 덮어쓰지 않도록 메모리 기준선(_extBase) 설정
+    if (s.fsrs && maxHistSec > 0) {
+      if (!s._extBase || maxHistSec >= s._extBase.at) {
+        s._extBase = { at: maxHistSec, fsrs: JSON.parse(JSON.stringify(normalizeFsrs(s.fsrs))) };
       }
     }
   }
-  console.log(`[통합 동기화] user_progress.json (${prog.device || '기기'}) ${prog.cards.length}제 상태 병합 (오늘 푼 문제 +${cnt}건)`);
+
+  if (cnt > 0) {
+    state.log.sort((x, y) => logTs(x) - logTs(y));
+    lastRevIdx = null;
+    firstRevIdx = null;
+    todayRateIdx = null;
+  }
+  console.log(`[통합 동기화] user_progress.json (${prog.device || '기기'}) ${prog.cards.length}제 상태 병합 (이력 +${cnt}건)`);
 }
 
 function mergeStudyStatsInto(stats) {
@@ -7046,62 +7170,106 @@ function mergeStudyStatsInto(stats) {
 async function pushProgressToGitHub() {
   if (!cfg || !cfg.token) return;
   try {
-    const typoList = [];
-    const cardsList = Object.keys(state.cards).map(id => {
-      const r = state.cards[id];
-      const isTypo = Boolean(r.isTypo || (r.tags && r.tags.includes('오탈자')));
-      if (isTypo) typoList.push(id);
-      return {
-        id: id,
-        grade: r.lastGrade || (r.fsrs ? 3 : 0),
-        flag: Boolean(r.flag),
-        retired: Boolean(r.retired),
-        eliminated: r.eliminated || [],
-        oxSaved: r.oxSaved || [],
-        isTypo: isTypo,
-        tags: r.tags || (isTypo ? ['오탈자'] : []),
-        fsrs: r.fsrs || null,
-        history: r.history || []
-      };
-    });
+    const logByCard = {};
+    for (const e of (state.log || [])) {
+      if (!e || !e[0] || !RATING[e[2]] || (e[3] && e[3].re)) continue;
+      (logByCard[e[0]] = logByCard[e[0]] || []).push(e);
+    }
 
-    const progressPayload = {
-      updated_at: new Date().toISOString(),
-      device: "cards.html (Web)",
-      typoCount: typoList.length,
-      typos: typoList,
-      cards: cardsList
+    const buildProgressPayload = () => {
+      const typoList = [];
+      const cardsList = Object.keys(state.cards).map(id => {
+        const r = state.cards[id];
+        const isTypo = Boolean(r.isTypo || (r.tags && r.tags.includes('오탈자')));
+        if (isTypo) typoList.push(id);
+
+        const histMap = new Map();
+        if (Array.isArray(r.history)) {
+          for (const h of r.history) {
+            if (h && isFinite(h.timestamp)) histMap.set(Math.round(h.timestamp / 1000), h);
+          }
+        }
+        for (const e of (logByCard[id] || [])) {
+          const ms = logTs(e), sec = Math.round(ms / 1000);
+          if (!histMap.has(sec)) {
+            const f = r.fsrs;
+            histMap.set(sec, {
+              grade: e[2],
+              timestamp: ms,
+              interval: f ? (f.scheduled_days !== undefined ? f.scheduled_days : (f.interval || 0)) : 0,
+              stability: f ? +(Number(f.stability || 0).toFixed(2)) : 0,
+              difficulty: f ? +(Number(f.difficulty || 0).toFixed(2)) : 0
+            });
+          }
+        }
+        const mergedHist = [...histMap.values()].sort((a, b) => (a.timestamp || 0) - (b.timestamp || 0));
+
+        return {
+          id: id,
+          grade: r.lastGrade || (r.fsrs ? 3 : 0),
+          flag: Boolean(r.flag),
+          retired: Boolean(r.retired),
+          eliminated: r.eliminated || [],
+          oxSaved: r.oxSaved || [],
+          highlights: r.highlights || [],
+          isTypo: isTypo,
+          tags: r.tags || (isTypo ? ['오탈자'] : []),
+          fsrs: booxSerializeFsrs(r.fsrs),
+          history: mergedHist
+        };
+      });
+
+      return {
+        updated_at: new Date().toISOString(),
+        device: "cards.html (Web)",
+        typoCount: typoList.length,
+        typos: typoList,
+        cards: cardsList
+      };
     };
 
-    const ds = dailyStats();
-    const dailyMap = {};
-    for (const [k, v] of Object.entries(ds)) {
-      dailyMap[k] = {
-        total: v.n || 0,
-        again: (v.r && v.r[1]) || 0,
-        hard: (v.r && v.r[2]) || 0,
-        good: (v.r && v.r[3]) || 0,
-        easy: (v.r && v.r[4]) || 0
-      };
-    }
-    if (remoteStudyStats && remoteStudyStats.daily) {
-      for (const [k, v] of Object.entries(remoteStudyStats.daily)) {
-        if (!dailyMap[k] || (v.total || 0) > (dailyMap[k].total || 0)) {
-          dailyMap[k] = v;
+    const buildStatsPayload = () => {
+      const ds = dailyStats();
+      const dailyMap = {};
+      for (const [k, v] of Object.entries(ds)) {
+        if (!v || !v.n) continue;
+        dailyMap[k] = {
+          total: v.n || 0,
+          again: (v.r && v.r[1]) || 0,
+          hard: (v.r && v.r[2]) || 0,
+          good: (v.r && v.r[3]) || 0,
+          easy: (v.r && v.r[4]) || 0
+        };
+      }
+      if (remoteStudyStats && remoteStudyStats.daily) {
+        for (const [k, v] of Object.entries(remoteStudyStats.daily)) {
+          if (!dailyMap[k] || (v.total || 0) > (dailyMap[k].total || 0)) {
+            dailyMap[k] = v;
+          }
         }
       }
-    }
 
-    const totalRev = Object.values(dailyMap).reduce((acc, cur) => acc + (cur.total || 0), 0);
-    const statsPayload = {
-      streak: (remoteStudyStats && remoteStudyStats.streak) ? remoteStudyStats.streak : 1,
-      last_study_date: todayKey(),
-      total_reviewed: totalRev,
-      daily: dailyMap
+      const activeDays = Object.keys(dailyMap).filter(k => (dailyMap[k].total || 0) > 0).sort();
+      const lastDate = activeDays.length ? activeDays[activeDays.length - 1] : ((remoteStudyStats && remoteStudyStats.last_study_date) || todayKey());
+      const totalRev = Object.values(dailyMap).reduce((acc, cur) => acc + (cur.total || 0), 0);
+
+      let streak = 0;
+      for (let d = lastDate, i = 0; i < 365; d = dkAdd(d, -1), i++) {
+        if (dailyMap[d] && dailyMap[d].total > 0) streak++;
+        else if (isRestDay(d)) continue;
+        else break;
+      }
+
+      return {
+        streak: Math.max(streak, (remoteStudyStats && remoteStudyStats.streak) || 0),
+        last_study_date: lastDate,
+        total_reviewed: totalRev,
+        daily: dailyMap
+      };
     };
 
-    await ghPut(PROG_PATH, () => progressPayload, (rm) => mergeProgressInto(rm));
-    await ghPut(STATS_PATH, () => statsPayload, (rm) => mergeStudyStatsInto(rm));
+    await ghPut(PROG_PATH, buildProgressPayload, (rm) => { mergeProgressInto(rm); replayLog(); });
+    await ghPut(STATS_PATH, buildStatsPayload, (rm) => mergeStudyStatsInto(rm));
     console.log('[통합 동기화] user_progress.json & study_stats.json GitHub 업로드 완료');
   } catch (e) {
     console.warn('[통합 동기화] 업로드 실패:', e);
@@ -7162,14 +7330,16 @@ function replayLog(){
   for(const e of state.log){ if(e && e[0] && BYID[e[0]] && RATING[e[2]]) (byCard[e[0]]=byCard[e[0]]||[]).push(e); }
   for(const id in state.cards){       // 채점 이력이 사라진 카드도 파생분은 비워준다
     const sx=state.cards[id];
-    const b=sx.base;
+    const b=(sx.base && sx._extBase) ? ((sx._extBase.at||0) >= (sx.base.at||0) ? sx._extBase : sx.base) : (sx.base || sx._extBase);
     sx.fsrs = b&&b.fsrs ? JSON.parse(JSON.stringify(b.fsrs)) : null;
-    sx.d=''; sx.miss=0; delete sx.lt;
+    sx.d = (b&&b.fsrs&&(b.fsrs.last_review||b.fsrs.lastReview)) ? dayKey(new Date(b.fsrs.last_review||b.fsrs.lastReview)) : '';
+    sx.miss=0; delete sx.lt;
   }
   let n=0;
   for(const id in byCard){
     const sx=state.cards[id]||st(id);
-    const from=(sx.base&&sx.base.at)||0;
+    const b=(sx.base && sx._extBase) ? ((sx._extBase.at||0) >= (sx.base.at||0) ? sx._extBase : sx.base) : (sx.base || sx._extBase);
+    const from=(b&&b.at)||0;
     for(const e of byCard[id]){
       // base.at = 조작 시점의 마지막 채점 시각. 그 이하는 안 얹는다(같은 초 모호성이 없다).
       if(Math.round(logTs(e)/1000)<=from){
@@ -7842,7 +8012,7 @@ async function refreshRemote(){     // 포그라운드 복귀 시 원격 상태 
     /* 🔴 진행 파일(마크·피드백·세션·로그)은 카드 데이터를 기다리지 않고 **같이** 받는다(10-06 동하 「폰이 한참 뒤에야 맞는다」) —
        예전엔 카드 데이터 1.3MB를 다 받고 나서야 받기 시작해 홈 장수가 몇~십몇 초 옛 값이었다. 적용 순서(데이터 → 상태)는 그대로. */
     const tw=thisWeek(), pws=[...new Set([refreshWk, weekKeyOf(new Date(Date.now()-86400000))])].filter(w=>w!==tw);   // 주가 바뀐 뒤 첫 새로고침 · 월요일
-    const stP=Promise.all([ghGet(MARKS_PATH), ghGet(FB_PATH), ghGet(SESS_PATH), ghGet(logPath(tw)), ...pws.map(w=>ghGet(logPath(w)))]); stP.catch(()=>{});
+    const stP=Promise.all([ghGet(MARKS_PATH), ghGet(FB_PATH), ghGet(SESS_PATH), ghGet(logPath(tw)), ghGet(PROG_PATH), ghGet(STATS_PATH), ...pws.map(w=>ghGet(logPath(w)))]); stP.catch(()=>{});
     /* 🔴 카드 본문도 다시 받는다. 예전에는 여기서 **상태 파일만** 당겨서, 앱을 켜 둔 채로는
        밤 루틴이 고친 문면·분류·새 카드가 **영영 안 들어왔다** — `loadData()` 호출처가 부팅 한 곳뿐이었다.
        실측(동하 2026-08-30): 분류 복원 배포(00:06) **10시간 뒤**에도 옛 앞면이 보였다.
@@ -7860,16 +8030,18 @@ async function refreshRemote(){     // 포그라운드 복귀 시 원격 상태 
       queue=queue.map(c=>{ const n=BYID[c.id]; if(!n) return c; if(!c._re) return n;
         const rc=Object.create(n); rc._re=c._re; rc._at=c._at; rc._day=c._day; return rc; });
     }
-    const [sc, fb, sess, wk, ...pwl] = await stP;
+    const [sc, fb, sess, wk, prog, stats, ...pwl] = await stP;
     let pwNew=false;
     pws.forEach((w,i)=>{ const j=pwl[i]; if(!j||!Array.isArray(j.log)) return;
       const n0=(logWeeks[w]||[]).length; mergeLogInto(j, w); if(logWeeks[w].length!==n0){ pwNew=true; logCacheSet(w, {v:2,week:w,log:logWeeks[w]}); } });
     refreshWk=tw;
-    if(sc||fb||sess||wk||pwNew){
+    if(sc||fb||sess||wk||prog||stats||pwNew){
       if(sc){ mergeMarksInto(sc); reapMarks(sc); }   // 다른 기기의 해제도 그때 걷어낸다
       if(fb){ mergeFbInto(fb); reapFb(fb); }   // 앱을 켜 둔 채로도 루틴이 소진한다 — 그때도 걷어낸다
       if(wk) mergeLogInto(wk, thisWeek()); else rebuildLog();
       if(sess){ mergeSessInto(sess); sessLoadOK=true; }   // 늦게라도 제대로 받으면 그때부터 올려도 된다
+      if(prog) mergeProgressInto(prog);
+      if(stats) mergeStudyStatsInto(stats);
       replayLog();                    // 다른 기기가 올린 로그를 내 스냅샷에 반영
       restReset();                    // due가 움직였다 — 실효 due 캐시·백로그 계획을 버린다
                                       // (다른 기기가 밀린 것을 소화하면 계획이 낡는다 — 감사 지적 2026-09-01)
@@ -8441,14 +8613,15 @@ function planGapText(){
 function unitTagName(c){ const t0=(c.tags&&c.tags[0])||'(기타)'; const sp=SPLITS[c.subj+'|'+t0];
   if(!sp) return t0; const i=+(tagKey(c).split('#')[1]||0); return t0+' — '+sp[i][0]; }
 async function loadPlan(){        // 투입 계획·단위 분할 = 루틴 소유, 앱은 읽기만
-  let j=null;
+  let j=null, missing=false;
   try{
     const r=await fetch(PLAN_PATH+'?t='+Date.now(),{cache:'no-store'});
     if(r.ok){ j=await r.json(); lsSet(K_PLAN, JSON.stringify(j)); }
+    else if(r.status===404){ missing=true; }
   }catch(e){}
   if(!j){ const c=lsGet(K_PLAN); if(c){ try{ j=JSON.parse(c); }catch(e){} } }
   if(j&&Array.isArray(j.intake)){ PLAN={intake:j.intake, splits:j.splits||{}}; planIncomplete=false; }
-  else planIncomplete=true;    // 원격도 캐시도 없다 — 「계획이 비었다」가 아니라 「못 받았다」(F2-4/FX-6)
+  else planIncomplete=!missing;    // 404면 계획 미사용 저장소, 그 외 실패만 「못 받았다」(F2-4/FX-6)
   INTAKE_PLAN=PLAN.intake; SPLITS=PLAN.splits;
   PLAN_RANK=new Map(INTAKE_PLAN.map((x,i)=>[x[0],i]));
   PLAN_DATE=new Map(INTAKE_PLAN);
@@ -8595,12 +8768,12 @@ async function loadAll(){         // 스케줄·피드백·세션·이번 주 �
     logCacheSweep();                 // 남은 지난 주 사본을 IDB로 (보통 무일 — loadWeeks가 읽는 김에 옮긴다)
     // 🔴 부분 이력으로 조용히 재계산하지 않는다 (F1-6) — 자동 충전 보류는 refillSess가 건다
     if(logIncomplete) showBanner('지난 기록을 다 못 받았어요 — 새로고침하세요 (오늘 몫이 실제와 다를 수 있어요)', false, 'log');
+    if(prog) mergeProgressInto(prog);
+    if(stats) mergeStudyStatsInto(stats);
     const t0=performance.now();
     const n=replayLog();
     console.log('로그 재계산', n, '건 ·', Math.round(performance.now()-t0), 'ms');
   }
-  if(prog) mergeProgressInto(prog);
-  if(stats) mergeStudyStatsInto(stats);
   cleanupTempSessions();
   /* 🔴 세션 목록을 **못 받은 것**과 **없는 것**은 다르다 (동하 2026-08-24 「누복 세션이 두 개가 됐어」)
      실측 — 08-23 13:09 세션 3개 → 15:34 파일이 **「일일 복습」 새것 하나로 통째로 덮임** →
@@ -11806,12 +11979,21 @@ function rate(num){
              sess:{r:sess.r.slice(), ms:sess.ms, streak:sess.streak, best:sess.best, re:sess.re} };
   undoPush(undoSnap);
   if(firstToday && !reN && curSess){ pgBump(curSess, 1); undoSnap.pg=curSess.id; }   // 진행 막대(09-24) — 되돌리면 doUndo가 -1
+  s.lastGrade = num;
   if(firstToday && !reN){                  // 그날 첫 채점만 FSRS 반영 (재출은 절대 아니다)
     const fc = s.fsrs?fsrsRevive(s.fsrs):FSRS.createEmptyCard(now);
     const r=engFor(c.id).next(fc, now, RATING[num]);   // 갈래별 목표율 — replayLog와 같은 문
     const nc=r.card;
     nc.due=clampDue(nc.due, c.id, nc);      // 시험날 목표율 클램프
-    s.fsrs=fsrsSerialize(nc); s.d=tk;
+    s.fsrs=normalizeFsrs(fsrsSerialize(nc)); s.d=tk;
+    s.history = s.history || [];
+    s.history.push({
+      grade: num,
+      timestamp: now.getTime(),
+      interval: nc.scheduled_days || 0,
+      stability: +(Number(nc.stability || 0).toFixed(2)),
+      difficulty: +(Number(nc.difficulty || 0).toFixed(2))
+    });
   }                                        // 재출 채점은 로그만 (이중 반영 방지)
   const extra = {};
   /* 🔴 열거 카드에서 「통째로 백지」는 **탭 없이 again**이다 (동하 채점 규약).
@@ -16444,7 +16626,7 @@ function newExhaust(){             // 신규가 며칠에 바닥나나 — 「�
   const rate = v.length ? median(v) : (intake.cap||130);   // 중앙값 — 위와 같은 이유(버스트 투입일이 평균을 왜곡)
   return {left, rate, days: rate? Math.ceil(left/rate) : null};
 }
-function dDay(){ return Math.round((Date.parse(EXAM_DAY+'T12:00:00+09:00')-Date.now())/86400000); }
+function dDay(){ return EXAM_DAY ? Math.round((Date.parse(EXAM_DAY+'T12:00:00+09:00')-Date.now())/86400000) : null; }
 /* 🔴 **기억 총량** (감사 A8 · 안키의 estimated total knowledge).
    카드마다 「지금 떠올릴 수 있을 확률(R)」을 더한 값 = **「지금 몇 장을 기억하고 있는 셈인가」**.
    시험 준비의 최종 지표에 가장 가깝다 — 「몇 장 봤나」도 「몇 장이 굳었나」도 아닌 **지금 상태**다.
@@ -16560,7 +16742,8 @@ function simOnce(inp, newPerDay, seed){
   const step=(c,now,p)=>{ const rating = rnd()<p ? grade() : RATING[1];
     const nc=eng.for(c.id).next(c.f, now, rating).card; nc.due=clampDue(nc.due, c.id, nc); c.f=nc; };   // 시뮬 신규(sim*)는 각론 엔진
   const out=[]; let doneKey=null;
-  for(let k=dkAdd(todayKey(),1); k<=EXAM_DAY; k=dkAdd(k,1)){
+  const endDay = EXAM_DAY || dkAdd(todayKey(), 60);
+  for(let k=dkAdd(todayKey(),1); k<=endDay; k=dkAdd(k,1)){
     if(!isRestDay(k)){
       const now=new Date(k+'T12:00:00+09:00');
       const due=[]; for(const c of cards){ if(dayKey(c.f.due)<=k) due.push(c); }
@@ -16575,7 +16758,7 @@ function simOnce(inp, newPerDay, seed){
     let hard=0; for(const c of cards) if((c.f.scheduled_days||0)>=MATURE_IVL) hard++;
     out.push({k, hard, soft:cards.length-hard, unseen});
   }
-  const ex=new Date(EXAM_DAY+'T12:00:00+09:00'); let K=0;
+  const ex=new Date(endDay+'T12:00:00+09:00'); let K=0;
   for(const c of cards){ try{ K+=eng.get_retrievability(c.f, ex, false); }catch(e){} }
   return {days:out, K:Math.round(K), doneKey};
 }
@@ -16629,9 +16812,9 @@ function trajChart(hist, pred, zero){
   /* 축 글자는 SVG 밖(HTML) — 늘이기로 글자가 눌렸다(아이폰 0.49배 · UI 리뷰 🟠 · 위 「글자는 SVG 안에 두지 마라」 원칙) */
   const lab=(i,t,anc)=>{ const pc=(Math.min(W-2,Math.max(2,x(i)))/W*100).toFixed(2); const tr=anc==='start'?'0':anc==='end'?'-100%':'-50%';
     return '<span style="position:absolute;bottom:2px;left:'+pc+'%;transform:translateX('+tr+');font-size:10.5px;color:var(--mute);white-space:nowrap">'+t+'</span>'; };
-  const k0=all[0].k.slice(5).replace('-','/');
+  const k0=all[0].k.slice(5).replace('-','/'), endLab=EXAM_DAY?'시험':'+60일';
   return '<div style="position:relative"><svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" style="width:100%;height:'+H+'px;display:block">'+g+'</svg>'
-    +lab(0, k0, 'start')+lab(nH-1,'오늘','middle')+lab(L-1,'시험','end')+'</div>';
+    +lab(0, k0, 'start')+lab(nH-1,'오늘','middle')+lab(L-1,endLab,'end')+'</div>';
 }
 /* 궤적은 무겁다(시뮬 ≈1.4초) — 통계를 열 때마다 다시 돌리지 않는다.
    🔴 렌더 경로에 전수 계산을 넣으면 화면이 죽는다(09-06 F2-1 회귀에서 배운 것). */
@@ -16765,7 +16948,7 @@ function statSignals(){
    단계 문턱 = 푼 날들의 4분위(날마다 양이 크게 달라 고정 문턱이면 다 같은 색이 된다). 칸을 누르면 아래 줄에 그날 내역. */
 let hmSel=null;
 function heatmapHtml(by, T){
-  const tk=todayKey(), endKey=EXAM_DAY>tk?EXAM_DAY:tk;
+  const tk=todayKey(), endKey=(EXAM_DAY && EXAM_DAY>tk)?EXAM_DAY:tk;
   const days=Object.keys(by).filter(k=>by[k].cards>0).sort();
   let startKey=days.length?days[0]:tk; const minKey=dkAdd(tk,-7*26); if(startKey<minKey) startKey=minKey;   // 최대 26주 뒤로
   const dow=k=>(new Date(k+'T12:00:00').getDay()+6)%7;   // 월=0 … 일=6
@@ -16779,7 +16962,7 @@ function heatmapHtml(by, T){
     if(dow(k)===0){ const m=Number(k.slice(5,7)); months+=`<span>${m!==Number(lastMon)?m+'월':''}</span>`; if(m!==Number(lastMon)) lastMon=String(m); col++; }
     const e=by[k], v=e?e.cards:0, fut=k>tk, cls=['hm-c'];
     if(fut) cls.push('fut'); else if(!v && isRestDay(k)) cls.push('rest'); else cls.push('l'+lvl(v));
-    if(k===tk) cls.push('today'); if(k===EXAM_DAY) cls.push('exam'); if(hmSel===k) cls.push('sel');
+    if(k===tk) cls.push('today'); if(EXAM_DAY && k===EXAM_DAY) cls.push('exam'); if(hmSel===k) cls.push('sel');
     cells+=`<i class="${cls.join(' ')}" data-k="${k}"></i>`;
     k=dkAdd(k,1); }
   /* 요약 — 연속(쉬는 날은 끊지 않음 · 오늘 아직 0이면 어제까지) · 최근 7일 평균(푼 날 기준 아님 = 달력 7일) · 최다 */
@@ -16789,14 +16972,14 @@ function heatmapHtml(by, T){
   let w7=0; for(let i=0;i<7;i++){ const d=dkAdd(tk,-i); w7+=by[d]?by[d].cards:0; }
   let best=null; for(const d of days) if(d<=tk && (!best||by[d].cards>by[best].cards)) best=d;
   const md=d=>Number(d.slice(5,7))+'/'+Number(d.slice(8));
-  const dd=Math.round((new Date(EXAM_DAY+'T12:00:00')-new Date(tk+'T12:00:00'))/86400000);
+  const dd=EXAM_DAY ? Math.round((new Date(EXAM_DAY+'T12:00:00')-new Date(tk+'T12:00:00'))/86400000) : -1;
   const today=by[tk]||emptyDay();
   const stat=(n,l)=>`<div><b>${n}</b><small>${l}</small></div>`;
   return `<div class="hm-stats">${stat(today.cards.toLocaleString(),'오늘 장')}${stat(streak+'일','연속')}${stat(Math.round(w7/7).toLocaleString(),'7일 평균')}${stat(best?by[best].cards.toLocaleString():'—', best?'최다 '+md(best):'최다')}${dd>=0?stat('D-'+dd,'시험'):''}</div>`
     + `<div class="hm" data-cols="${col}"><div class="hm-days"><span></span><span>월</span><span></span><span>수</span><span></span><span>금</span><span></span></div>`
     + `<div class="hm-body"><div class="hm-months" style="grid-template-columns:repeat(${col},var(--hc))">${months}</div><div class="hm-grid">${cells}</div></div></div>`
     + `<div class="hm-foot"><span class="hm-line" id="hmLine">${hmLine(hmSel||tk, by, hard)}</span>`
-    + `<span class="hm-key">적게<i class="hm-c l0"></i><i class="hm-c l1"></i><i class="hm-c l2"></i><i class="hm-c l3"></i><i class="hm-c l4"></i>많이<i class="hm-c rest" style="margin-left:8px"></i>쉼<i class="hm-c exam fut"></i>시험</span></div>`; }
+    + `<span class="hm-key">적게<i class="hm-c l0"></i><i class="hm-c l1"></i><i class="hm-c l2"></i><i class="hm-c l3"></i><i class="hm-c l4"></i>많이<i class="hm-c rest" style="margin-left:8px"></i>쉼${EXAM_DAY?'<i class="hm-c exam fut"></i>시험':''}</span></div>`; }
 function hmLine(k, by, hard){
   const tk=todayKey(), W='일월화수목금토'[new Date(k+'T12:00:00').getDay()], d=`${Number(k.slice(5,7))}월 ${Number(k.slice(8))}일 (${W})`;
   if(k>tk){ const n=Math.round((new Date(EXAM_DAY+'T12:00:00')-new Date(k+'T12:00:00'))/86400000); return `${d} · ${k===EXAM_DAY?'시험날':n>0?'시험 '+n+'일 전':''}`; }
@@ -16825,17 +17008,20 @@ function renderStats(){
   /* ═══ A. 시험까지의 궤적 ═══ */
   const T=trajectory(), M=maturitySplit(), dd=dDay();
   const cap=T?T.inp.cap:dailyThroughput();
+  const trajTitle=EXAM_DAY?'시험까지의 궤적':'학습 궤적 (60일 전망)';
+  const ddText=dd!==null?('D-'+dd+' · '):'';
+  const targetLabel=EXAM_DAY?'시험날':'60일 뒤';
   if(!T){
-    h+='<div class="card-box"><h3>시험까지의 궤적</h3>'
-      +'<div class="cap">D-'+dd+' · 굳음 <b>'+M.mature.toLocaleString()+'</b> / '+alive.toLocaleString()+'</div>'
-      +'<div class="empty-note" style="padding:24px 0">시험까지 그려 보는 중…</div></div>';
+    h+='<div class="card-box"><h3>'+trajTitle+'</h3>'
+      +'<div class="cap">'+ddText+'굳음 <b>'+M.mature.toLocaleString()+'</b> / '+alive.toLocaleString()+'</div>'
+      +'<div class="empty-note" style="padding:24px 0">궤적 그려 보는 중…</div></div>';
   } else {
     const end=T.pred.length?T.pred[T.pred.length-1]:{hard:M.mature};
     const pctEnd=alive?Math.round(end.hard/alive*100):0;
-    h+='<div class="card-box"><h3>시험까지의 궤적</h3>'
-      +'<div class="cap">D-'+dd+' · 굳음 <b>'+M.mature.toLocaleString()+'</b> / '+alive.toLocaleString()
-      +' · <b>이 속도면</b> 시험날 굳음 약 <b>'+end.hard.toLocaleString()+'장('+pctEnd+'%)</b>'
-      +' · 시험날 떠올릴 수 있는 것 약 <b>'+T.K.toLocaleString()+'장</b></div>'
+    h+='<div class="card-box"><h3>'+trajTitle+'</h3>'
+      +'<div class="cap">'+ddText+'굳음 <b>'+M.mature.toLocaleString()+'</b> / '+alive.toLocaleString()
+      +' · <b>이 속도면</b> '+targetLabel+' 굳음 약 <b>'+end.hard.toLocaleString()+'장('+pctEnd+'%)</b>'
+      +' · '+targetLabel+' 떠올릴 수 있는 것 약 <b>'+T.K.toLocaleString()+'장</b></div>'
       +trajChart(T.hist, T.pred, T.zero)
       +'<div class="cap" style="margin-top:6px">굳음(21일 이상) · 무름 · 안 나옴 순으로 쌓았어요 · '
       +'점선 = 예측 · 옅은 점선 = 오늘부터 신규를 안 넣으면('+((T.zeroEnd&&T.zeroEnd.hard)||0).toLocaleString()+'장)</div>'
