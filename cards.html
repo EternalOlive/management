@@ -6187,6 +6187,8 @@ function detectOwnerRepo() {
 }
 const AUTO_REPO = detectOwnerRepo();
 const BUILTIN = { owner: AUTO_REPO.owner || '', repo: AUTO_REPO.repo || '' };
+const REPO_NS = (BUILTIN.owner && BUILTIN.repo) ? `${BUILTIN.owner.toLowerCase()}_${BUILTIN.repo.toLowerCase()}_` : '';
+const nsKey = k => REPO_NS ? (REPO_NS + k) : k;
 const DATA_PATH='cards-data.json';
 /* 저장 층 분리 (2026-08-20 동하 확정) — 기준: 누가 쓰나 · 얼마나 자주 바뀌나 · 되돌아가 고치나
    cards-plan.json     루틴 소유, 앱은 읽기만 (투입 계획·단위 분할)
@@ -6224,19 +6226,19 @@ function refFor(path){ return onData(path) ? dataBr() : ''; }   // '' = 기본 �
    되돌리기 = 이 한 줄 true. 블록 본문은 남겨 둔다 — 지우는 것은 다음 정리 때. */
 let MAIN_FALLBACK=false;
 const ORPH_DAYS=3;                        // 카드가 사라져 보여도 이 날수만큼은 마크·되짚기를 지우지 않는다 (재생성 일시 부재 대비)
-const K_REST='cards_rest_v1', K_CFG='cards_cfg_v1', K_DIRTY='cards_dirty_v1', K_ORPH='cards_orph_v1',
-      K_THEME='cards_theme_v1', K_PRESETS='cards_presets_v1',
-      K_DATA='cards_data_cache_v1', K_SWIPE='cards_swipe_v1', K_INTAKE='cards_intake_v1',
+const K_REST=nsKey('cards_rest_v1'), K_CFG=nsKey('cards_cfg_v1'), K_DIRTY=nsKey('cards_dirty_v1'), K_ORPH=nsKey('cards_orph_v1'),
+      K_THEME='cards_theme_v1', K_PRESETS=nsKey('cards_presets_v1'),
+      K_DATA=nsKey('cards_data_cache_v1'), K_SWIPE='cards_swipe_v1', K_INTAKE=nsKey('cards_intake_v1'),
       K_ZTAP='cards_zonetap_v1',          // 카드 마당 전체 탭 (기본 켜짐 · 09-07 동하 요청)
       K_RESHOW='cards_reshow_v1',         // 「다시」 당일 재출 (기본 꺼짐 — 동하가 09-11 인강 끝나고 켠다)
-      K_RESUME='cards_resume_v1',        // 회독본 갔다 돌아올 자리 (세션·카드·답면 · 오늘 것만)
-      K_KBD='cards_kbd_v1', K_SESS='cards_sessions_v1',
-      K_SCHED='cards_sched_v2', K_MARKS='cards_marks_v1', K_FB='cards_fb_v1', K_PLAN='cards_plan_v1', K_LOGP='cards_log_v2_',
-      K_UOPEN='cards_units_open_v1', K_DLOGS='cards_dirty_logs_v1', K_HOEDOK='cards_hoedok_v1',
-      K_FBSENT='cards_fb_sent_v1',        // 보냈지만 응답을 못 받은 피드백 PUT {msg, base} — fbSentConfirm
-      K_FBSYNC='cards_fb_sync_v1',        // 마지막 성공 push 시각 — fb·marks 공용 기준선 (reapFb·reapMarks, 둘 다 같은 pushAll에서 올라간다)
-      K_WKSYNC='cards_week_sync_v1';      // 지난 주 로그를 마지막으로 다시 받은 주차 — loadWeeks의 「주가 바뀌면 한 번 재수신」 기준선
-const OLD_CFG='review_cfg_v1';            // 관리앱(같은 오리진)의 토큰 재사용
+      K_RESUME=nsKey('cards_resume_v1'),        // 회독본 갔다 돌아올 자리 (세션·카드·답면 · 오늘 것만)
+      K_KBD='cards_kbd_v1', K_SESS=nsKey('cards_sessions_v1'),
+      K_SCHED=nsKey('cards_sched_v2'), K_MARKS=nsKey('cards_marks_v1'), K_FB=nsKey('cards_fb_v1'), K_PLAN=nsKey('cards_plan_v1'), K_LOGP=nsKey('cards_log_v2_'),
+      K_UOPEN=nsKey('cards_units_open_v1'), K_DLOGS=nsKey('cards_dirty_logs_v1'), K_HOEDOK=nsKey('cards_hoedok_v1'),
+      K_FBSENT=nsKey('cards_fb_sent_v1'),        // 보냈지만 응답을 못 받은 피드백 PUT {msg, base} — fbSentConfirm
+      K_FBSYNC=nsKey('cards_fb_sync_v1'),        // 마지막 성공 push 시각 — fb·marks 공용 기준선 (reapFb·reapMarks, 둘 다 같은 pushAll에서 올라간다)
+      K_WKSYNC=nsKey('cards_week_sync_v1');      // 지난 주 로그를 마지막으로 다시 받은 주차 — loadWeeks의 「주가 바뀌면 한 번 재수신」 기준선
+const LEGACY_CFG='cards_cfg_v1', OLD_CFG='review_cfg_v1';            // 같은 오리진 다른 저장소/관리앱의 토큰만 재사용
 const DAY_CUT=4;                          // 하루 경계 = 새벽 4시
 /* 확인창 문턱 — 🔴 **연산자는 전부 `>=`로 통일한다** (전층 감사 F5-4 · 2026-09-06).
    예전엔 큐 비우기 `n>20` · 단위 빼기 `n>50` · 일괄 끄기 `>=20`으로 제각각이라 경계에서 다르게 굴었다. */
@@ -6718,6 +6720,7 @@ function setDueDays(c,n){ // due를 n일 뒤로 (FSRS 상태가 있는 카드만
 function offCard(c,v){
   const s=st(c.id);
   s.retired=v;
+  s.retAt=new Date().toISOString();
   s.ann=s.ann||[];
   const i=s.ann.indexOf('끄기');
   if(v){ if(i<0)s.ann.push('끄기'); } else if(i>=0) s.ann.splice(i,1);
@@ -6912,7 +6915,7 @@ function saveDirtyLogs(){ const v=[...dirtyLogs]; v.length?lsSet(K_DLOGS,v.join(
      retired 은퇴 · by 오늘 미룸 · t 임의 태그
      base    「처음부터 다시」·「일정 조정」 — {at:초, fsrs:상태|null}
              = 그 시각의 상태에서 다시 시작하라는 표시. 재계산은 at 이후 로그만 얹는다. */
-const MARK_KEYS=['retired','by','t','base','u'];
+const MARK_KEYS=['retired','retAt','by','t','base','u'];
 /* 재생성으로 사라진 카드의 되짚기·마크를 치운다 (2026-08-22).
    spec을 고치면 카드 ID가 갈리고, 그 카드에 달아 둔 플래그·@주석은 갈 곳이 없어진다.
    계약상 「죽은 카드 청소는 앱이 한다」인데 구현이 없어서, 루틴이 돌 때마다 그 항목이
@@ -7046,18 +7049,22 @@ function mergeProgressInto(prog) {
     if (!c || !c.id) continue;
     const s = state.cards[c.id] || (state.cards[c.id] = { fsrs: null, miss: 0, retired: false, flag: null, ann: [], u: '', d: '', mu: '' });
 
-    // 1) 끈카드(retired) · 마크 양방향 타임스탬프 비교 병합 (reapMarks 소거 방지 포함)
-    if (c.retired !== undefined && (!muOf(s) || progAt >= muOf(s))) {
+    // 1) 끈카드(retired) · 마크 양방향 타임스탬프 비교 병합 (reapMarks 소거 방지 + 다른 마크의 mu 간섭 배제)
+    if (c.retired !== undefined) {
       const nextRet = Boolean(c.retired);
-      if (nextRet !== Boolean(s.retired) || (nextRet && !muOf(s))) {
-        s.retired = nextRet;
-        if (progAt) {
-          s.mu = progAt;
-          if ((s.u || '') < progAt) s.u = progAt;
+      const canTake = !s.retAt ? (nextRet || !muOf(s) || progAt >= muOf(s)) : (progAt >= s.retAt);
+      if (canTake) {
+        if (nextRet !== Boolean(s.retired) || (nextRet && !muOf(s))) {
+          s.retired = nextRet;
+          if (progAt) {
+            s.mu = progAt;
+            s.retAt = progAt;
+            if ((s.u || '') < progAt) s.u = progAt;
+          }
         }
-      }
-      if (!nextRet && Array.isArray(s.ann) && s.ann.includes('끄기') && (!fuOf(s) || progAt > fuOf(s))) {
-        s.ann = s.ann.filter(x => x !== '끄기');
+        if (!nextRet && Array.isArray(s.ann) && s.ann.includes('끄기') && (!fuOf(s) || progAt > fuOf(s))) {
+          s.ann = s.ann.filter(x => x !== '끄기');
+        }
       }
     }
 
@@ -8146,9 +8153,11 @@ async function checkNewVersion(){
 function loadCfg(){
   const v=lsGet(K_CFG);
   if(v){ try{ cfg=JSON.parse(v); }catch(e){} }
-  if(!cfg||!cfg.token){ // 같은 오리진 관리앱 토큰 폴백
-    const o=lsGet(OLD_CFG);
-    if(o){ try{ const oc=JSON.parse(o); if(oc.token) cfg={owner:BUILTIN.owner,repo:BUILTIN.repo,token:oc.token}; }catch(e){} }
+  if(!cfg||!cfg.token){ // 같은 오리진 다른 저장소/관리앱 토큰만 안전하게 이어받음 (저장소·dataBranch 오염 차단)
+    for(const k of [LEGACY_CFG, OLD_CFG]){
+      const o=lsGet(k);
+      if(o){ try{ const oc=JSON.parse(o); if(oc&&oc.token){ cfg={owner:BUILTIN.owner,repo:BUILTIN.repo,token:oc.token}; saveCfg(); break; } }catch(e){} }
+    }
   }
   if(cfg){
     if(!cfg.owner && BUILTIN.owner) cfg.owner=BUILTIN.owner;
@@ -8670,6 +8679,9 @@ async function loadAll(){         // 스케줄·피드백·세션·이번 주 �
       rawGet(PROG_PATH,refFor(PROG_PATH)), rawGet(STATS_PATH,refFor(STATS_PATH))]);
     if(rawNetFail){ netFail=true; showBanner('상태 불러오기 실패 — 로컬 캐시로 진행', false, 'boot'); }   // 「못 받았다」를 「없다」로 읽지 않는다(F0-4)
   }
+  // 토큰 모드에서 API 실패·저장소 불일치 등으로 통합 진행 데이터를 못 받았으면 Pages 정적 파일로 폴백
+  if(!prog){ try{ prog = await rawGet(PROG_PATH, ''); }catch(e){} }
+  if(!stats){ try{ stats = await rawGet(STATS_PATH, ''); }catch(e){} }
   await fbSentConfirm();           // 🔴 앱을 닫으며 보낸 push가 도착했는지 먼저 확인 → 기준선을 올린다(메타 09-29 · 44건 부활)
   const wasDirty=!!lsGet(K_DIRTY);
   const cSc=cachedFile(K_MARKS)||cachedFile(K_SCHED), cFb=cachedFile(K_FB), cSess=cachedFile(K_SESS), cLg=cachedFile(K_LOGP+wk);
